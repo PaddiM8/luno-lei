@@ -1,3 +1,9 @@
+function createKind(kind, value) {
+    return value
+        ? `<span class="translation ${kind}"></span>`
+        : "";
+}
+
 function createItem(kind, value) {
     if (!value) {
         return "";
@@ -15,20 +21,25 @@ function createItem(kind, value) {
         }
     }).join(", ");
 
-    return `<div class="translation ${kind}">${stringValue}</div>`
+    return `
+        <div class="translation">
+            <span class="kind ${kind}"></span>
+            <span class="english">${stringValue}</span>
+        </div>
+    `;
 }
 
 const options = {
     searchColumns: ["word", "noun", "verb", "descriptor", "other"],
     item: values => {
         return `
-            <li class="item">
+            <div class="item">
                 <h3 class="word">${values.word}</h3>
                 ${createItem("descriptor", values.descriptor)}
                 ${createItem("noun", values.noun)}
                 ${createItem("verb", values.verb)}
                 ${createItem("other", values.other)}
-            </li>
+            </div>
         `;
     },
 };

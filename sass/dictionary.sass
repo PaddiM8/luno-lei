@@ -39,13 +39,17 @@
             margin-top: 0
             margin-bottom: 0.2em
 
-        .translation::before
+        .translation
+            display: flex
+            margin-bottom: 0.2em
+
+        .kind::before
             display: inline-block
             font-size: 0.8em
             width: 3em
             padding: 0.2em
+            margin: auto 0
             margin-right: 0.5em
-            margin-bottom: 0.2em
             text-align: center
             background-color: #E0E0E0
 
@@ -64,6 +68,9 @@
         .other::before
             content: 'other'
             background-color: #CFD8DC
+
+        .english
+            margin: auto 0
 
 .hidden
     display: none

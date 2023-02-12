@@ -79,6 +79,10 @@ or end of a sentence.
 
 ### Stacking cases
 
+Stacking cases are added after regular cases. For example,
+the `In-` case could be combined with locative to create
+inessive, `-lie`.
+
 | Case     | Suffix | Uses                |
 | -------- | ------ | ------------------- |
 | In-      | -e     | in, inside          |

@@ -438,7 +438,7 @@
         ]
     },
     {
-        "word": "sielo",
+        "word": "siemo",
         "noun": [
             "torso",
             "biggest part of something",
@@ -504,7 +504,7 @@
         ]
     },
     {
-        "word": "luute",
+        "word": "luume",
         "noun": [
             "ear"
         ],
@@ -514,7 +514,7 @@
         ]
     },
     {
-        "word": "kute",
+        "word": "kune",
         "verb": [
             { "name": "sleep", "grammar": ["less", "intensifier"] },
             { "name": "rest", "grammar": ["less", "intensifier"] },
@@ -670,7 +670,7 @@
         ]
     },
     {
-        "word": "kinte",
+        "word": "kine",
         "noun": [
             "flat thing",
             "panel",
@@ -704,7 +704,7 @@
         ]
     },
     {
-        "word": "meblo",
+        "word": "mebio",
         "noun": [
             "furniture"
         ]
@@ -769,7 +769,7 @@
         ]
     },
     {
-        "word": "sulo",
+        "word": "suto",
         "descriptor": [
             { "name": "sour", "grammar": "less" },
             { "name": "negative", "grammar": "less" },

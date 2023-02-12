@@ -4,6 +4,9 @@ template = "base.html"
 +++
 ## Verb conjugation
 
+Relative person can be translated to *who*, *whom*,
+*whose*, *which*, *that*, etc. in English.
+
 ### Singular
 | Number/Person | 1     | 2     | 3     | Relative |
 | ------------- | ----- | ----- | ----- | -------- |

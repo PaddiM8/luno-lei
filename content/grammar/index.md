@@ -5,11 +5,11 @@ template = "base.html"
 ## Verb conjugation
 
 ### Singular
-| Number/Person | 1    | 2    | 3    | Relative |
-| ------------- | ---- | ---- | ---- | -------- |
-| **Past**      | -nus | -sus | -pus | -kus     |
-| **Present**   | -n   | -s   | -p   | -k       |
-| **Future**    | -yon | -yos | -yot | -yok     |
+| Number/Person | 1     | 2     | 3     | Relative |
+| ------------- | ----- | ----- | ----- | -------- |
+| **Past**      | -n(u) | -s(u) | -p(u) | -m(u)    |
+| **Present**   | -n(i) | -s(i) | -p(i) | -m(i)    |
+| **Future**    | -naso | -saso | -paso | -maso    |
 
 ### Plural
 `su [word][singular suffix]`
@@ -20,11 +20,11 @@ su oniyon - we will act
 ## Noun & Descriptor conjugation
 
 ### Singular
-| Number/Person | 1    | 2    | 3    | Relative |
-| ------------- | ---- | ---- | ---- | -------- |
-| **Past**      | -nun | -sun | -pun | -kun     |
-| **Present**   | -nen | -sen | -pen | -ken     |
-| **Future**    | -won | -wos | -wot | -wok     |
+| Number/Person | 1     | 2     | 3     | Relative |
+| ------------- | ----- | ----- | ----- | -------- |
+| **Past**      | -noa  | -soa  | -poa  | -moa     |
+| **Present**   | -neo  | -seo  | -peo  | -meo     |
+| **Future**    | -nowi | -sowi | -powi | -mowi    |
 
 ### Plural
 `tu [word][singular suffix]`
@@ -51,8 +51,8 @@ case.
 
 #### Example
 
-lavelien kotusas - I have a home  
-kotusa lavelien - My home
+lavolien kotusas - I have a home  
+kotusa lavolien - My home
 
 ## Questions
 
@@ -65,7 +65,6 @@ or end of a sentence.
 | Case            | Suffix | Uses                      |
 | --------------- | ------ | ------------------------- |
 | Nominative      | -      | -                         |
-| Genitive        | -te    | ownership                 |
 | Accusative      | -s     | direct object             |
 | Lative          | -su    | motion towards            |
 | Ablative        | -sol   | motion from               |
@@ -86,6 +85,19 @@ or end of a sentence.
 | In front | -se    | in front            |
 | Adjacent | -at    | adjacent, nearby    |
 | Inter-   | -wo    | between, in-between |
+
+## Nil word
+
+The nil word (`eni`) can be used to extract the pure meaning
+of grammatical features. For example, in order to say just "in",
+one could say "enilie".
+
+### Pronouns
+
+Pronouns are created by applying a conjugation suffix to the
+nil word.
+
+* enin
 
 ## Voices
 

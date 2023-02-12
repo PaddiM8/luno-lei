@@ -97,8 +97,8 @@ to verbify a word without specifying a person.
 
 ### Example
 
-* kiaslu - One reads
-* pitan nokaslu - I like to walk
+kiaslu - One reads  
+pitan nokaslu - I like to walk
 
 ## Morphology syntax
 

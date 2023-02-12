@@ -109,3 +109,5 @@ Suffix priority:
 3. Number
 4. Conjugation
 5. Case
+
+Words should be compounded when appropriate (WIP).

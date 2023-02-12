@@ -1,0 +1,2 @@
+[build.environment]
+ZOLA_VERSION = "0.16.1"

@@ -33,7 +33,7 @@ const options = {
     },
 };
 
-const dictionary = await (await fetch("./dictionary.json")).json();
+const dictionary = await (await fetch("/dictionary.json")).json();
 new List("words", options, dictionary);
 
 document.addEventListener("mouseover", e => {

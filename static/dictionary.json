@@ -406,8 +406,8 @@
             { "name": "bright", "grammar": "more" }
         ],
         "noun": [
-            { "name": "light", "grammar": ["more", "objectification"] },
-            { "name": "lamp", "grammar": ["more", "objectification"] }
+            { "name": "light", "grammar": "more" },
+            { "name": "lamp", "grammar": "more"  }
         ]
     },
     {

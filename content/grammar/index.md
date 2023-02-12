@@ -11,7 +11,7 @@ Relative person can be translated to *who*, *whom*,
 | Number/Person | 1     | 2     | 3     | Relative |
 | ------------- | ----- | ----- | ----- | -------- |
 | **Past**      | -n(u) | -s(u) | -p(u) | -m(u)    |
-| **Present**   | -n(i) | -s(i) | -p(i) | -m(i)    |
+| **Present**   | -n(i) | -s(i) | -pi   | -mi      |
 | **Future**    | -naso | -saso | -paso | -maso    |
 
 ### Plural

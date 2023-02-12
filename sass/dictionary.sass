@@ -1,0 +1,69 @@
+#words .search
+    width: 100%
+    box-sizing: border-box
+
+.word-list
+    list-style: none
+    padding-left: 0
+
+    h3::before
+        content: ''
+
+    .item
+        width: 100%
+        box-sizing: border-box
+        background-color: white
+        padding: 1em
+        margin-bottom: 0.4em
+
+        .hoverable
+            position: relative
+            border-bottom: 2px dotted #BDBDBD
+            cursor: default
+
+            &:hover
+                border-bottom-color: #212121
+
+            .tooltip
+                position: absolute
+                top: 0
+                left: 50%
+                transform: translate(-50%, -100%)
+                white-space: nowrap
+                padding: 0.4em
+                background-color: #424242
+                border-radius: 4px
+                color: white
+
+        .word
+            margin-top: 0
+            margin-bottom: 0.2em
+
+        .translation::before
+            display: inline-block
+            font-size: 0.8em
+            width: 3em
+            padding: 0.2em
+            margin-right: 0.5em
+            margin-bottom: 0.2em
+            text-align: center
+            background-color: #E0E0E0
+
+        .descriptor::before
+            content: 'desc.'
+            background-color: #C8E6C9
+
+        .noun::before
+            content: 'noun'
+            background-color: #BBDEFB
+
+        .verb::before
+            content: 'verb'
+            background-color: #FFCDD2
+
+        .other::before
+            content: 'other'
+            background-color: #CFD8DC
+
+.hidden
+    display: none

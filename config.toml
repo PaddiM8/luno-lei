@@ -1,0 +1,9 @@
+base_url = "https://luno lei.strct.net"
+title = "luno lei"
+compile_sass = true
+build_search_index = false
+
+[markdown]
+highlight_code = false
+
+[extra]

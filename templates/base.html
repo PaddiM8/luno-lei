@@ -1,0 +1,48 @@
+{% import "macros.html" as macros %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    {% if page.title %}
+    <title> {{ page.title }} | {{ config.title }} </title>
+    <meta property="og:title" content="{{ page.title }} | {{ config.title }}" />
+    {% else %}
+    <title> {{ config.title }} </title>
+    <meta property="og:title" content="{{ get_url(path="") }}" />
+    {% endif %}
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>luno lei</h1>
+            <nav>
+                <ul class="nav-items">
+                    <li>{{ macros::nav_item(name="Home", slug="") }}</li>
+                    <li>{{ macros::nav_item(name="Phonology", slug="phonology") }}</li>
+                    <li>{{ macros::nav_item(name="Grammar", slug="grammar") }}</li>
+                    <li>{{ macros::nav_item(name="Word Building", slug="word-building") }}</li>
+                    <li>{{ macros::nav_item(name="Dictionary", slug="dictionary") }}</li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+
+        <main>
+            {% block content %}
+            {{ page.content | safe }}
+            {% endblock content%}
+        </main>
+    </div>
+</body>
+
+</html>

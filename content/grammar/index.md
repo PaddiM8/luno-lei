@@ -17,7 +17,7 @@ template = "base.html"
 #### Example
 su oniyon - we will act
 
-## Noun & Desciptor conjugation
+## Noun & Descriptor conjugation
 
 ### Singular
 | Number/Person | 1    | 2    | 3    | Relative |

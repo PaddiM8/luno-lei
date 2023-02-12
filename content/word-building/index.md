@@ -27,14 +27,12 @@ Objectification is implied when
 the noun form of a gradiency suffix is
 used.
 
-Objectification generalises a word.
-
 #### Suffix
 `-lo`
 
 #### Example
-ike - moderately sized  
-ikelo - size
+ikeve - small
+ikelo - a small thing
 
 ## Abstractification
 
@@ -45,7 +43,7 @@ applying the abstractification prefix.
 `go(t)-`
 
 #### Example
-lawa - head
-golawa - mind
-varma - lukewarm
+lawa - head  
+golawa - mind  
+varma - lukewarm  
 govarma - temperature

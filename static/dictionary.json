@@ -26,8 +26,8 @@
             { "name": "a lot", "grammar": "more" }
         ],
         "noun": [
-            { "name": "size", "grammar": "objectification" },
-            { "name": "amount", "grammar": "objectification" }
+            { "name": "size", "grammar": "abstract" },
+            { "name": "amount", "grammar": "abstract" }
         ],
         "verb": [
             { "name": "compress", "grammar": "less" },
@@ -36,7 +36,7 @@
             { "name": "decrease", "grammar": "less" },
             { "name": "expand", "grammar": "more" },
             { "name": "increase", "grammar": "more" },
-            { "name": "measure", "grammar": "objectification" }
+            { "name": "measure", "grammar": "abstract" }
         ]
     },
     {

@@ -22,13 +22,14 @@ function createItem(kind, value) {
         return "";
     }
 
+    if (typeof value != "object") value = [value];
     const stringValue = value.map(x => {
         if (typeof x == "object") {
             const grammar = Array.isArray(x.grammar)
                 ? x.grammar.join(", ")
                 : x.grammar;
 
-            return `<span class="hoverable">${x.name}<span class="tooltip hidden">${grammar}</span></span>`;
+            return `<span class="hoverable" data-name="${x.name}">${x.name}<span class="tooltip hidden">${grammar}</span></span>`;
         } else {
             return `<span>${x}</span>`;
         }
@@ -44,7 +45,10 @@ function createItem(kind, value) {
 
 function createList(dictionary) {
     const options = {
-        searchColumns: ["word", "noun", "verb", "descriptor", "other"],
+        searchColumns: [
+            "word",
+            "search"
+        ],
         item: values => {
             return `
                 <div class="item">
@@ -58,7 +62,23 @@ function createList(dictionary) {
         },
     };
 
-    new List("words", options, dictionary);
+    const list = new List("words", options);
+    for (const values of dictionary) {
+        const searchWords = Object.values(values).map(a =>
+            Object.values(a).map(b =>
+                typeof b == "object" ? b.name : b
+            ).join(" ")
+        ).join(" ");
+
+        list.add({
+            word: values.word,
+            descriptor: values.descriptor,
+            noun: values.noun,
+            verb: values.verb,
+            other: values.other,
+            search: searchWords
+        });
+    }
 }
 
 function updateWordCount(dictionary) {

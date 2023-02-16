@@ -17,6 +17,7 @@
             { "name": "few", "grammar": "less" },
             "moderately sized",
             "several",
+            "subset",
             { "name": "big", "grammar": "more" },
             { "name": "many", "grammar": "more" },
             { "name": "tiny", "grammar": ["less", "intensifier"] },

@@ -14,3 +14,7 @@ sometimes in poetic ways. There is no word for "sun", but it
 could, for example, be expressed by saying "the light that nature holds"
 (valosva luono lavopi) or simply "nature light" (luonovalosva)
 depending on context.
+
+## Examples
+
+mouveneo ike atonokahovasatieyes - I am scared of some eight legged small animals (spiders)

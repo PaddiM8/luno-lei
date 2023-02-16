@@ -1,3 +1,4 @@
+@import variables
 @import header
 @import dictionary
 @import components/table
@@ -33,16 +34,39 @@ h2::before
     content: '#'
 
 h3::before
-    content: '##'
+    content: '❯'
 
 h4
     margin-top: 1em
 
-p, ul, ol, table, input
+p, ul, ol, input
     margin: 0.4em 0
+
+table
+    margin: 0.8em 0
 
 a
     color: #039BE5
+
+.prefix, .suffix, .particle
+    display: block
+    margin: 0.8em 0
+
+    &::before,
+    &::before
+        padding-right: 0.4em
+        margin-right: 0.4em
+        font-weight: bold
+        border-right: $border
+
+.prefix::before
+    content: 'Prefix'
+
+.suffix::before
+    content: 'Suffix'
+
+.particle::before
+    content: 'Particle'
 
 hr
     width: 100%

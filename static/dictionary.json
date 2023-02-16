@@ -73,8 +73,9 @@
     {
         "word": "lavo",
         "noun": [
+            { "name": "finger", "grammar": "less" },
             "hand",
-            "arm"
+            { "name": "arm", "grammar": "more" }
         ],
         "verb": [
             "have",
@@ -136,10 +137,15 @@
     {
         "word": "ani",
         "noun": [
-            "desire"
+            { "name": "intent", "grammar": "more" },
+            { "name": "desire", "grammar": "more" }
+        ],
+        "descriptor": [
+            { "name": "unintentional", "grammar": "less" },
+            { "name": "intentional", "grammar": "more" }
         ],
         "verb": [
-            "want"
+            { "name": "want", "grammar": "more" }
         ]
     },
     {
@@ -227,11 +233,14 @@
         ],
         "noun": [
             { "name": "corpse", "grammar": "less" },
+            { "name": "death", "grammar": ["less", "abstract"] },
             { "name": "zombie", "grammar": "objectification" },
             { "name": "living being", "grammar": "more" },
             { "name": "person", "grammar": "more" },
             { "name": "animal", "grammar": "more" },
-            { "name": "human", "grammar": "more" }
+            { "name": "human", "grammar": "more" },
+            { "name": "body part", "grammar": "diminutive" },
+            { "name": "life", "grammar": ["more", "abstract"] }
         ],
         "verb": [
             { "name": "die", "grammar": "less" },
@@ -326,8 +335,16 @@
         "descriptor": [
             { "name": "before", "grammar": "less" },
             "now",
+            { "name": "soon", "grammar": "diminutive" },
             { "name": "later", "grammar": "more" },
             { "name": "then", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "mea",
+        "descriptor": [
+            { "name": "early", "grammar": "less" },
+            { "name": "late", "grammar": "more" }
         ]
     },
     {
@@ -339,7 +356,8 @@
         ],
         "verb": [
             "think",
-            { "name": "know", "grammar": ["lave...", "inessive"] }
+            { "name": "know", "grammar": ["lave...", "inessive"] },
+            { "name": "understand", "grammar": ["lave...", "inessive"] }
         ]
     },
     {
@@ -412,6 +430,10 @@
     },
     {
         "word": "alu",
+        "descriptor": [
+            { "name": "first", "grammar": "less" },
+            { "name": "last", "grammar": "more" }
+        ],
         "noun": [
             { "name": "beginning", "grammar": "less" },
             "middle",
@@ -427,9 +449,10 @@
     {
         "word": "noka",
         "noun": [
-            "leg",
+            { "name": "toe", "grammar": "less" },
             "foot",
-            "lower body"
+            { "name": "leg", "grammar": "more" },
+            { "name": "lower body", "grammar": ["more", "intensifier"] }
         ],
         "verb": [
             "walk",
@@ -443,9 +466,6 @@
             "torso",
             "biggest part of something",
             "main part of something"
-        ],
-        "verb": [
-            "hug"
         ]
     },
     {
@@ -506,7 +526,8 @@
     {
         "word": "luume",
         "noun": [
-            "ear"
+            "ear",
+            { "name": "audio", "grammar": "abstract" }
         ],
         "verb": [
             "hear",
@@ -539,7 +560,8 @@
         "word": "lipo",
         "noun": [
             { "name": "card", "grammar": "less" },
-            "book",
+            "note",
+            "paper",
             { "name": "book", "grammar": "more" }
         ]
     },
@@ -561,6 +583,10 @@
     },
     {
         "word": "vuola",
+        "descriptor": [
+            { "name": "open", "grammar": "less" },
+            { "name": "closed", "grammar": "more" }
+        ],
         "noun": [
             { "name": "hole", "grammar": "less" },
             { "name": "ditch", "grammar": "less" },
@@ -568,7 +594,11 @@
             "flat",
             { "name": "hill", "grammar": "more" },
             { "name": "bump", "grammar": "more" },
-            { "name": "button", "grammar": "more" }
+            { "name": "button", "grammar": ["more", "diminutive"] }
+        ],
+        "verb": [
+            { "name": "open", "grammar": "less" },
+            { "name": "close", "grammar": "more" }
         ]
     },
     {
@@ -804,10 +834,12 @@
     {
         "word": "moola",
         "descriptor": [
+            { "name": "insecure", "grammar": "less" },
             { "name": "weak", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
-            { "name": "tough", "grammar": "more" }
+            { "name": "tough", "grammar": "more" },
+            { "name": "secure", "grammar": "more" }
         ]
     },
     {
@@ -871,6 +903,115 @@
             { "name": "underground", "grammar": "less" },
             "ground",
             { "name": "sky", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "muoto",
+        "descriptor": [
+            { "name": "dull", "grammar": "less" },
+            { "name": "sharp", "grammar": "more" },
+            { "name": "painful", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "dullness", "grammar": "less" },
+            { "name": "sharpness", "grammar": "more" },
+            { "name": "pain", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "harm", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "laise",
+        "noun": [
+            "number"
+        ],
+        "verb": [
+            "count"
+        ]
+    },
+    {
+        "word": "tu",
+        "descriptor": [
+            "two"
+        ]
+    },
+    {
+        "word": "loke",
+        "descriptor": [
+            "three"
+        ]
+    },
+    {
+        "word": "nela",
+        "descriptor": [
+            "four"
+        ]
+    },
+    {
+        "word": "kuuso",
+        "descriptor": [
+            "five"
+        ]
+    },
+    {
+        "word": "seke",
+        "descriptor": [
+            "six"
+        ]
+    },
+    {
+        "word": "seite",
+        "descriptor": [
+            "seven"
+        ]
+    },
+    {
+        "word": "ato",
+        "descriptor": [
+            "eight"
+        ]
+    },
+    {
+        "word": "ile",
+        "descriptor": [
+            "nine"
+        ]
+    },
+    {
+        "word": "dio",
+        "descriptor": [
+            "red"
+        ]
+    },
+    {
+        "word": "via",
+        "descriptor": [
+            "green"
+        ]
+    },
+    {
+        "word": "blu",
+        "descriptor": [
+            "blue"
+        ]
+    },
+    {
+        "word": "toya",
+        "descriptor": [
+            { "name": "off", "grammar": "less" },
+            { "name": "inactive", "grammar": "less" },
+            { "name": "on", "grammar": "more" },
+            { "name": "active", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "state", "grammar": "abstract" }
+        ],
+        "verb": [
+            { "name": "turn off", "grammar": ["less", "lative"] },
+            { "name": "inactivate", "grammar": ["less", "lative"] },
+            { "name": "turn on", "grammar": ["more", "lative"] },
+            { "name": "activate", "grammar": ["more", "lative"] }
         ]
     }
 ]

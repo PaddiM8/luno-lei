@@ -1,3 +1,16 @@
+function setUpTooltips() {
+    document.addEventListener("mouseover", e => {
+        const target = e.target;
+        if (target.classList.contains("hoverable")) {
+            target.querySelector(".tooltip").classList.remove("hidden");
+
+            target.onmouseleave = () => {
+                target.querySelector(".tooltip").classList.add("hidden");
+            }
+        }
+    });
+}
+
 function createKind(kind, value) {
     return value
         ? `<span class="translation ${kind}"></span>`
@@ -29,31 +42,37 @@ function createItem(kind, value) {
     `;
 }
 
-const options = {
-    searchColumns: ["word", "noun", "verb", "descriptor", "other"],
-    item: values => {
-        return `
-            <div class="item">
-                <h3 class="word">${values.word}</h3>
-                ${createItem("descriptor", values.descriptor)}
-                ${createItem("noun", values.noun)}
-                ${createItem("verb", values.verb)}
-                ${createItem("other", values.other)}
-            </div>
-        `;
-    },
-};
+function createList(dictionary) {
+    const options = {
+        searchColumns: ["word", "noun", "verb", "descriptor", "other"],
+        item: values => {
+            return `
+                <div class="item">
+                    <h3 class="word">${values.word}</h3>
+                    ${createItem("descriptor", values.descriptor)}
+                    ${createItem("noun", values.noun)}
+                    ${createItem("verb", values.verb)}
+                    ${createItem("other", values.other)}
+                </div>
+            `;
+        },
+    };
+
+    new List("words", options, dictionary);
+}
+
+function updateWordCount(dictionary) {
+    let derivedCount = 0;
+    for (const word of dictionary) {
+        for (const value of Object.values(word))
+            derivedCount += 1 + value.length;
+    }
+
+    const wordCountElement = document.getElementById("word-count");
+    wordCountElement.textContent = `${dictionary.length} base words, ${derivedCount}+ derived words`;
+}
 
 const dictionary = await (await fetch("/dictionary.json")).json();
-new List("words", options, dictionary);
-
-document.addEventListener("mouseover", e => {
-    const target = e.target;
-    if (target.classList.contains("hoverable")) {
-        target.querySelector(".tooltip").classList.remove("hidden");
-
-        target.onmouseleave = () => {
-            target.querySelector(".tooltip").classList.add("hidden");
-        }
-    }
-});
+createList(dictionary);
+updateWordCount(dictionary);
+setUpTooltips();

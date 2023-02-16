@@ -6,8 +6,8 @@ template = "base.html"
 
 Gradiency is a way to change the meaning of a word.
 Words in the dictionary are written in neutral form.
-This often does not have an English translation and
-is somehwere in-between the "less" form and the "more"
+Words in the neutral form often have no English translation
+and are somehwere in-between the "less" form and the "more"
 form. The "more" form could for example imply a larger
 size, more activity, more effort, more notable, more
 beneficial to the subject, and so on, depending on
@@ -15,7 +15,7 @@ context.
 
 | Kind       | Less | Neutral | More |
 | ---------- | ---- | ------- | ---- |
-| Noun       | -sve | -       | -sva |
+| Noun       | -ste | -       | -sva |
 | Descriptor | -ve  | -       | -sa  |
 
 #### Example
@@ -23,7 +23,7 @@ suto - neither sweet nor sour
 sutove - sour  
 sutosa - sweet  
 lavo - hand  
-lavosve - finger  
+lavoste - finger  
 lavosva - arm
 
 ## Intensifiers & Diminutives

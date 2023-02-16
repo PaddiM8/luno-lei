@@ -271,6 +271,57 @@
         ]
     },
     {
+        "word": "koi",
+        "descriptor": [
+            { "name": "sad", "grammar": "less" },
+            { "name": "happy", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "sadness", "grammar": "less" },
+            { "name": "happiness", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "dei",
+        "descriptor": [
+            { "name": "angry", "grammar": "less" }
+        ],
+        "noun": [
+            { "name": "anger", "grammar": "less" }
+        ]
+    },
+    {
+        "word": "mou",
+        "descriptor": [
+            { "name": "stressed", "grammar": "less" },
+            { "name": "calm", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "stress", "grammar": "less" },
+            { "name": "calm", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "mou",
+        "descriptor": [
+            { "name": "scared", "grammar": "less" },
+            { "name": "secure", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "fear", "grammar": "less" },
+            { "name": "security", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "tiose",
+        "descriptor": [
+            { "name": "anticipated", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "anticipation", "grammar": "more" }
+        ]
+    },
+    {
         "word": "apu",
         "descriptor": [
             { "name": "close", "grammar": "less" },

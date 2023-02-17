@@ -26,12 +26,12 @@ depending on context.
         ["ike", "some"],
         [],
         ["ato", "eight"],
-        ["noka", "leg"],
+        ["noka", "foot"],
         ["havo", "dead thing/living thing"],
         ["sa", "more"],
-        ["tie", "diminutive"],
+        ["tae", "diminutive"],
         ["ye", "plural"],
-        ["s", "accusative"]
+        ["t", "accusative"]
     ],
     translation="I am scared of some eight legged small animals (spiders)."
 )

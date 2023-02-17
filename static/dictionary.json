@@ -195,7 +195,7 @@
         ]
     },
     {
-        "word": "na",
+        "word": "ne",
         "descriptor": [
             { "name": "none", "grammar": "less" },
             { "name": "not", "grammar": "less" },

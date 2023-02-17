@@ -18,10 +18,19 @@ Relative person can be translated to *who*, *whom*,
 | Present      | -n(i) | -s(i) | -pi   | -mi      |
 | Future       | -naso | -saso | -paso | -maso    |
 
-#### Example
-nokan - I walk  
-nokas - You walk  
-nokanu - I walked
+#### Examples
+{{ sentence(
+    parts=[["noka", "foot"], ["n", "1", "verb"]],
+    translation="I walk"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["s", "2", "verb"]],
+    translation="You walk"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["nu", "1", "verb", "past"]],
+    translation="I walked"
+) }}
 
 ### Plural
 
@@ -31,8 +40,12 @@ a plurality in the person. This would turn "I" into
 
 <span class="particle">su</span>
 
-#### Example
-su oninaso - we will act
+#### Examples
+<p></p> <!-- A <p> tag was inserted for the example above but not here for some reason -->
+{{ sentence(
+    parts=[["su", "person-plural"], [], ["oni", "thing/act"], ["naso", "1", "future", "verb"]],
+    translation="We will act"
+) }}
 
 ## Noun & Descriptor conjugation
 
@@ -49,10 +62,19 @@ would instead refer to "to decrease".
 | Present      | -neo  | -seo  | -peo  | -meo     |
 | Future       | -nowi | -sowi | -powi | -mowi    |
 
-#### Example
-ikesan - I am big
-ikesas - You are big
-ikesanu - I were big
+#### Examples
+{{ sentence(
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["n", "1", "verb"]],
+    translation="I am big"
+) }}
+{{ sentence(
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["s", "2", "verb"]],
+    translation="You are big"
+) }}
+{{ sentence(
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["nu", "1", "verb", "past"]],
+    translation="I were big"
+) }}
 
 ### Plural
 
@@ -74,9 +96,15 @@ it refers to something being done several times.
 | Noun | -ye    |
 | Verb | -yoa   |
 
-#### Example
-lavoye - hands  
-lavoyoa - to hold several times
+#### Examples
+{{ sentence(
+    parts=[["lavo", "hand"], ["ye", "plural"]]
+    translation="Hands"
+) }}
+{{ sentence(
+    parts=[["lavo", "hand"], ["yoa", "verb-plural"]]
+    translation="To hold several times"
+) }}
 
 ## Comparison
 
@@ -86,9 +114,15 @@ Comparative and superlative are added to descriptors.
 | ----------- | ----------- |
 | -vo         | -vie        |
 
-#### Example
-ikesavo - bigger  
-ikesavie - biggest
+#### Examples
+{{ sentence(
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["vo", "comparative"]]
+    translation="Bigger"
+) }}
+{{ sentence(
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["vie", "superlative"]]
+    translation="Biggest"
+) }}
 
 ## Possession
 
@@ -97,10 +131,15 @@ However, normally, possession is expressed
 with the word "lave" combined with the inessive
 case.
 
-#### Example
-
-lavolien kotusas - I have a home  
-kotusa lavolien - My home (note the lack of accusative)
+#### Examples
+{{ sentence(
+    parts=[["lavo", "hand"], ["ti", "lative"], ["e", "in"], ["n", "1", "verb"], [], ["kotu", "house"], ["sa", "more"], ["t", "accusative"]]
+    translation="I have a home"
+) }}
+{{ sentence(
+    parts=[["kotu", "house"], ["sa", "more"], [], ["lavo"], ["ti", "lative"], ["e", "in"], ["n", "1", "verb"]]
+    translation="My home (note the lack of accusative)"
+) }}
 
 ## Questions
 
@@ -120,27 +159,54 @@ incomplete, for example a book only being partly read.
 Semblative expressses some form of similarity between
 objects or concepts.
 
+Partitive is normally optional and is used when clarifying
+completeness is relevant.
+
 | Case            | Suffix | Uses                      |
 | --------------- | ------ | ------------------------- |
 | Nominative      | -      | -                         |
-| Accusative      | -s     | direct object             |
-| Lative          | -su    | motion towards            |
-| Ablative        | -sol   | motion from               |
-| Prolative       | -sat   | via, through, along       |
-| Partitive       | -sia   | direct object, incomplete |
+| Accusative      | -t     | direct object             |
+| Lative          | -tu    | motion towards            |
+| Ablative        | -tol   | motion from               |
+| Prolative       | -tat   | via, through, along       |
+| Partitive       | -tia   | direct object, incomplete |
 | Dative          | -da    | indirect object           |
 | Locative/Essive | -li    | at (location, time)       |
 | Semblative      | -kus   | similarity                |
 
-#### Example
-lavon vileas - I have a plant  
-nokan enisisu - I walk to you  
-nokan enisisol - I walk from you  
-nokas vuolavesat - You walk through the hole  
-liposasian - I read part of a book  
-munin enisida - I talk to you  
-kotusalin - I am at home  
-valovepeo measavikovekus - It is dark like at night
+#### Examples
+{{ sentence(
+    parts=[["lavo", "hand"], ["n", "1", "verb"], [], ["vilea", "plant"], ["t", "accusative"]]
+    translation="I have a plant"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["tu", "lative"]]
+    translation="I walk to you"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["tol", "ablative"]]
+    translation="I walk from you"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vuola", "hole/bump"], ["ve", "less"], ["tat", "prolative"]]
+    translation="You walk through the hole"
+) }}
+{{ sentence(
+    parts=[["lipo", "note"], ["sa", "more"], ["tia", "partitive"], ["n", "1", "verb"]]
+    translation="I read part of a book"
+) }}
+{{ sentence(
+    parts=[["muni", "mouth"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["da", "dative"]]
+    translation="I talk to you"
+) }}
+{{ sentence(
+    parts=[["kotu", "house"], ["sa", "more"], ["li", "locative"], ["n", "1", "verb"]]
+    translation="I am at home"
+) }}
+{{ sentence(
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ve", "less"], ["kus", "semblative"]]
+    translation="I am at home"
+) }}
 
 ### Stacking cases
 
@@ -158,8 +224,11 @@ inessive, `-lie`.
 | Adjacent | -at    | adjacent, nearby    |
 | Inter-   | -wo    | between, in-between |
 
-#### Example
-kotulien - I am inside a house  
+#### Examples
+{{ sentence(
+    parts=[["kotu", "house"], ["li", "locative"], ["e", "in"], ["n", "1", "verb"]]
+    translation="I am inside a house"
+) }}
 
 ## Nil word
 
@@ -172,9 +241,15 @@ one could say "enilie".
 Pronouns are created by applying a conjugation suffix to the
 nil word.
 
-#### Example
-enins - me  
-enipi enisikus - It is similar to you
+#### Examples
+{{ sentence(
+    parts=[["eni", "-"], ["ni", "1", "verb"], ["t", "accusative"]]
+    translation="Me"
+) }}
+{{ sentence(
+    parts=[["eni", "-"], ["pi", "3", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["kus", "semblative"]]
+    translation="It is similar to you"
+) }}
 
 ## Voices
 
@@ -185,9 +260,15 @@ enipi enisikus - It is similar to you
 The passive voice is used as a "zero person". It can also be used
 to verbify a word without specifying a person (eg. leg -> to walk).
 
-#### Example
-kiaslu - One reads  
-pitan nokaslu - I like to walk
+#### Examples
+{{ sentence(
+    parts=[["kia", "word (written)"], ["slu", "passive"]]
+    translation="One reads"
+) }}
+{{ sentence(
+    parts=[["pita", "dislike/like"], ["n", "1", "verb"], [], ["noka", "foot"], ["slu", "passive"]]
+    translation="I like to walk"
+) }}
 
 ## Moods
 
@@ -200,9 +281,19 @@ Expresses a demand or wish.
 | Verbs               | -stu   |
 | Nouns & Descriptors | -stoa  |
 
-#### Example
-liposastu - Read a book  
-lipsastus - You should read a book
+#### Examples
+{{ sentence(
+    parts=[["lipo", "note"], ["sa", "more"], ["stu", "imperative"]]
+    translation="Read a book"
+) }}
+{{ sentence(
+    parts=[["mou", "sa"], ["stoa", "imperative"]]
+    translation="Be calm"
+) }}
+{{ sentence(
+    parts=[["lipo", "note"], ["sa", "more"], ["stu", "imperative"], ["s", "2", "verb"]]
+    translation="You should read a book"
+) }}
 
 ## Morphology syntax
 

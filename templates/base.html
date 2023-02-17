@@ -7,12 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="/duck.svg" sizes="any" type="image/svg+xml">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
+    <meta name="description" content="A conlang where a small vocabulary goes a long way">
+    <meta name="application-name" content="Luno Lei">
+    <meta name="author" content="PaddiM8">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luno-lei.strct.net" />
+    <meta property="og:description" content="A conlang where a small vocabulary goes a long way" />
 
     {% if page.title %}
     <title> {{ page.title }} | {{ config.title }} </title>
@@ -21,6 +23,14 @@
     <title> {{ config.title }} </title>
     <meta property="og:title" content="{{ get_url(path="") }}" />
     {% endif %}
+
+    <link rel="icon" href="/duck.svg" sizes="any" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+     <script defer data-domain="luno-lei.strct.net" src="stats.js"></script>
 </head>
 
 <body>

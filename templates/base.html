@@ -17,11 +17,11 @@
     <meta property="og:description" content="A language optimised for getting by with a small vocabulary" />
 
     {% if page.title %}
-    <title> {{ page.title }} | {{ config.title }} </title>
-    <meta property="og:title" content="{{ page.title }} | {{ config.title }}" />
+        <meta property="og:title" content="{{ page.title }} | {{ config.title }}" />
+        <title> {{ page.title }} | {{ config.title }} </title>
     {% else %}
-    <title> {{ config.title }} </title>
-    <meta property="og:title" content="{{ get_url(path="") }}" />
+        <title> {{ config.title }} </title>
+        <meta property="og:title" content="{{ config.title }}" />
     {% endif %}
 
     <link rel="icon" href="/duck.svg" sizes="any" type="image/svg+xml">

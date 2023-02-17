@@ -1,4 +1,4 @@
-base_url = "https://luno lei.strct.net"
+base_url = "https://luno-lei.strct.net"
 title = "Luno Lei"
 compile_sass = true
 build_search_index = false

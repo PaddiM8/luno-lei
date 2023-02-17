@@ -5,14 +5,16 @@ template = "index.html"
 
 Luno Lei is a constructed language with a tiny dictionary
 where grammar is used to give words a wide range of
-meanings. For example, the words for "small", "huge", "size",
-"measure", "reduce", etc. can be derived from the same root
+meanings.
+
+For example, the words for `small`, `huge`, `size`,
+`measure`, `reduce`, etc. can be derived from the same root
 word using simple grammatical rules.
 
 In cases where word building is not enough, words are combined,
-sometimes in poetic ways. There is no word for "sun", but it
-could, for example, be expressed by saying "the light that nature holds"
-(valosva luono lavopi) or simply "nature light" (luonovalosva)
+sometimes in poetic ways. There is no word for `sun`, but it
+could, for example, be expressed by saying `the light that nature holds`
+(valosva luono lavopi) or simply `nature light` (luonovalosva)
 depending on context.
 
 ### What it is
@@ -26,6 +28,9 @@ depending on context.
 * Not meant to allow for particularly precise communication, similar to Toki Pona
 
 ## Examples
+
+Hover (tap on mobile) on different parts of the
+words to see the meaning/purpose.
 
 {{ sentence(
     parts=[["loma", "food"], ["n", "1", "verb"]],

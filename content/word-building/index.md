@@ -7,8 +7,8 @@ template = "base.html"
 Gradiency is a way to change the meaning of a word.
 Words in the dictionary are written in neutral form.
 Words in the neutral form often have no English translation
-and are somehwere in-between the "less" form and the "more"
-form. The "more" form could for example imply a larger
+and are somehwere in-between the `less` form and the `more`
+form. The `more` form could for example imply a larger
 size, more activity, more effort, more notable, more
 beneficial to the subject, and so on, depending on
 context.
@@ -50,14 +50,14 @@ Intensifiers and diminutives are used to express
 either more or less intensity regarding a word. 
 Unlike gradiency, this does not change the core
 meaning of a word. However, in some cases, the
-difference between, for example, the "more" form
-and the "intensifier" form of a word may be similar.
+difference between, for example, the `more` form
+and the `intensifier` form of a word may be similar.
 
 Often, intensifiers and diminutives are stacked
 on top of gradiency suffixes as a way to be more
-specific. For example, applying both the "more"
-form and the diminutive form to "varma" (lukewarm)
-results in "slightly warm". In this example,
+specific. For example, applying both the "more`
+form and the diminutive form to `varma` (lukewarm)
+results in `slightly warm`. In this example,
 gradiency is used to express warmth, while the
 diminutive form tones it down.
 
@@ -147,7 +147,7 @@ Colours are expressed using three words:
 These can be combined to express different
 colours. For example, combining blue and
 green results in yellow, meaning yellow is
-expressed as "bluvia".
+expressed as `bluvia`.
 
 Additionally, the words for "dark" and "light"
 can be used to specify brightness.
@@ -165,11 +165,11 @@ can be used to specify brightness.
 ## Counting
 
 Numbers are expressed in a form of scientific
-notation, such as "1.23*10^3". The "dek" particle
-is used to express the "*10^" part and the dot is
+notation, such as `1.23*10^3`. The `dek` particle
+is used to express the `*10^` part and the dot is
 implied.
 
-Negative numbers are expressed by adding the "less"
+Negative numbers are expressed by adding the `less`
 gradiency form to a number.
 
 ### Digits

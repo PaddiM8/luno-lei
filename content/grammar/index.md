@@ -4,9 +4,9 @@ template = "base.html"
 +++
 ## Verb conjugation
 
-With verb conjugation, a word the verb form of
-a word is used. For example, "noka" (foot) as a verb
-results in "to foot"/"to walk".
+With verb conjugation, the verb form of a word
+is used. For example, `noka` (foot) as a verb
+becomes `to foot` or `to walk`.
 
 Relative person can be translated to *who*, *whom*,
 *whose*, *which*, *that*, etc. in English.
@@ -34,9 +34,9 @@ Relative person can be translated to *who*, *whom*,
 
 ### Plural
 
-Plural is added to a conjugation in order to express
-a plurality in the person. This would turn "I" into
-"we", or 3rd person singular into "they".
+Plural is added to a conjugation to express
+a plurality in the person. This would turn `I` into
+`we`, or 3rd person singular into `they`.
 
 <span class="particle">su</span>
 
@@ -51,9 +51,9 @@ a plurality in the person. This would turn "I" into
 
 Noun and descriptor conjugation is used when a word
 should not be verbified. Instead, it expresses *state*.
-For example, "ikeve" (small) conjugated in this way
-results in "to be small". With verb conjugation, it
-would instead refer to "to decrease".
+For example, `ikeve` (small) conjugated in this way
+results in `to be small`. With verb conjugation, it
+would instead refer to "to decrease`.
 
 ### Singular
 | Tense/Person | 1st   | 2nd   | 3rd   | Relative |
@@ -78,17 +78,17 @@ would instead refer to "to decrease".
 
 ### Plural
 
-Plural is added to a conjugation in order to express
-a plurality in the person. This would turn "I" into
-"we", or 3rd person singular into "they".
+Plural is added to a conjugation to express
+a plurality in the person. This would turn `I` into
+`we`, or 3rd person singular into `they`.
 
 <span class="particle">lu</span>
 
 ## Number
 
 Plural in this form is used to express plurality
-for words themself. For example, "object" (oni)
-into "objects" (oniye). When applied to verbs,
+for words themself. For example, `object` (oni)
+into `objects` (oniye). When applied to verbs,
 it refers to something being done several times.
 
 | Kind | Plural |
@@ -128,7 +128,7 @@ Comparative and superlative are added to descriptors.
 
 There are different ways to express possession.
 However, normally, possession is expressed
-with the word "lave" combined with the inessive
+with the word "lave` combined with the inessive
 case.
 
 #### Examples
@@ -233,8 +233,8 @@ inessive, `-lie`.
 ## Nil word
 
 The nil word (`eni`) can be used to extract the pure meaning
-of grammatical features. For example, in order to say just "in",
-one could say "enilie".
+of grammatical features. For example, in order to say just `in`,
+one could say `enilie`.
 
 ### Pronouns
 

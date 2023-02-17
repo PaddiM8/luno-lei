@@ -1,0 +1,130 @@
+{
+    "1": {
+        "full": "1st person"
+    },
+    "2": {
+        "full": "2nd person"
+    },
+    "3": {
+        "full": "3rd person"
+    },
+    "rel": {
+        "full": "relative person"
+    },
+    "verb": {
+        "full": "verb",
+        "class": "verb"
+    },
+    "nd": {
+        "full": "noun/descriptor",
+        "class": "nd"
+    },
+    "less": {
+        "full": "less",
+        "class": "less"
+    },
+    "more": {
+        "full": "more",
+        "class": "more"
+    },
+    "diminutive": {
+        "full": "Diminutive",
+        "class": "diminutive"
+    },
+    "intensifier": {
+        "full": "Intensifier",
+        "class": "intensifier"
+    },
+    "abstract": {
+        "full": "Abstractification",
+        "class": "abstract"
+    },
+    "objectification": {
+        "full": "Objectification",
+        "class": "objectification"
+    },
+    "person-plural": {
+        "full": "person plural",
+        "class": "plural"
+    },
+    "verb-plural": {
+        "full": "verb plural",
+        "class": "plural"
+    },
+    "plural": {
+        "full": "plural",
+        "class": "plural"
+    },
+    "comparative": {
+        "full": "comparative",
+        "class": "comparative"
+    },
+    "superlative": {
+        "full": "superlative",
+        "class": "comparative"
+    },
+    "accusative": {
+        "full": "accusative",
+        "class": "case"
+    },
+    "lative": {
+        "full": "lative",
+        "class": "case"
+    },
+    "ablative": {
+        "full": "ablative",
+        "class": "case"
+    },
+    "prolative": {
+        "full": "prolative",
+        "class": "case"
+    },
+    "partitive": {
+        "full": "partitive",
+        "class": "case"
+    },
+    "locative": {
+        "full": "locative",
+        "class": "case"
+    },
+    "semblative": {
+        "full": "semblative",
+        "class": "case"
+    },
+    "in": {
+        "full": "In-",
+        "class": "stacking"
+    },
+    "super": {
+        "full": "Super-",
+        "class": "stacking"
+    },
+    "sub": {
+        "full": "Sub-",
+        "class": "stacking"
+    },
+    "behind": {
+        "full": "Behind",
+        "class": "stacking"
+    },
+    "front": {
+        "full": "In front",
+        "class": "stacking"
+    },
+    "adjacent": {
+        "full": "Adjacent",
+        "class": "stacking"
+    },
+    "inter": {
+        "full": "Inter-",
+        "class": "stacking"
+    },
+    "passive": {
+        "full": "Passive voice",
+        "class": "voice"
+    },
+    "imperative": {
+        "full": "Imperative/Optative",
+        "class": "mood"
+    }
+}

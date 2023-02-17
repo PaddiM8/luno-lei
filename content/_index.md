@@ -17,4 +17,22 @@ depending on context.
 
 ## Examples
 
-mouveneo ike atonokahovasatieyes - I am scared of some eight legged small animals (spiders)
+{{ sentence(
+    parts=[
+        ["mou", "stressed/calm"],
+        ["ve", "less"],
+        ["neo", "1", "nd"],
+        [],
+        ["ike", "some"],
+        [],
+        ["ato", "eight"],
+        ["noka", "leg"],
+        ["havo", "dead thing/living thing"],
+        ["sa", "more"],
+        ["tie", "diminutive"],
+        ["ye", "plural"],
+        ["s", "accusative"]
+    ],
+    translation="I am scared of some eight legged small animals (spiders)."
+)
+}}

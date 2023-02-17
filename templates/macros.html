@@ -1,7 +1,7 @@
 {% macro nav_item(name, slug) %}
-{% if page.title and page.title == name or not page.title and name == "Home" %}
-<a href="/{{slug}}" class="selected">{{ name }}</a>
-{% else %}
-<a href="/{{slug}}">{{ name }}</a>
-{% endif %}
-{% endmacro input %}
+    {% if page.title and page.title == name or not page.title and name == "Home" %}
+        <a href="/{{slug}}" class="selected">{{ name }}</a>
+    {% else %}
+        <a href="/{{slug}}">{{ name }}</a>
+    {% endif %}
+{% endmacro nav_item %}

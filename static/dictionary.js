@@ -1,39 +1,49 @@
-function setUpTooltips() {
-    document.addEventListener("mouseover", e => {
-        const target = e.target;
-        if (target.classList.contains("hoverable")) {
-            target.querySelector(".tooltip").classList.remove("hidden");
-
-            target.onmouseleave = () => {
-                target.querySelector(".tooltip").classList.add("hidden");
-            }
-        }
-    });
-}
-
 function createKind(kind, value) {
     return value
         ? `<span class="translation ${kind}"></span>`
         : "";
 }
 
-function createItem(kind, value) {
+function createItem(kind, value, names) {
     if (!value) {
         return "";
     }
 
     if (typeof value != "object") value = [value];
-    const stringValue = value.map(x => {
+    const stringValue = value.map((x, i) => {
+        // Include comma if not last item
+        const comma = i == value.length - 1
+            ? ""
+            : "&#44;";
+
         if (typeof x == "object") {
             const grammar = Array.isArray(x.grammar)
-                ? x.grammar.join(", ")
-                : x.grammar;
+                ? x.grammar
+                : [x.grammar];
 
-            return `<span class="hoverable" data-name="${x.name}">${x.name}<span class="tooltip hidden">${grammar}</span></span>`;
+            const classNames = [];
+            const grammarNames = [];
+            for (const grammarRule of grammar) {
+                if (grammarRule in names) {
+                    const nameInfo = names[grammarRule];
+                    if (nameInfo.class) {
+                        classNames.push(nameInfo.class);
+                    }
+
+                    grammarNames.push(nameInfo.full);
+                }
+            }
+
+            return `
+                <span class="hoverable ${classNames.join(" ")}" data-name="${x.name}">
+                    <span class="text">${x.name}</span>${comma}
+                    <span class="tooltip">${grammar.join(", ")}</span>
+                </span>
+            `;
         } else {
-            return `<span>${x}</span>`;
+            return `<span>${x}</span>${comma}`;
         }
-    }).join(", ");
+    }).join(" ");
 
     return `
         <div class="translation">
@@ -43,7 +53,7 @@ function createItem(kind, value) {
     `;
 }
 
-function createList(dictionary) {
+function createList(dictionary, names) {
     const options = {
         searchColumns: [
             "word",
@@ -53,10 +63,10 @@ function createList(dictionary) {
             return `
                 <div class="item">
                     <h3 class="word">${values.word}</h3>
-                    ${createItem("descriptor", values.descriptor)}
-                    ${createItem("noun", values.noun)}
-                    ${createItem("verb", values.verb)}
-                    ${createItem("other", values.other)}
+                    ${createItem("descriptor", values.descriptor, names)}
+                    ${createItem("noun", values.noun, names)}
+                    ${createItem("verb", values.verb, names)}
+                    ${createItem("other", values.other, names)}
                 </div>
             `;
         },
@@ -93,6 +103,6 @@ function updateWordCount(dictionary) {
 }
 
 const dictionary = await (await fetch("/dictionary.json")).json();
-createList(dictionary);
+const names = await (await fetch("/names.json")).json();
+createList(dictionary, names);
 updateWordCount(dictionary);
-setUpTooltips();

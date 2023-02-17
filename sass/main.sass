@@ -2,6 +2,8 @@
 @import header
 @import dictionary
 @import components/table
+@import components/tooltip
+@import components/sentence
 
 body
     display: flex
@@ -24,7 +26,7 @@ main
 h2, h3, h4
     display: block
     color: #424242
-    margin-bottom: 0
+    margin-bottom: 0.4em
 
     &::before
         color: orange
@@ -37,11 +39,24 @@ h3::before
     content: '❯'
 
 h4
+    display: inline
+    vertical-align: sub
+
+h4::before
+    display: inline
+    content: '●'
+    vertical-align: top
+
+h4
     margin-top: 1em
 
 h2
+    margin-top: 1.4em
     display: flex
     align-items: center
+
+h2:first-child
+    margin-top: 0.8em
 
 h2 > .note
     font-size: 0.7em
@@ -78,6 +93,10 @@ a
 
 .particle::before
     content: 'Particle'
+
+.example
+    padding-left: 1em
+    border-left: $border
 
 hr
     width: 100%

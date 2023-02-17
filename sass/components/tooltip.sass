@@ -1,0 +1,27 @@
+.hoverable
+    position: relative
+
+    .text
+        border-bottom: 2px dotted #BDBDBD
+        cursor: default
+
+        &:hover
+            border-bottom-color: #212121
+
+    .tooltip
+        display: none
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translate(-50%, -100%)
+        white-space: nowrap
+        padding: 0.4em 0.6em
+        background-color: #424242
+        border-radius: 4px
+        color: white
+
+        p
+            margin: 0
+
+.tooltip.visible
+    display: inline

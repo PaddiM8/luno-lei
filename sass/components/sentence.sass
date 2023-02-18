@@ -6,6 +6,9 @@
     margin-right: -5px
     line-height: 1.5
 
+    .word::before, .word::after
+        content: '"'
+
 @mixin dot-color($class, $color)
     .#{$class} .text
         border-color: $color
@@ -27,3 +30,4 @@
 @include dot-color("stacking", #00BFA5)
 @include dot-color("voice", #6D4C41)
 @include dot-color("mood", #546E7A)
+@include dot-color("code", #00BCD4)

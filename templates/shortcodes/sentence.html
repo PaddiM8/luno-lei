@@ -19,9 +19,9 @@
                     {% set_global class = [class, entry["class"]] | join(sep=" ") %}
                 {% endif %}
 
-                {% set_global tooltip = [tooltip, "<p>", entry["full"], "</p>"] | join %}
+                {% set_global tooltip = [tooltip, "<p class='rule'>", entry["full"], "</p>"] | join %}
             {% else %}
-                {% set_global tooltip = [tooltip, "<p>", meaning, "</p>"] | join %}
+                {% set_global tooltip = [tooltip, "<p class='word'>", meaning, "</p>"] | join %}
             {% endif %}
         {% endfor %}
 

@@ -32,6 +32,6 @@
     {% endfor %}
 
     {% if translation %}
-        <p>{{ translation }}</p>
+        <p>{{ translation | safe }}</p>
     {% endif %}
 </div>

@@ -11,19 +11,15 @@ For example, the words for `small`, `huge`, `size`,
 `measure`, `reduce`, etc. can be derived from the same root
 word using simple grammatical rules.
 
-In cases where word building is not enough, words are combined,
-sometimes in poetic ways. There is no word for `sun`, but it
-could, for example, be expressed by saying `the light that nature holds`
-(valosva luono lavopi) or simply `nature light` (luonovalosva)
-depending on context.
-
 ### What it is
 * The entire language could fit on a poster
 * Optimised for getting by with a small vocabulary
 * Has a rich and flexible grammar 
+* A fun way to play around with language and finding
+  creative ways of expressing oneself
 
 ### What it is not
-* Not as simple as Toki Pona
+* Not as simple as Toki Pona - being as easy as possible to learn is not a goal
 * Often does not result in compact sentences
 * Not meant to allow for particularly precise communication, similar to Toki Pona
 
@@ -45,20 +41,22 @@ words to see the meaning/purpose.
     translation="It is big, not small"
 ) }}
 {{ sentence(
+    parts=[["mauto", "underground/ground/sky"], ["sva", "more"], ["havo", "dead being/living being"], ["sva", "more"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
+    translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
+) }}
+{{ sentence(
     parts=[
-        ["mou", "stressed/calm"],
+        ["mou", "scared/secure"],
         ["ve", "less"],
-        ["neo", "1", "nd"],
+        ["n", "1", "verb"],
         [],
         ["ike", "some"],
         [],
         ["ato", "eight"],
         ["noka", "foot"],
         ["havo", "dead thing/living thing"],
-        ["sa", "more"],
-        ["tae", "diminutive"],
-        ["ye", "plural"],
-        ["t", "accusative"]
+        ["sva", "more"],
+        ["tae", "diminutive"]
     ],
     translation="I am scared of some eight legged small animals (spiders)"
 )

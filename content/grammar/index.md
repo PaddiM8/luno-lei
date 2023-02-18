@@ -2,7 +2,12 @@
 title = "Grammar"
 template = "base.html"
 +++
-## Verb conjugation
+## Word Order
+
+The word order is generally free, but words may be placed
+earlier in a sentence for emphasis.
+
+## Verb Conjugation
 
 With verb conjugation, the verb form of a word
 is used. For example, `noka` (foot) as a verb
@@ -47,7 +52,7 @@ a plurality in the person. This would turn `I` into
     translation="We will act"
 ) }}
 
-## Noun & Descriptor conjugation
+## Noun & Descriptor Conjugation
 
 Noun and descriptor conjugation is used when a word
 should not be verbified. Instead, it expresses *state*.
@@ -124,23 +129,6 @@ Comparative and superlative are added to descriptors.
     translation="Biggest"
 ) }}
 
-## Possession
-
-There are different ways to express possession.
-However, normally, possession is expressed
-with the word "lave` combined with the inessive
-case.
-
-#### Examples
-{{ sentence(
-    parts=[["lavo", "hand"], ["ti", "lative"], ["e", "in"], ["n", "1", "verb"], [], ["kotu", "house"], ["sa", "more"], ["t", "accusative"]]
-    translation="I have a home"
-) }}
-{{ sentence(
-    parts=[["kotu", "house"], ["sa", "more"], [], ["lavo"], ["ti", "lative"], ["e", "in"], ["n", "1", "verb"]]
-    translation="My home (note the lack of accusative)"
-) }}
-
 ## Questions
 
 <span class="particle">esa</span>
@@ -165,6 +153,7 @@ completeness is relevant.
 | Case            | Suffix | Uses                      |
 | --------------- | ------ | ------------------------- |
 | Nominative      | -      | -                         |
+| Genitive        | -lao   | possession                |
 | Accusative      | -t     | direct object             |
 | Lative          | -tu    | motion towards            |
 | Ablative        | -tol   | motion from               |
@@ -175,6 +164,10 @@ completeness is relevant.
 | Semblative      | -kus   | similarity                |
 
 #### Examples
+{{ sentence(
+    parts=[["vilea", "plant"], [], ["eni", "-"], ["ni", "1", "verb"], ["lao", "genitive"]]
+    translation="My plant"
+) }}
 {{ sentence(
     parts=[["lavo", "hand"], ["n", "1", "verb"], [], ["vilea", "plant"], ["t", "accusative"]]
     translation="I have a plant"
@@ -230,7 +223,7 @@ inessive, `-lie`.
     translation="I am inside a house"
 ) }}
 
-## Nil word
+## Nil Word
 
 The nil word (`eni`) can be used to extract the pure meaning
 of grammatical features. For example, in order to say just `in`,
@@ -295,7 +288,7 @@ Expresses a demand or wish.
     translation="You should read a book"
 ) }}
 
-## Morphology syntax
+## Morphology Syntax
 
 Suffix priority:
 

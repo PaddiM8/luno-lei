@@ -292,7 +292,7 @@
         ]
     },
     {
-        "word": "mou",
+        "word": "moi",
         "descriptor": [
             { "name": "stressed", "grammar": "less" },
             { "name": "calm", "grammar": "more" }
@@ -417,7 +417,8 @@
         "descriptor": [
             "one",
             "unique",
-            "alone"
+            "alone",
+            "only"
         ],
         "other": [
             "but"
@@ -444,12 +445,12 @@
     {
         "word": "vesi",
         "descriptor": [
-            { "name": "liquid", "grammar": "less" },
-            "solid"
+            { "name": "solid", "grammar": "less" },
+            "liquid"
         ],
         "noun": [
-            { "name": "liquid", "grammar": "less" },
-            { "name": "water", "grammar": "less" },
+            "liquid",
+            "water",
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" }
         ]
@@ -899,7 +900,8 @@
         "descriptor": [
             "flavourful",
             "nuanced",
-            "colourful"
+            "colourful",
+            "creative"
         ],
         "noun": [
             { "name": "flavour", "grammar": "objectification" },

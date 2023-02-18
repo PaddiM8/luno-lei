@@ -63,6 +63,10 @@
         "full": "superlative",
         "class": "comparative"
     },
+    "genitive": {
+        "full": "genitive",
+        "class": "case"
+    },
     "accusative": {
         "full": "accusative",
         "class": "case"

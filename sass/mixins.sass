@@ -1,0 +1,11 @@
+@mixin scroll-hint($at-width, $selector)
+    @media (max-width: $at-width)
+        #{$selector}::after
+            display: inline-block
+            content: "← scroll →"
+            font-size: 0.9em
+            width: 100%
+            max-width: calc(100vw - 6em)
+            margin-top: 0.5em
+            text-align: center
+            color: #757575

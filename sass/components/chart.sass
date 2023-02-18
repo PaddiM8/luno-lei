@@ -1,0 +1,64 @@
+@import ../mixins.sass
+
+@include scroll-hint(492px, ".chart")
+
+.chart
+    width: 100%
+    min-width: 430px
+    padding: 1em
+    margin-top: 1em
+    overflow-x: scroll
+
+    .arrow
+        position: relative
+        width: 100%
+        border-bottom: 2px solid #757575
+
+        &::before, &::after
+            display: block
+            position: absolute
+            content: ''
+
+            top: 1px
+            padding: 5px
+
+            border: solid #757575
+            border-width: 0 2px 2px 0
+
+        &::before
+            left: 0
+            transform: translateY(-50%) rotate(135deg)
+            -webkit-transform: translateY(-50%) rotate(135deg)
+
+        &::after
+            right: 0
+            transform: translateY(-50%) rotate(-45deg)
+            -webkit-transform: translateY(-50%) rotate(-45deg)
+
+    .sections
+        display: flex
+        justify-content: space-around
+        text-align: center
+        font-size: 0.8em
+        $label-margin: 0.6em
+
+        &.top
+            margin-bottom: $label-margin
+            font-weight: 500
+
+        &.bottom
+            margin-top: $label-margin
+
+        & > *
+            display: block
+            width: calc(100% / 7)
+            position: relative
+
+        &.bottom > *::before
+            position: absolute
+            content: ''
+            height: 12px
+            top: -#{$label-margin}
+            left: 50%
+            border-left: 2px solid #757575
+            transform: translateX(-50%) translateY(calc(-50% - 1px))

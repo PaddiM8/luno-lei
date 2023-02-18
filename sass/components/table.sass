@@ -1,14 +1,7 @@
 @import ../variables
+@import ../mixins.sass
 
-@media (max-width: 570px)
-    table::after
-        display: block
-        content: "← scroll →"
-        font-size: 0.9em
-        width: 100%
-        margin-top: 0.5em
-        text-align: center
-        color: #757575
+@include scroll-hint(570px, "table")
 
 table
     text-align: left

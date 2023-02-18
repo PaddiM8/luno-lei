@@ -22,6 +22,8 @@ word using simple grammatical rules.
 * Not as simple as Toki Pona - being as easy as possible to learn is not a goal
 * Often does not result in compact sentences
 * Not meant to allow for particularly precise communication, similar to Toki Pona
+* Not strict with word usage - if a sentence follows the
+  grammatical rules and is comphrehended, it is completely valid
 
 ## Examples
 
@@ -41,7 +43,7 @@ words to see the meaning/purpose.
     translation="It is big, not small"
 ) }}
 {{ sentence(
-    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["havo", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["p", "3", "verb"]],
+    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["mona", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["p", "3", "verb"]],
     translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
 ) }}
 {{ sentence(
@@ -54,7 +56,7 @@ words to see the meaning/purpose.
         [],
         ["ato", "eight"],
         ["noka", "foot"],
-        ["havo", "dead thing/living thing"],
+        ["mona", "dead thing/living thing"],
         ["sva", "more", "noun"],
         ["tae", "diminutive"]
     ],

@@ -5,9 +5,10 @@
             "object",
             "thing"
         ],
-        "verbs": [
+        "verb": [
             "do",
-            "act"
+            "act",
+            { "name": "work", "grammar": "more" }
         ]
     },
     {
@@ -18,12 +19,12 @@
             "moderately sized",
             "several",
             "subset",
+            "some",
             { "name": "big", "grammar": "more" },
             { "name": "many", "grammar": "more" },
             { "name": "tiny", "grammar": ["less", "intensifier"] },
             { "name": "huge", "grammar": ["more", "intensifier"] },
             { "name": "a bit", "grammar": ["more", "diminutive"] },
-            { "name": "some", "grammar": ["less", "diminutive"] },
             { "name": "a lot", "grammar": "more" }
         ],
         "noun": [
@@ -42,6 +43,11 @@
     },
     {
         "word": "pita",
+        "adjective": [
+            { "name": "boring", "grammar": "less" },
+            { "name": "fun", "grammar": "more" },
+            { "name": "enjoyable", "grammar": "more" }
+        ],
         "noun": [
             { "name": "disatisfaction", "grammar": "less" },
             { "name": "satisfaction", "grammar": "less" },
@@ -66,7 +72,7 @@
             { "name": "name", "grammar": "abstract" },
             { "name": "sentence", "grammar": ["more", "abstract"] }
         ],
-        "verbs": [
+        "verb": [
             "write",
             { "name": "say", "grammar": "abstract" }
         ]
@@ -82,7 +88,9 @@
             "have",
             "hold",
             { "name": "get", "grammar": "lative" },
-            { "name": "give", "grammar": "ablative" }
+            { "name": "give", "grammar": "ablative" },
+            { "name": "get rid of", "grammar": "ablative" },
+            { "name": "throw", "grammar": ["ablative", "intensifier"] }
         ]
     },
     {
@@ -101,7 +109,9 @@
     {
         "word": "loma",
         "noun": [
-            "food"
+            "food",
+            { "name": "vegetable", "grammar": "-vilea" },
+            { "name": "fruit", "grammar": ["sutosa...", "-vilea"] }
         ],
         "verb": [
             "eat"
@@ -227,7 +237,7 @@
         ]
     },
     {
-        "word": "havo",
+        "word": "mona",
         "descriptor": [
             { "name": "dead", "grammar": "less" },
             { "name": "alive", "grammar": "more" }
@@ -370,7 +380,9 @@
             "clock",
             "time",
             "moment",
-            { "name": "situation", "grammar": "abstract" }
+            { "name": "situation", "grammar": "abstract" },
+            { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] },
+            { "name": "again", "grammar": ["enisa...", "abstract"] }
         ]
     },
     {
@@ -383,13 +395,59 @@
         ]
     },
     {
+        "word": "toya",
+        "descriptor": [
+            { "name": "off", "grammar": "less" },
+            { "name": "inactive", "grammar": "less" },
+            { "name": "on", "grammar": "more" },
+            { "name": "active", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "state", "grammar": "abstract" }
+        ],
+        "verb": [
+            { "name": "sleep", "grammar": ["mona-", "less"] },
+            { "name": "rest", "grammar": ["mona-", "less"] },
+            { "name": "turn off", "grammar": ["less", "lative"] },
+            { "name": "inactivate", "grammar": ["less", "lative"] },
+            { "name": "turn on", "grammar": ["more", "lative"] },
+            { "name": "activate", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "tauko",
+        "descriptor": [
+            { "name": "broken", "grammar": "less" },
+            { "name": "split", "grammar": "less" },
+            { "name": "illness", "grammar": ["mona-", "less"] },
+            { "name": "intact", "grammar": "more" },
+            { "name": "whole", "grammar": "more" },
+            { "name": "health", "grammar": ["mona-", "more"] }
+        ],
+        "noun": [
+            { "name": "section", "grammar": "less" },
+            { "name": "piece", "grammar": "less" },
+            { "name": "part", "grammar": "less" },
+            { "name": "region", "grammar": "less" },
+            { "name": "sick", "grammar": ["mona-", "less"] },
+            { "name": "healthy", "grammar": ["mona-", "more"] }
+        ],
+        "verb": [
+            { "name": "break", "grammar": ["less", "lative"] },
+            { "name": "fix", "grammar": ["more", "lative"] },
+            { "name": "repair", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
         "word": "mio",
         "descriptor": [
             { "name": "before", "grammar": "less" },
             "now",
             { "name": "soon", "grammar": "diminutive" },
             { "name": "later", "grammar": "more" },
-            { "name": "then", "grammar": "more" }
+            { "name": "then", "grammar": "more" },
+            { "name": "until", "grammar": ["miove..."] },
+            { "name": "yet", "grammar": ["-tiko", "locative"] }
         ]
     },
     {
@@ -408,8 +466,10 @@
         ],
         "verb": [
             "think",
-            { "name": "know", "grammar": ["lave...", "inessive"] },
-            { "name": "understand", "grammar": ["lave...", "inessive"] }
+            { "name": "know", "grammar": ["lave...", "locative", "in"] },
+            { "name": "understand", "grammar": ["lave...", "locative", "in"] },
+            { "name": "learn", "grammar": ["lative", "in"] },
+            { "name": "study", "grammar": ["lative", "in"] }
         ]
     },
     {
@@ -452,7 +512,9 @@
             "liquid",
             "water",
             { "name": "gas", "grammar": "more" },
-            { "name": "air", "grammar": "more" }
+            { "name": "air", "grammar": "more" },
+            { "name": "lake", "grammar": ["-vuolave"] },
+            { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
         ]
     },
     {
@@ -573,18 +635,26 @@
     {
         "word": "vilea",
         "noun": [
-            "plant"
+            "plant",
+            { "name": "leaf", "grammar": "taukove-" }
         ]
     },
     {
         "word": "luume",
+        "adjective": [
+            { "name": "quiet", "grammar": "less" },
+            { "name": "loud", "grammar": "more" }
+        ],
         "noun": [
-            "ear",
-            { "name": "audio", "grammar": "abstract" }
+            { "name": "silence", "grammar": "less" },
+            { "name": "audio", "grammar": "objectification" },
+            { "name": "volume (audio)", "grammar": "abstract" },
+            { "name": "loudness", "grammar": "more" }
         ],
         "verb": [
-            "hear",
-            "listen"
+            { "name": "silence", "grammar": ["less", "lative"] },
+            { "name": "hear", "grammar": ["objectification", "...lawatu"] },
+            { "name": "louden", "grammar": ["more", "lative"] }
         ]
     },
     {
@@ -607,6 +677,19 @@
         ],
         "noun": [
             { "name": "temperature", "grammar": "abstract" }
+        ]
+    },
+    {
+        "word": "tamio",
+        "descriptor": [
+            { "name": "tired", "grammar": "less" },
+            { "name": "energetic", "grammar": "more" },
+            { "name": "alert", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "tiredness", "grammar": "less" },
+            { "name": "energy", "grammar": "more" },
+            { "name": "power", "grammar": "more" }
         ]
     },
     {
@@ -891,6 +974,7 @@
             { "name": "weak", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
+            { "name": "strong", "grammar": "more" },
             { "name": "tough", "grammar": "more" },
             { "name": "secure", "grammar": "more" }
         ]
@@ -1048,24 +1132,6 @@
         "word": "blu",
         "descriptor": [
             "blue"
-        ]
-    },
-    {
-        "word": "toya",
-        "descriptor": [
-            { "name": "off", "grammar": "less" },
-            { "name": "inactive", "grammar": "less" },
-            { "name": "on", "grammar": "more" },
-            { "name": "active", "grammar": "more" }
-        ],
-        "noun": [
-            { "name": "state", "grammar": "abstract" }
-        ],
-        "verb": [
-            { "name": "turn off", "grammar": ["less", "lative"] },
-            { "name": "inactivate", "grammar": ["less", "lative"] },
-            { "name": "turn on", "grammar": ["more", "lative"] },
-            { "name": "activate", "grammar": ["more", "lative"] }
         ]
     }
 ]

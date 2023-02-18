@@ -4,11 +4,15 @@ template = "base.html"
 +++
 ## Gradiency
 
+{{ gradiency_arrow() }}
+
 Gradiency is a way to change the meaning of a word.
 Words in the dictionary are written in neutral form.
 Words in the neutral form often have no English translation
 and are somehwere in-between the `less` form and the `more`
-form. The `more` form could for example imply a larger
+form.
+
+The `more` form could for example imply a larger
 size, more activity, more effort, more notable, more
 beneficial to the subject, and so on, depending on
 context.

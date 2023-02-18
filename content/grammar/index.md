@@ -5,7 +5,8 @@ template = "base.html"
 ## Word Order
 
 The word order is generally free, but words may be placed
-earlier in a sentence for emphasis.
+earlier in a sentence for emphasis. Adjectives go either
+right before or after the noun they describe.
 
 ## Verb Conjugation
 
@@ -23,7 +24,7 @@ to them. For example, `lavotin` (lative) means `I get`.
 | Tense/Person | 1st     | 2nd     | 3rd     | Relative |
 | ------------ | ------- | ------- | ------- | -------- |
 | Past         | -(i)nu  | -(i)su  | -(i)pu  | -(i)mu   |
-| Present      | -(i)n   | -(i)s   | -(i)p   | -(i)m    |
+| Present      | -(i)n   | -(i)s   | -(i)pi  | -(i)m    |
 | Future       | -(i)nas | -(i)sas | -(i)pas | -(i)mas  |
 
 #### Examples
@@ -158,7 +159,7 @@ completeness is relevant.
 | Nominative      | -      | -                         |
 | Genitive        | -lao   | possession                |
 | Accusative      | -t     | direct object             |
-| Lative          | -tu    | motion towards            |
+| Lative          | -tu    | motion towards, for       |
 | Ablative        | -tol   | motion from               |
 | Prolative       | -tat   | via, through, along       |
 | Partitive       | -tia   | direct object, incomplete |
@@ -178,6 +179,10 @@ completeness is relevant.
 {{ sentence(
     parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["tu", "lative"]]
     translation="I walk to you"
+) }}
+{{ sentence(
+    parts=[["eni", "-"], ["paa", "3", "nd"], [], ["eni", "-"], ["saa", "2", "nd"], ["tu", "lative"]]
+    translation="It is for you"
 ) }}
 {{ sentence(
     parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["tol", "ablative"]]
@@ -200,7 +205,7 @@ completeness is relevant.
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["valo", "dark/bright"], ["ve", "less"], ["p", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
     translation="I am at home"
 ) }}
 

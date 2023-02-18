@@ -127,6 +127,9 @@
     },
     {
         "word": "uti",
+        "adjective": [
+            "capable"
+        ],
         "noun": [
             "ability"
         ],
@@ -274,10 +277,10 @@
         "word": "pena",
         "descriptor": [
             { "name": "bad", "grammar": "less" },
-            { "name": "good", "grammar": "more" },
             { "name": "terrible", "grammar": ["less", "intensifier"] },
-            { "name": "great", "grammar": ["more", "intensifier"] },
             { "name": "mediocre", "grammar": ["less", "diminutive"] },
+            { "name": "good", "grammar": "more" },
+            { "name": "great", "grammar": ["more", "intensifier"] },
             { "name": "decent", "grammar": ["more", "diminutive"] }
         ]
     },
@@ -340,15 +343,28 @@
         ]
     },
     {
-        "word": "tama",
+        "word": "mue",
         "descriptor": [
-            "this"
+            { "name": "dangerous", "grammar": "less" },
+            { "name": "safe", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "danger", "grammar": "less" },
+            { "name": "security", "grammar": "more" }
         ]
     },
     {
-        "word": "sela",
+        "word": "tama",
         "descriptor": [
-            "that"
+            "this",
+            "these"
+        ]
+    },
+    {
+        "word": "soi",
+        "descriptor": [
+            "that",
+            "those"
         ]
     },
     {
@@ -576,6 +592,14 @@
         ]
     },
     {
+        "word": "noki",
+        "verb": [
+            { "name": "lie down", "grammar": "less" },
+            "sit",
+            { "name": "stand", "grammar": "more" }
+        ]
+    },
+    {
         "word": "siemo",
         "noun": [
             "torso",
@@ -629,7 +653,8 @@
     {
         "word": "luono",
         "noun": [
-            "nature"
+            "nature",
+            "environment"
         ]
     },
     {
@@ -741,6 +766,7 @@
         "word": "osta",
         "verb": [
             { "name": "sell", "grammar": "less" },
+            "exchange",
             { "name": "buy", "grammar": "more" }
         ]
     },
@@ -782,7 +808,7 @@
         ]
     },
     {
-        "word": "polto",
+        "word": "topai",
         "noun": [
             "way",
             "road",
@@ -872,7 +898,11 @@
     {
         "word": "mebio",
         "noun": [
-            "furniture"
+            "furniture",
+            { "name": "chair", "grammar": ["noki-"] },
+            { "name": "table", "grammar": ["kinenoka-"] },
+            { "name": "bed", "grammar": ["monave-"] },
+            { "name": "cupboard", "grammar": ["lauku-"] }
         ]
     },
     {
@@ -924,6 +954,9 @@
             { "name": "short", "grammar": "less" },
             { "name": "long", "grammar": "more" },
             { "name": "tall", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "grow (taller)", "grammar": ["more", "comparative", "lative"] }
         ]
     },
     {
@@ -963,8 +996,10 @@
     {
         "word": "kauni",
         "descriptor": [
+            { "name": "hideous", "grammar": ["less", "intensifier"] },
             { "name": "ugly", "grammar": "less" },
-            { "name": "pretty", "grammar": "more" }
+            { "name": "pretty", "grammar": "more" },
+            { "name": "beautiful", "grammar": ["more", "intensifier"] }
         ]
     },
     {
@@ -1062,6 +1097,7 @@
     {
         "word": "laise",
         "noun": [
+            { "name": "digit", "grammar": ["less"] },
             "number"
         ],
         "verb": [

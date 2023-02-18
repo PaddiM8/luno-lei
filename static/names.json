@@ -23,6 +23,12 @@
         "full": "noun/descriptor",
         "class": "nd"
     },
+    "past": {
+        "full": "past tense"
+    },
+    "future": {
+        "full": "future tense"
+    },
     "less": {
         "full": "less",
         "class": "less"
@@ -73,6 +79,10 @@
     },
     "accusative": {
         "full": "accusative",
+        "class": "case"
+    },
+    "dative": {
+        "full": "dative",
         "class": "case"
     },
     "lative": {

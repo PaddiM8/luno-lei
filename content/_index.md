@@ -21,7 +21,7 @@ word using simple grammatical rules.
 ### What it is not
 * Not as simple as Toki Pona - being as easy as possible to learn is not a goal
 * Often does not result in compact sentences
-* Not meant to allow for particularly precise communication, similar to Toki Pona
+* Not meant for precise communication (sometimes it's mcuh easier to be precise than in English, but often harder)
 * Not strict with word usage - if a sentence follows the
   grammatical rules and is comphrehended, it is completely valid
 
@@ -43,23 +43,66 @@ words to see the meaning/purpose.
     translation="It is big, not small"
 ) }}
 {{ sentence(
-    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["mona", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["p", "3", "verb"]],
+    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["mona", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
     translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
 ) }}
+{{
+    sentence(
+        parts=[
+            ["dei", "angry/-"],
+            ["ve", "less"],
+            [],
+            ["vesi", "solid/liquid/(gas, air)"],
+            ["sva", "more", "nd"],
+            [],
+            ["go", "abstract"],
+            ["noka", "leg"],
+            ["pu", "3", "verb", "past"],
+            [],
+            ["baume", "tree"],
+            ["tat", "prolative"],
+            ["wo", "inter"],
+            [],
+            ["baume", "tree"],
+            ["sa", "more"],
+            ["ti", "locative"],
+            [],
+            ["ay", "and"],
+            [],
+            ["mona", "dead being/(living being, animal)"],
+            ["sva", "more", "nd"],
+            ["ye", "plural"],
+            [],
+            ["koeta", "try"],
+            ["pu", "3", "verb", "past"],
+            [],
+            ["mue", "dangerous/safe"],
+            ["sa", "more"],
+            [],
+            ["kotu", "location, place of stay"],
+            ["t", "accusative"],
+            [],
+            ["aula", "eye, see"],
+            ["slu", "passive"]
+        ],
+        translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
+    )
+}}
 {{ sentence(
     parts=[
         ["mou", "scared/secure"],
         ["ve", "less"],
         ["n", "1", "verb"],
         [],
-        ["ike", "some"],
-        [],
-        ["ato", "eight"],
-        ["noka", "foot"],
+        ["lanka", "thread"],
         ["mona", "dead thing/living thing"],
         ["sva", "more", "noun"],
-        ["tae", "diminutive"]
+        ["tae", "diminutive"],
+        [],
+        ["(ato", "eight"],
+        ["noka", "foot"],
+        ["da)", "dative"]
     ],
-    translation="I am scared of some eight legged small animals (spiders)"
+    translation="I am scared of spiders"
 )
 }}

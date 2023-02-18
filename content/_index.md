@@ -12,8 +12,8 @@ For example, the words for `small`, `huge`, `size`,
 word using simple grammatical rules.
 
 ### What it is
-* The entire language could fit on a poster
 * Optimised for getting by with a small vocabulary
+* The entire language could fit on a poster
 * Has a rich and flexible grammar 
 * A fun way to play around with language and finding
   creative ways of expressing oneself
@@ -21,9 +21,9 @@ word using simple grammatical rules.
 ### What it is not
 * Not as simple as Toki Pona - being as easy as possible to learn is not a goal
 * Often does not result in compact sentences
-* Not meant for precise communication (sometimes it's mcuh easier to be precise than in English, but often harder)
+* Not meant for precise communication (sometimes it's easier to be precise than in English, but often harder)
 * Not strict with word usage - if a sentence follows the
-  grammatical rules and is comphrehended, it is completely valid
+  grammatical rules and is comprehended, it is completely valid
 
 ## Examples
 

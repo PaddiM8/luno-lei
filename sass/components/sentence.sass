@@ -4,45 +4,26 @@
 .sentence .part
     position: relative
     margin-right: -5px
+    line-height: 1.5
 
-.nd .text
-    border-color: #009688
+@mixin dot-color($class, $color)
+    .#{$class} .text
+        border-color: $color
 
-.verb .text
-    border-color: #7CB342
+    .#{$class} .text:hover
+        border-color: darken($color, 20%)
 
-.less .text
-    border-color: #42A5F5
-
-.more .text
-    border-color: #FB8C00
-
-.diminutive .text
-    border-color: #D81B60
-
-.intensifier .text
-    border-color: #E53935
-
-.abstract .text
-    border-color: #8E24AA
-
-.objectification .text
-    border-color: #00ACC1
-
-.comparative .text
-    border-color: #AEEA00
-
-.plural .text
-    border-color: #F4511E
-
-.case .text
-    border-color: #039BE5
-
-.stacking .text
-    border-color: #00897B
-
-.voice .text
-    border-color: #6D4C41
-
-.mood .text
-    border-color: #546E7A
+@include dot-color("nd", #009688)
+@include dot-color("verb", #7CB342)
+@include dot-color("less", #42A5F5)
+@include dot-color("more", #FB8C00)
+@include dot-color("diminutive", #D81B60)
+@include dot-color("intensifier", #E53935)
+@include dot-color("abstract", #8E24AA)
+@include dot-color("objectification", #00ACC1)
+@include dot-color("comparative", #AEEA00)
+@include dot-color("plural", #F4511E)
+@include dot-color("case", #039BE5)
+@include dot-color("stacking", #00897B)
+@include dot-color("voice", #6D4C41)
+@include dot-color("mood", #546E7A)

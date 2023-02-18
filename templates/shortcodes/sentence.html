@@ -1,35 +1,37 @@
 {% set names = load_data(path="static/names.json") %}
 
 <div class="sentence example">
-    {% for part in parts %}
-        {% if part | length == 0 %}
-            <span>&nbsp;</span>
-            {% continue %}
-        {% elif part | length == 1 %}
-            <span class="part">{{ part[0] }}</span>
-        {% endif %}
-
-        {% set_global tooltip = "" %}
-        {% set_global class = "" %}
-        {% for i in range(start=1, end=part | length) %}
-            {% set meaning = part[i] %}
-            {% if meaning in names %}
-                {% set entry = names[part[i]] %}
-                {% if "class" in entry %}
-                    {% set_global class = [class, entry["class"]] | join(sep=" ") %}
-                {% endif %}
-
-                {% set_global tooltip = [tooltip, "<p class='rule'>", entry["full"], "</p>"] | join %}
-            {% else %}
-                {% set_global tooltip = [tooltip, "<p class='word'>", meaning, "</p>"] | join %}
+    <span class="word">
+        {% for part in parts %}
+            {% if part | length == 0 %}
+                </span> <span class="word">
+                {% continue %}
+            {% elif part | length == 1 %}
+                <span class="part">{{ part[0] }}</span>
             {% endif %}
-        {% endfor %}
 
-        <span class="part hoverable {{ class }}">
-            <span class="text">{{ part[0] }}</span>
-            <span class="tooltip">{{ tooltip | safe }}</span>
-        </span>
-    {% endfor %}
+            {% set_global tooltip = "" %}
+            {% set_global class = "" %}
+            {% for i in range(start=1, end=part | length) %}
+                {% set meaning = part[i] %}
+                {% if meaning in names %}
+                    {% set entry = names[part[i]] %}
+                    {% if "class" in entry %}
+                        {% set_global class = [class, entry["class"]] | join(sep=" ") %}
+                    {% endif %}
+
+                    {% set_global tooltip = [tooltip, "<p class='rule'>", entry["full"], "</p>"] | join %}
+                {% else %}
+                    {% set_global tooltip = [tooltip, "<p class='translated'>", meaning, "</p>"] | join %}
+                {% endif %}
+            {% endfor %}
+
+            <span class="part hoverable {{ class }}">
+                <span class="text">{{ part[0] }}</span>
+                <span class="tooltip">{{ tooltip | safe }}</span>
+            </span>
+        {% endfor %}
+    </span>
 
     {% if translation %}
         <p>{{ translation | safe }}</p>

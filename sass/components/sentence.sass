@@ -1,12 +1,16 @@
 .sentence
     font-size: 1.05em
 
+.sentence .word
+    margin-right: 0.5em
+    white-space: nowrap
+
 .sentence .part
     position: relative
     margin-right: -5px
     line-height: 1.5
 
-    .word::before, .word::after
+    .translated::before, .translated::after
         content: '"'
 
 @mixin dot-color($class, $color)

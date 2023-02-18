@@ -42,10 +42,6 @@ words to see the meaning/purpose.
     parts=[["ike", "sa"], ["pes,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ikeve", "small"]],
     translation="It is big, not small"
 ) }}
-{{ sentence(
-    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["mona", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
-    translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
-) }}
 {{
     sentence(
         parts=[
@@ -88,6 +84,25 @@ words to see the meaning/purpose.
         translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
     )
 }}
+{{ sentence(
+    parts=[
+        ["mauto", "underground/ground/sky"],
+        ["sva", "more", "noun"],
+        ["mona", "dead being/living being"],
+        ["sva", "more", "noun"],
+        ["ye", "plural"],
+        [],
+        ["vesi", "liquid"],
+        ["vuola", "hole/bump"],
+        ["ste", "less", "noun"],
+        ["lao", "genitive"],
+        [],
+        ["sita", "inside/core/outside"],
+        ["sa", "more"],
+        ["paa", "3", "nd"]
+    ],
+    translation="The ducks are outside<br>(the birds of the puddle are outside)"
+) }}
 {{ sentence(
     parts=[
         ["mou", "scared/secure"],

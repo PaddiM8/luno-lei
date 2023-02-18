@@ -33,15 +33,15 @@ words to see the meaning/purpose.
     translation="I eat"
 ) }}
 {{ sentence(
-    parts=[["loma", "food"], ["peo", "3", "nd"]],
+    parts=[["loma", "food"], ["paa", "3", "nd"]],
     translation="It is food"
 ) }}
 {{ sentence(
-    parts=[["ike", "sa"], ["peo,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ikeve", "small"]],
+    parts=[["ike", "sa"], ["pes,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ikeve", "small"]],
     translation="It is big, not small"
 ) }}
 {{ sentence(
-    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["havo", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
+    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["havo", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["p", "3", "verb"]],
     translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
 ) }}
 {{ sentence(

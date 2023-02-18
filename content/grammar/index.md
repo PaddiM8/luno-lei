@@ -16,12 +16,15 @@ becomes `to foot` or `to walk`.
 Relative person can be translated to *who*, *whom*,
 *whose*, *which*, *that*, etc. in English.
 
+It is possible to verbify nouns with cases applied
+to them. For example, `lavotin` (lative) means `I get`.
+
 ### Singular
-| Tense/Person | 1st   | 2nd   | 3rd   | Relative |
-| ------------ | ----- | ----- | ----- | -------- |
-| Past         | -nu   | -su   | -pu   | -mu      |
-| Present      | -n(i) | -s(i) | -pi   | -mi      |
-| Future       | -naso | -saso | -paso | -maso    |
+| Tense/Person | 1st     | 2nd     | 3rd     | Relative |
+| ------------ | ------- | ------- | ------- | -------- |
+| Past         | -(i)nu  | -(i)su  | -(i)pu  | -(i)mu   |
+| Present      | -(i)n   | -(i)s   | -(i)p   | -(i)m    |
+| Future       | -(i)nas | -(i)sas | -(i)pas | -(i)mas  |
 
 #### Examples
 {{ sentence(
@@ -61,11 +64,11 @@ results in `to be small`. With verb conjugation, it
 would instead refer to "to decrease`.
 
 ### Singular
-| Tense/Person | 1st   | 2nd   | 3rd   | Relative |
-| ------------ | ----- | ----- | ----- | -------- |
-| Past         | -noa  | -soa  | -poa  | -moa     |
-| Present      | -neo  | -seo  | -peo  | -meo     |
-| Future       | -nowi | -sowi | -powi | -mowi    |
+| Tense/Person | 1st     | 2nd     | 3rd     | Relative |
+| ------------ | ------- | ------- | ------- | -------- |
+| Past         | -(i)not | -(i)sot | -(i)pot | -(i)mot  |
+| Present      | -(i)naa | -(i)saa | -(i)paa | -(i)mes  |
+| Future       | -(i)now | -(i)sow | -(i)pow | -(i)mow  |
 
 #### Examples
 {{ sentence(
@@ -165,7 +168,7 @@ completeness is relevant.
 
 #### Examples
 {{ sentence(
-    parts=[["vilea", "plant"], [], ["eni", "-"], ["ni", "1", "verb"], ["lao", "genitive"]]
+    parts=[["vilea", "plant"], [], ["eni", "-"], ["n", "1", "verb"], ["lao", "genitive"]]
     translation="My plant"
 ) }}
 {{ sentence(
@@ -173,11 +176,11 @@ completeness is relevant.
     translation="I have a plant"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["tu", "lative"]]
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["tu", "lative"]]
     translation="I walk to you"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["tol", "ablative"]]
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["tol", "ablative"]]
     translation="I walk from you"
 ) }}
 {{ sentence(
@@ -189,7 +192,7 @@ completeness is relevant.
     translation="I read part of a book"
 ) }}
 {{ sentence(
-    parts=[["muni", "mouth"], ["n", "1", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["da", "dative"]]
+    parts=[["muni", "mouth"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["da", "dative"]]
     translation="I talk to you"
 ) }}
 {{ sentence(
@@ -197,7 +200,7 @@ completeness is relevant.
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["p", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
     translation="I am at home"
 ) }}
 
@@ -236,11 +239,11 @@ nil word.
 
 #### Examples
 {{ sentence(
-    parts=[["eni", "-"], ["ni", "1", "verb"], ["t", "accusative"]]
+    parts=[["eni", "-"], ["naa", "1", "nd"], ["t", "accusative"]]
     translation="Me"
 ) }}
 {{ sentence(
-    parts=[["eni", "-"], ["pi", "3", "verb"], [], ["eni", "-"], ["si", "2", "verb"], ["kus", "semblative"]]
+    parts=[["eni", "-"], ["paa", "3", "nd"], [], ["eni", "-"], ["saa", "2", "nd"], ["kus", "semblative"]]
     translation="It is similar to you"
 ) }}
 
@@ -248,7 +251,7 @@ nil word.
 
 ### Passive
 
-<span class="suffix">-slu</span>
+<span class="suffix">-(i)slu</span>
 
 The passive voice is used as a "zero person". It can also be used
 to verbify a word without specifying a person (eg. leg -> to walk).
@@ -269,10 +272,10 @@ to verbify a word without specifying a person (eg. leg -> to walk).
 
 Expresses a demand or wish.
 
-|                     | Suffix |
-| ------------------- | ------ |
-| Verbs               | -stu   |
-| Nouns & Descriptors | -stoa  |
+|                     | Suffix   |
+| ------------------- | -------- |
+| Verbs               | -(i)stu  |
+| Nouns & Descriptors | -(i)stoa |
 
 #### Examples
 {{ sentence(
@@ -295,11 +298,7 @@ Suffix priority:
 1. Gradiency
 2. Intensifier/diminutive
 3. Number
+3. Case
 4. Mood
 5. Voice
 6. Conjugation
-7. Case
-
-### Compounds
-
-Words should be compounded when appropriate (WIP).

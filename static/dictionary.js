@@ -94,8 +94,12 @@ function createList(dictionary, names) {
 function updateWordCount(dictionary) {
     let derivedCount = 0;
     for (const word of dictionary) {
-        for (const value of Object.values(word))
-            derivedCount += 1 + value.length;
+        for (const value of Object.values(word)) {
+            const length = Array.isArray(value)
+                ? value.length
+                : 0;
+            derivedCount += 1 + length;
+        }
     }
 
     const wordCountElement = document.getElementById("word-count");

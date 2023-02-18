@@ -15,6 +15,10 @@
         "full": "verb",
         "class": "verb"
     },
+    "noun": {
+        "full": "noun",
+        "class": "noun"
+    },
     "nd": {
         "full": "noun/descriptor",
         "class": "nd"

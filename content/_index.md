@@ -41,7 +41,7 @@ words to see the meaning/purpose.
     translation="It is big, not small"
 ) }}
 {{ sentence(
-    parts=[["mauto", "underground/ground/sky"], ["sva", "more"], ["havo", "dead being/living being"], ["sva", "more"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
+    parts=[["mauto", "underground/ground/sky"], ["sva", "more", "noun"], ["havo", "dead being/living being"], ["sva", "more", "noun"], ["ye", "plural"], [], ["su", "person-plural"], [], ["go", "abstract"], ["vesi", "liquid"], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["mi", "relative", "verb"], [], ["sita", "inside/core/outside"], ["sa", "more"], ["pi", "3", "verb"]],
     translation="The ducks (puddle birds) are outside<br>(the birds that puddle are outside)"
 ) }}
 {{ sentence(
@@ -55,7 +55,7 @@ words to see the meaning/purpose.
         ["ato", "eight"],
         ["noka", "foot"],
         ["havo", "dead thing/living thing"],
-        ["sva", "more"],
+        ["sva", "more", "noun"],
         ["tae", "diminutive"]
     ],
     translation="I am scared of some eight legged small animals (spiders)"

@@ -181,11 +181,11 @@ completeness is relevant.
     translation="I walk from you"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vuola", "hole/bump"], ["ve", "less"], ["tat", "prolative"]]
+    parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["tat", "prolative"]]
     translation="You walk through the hole"
 ) }}
 {{ sentence(
-    parts=[["lipo", "note"], ["sa", "more"], ["tia", "partitive"], ["n", "1", "verb"]]
+    parts=[["lipo", "note"], ["sva", "more", "noun"], ["tia", "partitive"], ["n", "1", "verb"]]
     translation="I read part of a book"
 ) }}
 {{ sentence(
@@ -197,7 +197,7 @@ completeness is relevant.
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ve", "less"], ["kus", "semblative"]]
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
     translation="I am at home"
 ) }}
 
@@ -276,7 +276,7 @@ Expresses a demand or wish.
 
 #### Examples
 {{ sentence(
-    parts=[["lipo", "note"], ["sa", "more"], ["stu", "imperative"]]
+    parts=[["lipo", "note"], ["sva", "more", "noun"], ["stu", "imperative"]]
     translation="Read a book"
 ) }}
 {{ sentence(
@@ -284,7 +284,7 @@ Expresses a demand or wish.
     translation="Be calm"
 ) }}
 {{ sentence(
-    parts=[["lipo", "note"], ["sa", "more"], ["stu", "imperative"], ["s", "2", "verb"]]
+    parts=[["lipo", "note"], ["sva", "more", "noun"], ["stu", "imperative"], ["s", "2", "verb"]]
     translation="You should read a book"
 ) }}
 

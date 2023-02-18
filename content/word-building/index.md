@@ -36,11 +36,11 @@ context.
     translation="Hand"
 ) }}
 {{ sentence(
-    parts=[["lavo", "hand"], ["ste", "less"]]
+    parts=[["lavo", "hand"], ["ste", "less", "noun"]]
     translation="Finger"
 ) }}
 {{ sentence(
-    parts=[["lavo", "hand"], ["sva", "more"]]
+    parts=[["lavo", "hand"], ["sva", "more", "noun"]]
     translation="Arm"
 ) }}
 
@@ -77,7 +77,7 @@ diminutive form tones it down.
     translation="I walk"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["sva", "more"]]
+    parts=[["noka", "foot"], ["sva", "more", "noun"]]
     translation="leg (without diminutive)"
 ) }}
 {{ sentence(
@@ -85,7 +85,7 @@ diminutive form tones it down.
     translation="I run"
 ) }}
 {{ sentence(
-    parts=[["lavo", "hand"], ["ve", "less"], ["tae", "diminutive"]]
+    parts=[["lavo", "hand"], ["ste", "less", "noun"], ["tae", "diminutive"]]
     translation="A small finger/pinky"
 ) }}
 

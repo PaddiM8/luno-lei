@@ -208,3 +208,33 @@ gradiency form to a number.
     parts=[["tu", "two"], ["seke", "six"], [], ["dek", "*10^"], [], ["kuuso", "five"]]
     translation="26 000 (2.6*10^5)"
 ) }}
+
+## Countries & Languages
+
+Countries are expressed by combining an ISO 3166 country
+code with `(e)leisa`. Language names are expressed
+by combining an ISO 639-1 language code with `(e)gomuni`.
+
+When a code can not be pronounced easily (eg. `cz`),
+the letters are pronounced with an `e` sound in-between
+them. Letters that do not exist in Luno Lei are pronounced
+as follows:
+
+| Letter | Pronunciation |
+| ------ | ------------- |
+| C      | tse           |
+| J      | yie           |
+| Q      | ku            |
+| R      | hye           |
+| X      | kse           |
+| Z      | sie           |
+
+#### Examples
+{{ sentence(
+    parts=[["se", "country-code"], ["lei", "place"], ["sa", "more"]]
+    translation="Sweden"
+) }}
+{{ sentence(
+    parts=[["sv", "language-code"], ["e", "e"], ["go", "abstract"], ["muni", "mouth"]]
+    translation="Swedish"
+) }}

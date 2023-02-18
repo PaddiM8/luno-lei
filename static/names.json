@@ -134,5 +134,13 @@
     "imperative": {
         "full": "Imperative/Optative",
         "class": "mood"
+    },
+    "country-code": {
+        "full": "Country code",
+        "class": "code"
+    },
+    "language-code": {
+        "full": "Language code",
+        "class": "code"
     }
 }

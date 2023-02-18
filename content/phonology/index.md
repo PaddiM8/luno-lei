@@ -53,6 +53,9 @@ template = "base.html"
     </tr>
 </table>
 
+Two identical letters after each other produce a
+longer sound.
+
 ## Phonotactics
 
 (C)(C)V(C)(C)

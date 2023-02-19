@@ -378,6 +378,9 @@
         "word": "paika",
         "noun": [
             "reason"
+        ],
+        "other": [
+            { "name": "because", "grammar": "semblative" }
         ]
     },
     {
@@ -399,6 +402,10 @@
             { "name": "situation", "grammar": "abstract" },
             { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] },
             { "name": "again", "grammar": ["enisa...", "abstract"] }
+        ],
+        "other": [
+            { "name": "when", "grammar": "locative" },
+            { "name": "if", "grammar": ["abstract", "locative"] }
         ]
     },
     {
@@ -471,6 +478,19 @@
         "descriptor": [
             { "name": "early", "grammar": "less" },
             { "name": "late", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "valta",
+        "descriptor": [
+            "decided"
+        ],
+        "noun": [
+            { "name": "decision", "grammar": "objectification" },
+            { "name": "rule", "grammar": "objectification" }
+        ],
+        "verb": [
+            "decide"
         ]
     },
     {
@@ -1007,10 +1027,12 @@
         "descriptor": [
             { "name": "insecure", "grammar": "less" },
             { "name": "weak", "grammar": "less" },
+            { "name": "instable", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
             { "name": "strong", "grammar": "more" },
             { "name": "tough", "grammar": "more" },
+            { "name": "stable", "grammar": "more" },
             { "name": "secure", "grammar": "more" }
         ]
     },

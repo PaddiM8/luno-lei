@@ -59,7 +59,7 @@ and the `intensifier` form of a word may be similar.
 
 Often, intensifiers and diminutives are stacked
 on top of gradiency suffixes as a way to be more
-specific. For example, applying both the "more`
+specific. For example, applying both the `more`
 form and the diminutive form to `varma` (lukewarm)
 results in `slightly warm`. In this example,
 gradiency is used to express warmth, while the

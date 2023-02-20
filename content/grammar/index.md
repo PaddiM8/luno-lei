@@ -258,7 +258,7 @@ nil word.
 
 <span class="suffix">-(i)slu</span>
 
-The passive voice is used as a "zero person". It can also be used
+The passive voice is used as an unspecified person. It can also be used
 to verbify a word without specifying a person (eg. leg -> to walk).
 
 #### Examples

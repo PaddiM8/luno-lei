@@ -56,10 +56,6 @@ template = "base.html"
 Two identical letters after each other produce a
 longer sound.
 
-## Phonotactics
-
-(C)(C)V(C)(C)
-
 ## Stress
 
 Stress is always on the first syllable.

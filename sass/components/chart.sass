@@ -3,15 +3,15 @@
 @include scroll-hint(492px, ".chart")
 
 .chart
-    width: 100%
-    min-width: 430px
     padding: 1em
     margin-top: 1em
-    overflow-x: scroll
+    overflow-x: auto
 
-    .arrow
+    .arrow, .line, .section
+        min-width: 430px
+
+    .line
         position: relative
-        width: 100%
         border-bottom: 2px solid #757575
 
         &::before, &::after

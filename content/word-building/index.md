@@ -120,7 +120,10 @@ used.
 <span class="prefix">go(t)-</span>
 
 A noun can be made more abstract or generalised by
-applying the abstractification prefix.
+applying the abstractification prefix. This is
+only necessary when it is relevant to be specific
+about abstractness. A lack of the abstractification
+form does not necessarily imply concreteness.
 
 #### Examples
 {{ sentence(

@@ -88,7 +88,9 @@
             "have",
             "hold",
             { "name": "get", "grammar": "lative" },
+            { "name": "send", "grammar": "lative" },
             { "name": "give", "grammar": "ablative" },
+            { "name": "receive", "grammar": "ablative" },
             { "name": "get rid of", "grammar": "ablative" },
             { "name": "throw", "grammar": ["ablative", "intensifier"] }
         ]
@@ -498,14 +500,16 @@
         "noun": [
             "head",
             { "name": "mind", "grammar": "abstract" },
-            { "name": "thought", "grammar": ["abstract", "diminutive"] }
+            { "name": "thought", "grammar": ["abstract", "diminutive"] },
+            { "name": "memory", "grammar": ["abstract", "lave-"] }
         ],
         "verb": [
             "think",
             { "name": "know", "grammar": ["lave...", "locative", "in"] },
             { "name": "understand", "grammar": ["lave...", "locative", "in"] },
             { "name": "learn", "grammar": ["lative", "in"] },
-            { "name": "study", "grammar": ["lative", "in"] }
+            { "name": "study", "grammar": ["lative", "in"] },
+            { "name": "remember", "grammar": ["abstract", "-lave"] }
         ]
     },
     {
@@ -528,7 +532,9 @@
         ],
         "noun": [
             { "name": "removal", "grammar": "less" },
-            { "name": "addition", "grammar": "more" }
+            { "name": "addition", "grammar": "more" },
+            { "name": "trash", "grammar": ["less", "-oni"] },
+            { "name": "garbage", "grammar": ["less", "-oni"] }
         ],
         "verb": [
             { "name": "revert", "grammar": "less" },
@@ -594,6 +600,7 @@
             { "name": "begin", "grammar": "less" },
             { "name": "start", "grammar": "less" },
             { "name": "end", "grammar": "more" },
+            { "name": "kill", "grammar": ["mona-", "more"] },
             { "name": "stop", "grammar": "more" }
         ]
     },
@@ -632,7 +639,8 @@
         "noun": [
             "computer",
             "device",
-            "caculator"
+            "caculator",
+            { "name": "camera", "grammar": "-aula" }
         ],
         "verb": [
             "compute",
@@ -674,7 +682,28 @@
         "word": "luono",
         "noun": [
             "nature",
-            "environment"
+            "environment",
+            { "name": "sky", "grammar": "sunasa-" },
+            { "name": "sun", "grammar": ["valosalo...", "genitive"] }
+        ]
+    },
+    {
+        "word": "ekli",
+        "descriptor": [
+            { "name": "disgusting", "grammar": ["less", "intensifier"] },
+            { "name": "bad tasting", "grammar": "less" },
+            { "name": "dirty", "grammar": "less" },
+            { "name": "tasty", "grammar": "more" },
+            { "name": "clean", "grammar": "more" },
+            { "name": "delicious", "grammar": ["more", "intact"] }
+        ],
+        "noun": [
+            { "name": "flavour", "grammar": "objectification" },
+            { "name": "cleanliness", "grammar": "objectification" }
+        ],
+        "verb": [
+            { "name": "make dirty", "grammar": ["less", "lative"] },
+            { "name": "clean", "grammar": ["more", "lative"] }
         ]
     },
     {
@@ -749,7 +778,13 @@
     {
         "word": "petuno",
         "noun": [
-            "vehicle"
+            "vehicle",
+            { "name": "car", "grammar": "nelalunolo-" },
+            { "name": "bus", "grammar": ["nelalunolo-", "intensifier"] },
+            { "name": "bike", "grammar": "noka-" },
+            { "name": "boat", "grammar": "vesi-" },
+            { "name": "train", "grammar": "mautopalina-" },
+            { "name": "airplane", "grammar": "vesisa-" }
         ]
     },
     {
@@ -862,7 +897,7 @@
         ]
     },
     {
-        "word": "palisa",
+        "word": "palina",
         "noun": [
             "long hard thing",
             "stick",
@@ -1120,7 +1155,8 @@
         "word": "laise",
         "noun": [
             { "name": "digit", "grammar": ["less"] },
-            "number"
+            "number",
+            "amount"
         ],
         "verb": [
             "count"
@@ -1129,7 +1165,10 @@
     {
         "word": "tu",
         "descriptor": [
-            "two"
+            "two",
+            "secondly",
+            "too",
+            "also"
         ]
     },
     {

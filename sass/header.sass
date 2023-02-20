@@ -1,7 +1,7 @@
 header
     display: flex
     flex-direction: column
-    padding-top: 0.8em
+    padding-top: 1.8em
     text-align: center
     margin: 0 auto
     font-weight: 500
@@ -9,14 +9,23 @@ header
     .logo
         display: flex
         margin: 0 auto
+        margin-bottom: 1em
 
         svg
             width: 3em
-            margin-right: 0.8em
+            margin-right: 1em
             height: auto
 
         h1
             font-weight: 600
+            margin: 0
+
+            .tooltip
+                font-size: 0.4em
+
+            // Dots
+            & .text::after
+                margin-top: 0.05em
 
 nav ul
     padding-left: 0

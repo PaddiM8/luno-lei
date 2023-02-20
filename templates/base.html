@@ -39,7 +39,16 @@
         <header>
             <div class="logo">
                 {{ load_data(path="static/duck.svg") | safe }}
-                <h1>Luno Lei</h1>
+                <h1>
+                    <span class="hoverable">
+                        <span class="text">Luno</span>
+                        <span class="tooltip">"round"</span>
+                    </span>
+                    <span class="hoverable">
+                        <span class="text">Lei</span>
+                        <span class="tooltip">"place"</span>
+                    </span>
+                </h1>
             </div>
             <nav>
                 <ul class="nav-items">

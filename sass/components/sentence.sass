@@ -14,11 +14,11 @@
         content: '"'
 
 @mixin dot-color($class, $color)
-    .#{$class} .text
-        border-color: $color
+    .#{$class} .text::after
+        color: $color
 
-    .#{$class} .text:hover
-        border-color: darken($color, 20%)
+    .#{$class} .text:hover::after
+        color: darken($color, 20%)
 
 @include dot-color("nd", #009688)
 @include dot-color("verb", #7CB342)

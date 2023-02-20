@@ -2,8 +2,29 @@
     position: relative
 
     .text
-        border-bottom: 2.5px dotted #BDBDBD
+        position: relative
         cursor: default
+
+        &::after
+            $size: 1.25em
+            position: absolute
+            display: inline-block
+            top: 0
+            left: 0
+
+            content: '...............'
+            max-width: 100%
+            max-height: $size
+            overflow: hidden
+            overflow-wrap: break-word
+            white-space: pre-wrap
+
+            font-size: $size
+            text-align: center
+            color: #BDBDBD
+
+        &:hover::after
+            color: darken(#BDBDBD, 20%)
 
     .tooltip
         display: none

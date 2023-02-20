@@ -4,7 +4,7 @@ template = "base.html"
 +++
 ## Alphabet
 
-<table>
+<table class="alphabet">
     <tr>
         <th>Letter</th>
         <td>A</td>

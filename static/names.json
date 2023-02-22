@@ -38,19 +38,19 @@
         "class": "more"
     },
     "diminutive": {
-        "full": "Diminutive",
+        "full": "diminutive",
         "class": "diminutive"
     },
     "intensifier": {
-        "full": "Intensifier",
+        "full": "intensifier",
         "class": "intensifier"
     },
     "abstract": {
-        "full": "Abstractification",
+        "full": "abstractification",
         "class": "abstract"
     },
     "objectification": {
-        "full": "Objectification",
+        "full": "objectification",
         "class": "objectification"
     },
     "person-plural": {
@@ -110,47 +110,47 @@
         "class": "case"
     },
     "in": {
-        "full": "In-",
+        "full": "in-",
         "class": "stacking"
     },
     "super": {
-        "full": "Super-",
+        "full": "super-",
         "class": "stacking"
     },
     "sub": {
-        "full": "Sub-",
+        "full": "sub-",
         "class": "stacking"
     },
     "behind": {
-        "full": "Behind",
+        "full": "behind",
         "class": "stacking"
     },
     "front": {
-        "full": "In front",
+        "full": "in front",
         "class": "stacking"
     },
     "adjacent": {
-        "full": "Adjacent",
+        "full": "adjacent",
         "class": "stacking"
     },
     "inter": {
-        "full": "Inter-",
+        "full": "inter-",
         "class": "stacking"
     },
     "passive": {
-        "full": "Passive voice",
+        "full": "passive voice",
         "class": "voice"
     },
     "imperative": {
-        "full": "Imperative/Optative",
+        "full": "imperative/optative",
         "class": "mood"
     },
     "country-code": {
-        "full": "Country code",
+        "full": "country code",
         "class": "code"
     },
     "language-code": {
-        "full": "Language code",
+        "full": "language code",
         "class": "code"
     }
 }

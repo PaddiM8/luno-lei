@@ -50,15 +50,15 @@
         ],
         "noun": [
             { "name": "disatisfaction", "grammar": "less" },
-            { "name": "satisfaction", "grammar": "less" },
             { "name": "hate", "grammar": ["less", "intensifier"] },
-            { "name": "love", "grammar": ["less", "intensifier"] }
+            { "name": "satisfaction", "grammar": "more" },
+            { "name": "love", "grammar": ["more", "intensifier"] }
         ],
         "verb": [
             { "name": "dislike", "grammar": "less" },
-            { "name": "like", "grammar": "less" },
             { "name": "hate", "grammar": ["less", "intensifier"] },
-            { "name": "love", "grammar": ["less", "intensifier"] }
+            { "name": "like", "grammar": "more" },
+            { "name": "love", "grammar": ["more", "intensifier"] }
         ]
     },
     {
@@ -121,6 +121,12 @@
     },
     {
         "word": "hei",
+        "noun": [
+            { "name": "greeting", "grammar": "objectification" }
+        ],
+        "verb": [
+            "greet"
+        ],
         "other": [
             "hi",
             "hello",
@@ -444,18 +450,18 @@
         "descriptor": [
             { "name": "broken", "grammar": "less" },
             { "name": "split", "grammar": "less" },
-            { "name": "illness", "grammar": ["mona-", "less"] },
+            { "name": "illness", "grammar": ["monasa-", "less"] },
             { "name": "intact", "grammar": "more" },
             { "name": "whole", "grammar": "more" },
-            { "name": "health", "grammar": ["mona-", "more"] }
+            { "name": "health", "grammar": ["monasa-", "more"] }
         ],
         "noun": [
             { "name": "section", "grammar": "less" },
             { "name": "piece", "grammar": "less" },
             { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
-            { "name": "sick", "grammar": ["mona-", "less"] },
-            { "name": "healthy", "grammar": ["mona-", "more"] }
+            { "name": "sick", "grammar": ["monasa-", "less"] },
+            { "name": "healthy", "grammar": ["monasa-", "more"] }
         ],
         "verb": [
             { "name": "break", "grammar": ["less", "lative"] },
@@ -600,7 +606,7 @@
             { "name": "begin", "grammar": "less" },
             { "name": "start", "grammar": "less" },
             { "name": "end", "grammar": "more" },
-            { "name": "kill", "grammar": ["mona-", "more"] },
+            { "name": "kill", "grammar": ["monasa-", "more"] },
             { "name": "stop", "grammar": "more" }
         ]
     },
@@ -698,8 +704,8 @@
             { "name": "delicious", "grammar": ["more", "intact"] }
         ],
         "noun": [
-            { "name": "flavour", "grammar": "objectification" },
-            { "name": "cleanliness", "grammar": "objectification" }
+            { "name": "flavour", "grammar": "abstract" },
+            { "name": "cleanliness", "grammar": "abstract" }
         ],
         "verb": [
             { "name": "make dirty", "grammar": ["less", "lative"] },
@@ -822,7 +828,20 @@
         "verb": [
             { "name": "sell", "grammar": "less" },
             "exchange",
+            "translate",
             { "name": "buy", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "tuloa",
+        "descriptor": [
+            "tilted",
+            "rotated"
+        ],
+        "verb": [
+            "spin",
+            "tilt",
+            "rotate"
         ]
     },
     {
@@ -850,7 +869,8 @@
         "noun": [
             { "name": "day", "grammar": "less" },
             "week",
-            { "name": "year", "grammar": "more" }
+            { "name": "month", "grammar": "more" },
+            { "name": "year", "grammar": ["more", "intensifier"] }
         ]
     },
     {
@@ -977,7 +997,8 @@
             "protein",
             "meat",
             "beans",
-            "lentils"
+            "lentils",
+            { "name": "mushroom", "grammar": "baumesa-" }
         ]
     },
     {

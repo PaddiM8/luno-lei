@@ -8,9 +8,8 @@ template = "base.html"
 
 Gradiency is a way to change the meaning of a word.
 Words in the dictionary are written in neutral form.
-Words in the neutral form often have no English translation
-and are somehwere in-between the `less` form and the `more`
-form.
+The neutral form often has no English translation
+and is somewhere in-between the `less` form and the `more` form.
 
 The `more` form could for example imply a larger
 size, more activity, more effort, more notable, more
@@ -51,11 +50,10 @@ context.
 ## Intensifiers & Diminutives
 
 Intensifiers and diminutives are used to express
-either more or less intensity regarding a word. 
+either more or less intensity for a word. 
 Unlike gradiency, this does not change the core
-meaning of a word. However, in some cases, the
-difference between, for example, the `more` form
-and the `intensifier` form of a word may be similar.
+meaning of the word. However, it is worth noting
+that, for example the `more` form and the `intensifier` form, may in some cases be quite similar.
 
 Often, intensifiers and diminutives are stacked
 on top of gradiency suffixes as a way to be more
@@ -65,15 +63,16 @@ results in `slightly warm`. In this example,
 gradiency is used to express warmth, while the
 diminutive form tones it down.
 
-| Kind       | Diminutive | Intensifier |
-| ---------- | ---------- | ----------- |
-| Noun       | -tae       | -tuo        |
-| Verb       | -tue       | -teo        |
-| Descriptor | -toe       | -tao        |
+This can be applied to any part of speech.
+
+| Form        | Suffix |
+| ----------- | ------ |
+| Diminutive  | -teo   |
+| Intensifier | -tua   |
 
 #### Examples
 {{ sentence(
-    parts=[["varma", "lukewarm"], ["sa", "more"], ["toe", "diminutive"]]
+    parts=[["varma", "lukewarm"], ["sa", "more"], ["teo", "diminutive"]]
     translation="Slightly warm"
 ) }}
 {{ sentence(
@@ -81,15 +80,11 @@ diminutive form tones it down.
     translation="I walk"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["sva", "more", "noun"]]
-    translation="leg (without diminutive)"
-) }}
-{{ sentence(
-    parts=[["noka", "foot"], ["teo", "intensifier"], ["n", "1", "verb"]]
+    parts=[["noka", "foot"], ["tua", "intensifier"], ["n", "1", "verb"]]
     translation="I run"
 ) }}
 {{ sentence(
-    parts=[["lavo", "hand"], ["ste", "less", "noun"], ["tae", "diminutive"]]
+    parts=[["lavo", "hand"], ["ste", "less", "noun"], ["teo", "diminutive"]]
     translation="A small finger/pinky"
 ) }}
 
@@ -208,7 +203,7 @@ gradiency form to a number.
     translation="-2"
 ) }}
 {{ sentence(
-    parts=[["loke", "three"], ["dek", "*10^"], ["tu", "two"], ["ve", "less"]]
+    parts=[["loke", "three"], [], ["dek", "*10^"], [], ["tu", "two"], ["ve", "less"]]
     translation="0.03 (3*10^-2)"
 ) }}
 {{ sentence(
@@ -244,4 +239,22 @@ as follows:
 {{ sentence(
     parts=[["sv", "language-code"], ["e", "e"], ["go", "abstract"], ["muni", "mouth"]]
     translation="Swedish"
+) }}
+
+## Dates
+
+Week days are expressed by saying `vikove`, followed by
+the day's number, between one and seven, where Monday is
+day one. Similarly, month names are expressed by saying
+`vikosa` followed by the month's number, between one and
+twelve.
+
+#### Examples
+{{ sentence(
+    parts=[["viko", "week"], ["ve", "less"], [], ["tu", "two"]]
+    translation="Tuesday"
+) }}
+{{ sentence(
+    parts=[["viko", "week"], ["sa", "more"], [], ["seke", "six"]]
+    translation="June"
 ) }}

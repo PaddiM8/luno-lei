@@ -3,13 +3,16 @@ template = "index.html"
 +++
 ## About
 
-Luno Lei is a constructed language with a tiny dictionary
+Luno Lei is a constructed language with a tiny dictionary,
 where grammar is used to give words a wide range of
 meanings.
 
 For example, the words for `small`, `huge`, `size`,
 `measure`, `reduce`, etc. can be derived from the same root
-word using simple grammatical rules.
+word using simple grammatical rules. When derivatives
+of base words are not enough, words are combined in
+descriptive and creative ways to express different
+concepts.
 
 ### What it is
 * Optimised for getting by with a small vocabulary
@@ -19,9 +22,9 @@ word using simple grammatical rules.
   creative ways of expressing oneself
 
 ### What it is not
-* Not as simple as Toki Pona - being as easy as possible to learn is not a goal
+* Not as simple as Toki Pona - being as easy as possible to learn is not a goal, although simplicity is striven for
 * Often does not result in compact sentences
-* Not meant for precise communication (sometimes it's easier to be precise than in English, but often harder)
+* Not built for precision, but minimalistic communication
 * Not strict with word usage - if a sentence follows the
   grammatical rules and is comprehended, it is completely valid
 
@@ -39,16 +42,16 @@ words to see the meaning/purpose.
     translation="It is food"
 ) }}
 {{ sentence(
-    parts=[["ike", "sa"], ["pes,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ikeve", "small"]],
+    parts=[["ike", "sa"], ["pes,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ike", "moderately sized"], ["ve", "less"]],
     translation="It is big, not small"
 ) }}
 {{
     sentence(
         parts=[
-            ["dei", "angry/-"],
+            ["dei", "angry", "..."],
             ["ve", "less"],
             [],
-            ["vesi", "solid/liquid/(gas, air)"],
+            ["vesi", "solid", "liquid", "gas, air"],
             ["sva", "more", "nd"],
             [],
             ["go", "abstract"],
@@ -65,14 +68,14 @@ words to see the meaning/purpose.
             [],
             ["ay", "and"],
             [],
-            ["mona", "dead being/(living being, animal)"],
+            ["mona", "dead being", "...", "living being, animal"],
             ["sva", "more", "nd"],
             ["ye", "plural"],
             [],
             ["koeta", "try"],
             ["pu", "3", "verb", "past"],
             [],
-            ["mue", "dangerous/safe"],
+            ["mue", "dangerous", "...", "safe"],
             ["sa", "more"],
             [],
             ["kotu", "location, place of stay"],
@@ -86,18 +89,18 @@ words to see the meaning/purpose.
 }}
 {{ sentence(
     parts=[
-        ["mauto", "underground/ground/sky"],
+        ["mauto", "underground", "ground", "sky"],
         ["sva", "more", "noun"],
-        ["mona", "dead being/living being"],
+        ["mona", "dead being", "...", "living being"],
         ["sva", "more", "noun"],
         ["ye", "plural"],
         [],
         ["vesi", "liquid"],
-        ["vuola", "hole/bump"],
+        ["vuola", "hole", "...", "bump"],
         ["ste", "less", "noun"],
         ["lao", "genitive"],
         [],
-        ["sita", "inside/core/outside"],
+        ["sita", "inside", "core", "outside"],
         ["sa", "more"],
         ["paa", "3", "nd"]
     ],
@@ -105,14 +108,14 @@ words to see the meaning/purpose.
 ) }}
 {{ sentence(
     parts=[
-        ["mou", "scared/secure"],
+        ["mou", "scared", "...", "secure"],
         ["ve", "less"],
         ["n", "1", "verb"],
         [],
         ["lanka", "thread"],
-        ["mona", "dead thing/living thing"],
+        ["mona", "dead thing", "...", "living thing"],
         ["sva", "more", "noun"],
-        ["tae", "diminutive"],
+        ["teo", "diminutive"],
         [],
         ["(ato", "eight"],
         ["noka", "foot"],

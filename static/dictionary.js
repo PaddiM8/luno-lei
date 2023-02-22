@@ -35,10 +35,9 @@ function createItem(kind, value, names) {
             }
 
             return `
-                <span class="hoverable ${classNames.join(" ")}" data-name="${x.name}">
-                    <span class="text">${x.name}</span>${comma}
-                    <span class="tooltip">${grammar.join(", ")}</span>
-                </span>
+                <span class="hoverable ${classNames.join(" ")}"
+                      data-name="${x.name}"
+                      data-tooltip="${grammar.join("&#13;&#10;")}">${x.name}</span>${comma}
             `;
         } else {
             return `<span>${x}</span>${comma}`;

@@ -20,16 +20,17 @@
                         {% set_global class = [class, entry["class"]] | join(sep=" ") %}
                     {% endif %}
 
-                    {% set_global tooltip = [tooltip, "<p class='rule'>", entry["full"], "</p>"] | join %}
+                    {% set_global tooltip = [tooltip, entry["full"]] | join(sep="&#13;&#10;") %}
+                {% elif meaning == "..." %}
+                    {% set_global tooltip = [tooltip, '...'] | join(sep="&#13;&#10;") %}
                 {% else %}
-                    {% set_global tooltip = [tooltip, "<p class='translated'>", meaning, "</p>"] | join %}
+                    {% set_global tooltip = [tooltip, '"' ~ meaning ~ '"'] | join(sep="&#13;&#10;") %}
                 {% endif %}
             {% endfor %}
 
-            <span class="part hoverable {{ class }}">
-                <span class="text">{{ part[0] }}</span>
-                <span class="tooltip">{{ tooltip | safe }}</span>
-            </span>
+            <span class="part hoverable {{ class }}"
+                  tabindex="1"
+                  data-tooltip='{{ tooltip | trim_start_matches(pat="&#13;&#10;") | safe }}'>{{ part[0] }}</span>
         {% endfor %}
     </span>
 

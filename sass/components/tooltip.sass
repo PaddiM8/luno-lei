@@ -1,46 +1,62 @@
 .hoverable
     position: relative
+    cursor: default
 
-    .text
-        position: relative
-        cursor: default
-
-        &::after
-            $size: 1.45em
-            position: absolute
-            display: inline-block
-            top: -0.12em
-            left: 0
-
-            content: '...............'
-            max-width: 100%
-            max-height: $size
-            overflow: hidden
-            overflow-wrap: break-word
-            white-space: pre-wrap
-
-            font-size: $size
-            text-align: center
-            color: #BDBDBD
-
-        &:hover::after
-            color: darken(#BDBDBD, 20%)
-
-    .tooltip
-        display: none
+    &::after
+        $size: 1.45em
         position: absolute
-        top: 0
+        display: inline-block
+        top: -0.12em
+        left: 0
+
+        content: '...............'
+        max-width: 100%
+        max-height: $size
+        overflow: hidden
+        overflow-wrap: break-word
+        white-space: pre-wrap
+
+        font-size: $size
+        text-align: center
+        color: #BDBDBD
+
+    &:hover::after
+        color: darken(#BDBDBD, 20%)
+
+    &:hover::before, &:focus::before
+        position: absolute
+        top: -10%
         left: 50%
         transform: translate(-50%, -100%)
-        white-space: nowrap
+        content: attr(data-tooltip)
+        white-space: pre
+        z-index: 99999
+
         padding: 0.35em 0.55em
         background-color: #424242
         font-size: 1rem
         border-radius: 4px
         color: white
 
-        p
-            margin: 0
+@mixin dot-color($class, $color)
+    .hoverable.#{$class}::after
+        color: $color
 
-.tooltip.visible
-    display: inline
+    .hoverable.#{$class}:hover::after
+        color: darken($color, 20%)
+
+@include dot-color("nd", #009688)
+@include dot-color("verb", #7CB342)
+@include dot-color("less", #42A5F5)
+@include dot-color("more", #FB8C00)
+@include dot-color("diminutive", #D81B60)
+@include dot-color("intensifier", #E53935)
+@include dot-color("abstract", #8E24AA)
+@include dot-color("objectification", #00ACC1)
+@include dot-color("comparative", #AEEA00)
+@include dot-color("plural", #F4511E)
+@include dot-color("case", #00897B)
+@include dot-color("stacking", #00BFA5)
+@include dot-color("voice", #6D4C41)
+@include dot-color("mood", #546E7A)
+@include dot-color("code", #00BCD4)

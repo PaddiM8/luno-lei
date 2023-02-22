@@ -12,26 +12,3 @@
 
     .translated::before, .translated::after
         content: '"'
-
-@mixin dot-color($class, $color)
-    .#{$class} .text::after
-        color: $color
-
-    .#{$class} .text:hover::after
-        color: darken($color, 20%)
-
-@include dot-color("nd", #009688)
-@include dot-color("verb", #7CB342)
-@include dot-color("less", #42A5F5)
-@include dot-color("more", #FB8C00)
-@include dot-color("diminutive", #D81B60)
-@include dot-color("intensifier", #E53935)
-@include dot-color("abstract", #8E24AA)
-@include dot-color("objectification", #00ACC1)
-@include dot-color("comparative", #AEEA00)
-@include dot-color("plural", #F4511E)
-@include dot-color("case", #00897B)
-@include dot-color("stacking", #00BFA5)
-@include dot-color("voice", #6D4C41)
-@include dot-color("mood", #546E7A)
-@include dot-color("code", #00BCD4)

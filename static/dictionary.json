@@ -230,7 +230,7 @@
         ]
     },
     {
-        "word": "es",
+        "word": "us",
         "noun": [
             { "name": "separation", "grammar": "objectification" }
         ],
@@ -239,7 +239,7 @@
         ]
     },
     {
-        "word": "ay",
+        "word": "et",
         "noun": [
             { "name": "combination", "grammar": "objectification" }
         ],
@@ -566,7 +566,7 @@
         ]
     },
     {
-        "word": "baume",
+        "word": "bio",
         "noun": [
             { "name": "bush", "grammar": "less" },
             { "name": "sapling", "grammar": "less" },
@@ -717,6 +717,14 @@
         "noun": [
             "plant",
             { "name": "leaf", "grammar": "taukove-" }
+        ]
+    },
+    {
+        "word": "stofi",
+        "noun": [
+            "material",
+            "texture",
+            "chemical element"
         ]
     },
     {
@@ -998,7 +1006,7 @@
             "meat",
             "beans",
             "lentils",
-            { "name": "mushroom", "grammar": "baumesa-" }
+            { "name": "mushroom", "grammar": "biosa-" }
         ]
     },
     {
@@ -1110,7 +1118,7 @@
         ]
     },
     {
-        "word": "koeta",
+        "word": "keta",
         "noun": [
             "attempt",
             { "name": "feeling", "grammar": "abstract" }
@@ -1175,7 +1183,7 @@
     {
         "word": "laise",
         "noun": [
-            { "name": "digit", "grammar": ["less"] },
+            { "name": "digit", "grammar": "less" },
             "number",
             "amount"
         ],
@@ -1190,6 +1198,18 @@
             "secondly",
             "too",
             "also"
+        ]
+    },
+    {
+        "word": "sudi",
+        "descriptor": [
+            { "name": "unclear", "grammar": "less" },
+            { "name": "blurry", "grammar": "less" },
+            { "name": "vague", "grammar": "less" },
+            { "name": "inprecise", "grammar": "less" },
+            { "name": "clear", "grammar": "more" },
+            { "name": "precise", "grammar": "more" },
+            { "name": "exact", "grammar": ["more", "intensifier"] }
         ]
     },
     {

@@ -181,13 +181,16 @@
         ]
     },
     {
-        "word": "gaube",
+        "word": "lauge",
         "noun": [
-            "belief",
-            "opinion"
+            { "name": "belief", "grammar": "less" },
+            { "name": "opinion", "grammar": "less" },
+            { "name": "subjective", "grammar": "less" },
+            { "name": "fact", "grammar": "more" },
+            { "name": "objective", "grammar": "more" }
         ],
         "verb": [
-            "believe"
+            { "name": "believe", "grammar": "less" }
         ]
     },
     {
@@ -790,7 +793,7 @@
         ]
     },
     {
-        "word": "petuno",
+        "word": "peto",
         "noun": [
             "vehicle",
             { "name": "car", "grammar": "nelalunolo-" },
@@ -925,7 +928,7 @@
         ]
     },
     {
-        "word": "palina",
+        "word": "paki",
         "noun": [
             "long hard thing",
             "stick",
@@ -979,7 +982,7 @@
         ]
     },
     {
-        "word": "mebio",
+        "word": "meblo",
         "noun": [
             "furniture",
             { "name": "chair", "grammar": ["noki-"] },
@@ -1025,7 +1028,7 @@
         ]
     },
     {
-        "word": "imago",
+        "word": "inamo",
         "noun": [
             "image",
             "video",

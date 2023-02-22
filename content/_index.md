@@ -14,12 +14,16 @@ of base words are not enough, words are combined in
 descriptive and creative ways to express different
 concepts.
 
+Any translations and derived words in the dictionary
+should be treated as suggestions and examples rather
+than exact definitions.
+
 ### What it is
 * Optimised for getting by with a small vocabulary
 * The entire language could fit on a poster
 * Has a rich and flexible grammar 
-* A fun way to play around with language and finding
-  creative ways of expressing oneself
+* A way to practice communicating with minimal knowledge
+  of a language
 
 ### What it is not
 * Not as simple as Toki Pona - being as easy as possible to learn is not a goal, although simplicity is striven for
@@ -58,21 +62,21 @@ words to see the meaning/purpose.
             ["noka", "leg"],
             ["pu", "3", "verb", "past"],
             [],
-            ["baume", "tree"],
+            ["bio", "tree"],
             ["tat", "prolative"],
             ["wo", "inter"],
             [],
-            ["baume", "tree"],
+            ["bio", "tree"],
             ["sa", "more"],
             ["ti", "locative"],
             [],
-            ["ay", "and"],
+            ["et", "and"],
             [],
             ["mona", "dead being", "...", "living being, animal"],
             ["sva", "more", "nd"],
             ["ye", "plural"],
             [],
-            ["koeta", "try"],
+            ["keta", "try"],
             ["pu", "3", "verb", "past"],
             [],
             ["mue", "dangerous", "...", "safe"],

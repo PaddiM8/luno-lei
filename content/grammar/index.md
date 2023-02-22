@@ -14,8 +14,8 @@ With verb conjugation, the verb form of a word
 is used. For example, `noka` (foot) as a verb
 becomes `to foot` or `to walk`.
 
-Relative person can be translated to *who*, *whom*,
-*whose*, *which*, *that*, etc. in English.
+Relative person can be translated to `who`, `whom`,
+`whose`, `which`, `that`, etc. in English.
 
 It is possible to verbify nouns with cases applied
 to them. For example, `lavotin` (lative) means `I get`.
@@ -39,6 +39,16 @@ to them. For example, `lavotin` (lative) means `I get`.
 {{ sentence(
     parts=[["noka", "foot"], ["nu", "1", "verb", "past"]],
     translation="I walked"
+) }}
+{{ sentence(
+    parts=[
+        ["mona", "dead being", "...", "living being"],
+        ["sa", "more"],
+        [],
+        ["noka", "foot"],
+        ["mu", "rel", "verb", "past"]
+    ],
+    translation="The animal that walked"
 ) }}
 
 ### Plural

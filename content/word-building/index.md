@@ -211,6 +211,23 @@ gradiency form to a number.
     translation="26 000 (2.6*10^5)"
 ) }}
 
+## Dates
+
+Week days are expressed by combining a number between one
+and seven with `vikove`, where Monday is day one.
+Similarly, month names are expressed by combining a number
+between one and twelve with `vikosa`.
+
+#### Examples
+{{ sentence(
+    parts=[["tu", "two"], ["viko", "week"], ["ve", "less"]]
+    translation="Tuesday"
+) }}
+{{ sentence(
+    parts=[["seke, six"], ["viko", "week"], ["sa", "more"]]
+    translation="June"
+) }}
+
 ## Countries & Languages
 
 Countries are expressed by combining an ISO 3166 country
@@ -218,18 +235,18 @@ code with `(e)leisa`. Language names are expressed
 by combining an ISO 639-1 language code with `(e)gomuni`.
 
 When a code can not be pronounced easily (eg. `cz`),
-the letters are pronounced with an `e` sound in-between
-them. Letters that do not exist in Luno Lei are pronounced
-as follows:
+the letters are written and pronounced with an `e` sound
+in-between them. Letters that do not exist in Luno Lei
+are replaced according to the following table:
 
-| Letter | Pronunciation |
-| ------ | ------------- |
-| C      | tse           |
-| J      | yie           |
-| Q      | ku            |
-| R      | hye           |
-| X      | kse           |
-| Z      | sie           |
+| Letter | Replacement |
+| ------ | ----------- |
+| C      | tse         |
+| J      | yue         |
+| Q      | ku          |
+| R      | hye         |
+| X      | kse         |
+| Z      | sie         |
 
 #### Examples
 {{ sentence(
@@ -237,24 +254,28 @@ as follows:
     translation="Sweden"
 ) }}
 {{ sentence(
-    parts=[["sv", "language-code"], ["e", "e"], ["go", "abstract"], ["muni", "mouth"]]
+    parts=[["sv", "language-code"], ["e", "filler"], ["go", "abstract"], ["muni", "mouth"]]
     translation="Swedish"
 ) }}
-
-## Dates
-
-Week days are expressed by saying `vikove`, followed by
-the day's number, between one and seven, where Monday is
-day one. Similarly, month names are expressed by saying
-`vikosa` followed by the month's number, between one and
-twelve.
-
-#### Examples
 {{ sentence(
-    parts=[["viko", "week"], ["ve", "less"], [], ["tu", "two"]]
-    translation="Tuesday"
+    parts=[["tsesie", "language-code"], ["go", "abstract"], ["muni", "mouth"]]
+    translation="Czech"
+) }}
+
+## Elements
+
+The name of elements in the periodic table are constructed
+by combining the element symbol with `(e)stofi`. When
+a symbol can not be pronounced easily, the letters are
+written and pronounced with an `e` in-between them. Letters
+that do not exist in Luno Lei are replaced according to
+the table in [Countries & Languages](#countries-languages).
+
+{{ sentence(
+    parts=[["h", "periodic-element"], ["e", "filler"], ["stofi", "material"]]
+    translation="Hydrogen"
 ) }}
 {{ sentence(
-    parts=[["viko", "week"], ["sa", "more"], [], ["seke", "six"]]
-    translation="June"
+    parts=[["tsel", "periodic-element"], ["e", "filler"], ["stofi", "material"]]
+    translation="Chloride"
 ) }}

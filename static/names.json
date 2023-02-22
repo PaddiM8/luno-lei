@@ -145,12 +145,20 @@
         "full": "imperative/optative",
         "class": "mood"
     },
+    "filler": {
+        "full": "filler",
+        "class": "filler"
+    },
     "country-code": {
         "full": "country code",
         "class": "code"
     },
     "language-code": {
         "full": "language code",
+        "class": "code"
+    },
+    "periodic-element": {
+        "full": "periodic element",
         "class": "code"
     }
 }

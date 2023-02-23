@@ -178,7 +178,7 @@ gradiency form to a number.
 
 | Digit | Word  |
 | ----- | ----- |
-| zero  | ne    |
+| zero  | nie   |
 | one   | eya   |
 | two   | tu    |
 | three | loke  |

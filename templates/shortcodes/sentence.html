@@ -37,4 +37,8 @@
     {% if translation %}
         <p>{{ translation | safe }}</p>
     {% endif %}
+
+    {% if note %}
+        <p class="note"><strong>Note:</strong> {{ note | safe }}</p>
+    {% endif %}
 </div>

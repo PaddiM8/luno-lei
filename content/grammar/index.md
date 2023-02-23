@@ -42,7 +42,7 @@ to them. For example, `lavotin` (lative) means `I get`.
 ) }}
 {{ sentence(
     parts=[
-        ["mona", "dead being", "...", "living being"],
+        ["ma", "dead being", "...", "living being"],
         ["sa", "more"],
         [],
         ["noka", "foot"],
@@ -153,39 +153,82 @@ or end of a sentence.
 
 ## Cases
 
-Unlike in some languages, accusative does not indicate
-movement towards the direct object. Instead, lative is
-used to express movement. Partitive is similar to
-accusative but also expresses that something is
-incomplete, for example a book only being partly read.
-Semblative expressses some form of similarity between
-objects or concepts.
-
-Partitive is normally optional and is used when clarifying
-completeness is relevant.
+### List of Cases
 
 | Case            | Suffix | Uses                      |
 | --------------- | ------ | ------------------------- |
 | Nominative      | -      | -                         |
-| Genitive        | -lao   | possession                |
 | Accusative      | -t     | direct object             |
+| Dative          | -da    | indirect object           |
+| Genitive        | -di    | possession                |
 | Lative          | -tu    | motion towards, for       |
 | Ablative        | -tol   | motion from               |
 | Prolative       | -tat   | via, through, along       |
 | Partitive       | -tia   | direct object, incomplete |
-| Dative          | -da    | indirect object           |
 | Locative/Essive | -li    | at (location, time)       |
 | Semblative      | -kus   | similarity                |
 
+### Accusative 
+
+<span class="suffix">-t</span>
+
+Accusative is used to mark a word as a
+[direct object](https://en.wikipedia.org/wiki/Accusative_case).
+The direct object is the part of a sentence that the verb is acted
+on. Unlike in some languages, it does *not* indicate movement.
+Instead, the lative case is used to express movement towards
+the direct object.
+
 #### Examples
-{{ sentence(
-    parts=[["vilea", "plant"], [], ["eni", "-"], ["n", "1", "verb"], ["lao", "genitive"]]
-    translation="My plant"
-) }}
 {{ sentence(
     parts=[["lavo", "hand"], ["n", "1", "verb"], [], ["vilea", "plant"], ["t", "accusative"]]
     translation="I have a plant"
 ) }}
+
+### Dative
+
+<span class="suffix">-da</span>
+
+Dative is used to mark a word as an
+[indirect object](https://en.wikipedia.org/wiki/Dative_case).
+The indirect object is the recipient/beneficiary of an action.
+
+#### Examples
+{{ sentence(
+    parts=[["muni", "mouth"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["da", "dative"]]
+    translation="I talk to you"
+) }}
+
+### Genitive
+
+<span class="suffix">-di</span>
+
+Genitive marks possession of another noun (the possession).
+By default, it also marks a word as a direct object. However,
+when the possession is not a direct object, the case of the
+possession is added also to the genitive word.
+
+#### Examples
+{{ sentence(
+    parts=[["vilea", "plant"], [], ["eni", "-"], ["n", "1", "verb"], ["di", "genitive"]]
+    translation="My plant"
+) }}
+{{ sentence(
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["kotu", "house"], ["da", "dative"], [], ["eni", "-"], ["pi", "3", "verb"], ["di", "genitive"], ["da", "dative"]]
+    translation="I walk to his house",
+    note="Since the genitive word is also an indirect object, the dative suffix is stacked on top"
+) }}
+
+### Lative, Ablative & Prolative
+
+Lative, ablative and prolative mark a word as a direct object,
+but also indicate various types of abstract or concrete movement.
+The lative case indicates movement *towards* the direct object
+while ablative indicates movement *from* it.  Prolative is used
+to express that an action is done by means of/via/through the
+direct object.
+
+#### Examples
 {{ sentence(
     parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["tu", "lative"]]
     translation="I walk to you"
@@ -202,28 +245,57 @@ completeness is relevant.
     parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["tat", "prolative"]]
     translation="You walk through the hole"
 ) }}
+
+### Partitive
+
+<span class="suffix">-tia</span>
+
+Partitive is similar to accusative but also expresses that
+something is incomplete, for example a book only being
+partly read. It is normally optional and is used when
+clarifying completeness is relevant.
+
+#### Examples
 {{ sentence(
     parts=[["lipo", "note"], ["sva", "more", "noun"], ["tia", "partitive"], ["n", "1", "verb"]]
     translation="I read part of a book"
 ) }}
-{{ sentence(
-    parts=[["muni", "mouth"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "nd"], ["da", "dative"]]
-    translation="I talk to you"
-) }}
+
+### Locative/Essive
+
+Locative indicates location of the subject of a sentence.
+It is also used to mark a point in time.
+
+<span class="suffix">-li</span>
+
+#### Examples
 {{ sentence(
     parts=[["kotu", "house"], ["sa", "more"], ["li", "locative"], ["n", "1", "verb"]]
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
-    translation="I am at home"
+    parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["tiko", "time"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
+    translation="I will walk at 2 o'clock"
 ) }}
 
-### Stacking cases
+### Semblative
 
-Stacking cases are added after regular cases. For example,
+<span class="suffix">-kus</span>
+
+Semblative expressses some form of similarity between
+objects or concepts. 
+
+#### Examples
+{{ sentence(
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
+    translation="It is dark like at night"
+) }}
+
+### Additional Stacking Cases
+
+These cases can only be added after regular cases. For example,
 the `In-` case could be combined with locative to create
-inessive, `-lie`.
+inessive, `-lie`, meaning *inside*.
 
 | Case     | Suffix | Uses                |
 | -------- | ------ | ------------------- |

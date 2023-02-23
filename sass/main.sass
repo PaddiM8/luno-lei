@@ -8,7 +8,7 @@
 
 body
     display: flex
-    font-family: Inter, sans-serif
+    font-family: $sans-serif
     font-weight: 400
     color: #212121
     background-color: #F5F5F5
@@ -79,14 +79,21 @@ table
 a
     color: #039BE5
 
-code
-    font-family: "Source Serif Pro", serif
+pre
+    font-size: 1rem
+    padding-left: 0.8em
+    margin-bottom: 0.6em
+    margin-left: 1em
+    border-left: $border
+
+pre > code
+    font-family: $sans-serif
+
+code, .ipa
+    font-family: $serif
 
 .alphabet
     text-align: center
-
-.ipa
-    font-family: "Source Serif Pro", serif
 
 th
     text-align: center

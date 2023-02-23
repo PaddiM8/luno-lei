@@ -23,7 +23,7 @@ than exact definitions.
 * The entire language could fit on a poster
 * Has a rich and flexible grammar 
 * A way to practice communicating with minimal knowledge
-  of a language
+  of languages
 
 ### What it is not
 * Not as simple as Toki Pona - being as easy as possible to learn is not a goal, although simplicity is striven for
@@ -46,7 +46,16 @@ words to see the meaning/purpose.
     translation="It is food"
 ) }}
 {{ sentence(
-    parts=[["ike", "sa"], ["pes,", "3", "nd"], [], ["ne", "not", "zero"], [], ["ike", "moderately sized"], ["ve", "less"]],
+    parts=[
+        ["ike", "sa"],
+        ["pes,", "3", "nd"],
+        [],
+        ["ne", "not", "some", "every"],
+        ["ve", "less"],
+        [],
+        ["ike", "moderately sized"],
+        ["ve", "less"]
+    ],
     translation="It is big, not small"
 ) }}
 {{
@@ -72,7 +81,7 @@ words to see the meaning/purpose.
             [],
             ["et", "and"],
             [],
-            ["mona", "dead being", "...", "living being, animal"],
+            ["ma", "dead being", "...", "living being, animal"],
             ["sva", "more", "nd"],
             ["ye", "plural"],
             [],
@@ -102,7 +111,7 @@ words to see the meaning/purpose.
         ["vesi", "liquid"],
         ["vuola", "hole", "...", "bump"],
         ["ste", "less", "noun"],
-        ["lao", "genitive"],
+        ["di", "genitive"],
         [],
         ["sita", "inside", "core", "outside"],
         ["sa", "more"],
@@ -117,7 +126,7 @@ words to see the meaning/purpose.
         ["n", "1", "verb"],
         [],
         ["lanka", "thread"],
-        ["mona", "dead thing", "...", "living thing"],
+        ["ma", "dead thing", "...", "living thing"],
         ["sva", "more", "noun"],
         ["teo", "diminutive"],
         [],
@@ -128,3 +137,23 @@ words to see the meaning/purpose.
     translation="I am scared of spiders"
 )
 }}
+
+## Exercises
+
+### 1
+```
+Tikoli neve utis mautosanokaslu, nokatuastu
+Tikoli neve utis nokatuaslu, nokastu
+Tikoli neve utis nokaslu, nokivenokastu
+Eya sudisa, alustu gonokaslu
+```
+
+### 2
+```
+Deleisamasaye su alulavotupi nokimeblot linatat usivevesiditat
+Germans          keep          chair  via cloth  of water removal
+**TODO:** * figure out genitive word order (subordinate clause
+            something might affect, eek ask wot do clong discord server)
+          * document any word order changes
+          * (also remove translation ofc)
+```

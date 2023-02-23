@@ -153,7 +153,7 @@
         "verb": [
             "have to",
             "must",
-            "need"
+            "need to"
         ]
     },
     {
@@ -229,7 +229,7 @@
             { "name": "all", "grammar": "more" }
         ],
         "noun": [
-            { "name": "amount", "grammar": "objectification" }
+            { "name": "amount", "grammar": "abstract" }
         ]
     },
     {
@@ -251,7 +251,7 @@
         ]
     },
     {
-        "word": "mona",
+        "word": "ma",
         "descriptor": [
             { "name": "dead", "grammar": "less" },
             { "name": "alive", "grammar": "more" }
@@ -416,7 +416,7 @@
         ],
         "other": [
             { "name": "when", "grammar": "locative" },
-            { "name": "if", "grammar": ["abstract", "locative"] }
+            { "name": "if", "grammar": "locative" }
         ]
     },
     {
@@ -440,8 +440,8 @@
             { "name": "state", "grammar": "abstract" }
         ],
         "verb": [
-            { "name": "sleep", "grammar": ["mona-", "less"] },
-            { "name": "rest", "grammar": ["mona-", "less"] },
+            { "name": "sleep", "grammar": ["ma-", "less"] },
+            { "name": "rest", "grammar": ["ma-", "less"] },
             { "name": "turn off", "grammar": ["less", "lative"] },
             { "name": "inactivate", "grammar": ["less", "lative"] },
             { "name": "turn on", "grammar": ["more", "lative"] },
@@ -453,18 +453,18 @@
         "descriptor": [
             { "name": "broken", "grammar": "less" },
             { "name": "split", "grammar": "less" },
-            { "name": "illness", "grammar": ["monasa-", "less"] },
+            { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "intact", "grammar": "more" },
             { "name": "whole", "grammar": "more" },
-            { "name": "health", "grammar": ["monasa-", "more"] }
+            { "name": "health", "grammar": ["masa-", "more"] }
         ],
         "noun": [
             { "name": "section", "grammar": "less" },
             { "name": "piece", "grammar": "less" },
             { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
-            { "name": "sick", "grammar": ["monasa-", "less"] },
-            { "name": "healthy", "grammar": ["monasa-", "more"] }
+            { "name": "sick", "grammar": ["masa-", "less"] },
+            { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "verb": [
             { "name": "break", "grammar": ["less", "lative"] },
@@ -608,8 +608,9 @@
         "verb": [
             { "name": "begin", "grammar": "less" },
             { "name": "start", "grammar": "less" },
+            "persist",
             { "name": "end", "grammar": "more" },
-            { "name": "kill", "grammar": ["monasa-", "more"] },
+            { "name": "kill", "grammar": ["masa-", "more"] },
             { "name": "stop", "grammar": "more" }
         ]
     },
@@ -672,9 +673,13 @@
         "descriptor": [
             { "name": "down", "grammar": "less" },
             { "name": "south", "grammar": "less" },
-            "central",
+            "central (vertical)",
             { "name": "up", "grammar": "more" },
             { "name": "north", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "center (vertical)", "grammar": "objectification" },
+            { "name": "direction (vertical)", "grammar": "abstract" }
         ]
     },
     {
@@ -682,9 +687,13 @@
         "descriptor": [
             { "name": "left", "grammar": "less" },
             { "name": "west", "grammar": "less" },
-            "central",
+            "central (horizontal)",
             { "name": "right", "grammar": "more" },
             { "name": "east", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "center (horizontal)", "grammar": "objectification" },
+            { "name": "direction (horizontal)", "grammar": "abstract" }
         ]
     },
     {
@@ -849,6 +858,13 @@
             "tilted",
             "rotated"
         ],
+        "noun": [
+            { "name": "angle", "grammar": "objectification" },
+            { "name": "line", "grammar": ["eya", "objectification"] },
+            { "name": "triangle", "grammar": ["loke", "objectification"] },
+            { "name": "rectangle", "grammar": ["nela", "objectification"] },
+            { "name": "pentagon", "grammar": ["kuuso", "objectification"] }
+        ],
         "verb": [
             "spin",
             "tilt",
@@ -881,7 +897,10 @@
             { "name": "day", "grammar": "less" },
             "week",
             { "name": "month", "grammar": "more" },
-            { "name": "year", "grammar": ["more", "intensifier"] }
+            { "name": "year", "grammar": ["more", "intensifier"] },
+            { "name": "morning", "grammar": ["meave-", "less"] },
+            { "name": "night/evening", "grammar": ["measa-", "less"] },
+            { "name": "late night", "grammar": ["measatua-", "less"] }
         ]
     },
     {
@@ -974,7 +993,7 @@
         ]
     },
     {
-        "word": "liina",
+        "word": "lina",
         "noun": [
             "cloth",
             "clothing",
@@ -987,7 +1006,7 @@
             "furniture",
             { "name": "chair", "grammar": ["noki-"] },
             { "name": "table", "grammar": ["kinenoka-"] },
-            { "name": "bed", "grammar": ["monave-"] },
+            { "name": "bed", "grammar": ["mave-"] },
             { "name": "cupboard", "grammar": ["lauku-"] }
         ]
     },
@@ -1209,10 +1228,12 @@
             { "name": "unclear", "grammar": "less" },
             { "name": "blurry", "grammar": "less" },
             { "name": "vague", "grammar": "less" },
-            { "name": "inprecise", "grammar": "less" },
+            { "name": "imprecise", "grammar": "less" },
             { "name": "clear", "grammar": "more" },
             { "name": "precise", "grammar": "more" },
-            { "name": "exact", "grammar": ["more", "intensifier"] }
+            { "name": "exact", "grammar": ["more", "intensifier"] },
+            { "name": "clearly", "grammar": "more" },
+            { "name": "definitely", "grammar": "more" }
         ]
     },
     {

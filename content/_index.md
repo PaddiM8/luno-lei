@@ -117,7 +117,7 @@ words to see the meaning/purpose.
         ["sa", "more"],
         ["paa", "3", "nd"]
     ],
-    translation="The ducks are outside<br>(the birds of the puddle are outside)"
+    translation="The ducks are outside<br>(the birds of the pond are outside)"
 ) }}
 {{ sentence(
     parts=[
@@ -153,7 +153,7 @@ Tikoli neve utis nokaslu, nokivenokastu
 Eya sudisa, alustu gonokaslu
 ```
 
-### 2 (hard)
+### 3 (hard)
 ```
 Deleisamasaye su alulavotupi nokimeblot linatat usivevesiditat
 ```

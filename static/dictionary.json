@@ -1237,6 +1237,20 @@
         ]
     },
     {
+        "word": "imi",
+        "noun": [
+            "man",
+            { "name": "boy", "grammar": "diminutive" }
+        ]
+    },
+    {
+        "word": "aka",
+        "noun": [
+            "woman",
+            { "name": "girl", "grammar": "diminutive" }
+        ]
+    },
+    {
         "word": "loke",
         "descriptor": [
             "three"

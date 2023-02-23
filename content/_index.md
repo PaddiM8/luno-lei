@@ -140,7 +140,12 @@ words to see the meaning/purpose.
 
 ## Exercises
 
-### 1
+### 1 (easy)
+```
+Tama kiasa selavepaa
+```
+
+### 2 (medium)
 ```
 Tikoli neve utis mautosanokaslu, nokatuastu
 Tikoli neve utis nokatuaslu, nokastu
@@ -148,12 +153,8 @@ Tikoli neve utis nokaslu, nokivenokastu
 Eya sudisa, alustu gonokaslu
 ```
 
-### 2
+### 2 (hard)
 ```
 Deleisamasaye su alulavotupi nokimeblot linatat usivevesiditat
 Germans          keep          chair  via cloth  of water removal
-**TODO:** * figure out genitive word order (subordinate clause
-            something might affect, eek ask wot do clong discord server)
-          * document any word order changes
-          * (also remove translation ofc)
 ```

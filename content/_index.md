@@ -156,5 +156,4 @@ Eya sudisa, alustu gonokaslu
 ### 2 (hard)
 ```
 Deleisamasaye su alulavotupi nokimeblot linatat usivevesiditat
-Germans          keep          chair  via cloth  of water removal
 ```

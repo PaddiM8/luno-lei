@@ -18,8 +18,8 @@
         "descriptor": [
             { "name": "small", "grammar": "less" },
             { "name": "few", "grammar": "less" },
-            { "name": "less", "grammar": ["less", "comparative"] },
-            { "name": "least", "grammar": ["less", "superlative"] },
+            { "name": "smaller", "grammar": ["less", "comparative"] },
+            { "name": "smallest", "grammar": ["less", "superlative"] },
             "moderately sized",
             "several",
             "subset",
@@ -30,8 +30,8 @@
             { "name": "tiny", "grammar": ["less", "intensifier"] },
             { "name": "huge", "grammar": ["more", "intensifier"] },
             { "name": "a bit", "grammar": ["more", "diminutive"] },
-            { "name": "more", "grammar": ["more", "comparative"] },
-            { "name": "most", "grammar": ["more", "superlative"] }
+            { "name": "bigger", "grammar": ["more", "comparative"] },
+            { "name": "biggest", "grammar": ["more", "superlative"] }
         ],
         "noun": [
             { "name": "size", "grammar": "abstract" },
@@ -781,7 +781,8 @@
             { "name": "silence", "grammar": "less" },
             { "name": "audio", "grammar": "objectification" },
             { "name": "volume (audio)", "grammar": "abstract" },
-            { "name": "loudness", "grammar": "more" }
+            { "name": "loudness", "grammar": "more" },
+            { "name": "music", "grammar": "pitasa-" }
         ],
         "verb": [
             { "name": "silence", "grammar": ["less", "lative"] },
@@ -893,6 +894,7 @@
         ],
         "noun": [
             { "name": "angle", "grammar": "objectification" },
+            { "name": "shape", "grammar": "objectification" },
             { "name": "line", "grammar": ["eya", "objectification"] },
             { "name": "triangle", "grammar": ["loke", "objectification"] },
             { "name": "rectangle", "grammar": ["nela", "objectification"] },
@@ -1022,6 +1024,14 @@
         ],
         "verb": [
             "lie down"
+        ]
+    },
+    {
+        "word": "loko",
+        "noun": [
+            "block",
+            "cube",
+            "chunk"
         ]
     },
     {

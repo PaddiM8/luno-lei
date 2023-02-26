@@ -72,7 +72,7 @@ Noun and descriptor conjugation is used when a word
 should not be verbified. Instead, it expresses *state*.
 For example, `ikeve` (small) conjugated in this way
 results in `to be small`. With verb conjugation, it
-would instead refer to "to decrease`.
+would instead refer to `to decrease`.
 
 ### Singular
 | Tense/Person | 1st     | 2nd     | 3rd     | Relative |
@@ -270,7 +270,7 @@ It is also used to mark a point in time.
 
 #### Examples
 {{ sentence(
-    parts=[["kotu", "house"], ["sa", "more"], ["li", "locative"], ["n", "1", "verb"]]
+    parts=[["kotu", "house"], ["sva", "more"], ["li", "locative"], ["n", "1", "verb"]]
     translation="I am at home"
 ) }}
 {{ sentence(

@@ -224,7 +224,7 @@ between one and twelve with `vikosa`.
     translation="Tuesday"
 ) }}
 {{ sentence(
-    parts=[["seke, six"], ["viko", "week"], ["sa", "more"]]
+    parts=[["seke", "six"], ["viko", "week"], ["sa", "more"]]
     translation="June"
 ) }}
 

@@ -8,7 +8,7 @@ where grammar is used to give words a wide range of
 meanings.
 
 For example, the words for `small`, `huge`, `size`,
-`measure`, `reduce`, `more`, `most` etc. can be
+`measure`, `reduce`, `smaller`, `biggest` etc. can be
 derived from the same root word using simple
 grammatical rules. When derivatives of base words
 are not enough, words are combined in descriptive

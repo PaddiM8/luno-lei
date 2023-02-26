@@ -10,7 +10,7 @@ enipaada samaslu.
 Paikakus kotu nokapi lunotat mautosvatuaditat,
 oniye enipaalie su mautosvanokapi eya ne nokaslu
 mautotu. Kotulie, outosa oniye vesikus su onipi
-outovetua, et tais mautosnanokaslu nokakasislutat
+outovetua, et tais mautosvanokaslu nokakasislutat
 kotukinetat. Nesa masvaye su munipi eta
 pitasatuapaa.
 

@@ -3,7 +3,9 @@
         "word": "oni",
         "noun": [
             "object",
-            "thing"
+            "thing",
+            { "name": "noun", "grammar": "-kia" },
+            { "name": "verb", "grammar": ["passive", "-kia"] }
         ],
         "verb": [
             "do",
@@ -16,16 +18,20 @@
         "descriptor": [
             { "name": "small", "grammar": "less" },
             { "name": "few", "grammar": "less" },
+            { "name": "less", "grammar": ["less", "comparative"] },
+            { "name": "least", "grammar": ["less", "superlative"] },
             "moderately sized",
             "several",
             "subset",
             "some",
             { "name": "big", "grammar": "more" },
             { "name": "many", "grammar": "more" },
+            { "name": "a lot", "grammar": "more" },
             { "name": "tiny", "grammar": ["less", "intensifier"] },
             { "name": "huge", "grammar": ["more", "intensifier"] },
             { "name": "a bit", "grammar": ["more", "diminutive"] },
-            { "name": "a lot", "grammar": "more" }
+            { "name": "more", "grammar": ["more", "comparative"] },
+            { "name": "most", "grammar": ["more", "superlative"] }
         ],
         "noun": [
             { "name": "size", "grammar": "abstract" },
@@ -43,7 +49,7 @@
     },
     {
         "word": "pita",
-        "adjective": [
+        "descriptor": [
             { "name": "boring", "grammar": "less" },
             { "name": "fun", "grammar": "more" },
             { "name": "enjoyable", "grammar": "more" }
@@ -96,6 +102,17 @@
         ]
     },
     {
+        "word": "pua",
+        "noun": [
+            "method",
+            "way",
+            "style",
+            "habit",
+            "technique",
+            "manner"
+        ]
+    },
+    {
         "word": "muni",
         "noun": [
             "mouth",
@@ -116,7 +133,8 @@
             { "name": "fruit", "grammar": ["sutosa...", "-vilea"] }
         ],
         "verb": [
-            "eat"
+            "eat",
+            { "name": "have hunger (hungry)", "grammar": "tai..." }
         ]
     },
     {
@@ -134,7 +152,7 @@
         ]
     },
     {
-        "word": "uti",
+        "word": "tai",
         "adjective": [
             "capable"
         ],
@@ -211,11 +229,7 @@
     {
         "word": "eni",
         "other": [
-            "nil word",
-            { "name": "less", "grammar": "less" },
-            { "name": "more", "grammar": "more" },
-            { "name": "least", "grammar": ["less", "intensifier"] },
-            { "name": "most", "grammar": ["more", "intensifier"] }
+            "nil word"
         ]
     },
     {
@@ -248,6 +262,12 @@
         ],
         "other": [
             "and"
+        ]
+    },
+    {
+        "word": "eta",
+        "other": [
+            "that (suborindate clause opener)"
         ]
     },
     {
@@ -382,7 +402,11 @@
         "word": "me",
         "other": [
             "what",
-            "which"
+            "which",
+            { "name": "why", "grammar": "...paika" },
+            { "name": "when", "grammar": "...tiko" },
+            { "name": "who", "grammar": "...masa" },
+            { "name": "how", "grammar": "...pua" }
         ]
     },
     {
@@ -456,15 +480,15 @@
             { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "intact", "grammar": "more" },
             { "name": "whole", "grammar": "more" },
-            { "name": "health", "grammar": ["masa-", "more"] }
+            { "name": "sick", "grammar": ["masa-", "less"] },
+            { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "noun": [
             { "name": "section", "grammar": "less" },
             { "name": "piece", "grammar": "less" },
             { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
-            { "name": "sick", "grammar": ["masa-", "less"] },
-            { "name": "healthy", "grammar": ["masa-", "more"] }
+            { "name": "health", "grammar": ["masa-", "more"] }
         ],
         "verb": [
             { "name": "break", "grammar": ["less", "lative"] },
@@ -510,15 +534,15 @@
             "head",
             { "name": "mind", "grammar": "abstract" },
             { "name": "thought", "grammar": ["abstract", "diminutive"] },
-            { "name": "memory", "grammar": ["abstract", "lave-"] }
+            { "name": "memory", "grammar": ["abstract", "lavo-"] }
         ],
         "verb": [
             "think",
-            { "name": "know", "grammar": ["lave...", "locative", "in"] },
-            { "name": "understand", "grammar": ["lave...", "locative", "in"] },
+            { "name": "know", "grammar": ["lavo...", "locative", "in"] },
+            { "name": "understand", "grammar": ["lavo...", "locative", "in"] },
             { "name": "learn", "grammar": ["lative", "in"] },
             { "name": "study", "grammar": ["lative", "in"] },
-            { "name": "remember", "grammar": ["abstract", "-lave"] }
+            { "name": "remember", "grammar": ["abstract", "-lavo"] }
         ]
     },
     {
@@ -550,6 +574,7 @@
             { "name": "remove", "grammar": "less" },
             "keep",
             { "name": "make", "grammar": "more" },
+            { "name": "create", "grammar": "more" },
             { "name": "add", "grammar": "more" }
         ]
     },
@@ -564,8 +589,11 @@
             "water",
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" },
-            { "name": "lake", "grammar": ["-vuolave"] },
-            { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
+            { "name": "lake", "grammar": ["-vuolavo"] },
+            { "name": "sea", "grammar": ["-vuolavo", "intensifier"] }
+        ],
+        "verb": [
+            { "name": "have thirst (thirsty)", "grammar": "tai..." }
         ]
     },
     {
@@ -625,7 +653,9 @@
         "verb": [
             "walk",
             { "name": "run", "grammar": "intensifier" },
-            { "name": "go", "grammar": "abstract" }
+            { "name": "go", "grammar": "abstract" },
+            { "name": "swim", "grammar": "vesi-" },
+            { "name": "fly", "grammar": "mautosa-" }
         ]
     },
     {
@@ -633,7 +663,8 @@
         "verb": [
             { "name": "lie down", "grammar": "less" },
             "sit",
-            { "name": "stand", "grammar": "more" }
+            { "name": "stand", "grammar": "more" },
+            { "name": "stay", "grammar": "abstract" }
         ]
     },
     {
@@ -649,6 +680,7 @@
         "noun": [
             "computer",
             "device",
+            "machine",
             "caculator",
             { "name": "camera", "grammar": "-aula" }
         ],
@@ -849,7 +881,8 @@
             { "name": "sell", "grammar": "less" },
             "exchange",
             "translate",
-            { "name": "buy", "grammar": "more" }
+            { "name": "buy", "grammar": "more" },
+            { "name": "store", "grammar": ["more", "-lei"] }
         ]
     },
     {
@@ -922,13 +955,26 @@
         ]
     },
     {
+        "word": "kasi",
+        "verb": [
+            "launch",
+            "attack",
+            "suddenly start",
+            "charge",
+            { "name": "punch", "grammar": "lavo-" },
+            { "name": "kick", "grammar": "noka-" }
+        ]
+    },
+    {
         "word": "outo",
         "descriptor": [
             { "name": "unexpected", "grammar": "less" },
             { "name": "strange", "grammar": "less" },
+            { "name": "weird", "grammar": "less" },
             { "name": "unusual", "grammar": "less" },
             { "name": "expected", "grammar": "more" },
             { "name": "ordinary", "grammar": "more" },
+            { "name": "normal", "grammar": "more" },
             { "name": "regular", "grammar": "more" }
         ]
     },
@@ -1166,7 +1212,9 @@
         "word": "sama",
         "descriptor": [
             { "name": "apart", "grammar": "less" },
-            { "name": "together", "grammar": "more" }
+            { "name": "different", "grammar": "less" },
+            { "name": "together", "grammar": "more" },
+            { "name": "same", "grammar": "less" }
         ],
         "noun": [
             { "name": "group", "grammar": "more" },
@@ -1183,7 +1231,9 @@
         "noun": [
             { "name": "underground", "grammar": "less" },
             "ground",
-            { "name": "sky", "grammar": "more" }
+            { "name": "sky", "grammar": "more" },
+            { "name": "space", "grammar": ["more", "intensifier"] },
+            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] }
         ]
     },
     {
@@ -1234,6 +1284,21 @@
             { "name": "exact", "grammar": ["more", "intensifier"] },
             { "name": "clearly", "grammar": "more" },
             { "name": "definitely", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "neta",
+        "noun": [
+            "explanation",
+            "description",
+            "schematic",
+            { "name": "map", "grammar": ["lei-", "-lipo"] },
+            { "name": "descriptor", "grammar": "-kia" }
+        ],
+        "verb": [
+            "explain",
+            "demonstrate",
+            "describe"
         ]
     },
     {

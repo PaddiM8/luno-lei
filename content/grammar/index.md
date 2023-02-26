@@ -204,9 +204,9 @@ The indirect object is the recipient/beneficiary of an action.
 <span class="suffix">-di</span>
 
 Genitive marks possession of another noun (the possession).
-By default, it also marks a word as a direct object. However,
-when the possession is not a direct object, the case of the
-possession is added also to the genitive word.
+By default, it marks a word as a nominative. This makes it
+necessary to add another case, such as accusative or dative,
+in cases where the word is not the subject of a sentence.
 
 #### Examples
 {{ sentence(
@@ -342,6 +342,8 @@ nil word.
 
 The passive voice is used as an unspecified person. It can also be used
 to verbify a word without specifying a person (eg. leg -> to walk).
+Adding the passive suffix to a word can be compared to adding `-ing` to
+a word in English, even if it is slightly different.
 
 #### Examples
 {{ sentence(
@@ -376,6 +378,28 @@ Expresses a demand or wish.
 {{ sentence(
     parts=[["lipo", "note"], ["sva", "more", "noun"], ["stu", "imperative"], ["s", "2", "verb"]]
     translation="You should read a book"
+) }}
+
+## Subordinate Clause
+
+The word `eta` can be used at the start of a subordinate
+clause similar to the word `that` in English.
+
+#### Examples
+{{ sentence(
+    parts=[
+        ["pita", "dislike", "...", "like"],
+        ["sa", "more"],
+        ["n", "1", "verb"],
+        [],
+        ["eta", "that"],
+        [],
+        ["kotu", "house"],
+        [],
+        ["dio", "red"],
+        ["paa", "3", "nd"]
+    ]
+    translation="I like that the house is red"
 ) }}
 
 ## Morphology Syntax

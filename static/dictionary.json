@@ -223,7 +223,8 @@
     {
         "word": "tuo",
         "noun": [
-            "tool"
+            "tool",
+            { "name": "shovel", "grammar": "mautovuolaste-" }
         ]
     },
     {
@@ -449,7 +450,8 @@
             "location",
             "place of stay",
             "house",
-            { "name": "home", "grammar": "more" }
+            { "name": "home", "grammar": "more" },
+            { "name": "room", "grammar": "-leitoe" }
         ]
     },
     {
@@ -1223,6 +1225,7 @@
         "descriptor": [
             { "name": "apart", "grammar": "less" },
             { "name": "different", "grammar": "less" },
+            { "name": "other", "grammar": "less" },
             { "name": "together", "grammar": "more" },
             { "name": "same", "grammar": "less" }
         ],
@@ -1233,7 +1236,8 @@
         ],
         "verb": [
             { "name": "split", "grammar": ["less", "lative"] },
-            { "name": "join", "grammar": ["more", "lative"] }
+            { "name": "join", "grammar": ["more", "lative"] },
+            { "name": "merge", "grammar": ["more", "lative"] }
         ]
     },
     {
@@ -1243,7 +1247,8 @@
             "ground",
             { "name": "sky", "grammar": "more" },
             { "name": "space", "grammar": ["more", "intensifier"] },
-            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] }
+            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] },
+            { "name": "rain", "grammar": ["more", "-vesi"] }
         ]
     },
     {

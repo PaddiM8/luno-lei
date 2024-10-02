@@ -21,7 +21,7 @@ than exact definitions.
 ### What it is
 * Optimised for getting by with a small vocabulary
 * The entire language could fit on a poster
-* Has a rich and flexible grammar 
+* Has a rich and flexible grammar
 * A way to practice communicating with minimal knowledge
   of languages
 
@@ -95,6 +95,7 @@ words to see the meaning/purpose.
             ["t", "accusative"],
             [],
             ["aula", "eye, see"],
+            ["tu", "lative"],
             ["slu", "passive"]
         ],
         translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
@@ -129,6 +130,7 @@ words to see the meaning/purpose.
         ["ma", "dead thing", "...", "living thing"],
         ["sva", "more", "noun"],
         ["teo", "diminutive"],
+        ["da", "dative"],
         [],
         ["(ato", "eight"],
         ["noka", "foot"],

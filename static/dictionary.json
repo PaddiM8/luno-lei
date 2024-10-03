@@ -20,6 +20,8 @@
             { "name": "few", "grammar": "less" },
             { "name": "smaller", "grammar": ["less", "comparative"] },
             { "name": "smallest", "grammar": ["less", "superlative"] },
+            { "name": "least", "grammar": ["less", "superlative"] },
+            { "name": "shrink", "grammar": ["less", "lative"] },
             "moderately sized",
             "several",
             "subset",
@@ -31,7 +33,9 @@
             { "name": "huge", "grammar": ["more", "intensifier"] },
             { "name": "a bit", "grammar": ["more", "diminutive"] },
             { "name": "bigger", "grammar": ["more", "comparative"] },
-            { "name": "biggest", "grammar": ["more", "superlative"] }
+            { "name": "biggest", "grammar": ["more", "superlative"] },
+            { "name": "most", "grammar": ["more", "superlative"] },
+            { "name": "grow", "grammar": ["more", "lative"] }
         ],
         "noun": [
             { "name": "size", "grammar": "abstract" },
@@ -127,14 +131,16 @@
     },
     {
         "word": "loma",
+        "adjective": [
+            { "name": "hungry (need food)", "grammar": "paako..." }
+        ],
         "noun": [
             "food",
             { "name": "vegetable", "grammar": "-vilea" },
             { "name": "fruit", "grammar": ["sutosa...", "-vilea"] }
         ],
         "verb": [
-            "eat",
-            { "name": "have hunger (hungry)", "grammar": "tai..." }
+            "eat"
         ]
     },
     {
@@ -479,10 +485,9 @@
         "descriptor": [
             { "name": "broken", "grammar": "less" },
             { "name": "split", "grammar": "less" },
-            { "name": "illness", "grammar": ["masa-", "less"] },
+            { "name": "sick", "grammar": ["masa-", "less"] },
             { "name": "intact", "grammar": "more" },
             { "name": "whole", "grammar": "more" },
-            { "name": "sick", "grammar": ["masa-", "less"] },
             { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "noun": [
@@ -490,6 +495,7 @@
             { "name": "piece", "grammar": "less" },
             { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
+            { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "health", "grammar": ["masa-", "more"] }
         ],
         "verb": [
@@ -577,7 +583,10 @@
             "keep",
             { "name": "make", "grammar": "more" },
             { "name": "create", "grammar": "more" },
-            { "name": "add", "grammar": "more" }
+            { "name": "add", "grammar": "more" },
+            { "name": "update", "grammar": ["more", "lative"] },
+            { "name": "edit", "grammar": ["more", "lative"] },
+            { "name": "modify", "grammar": ["more", "lative"] }
         ]
     },
     {
@@ -595,7 +604,7 @@
             { "name": "sea", "grammar": ["-vuolavo", "intensifier"] }
         ],
         "verb": [
-            { "name": "have thirst (thirsty)", "grammar": "tai..." }
+            { "name": "thirsty (need liquid)", "grammar": "paako..." }
         ]
     },
     {
@@ -684,11 +693,33 @@
             "device",
             "machine",
             "caculator",
-            { "name": "camera", "grammar": "-aula" }
+            { "name": "camera", "grammar": "-aula" },
+            { "name": "phone", "grammar": "-muni" }
         ],
         "verb": [
             "compute",
             "calculate"
+        ]
+    },
+    {
+        "word": "sako",
+        "descriptor": [
+            "electric"
+        ],
+        "noun": [
+            "electricity",
+            "spark"
+        ]
+    },
+    {
+        "word": "sako",
+        "descriptor": [
+            { "name": "interconnected", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "web", "grammar": "more" },
+            { "name": "internet", "grammar": "more" },
+            { "name": "network", "grammar": "more" }
         ]
     },
     {
@@ -867,7 +898,6 @@
         "noun": [
             { "name": "hole", "grammar": "less" },
             { "name": "ditch", "grammar": "less" },
-            { "name": "door", "grammar": "less" },
             "flat",
             { "name": "hill", "grammar": "more" },
             { "name": "bump", "grammar": "more" },
@@ -1090,6 +1120,17 @@
         ]
     },
     {
+        "word": "voi",
+        "descriptor": [
+            "fatty",
+            "oily"
+        ],
+        "noun": [
+            "fat",
+            "oil"
+        ]
+    },
+    {
         "word": "sita",
         "descriptor": [
             { "name": "inside", "grammar": "less" },
@@ -1132,6 +1173,13 @@
         ]
     },
     {
+        "word": "yopa",
+        "descriptor": [
+            { "name": "odd", "grammar": "less" },
+            { "name": "even", "grammar": "more" }
+        ]
+    },
+    {
         "word": "suto",
         "descriptor": [
             { "name": "sour", "grammar": "less" },
@@ -1141,8 +1189,18 @@
             { "name": "positive", "grammar": "more" }
         ],
         "noun": [
-            { "name": "sugar", "grammar": ["more", "objectification"] },
-            { "name": "candy", "grammar": ["more", "objectification"] }
+            { "name": "sourness", "grammar": ["less", "objectification"] },
+            { "name": "sweetness", "grammar": ["more", "objectification"] },
+            { "name": "sugar", "grammar": ["more", "objectification"] }
+        ]
+    },
+    {
+        "word": "katke",
+        "descriptor": [
+            { "name": "bitter", "grammar": "less" }
+        ],
+        "noun": [
+            { "name": "bitterness", "grammar": ["less", "objectification"] }
         ]
     },
     {
@@ -1171,13 +1229,22 @@
         "descriptor": [
             { "name": "insecure", "grammar": "less" },
             { "name": "weak", "grammar": "less" },
-            { "name": "instable", "grammar": "less" },
+            { "name": "unstable", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
             { "name": "strong", "grammar": "more" },
             { "name": "tough", "grammar": "more" },
             { "name": "stable", "grammar": "more" },
             { "name": "secure", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "weakness", "grammar": ["less", "objectification"] },
+            { "name": "instability", "grammar": ["less", "objectification"] },
+            { "name": "softness", "grammar": ["less", "objectification"] },
+            { "name": "hardness", "grammar": ["more", "objectification"] },
+            { "name": "strength", "grammar": ["more", "objectification"] },
+            { "name": "stability", "grammar": ["more", "objectification"] },
+            { "name": "security", "grammar": ["more", "objectification"] }
         ]
     },
     {
@@ -1238,6 +1305,23 @@
             { "name": "split", "grammar": ["less", "lative"] },
             { "name": "join", "grammar": ["more", "lative"] },
             { "name": "merge", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "avone",
+        "descriptor": [
+            { "name": "inaccessible", "grammar": "less" },
+            { "name": "locked", "grammar": "less" },
+            { "name": "accessible", "grammar": "more" },
+            { "name": "unlocked", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "permission", "grammar": "abstract" },
+            { "name": "access", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "lock", "grammar": ["less", "lative"] },
+            { "name": "unlock", "grammar": ["more", "lative"] }
         ]
     },
     {

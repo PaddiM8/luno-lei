@@ -503,8 +503,8 @@
             { "name": "state", "grammar": "abstract" }
         ],
         "verb": [
-            { "name": "sleep", "grammar": ["ma-", "less"] },
-            { "name": "rest", "grammar": ["ma-", "less"] },
+            { "name": "sleep", "grammar": ["mi-", "less"] },
+            { "name": "rest", "grammar": ["mi-", "less"] },
             { "name": "turn off", "grammar": ["less", "lative"] },
             { "name": "inactivate", "grammar": ["less", "lative"] },
             { "name": "turn on", "grammar": ["more", "lative"] },

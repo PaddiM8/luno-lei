@@ -131,7 +131,7 @@ words to see the meaning/purpose.
     parts=[
         ["mauto", "underground", "ground", "sky"],
         ["sva", "more", "noun"],
-        ["mona", "dead being", "...", "living being"],
+        ["ma", "dead being", "...", "living being"],
         ["sva", "more", "noun"],
         ["ye", "plural"],
         [],

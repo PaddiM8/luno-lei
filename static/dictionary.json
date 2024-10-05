@@ -639,9 +639,10 @@
             { "name": "wet", "grammar": "abstract" }
         ],
         "noun": [
-            { "name": "paste", "grammar": ["less", "diminutive"] },
+            { "name": "paste", "grammar": "diminutive" },
             "liquid",
             "water",
+            { "name": "wet", "grammar": "semblative" },
             { "name": "state (of matter)", "grammar": "abstract" },
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" },

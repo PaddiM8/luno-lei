@@ -58,49 +58,73 @@ words to see the meaning/purpose.
     ],
     translation="It is big, not small"
 ) }}
-{{
-    sentence(
-        parts=[
-            ["dei", "angry", "..."],
-            ["ve", "less"],
-            [],
-            ["vesi", "solid", "liquid", "gas, air"],
-            ["sva", "more", "nd"],
-            [],
-            ["go", "abstract"],
-            ["noka", "leg"],
-            ["pu", "3", "verb", "past"],
-            [],
-            ["bio", "tree"],
-            ["tat", "prolative"],
-            ["wo", "inter"],
-            [],
-            ["bio", "tree"],
-            ["sa", "more"],
-            ["ti", "locative"],
-            [],
-            ["et", "and"],
-            [],
-            ["ma", "dead being", "...", "living being, animal"],
-            ["sva", "more", "nd"],
-            ["ye", "plural"],
-            [],
-            ["keta", "try"],
-            ["pu", "3", "verb", "past"],
-            [],
-            ["mue", "dangerous", "...", "safe"],
-            ["sa", "more"],
-            [],
-            ["kotu", "location, place of stay"],
-            ["t", "accusative"],
-            [],
-            ["aula", "eye, see"],
-            ["tu", "lative"],
-            ["slu", "passive"]
-        ],
-        translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
-    )
-}}
+{{ sentence(
+    parts=[
+        ["vesi", "...", "liquid"],
+        ["ste", "less"],
+        ["teo", "diminutive"],
+        [],
+        ["kuluste", "small lump"],
+        ["di", "genitive"],
+        [],
+        ["muni", "mouth"],
+        ["di", "genitive"],
+    ],
+    translation="Toothpaste (paste of the small mouth lumps)"
+) }}
+{{ sentence(
+    parts=[
+        ["ekli", "dirty", "...", "clean"],
+        ["sa", "more"],
+        ["tu", "lative"],
+        ["tuo", "tool"],
+        [],
+        ["muni", "mouth"],
+        ["di", "genitive"],
+    ],
+    translation="Toothbrush"
+) }}
+{{ sentence(
+    parts=[
+        ["dei", "angry", "..."],
+        ["ve", "less"],
+        [],
+        ["vesi", "solid", "liquid", "gas, air"],
+        ["sva", "more", "nd"],
+        [],
+        ["go", "abstract"],
+        ["noka", "leg"],
+        ["pu", "3", "verb", "past"],
+        [],
+        ["bio", "tree"],
+        ["tat", "prolative"],
+        ["wo", "inter"],
+        [],
+        ["bio", "tree"],
+        ["sa", "more"],
+        ["ti", "locative"],
+        [],
+        ["et", "and"],
+        [],
+        ["ma", "dead being", "...", "living being, animal"],
+        ["sva", "more", "nd"],
+        ["ye", "plural"],
+        [],
+        ["keta", "try"],
+        ["pu", "3", "verb", "past"],
+        [],
+        ["mue", "dangerous", "...", "safe"],
+        ["sa", "more"],
+        [],
+        ["kotu", "location, place of stay"],
+        ["t", "accusative"],
+        [],
+        ["aula", "eye, see"],
+        ["tu", "lative"],
+        ["slu", "passive"]
+    ],
+    translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
+) }}
 {{ sentence(
     parts=[
         ["mauto", "underground", "ground", "sky"],

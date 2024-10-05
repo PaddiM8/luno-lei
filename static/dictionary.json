@@ -147,7 +147,7 @@
     {
         "word": "hei",
         "noun": [
-            { "name": "greeting", "grammar": "objectification" }
+            "greeting"
         ],
         "verb": [
             "greet"
@@ -263,7 +263,7 @@
     {
         "word": "us",
         "noun": [
-            { "name": "separation", "grammar": "objectification" }
+            "separation"
         ],
         "other": [
             "or"
@@ -272,7 +272,7 @@
     {
         "word": "et",
         "noun": [
-            { "name": "combination", "grammar": "objectification" }
+            "combination"
         ],
         "other": [
             "and"
@@ -293,7 +293,7 @@
         "noun": [
             { "name": "corpse", "grammar": "less" },
             { "name": "death", "grammar": ["less", "abstract"] },
-            { "name": "zombie", "grammar": "objectification" },
+            "zombie",
             { "name": "living being", "grammar": "more" },
             { "name": "animal", "grammar": "more" },
             { "name": "life", "grammar": ["more", "abstract"] }
@@ -556,8 +556,8 @@
             "decided"
         ],
         "noun": [
-            { "name": "decision", "grammar": "objectification" },
-            { "name": "rule", "grammar": "objectification" }
+            "decision",
+            "rule"
         ],
         "verb": [
             "decide"
@@ -785,7 +785,7 @@
             { "name": "north", "grammar": "more" }
         ],
         "noun": [
-            { "name": "center (vertical)", "grammar": "objectification" },
+            "center (vertical)",
             { "name": "direction (vertical)", "grammar": "abstract" }
         ]
     },
@@ -799,7 +799,7 @@
             { "name": "east", "grammar": "more" }
         ],
         "noun": [
-            { "name": "center (horizontal)", "grammar": "objectification" },
+            "center (horizontal)",
             { "name": "direction (horizontal)", "grammar": "abstract" }
         ]
     },
@@ -854,14 +854,14 @@
         ],
         "noun": [
             { "name": "silence", "grammar": "less" },
-            { "name": "audio", "grammar": "objectification" },
-            { "name": "volume (audio)", "grammar": "abstract" },
+            { "name": "volume", "grammar": "abstract" },
+            { "name": "audio", "grammar": "abstract" },
             { "name": "loudness", "grammar": "more" },
             { "name": "music", "grammar": "pitasa-" }
         ],
         "verb": [
             { "name": "silence", "grammar": ["less", "lative"] },
-            { "name": "hear", "grammar": ["objectification", "...lawatu"] },
+            { "name": "hear", "grammar": ["abstract", "...lawatu"] },
             { "name": "louden", "grammar": ["more", "lative"] }
         ]
     },
@@ -967,12 +967,12 @@
             "rotated"
         ],
         "noun": [
-            { "name": "angle", "grammar": "objectification" },
-            { "name": "shape", "grammar": "objectification" },
-            { "name": "line", "grammar": ["eya", "objectification"] },
-            { "name": "triangle", "grammar": ["loke", "objectification"] },
-            { "name": "rectangle", "grammar": ["nela", "objectification"] },
-            { "name": "pentagon", "grammar": ["kuuso", "objectification"] }
+            "angle",
+            "shape",
+            "line",
+            { "name": "triangle", "grammar": "loke" },
+            { "name": "rectangle", "grammar": "nela" },
+            { "name": "pentagon", "grammar": "kuuso" }
         ],
         "verb": [
             "spin",
@@ -1116,10 +1116,10 @@
             "eternal"
         ],
         "noun": [
-            { "name": "round thing", "grammar": "objectification" },
-            { "name": "eternity", "grammar": "objectification" },
-            { "name": "wheel", "grammar": "objectification" },
-            { "name": "ball", "grammar": "objectification" }
+            "round thing",
+            "eternity",
+            "wheel",
+            "ball"
         ]
     },
     {
@@ -1182,7 +1182,7 @@
         "noun": [
             { "name": "inside", "grammar": "less" },
             { "name": "core", "grammar": "less" },
-            { "name": "neither inside nor outside (eg. in a tent)", "grammar": "objectification" },
+            "neither inside nor outside (eg. in a tent)",
             { "name": "outside", "grammar": "more" },
             { "name": "shell", "grammar": "more" }
         ]
@@ -1231,9 +1231,9 @@
             { "name": "positive", "grammar": "more" }
         ],
         "noun": [
-            { "name": "sourness", "grammar": ["less", "objectification"] },
-            { "name": "sweetness", "grammar": ["more", "objectification"] },
-            { "name": "sugar", "grammar": ["more", "objectification"] }
+            { "name": "sourness", "grammar": "less" },
+            { "name": "sweetness", "grammar": "more" },
+            { "name": "sugar", "grammar": "more" }
         ]
     },
     {
@@ -1242,7 +1242,7 @@
             { "name": "bitter", "grammar": "less" }
         ],
         "noun": [
-            { "name": "bitterness", "grammar": ["less", "objectification"] }
+            { "name": "bitterness", "grammar": "less" }
         ]
     },
     {
@@ -1280,13 +1280,13 @@
             { "name": "secure", "grammar": "more" }
         ],
         "noun": [
-            { "name": "weakness", "grammar": ["less", "objectification"] },
-            { "name": "instability", "grammar": ["less", "objectification"] },
-            { "name": "softness", "grammar": ["less", "objectification"] },
-            { "name": "hardness", "grammar": ["more", "objectification"] },
-            { "name": "strength", "grammar": ["more", "objectification"] },
-            { "name": "stability", "grammar": ["more", "objectification"] },
-            { "name": "security", "grammar": ["more", "objectification"] }
+            { "name": "weakness", "grammar": "less" },
+            { "name": "instability", "grammar": "less" },
+            { "name": "softness", "grammar": "less" },
+            { "name": "hardness", "grammar": "more" },
+            { "name": "strength", "grammar": "more" },
+            { "name": "stability", "grammar": "more" },
+            { "name": "security", "grammar": "more" }
         ]
     },
     {
@@ -1298,9 +1298,9 @@
             "creative"
         ],
         "noun": [
-            { "name": "flavour", "grammar": "objectification" },
-            { "name": "nuance", "grammar": "objectification" },
-            { "name": "colour", "grammar": "objectification" }
+            "flavour",
+            "nuance",
+            "colour"
         ],
         "verb": [
             "taste"
@@ -1387,7 +1387,7 @@
             { "name": "complete", "grammar": "more" }
         ],
         "noun": [
-            { "name": "result", "grammar": "objectification" }
+            "result"
         ]
     },
     {

@@ -178,7 +178,7 @@ Tama kiasa selavepaa
 Gomioli neve tai mautosanokaslu, nokatuastu
 Gomioli neve tai nokatuaslu, nokastu
 Gomioli neve tai nokaslu, nokivenokastu
-Eya sudisa, alustu gonokaslu
+Eya nesa gomio, alustu gonokaslu
 ```
 
 ### 3 (hard)

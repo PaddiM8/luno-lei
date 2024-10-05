@@ -103,6 +103,7 @@
             { "name": "give", "grammar": "ablative" },
             { "name": "receive", "grammar": "ablative" },
             { "name": "get rid of", "grammar": "ablative" },
+            { "name": "drop", "grammar": ["ablative", "anisve"] },
             { "name": "throw", "grammar": ["ablative", "intensifier"] }
         ]
     },
@@ -184,6 +185,7 @@
     {
         "word": "ani",
         "noun": [
+            { "name": "mistake", "grammar": "less" },
             { "name": "intent", "grammar": "more" },
             { "name": "desire", "grammar": "more" }
         ],
@@ -637,6 +639,7 @@
             { "name": "wet", "grammar": "abstract" }
         ],
         "noun": [
+            { "name": "paste", "grammar": ["less", "diminutive"] },
             "liquid",
             "water",
             { "name": "state (of matter)", "grammar": "abstract" },

@@ -60,8 +60,10 @@ words to see the meaning/purpose.
 ) }}
 {{ sentence(
     parts=[
+        ["ekli", "dirty", "...", "clean"],
+        ["sa", "more"],
+        ["tu", "lative"],
         ["vesi", "...", "liquid"],
-        ["ste", "less"],
         ["teo", "diminutive"],
         [],
         ["kuluste", "small lump"],

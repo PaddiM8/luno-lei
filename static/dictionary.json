@@ -241,6 +241,17 @@
         ]
     },
     {
+        "word": "kulu",
+        "noun": [
+            { "name": "grain (eg. of sand)", "grammar": ["less", "intensifier"] },
+            { "name": "pebble", "grammar": ["less", "molasa"] },
+            { "name": "small lump", "grammar": "less" },
+            "lump",
+            { "name": "rock", "grammar": "molasa" },
+            { "name": "boulder", "grammar": ["more", "molasa"] }
+        ]
+    },
+    {
         "word": "eni",
         "other": [
             "nil word"
@@ -1267,7 +1278,7 @@
         ]
     },
     {
-        "word": "moola",
+        "word": "mola",
         "descriptor": [
             { "name": "insecure", "grammar": "less" },
             { "name": "weak", "grammar": "less" },

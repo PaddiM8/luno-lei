@@ -175,9 +175,9 @@ Tama kiasa selavepaa
 
 ### 2 (medium)
 ```
-Gomioli neve utis mautosanokaslu, nokatuastu
-Gomioli neve utis nokatuaslu, nokastu
-Gomioli neve utis nokaslu, nokivenokastu
+Gomioli neve tai mautosanokaslu, nokatuaslu
+Gomioli neve tai nokatuaslu, nokaslu
+Gomioli neve tai nokaslu, nokivenokaslu
 Eya sudisa, alustu gonokaslu
 ```
 

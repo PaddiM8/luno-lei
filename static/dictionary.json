@@ -10,7 +10,7 @@
         "verb": [
             "do",
             "act",
-            { "name": "work", "grammar": "more" },
+            { "name": "work", "grammar": "intensifier" },
             { "name": "play", "grammar": "pitasa-" }
         ]
     },

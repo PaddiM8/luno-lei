@@ -698,6 +698,7 @@
         "noun": [
             { "name": "beginning", "grammar": "less" },
             "middle",
+            { "name": "between", "grammar": "lative" },
             { "name": "end", "grammar": "more" }
         ],
         "verb": [
@@ -1344,11 +1345,12 @@
     {
         "word": "sama",
         "descriptor": [
+            { "name": "alternatively", "grammar": "less" },
             { "name": "apart", "grammar": "less" },
             { "name": "different", "grammar": "less" },
             { "name": "other", "grammar": "less" },
             { "name": "together", "grammar": "more" },
-            { "name": "same", "grammar": "less" }
+            { "name": "same", "grammar": "more" }
         ],
         "noun": [
             { "name": "group", "grammar": "more" },

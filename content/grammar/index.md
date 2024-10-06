@@ -274,7 +274,7 @@ It is also used to mark a point in time.
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["tiko", "time"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
+    parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["go", "abstract"], ["mio", "before", "now", "later"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
     translation="I will walk at 2 o'clock"
 ) }}
 
@@ -283,7 +283,7 @@ It is also used to mark a point in time.
 <span class="suffix">-kus</span>
 
 Semblative expressses some form of similarity between
-objects or concepts. 
+objects or concepts.
 
 #### Examples
 {{ sentence(

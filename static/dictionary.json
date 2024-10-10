@@ -1054,7 +1054,8 @@
             "suddenly start",
             "charge",
             { "name": "punch", "grammar": "lavo-" },
-            { "name": "kick", "grammar": "noka-" }
+            { "name": "kick", "grammar": "noka-" },
+            { "name": "jump", "grammar": "sunasa-" }
         ]
     },
     {

@@ -178,9 +178,9 @@ Lavon loket kotumasayet
 ### 2 (medium)
 ```
 Pitan kotut enindi, paikakus kotun enipaali
-Gomioli neve tai mautosanokaslu, nokatuastu
-Gomioli neve tai nokatuaslu, nokastu
-Gomioli neve tai nokaslu, nokivenokastu
+Gomioli neve tais mautosanokaslu, nokatuastu
+Gomioli neve tais nokatuaslu, nokastu
+Gomioli neve tais nokaslu, nokivenokastu
 Eya nesa gomio, alustu gonokaslu
 ```
 

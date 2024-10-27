@@ -171,13 +171,13 @@ words to see the meaning/purpose.
 ### 1 (easy)
 ```
 Pitan tama kotut
-Tama kiasa selavepaa
-Lavon loket kotumasayet
+Tama kiasva selavepaa
+Lavon loket kotumasvayet
 ```
 
 ### 2 (medium)
 ```
-Pitan kotut enindi, paikakus kotun enipaali
+Pitasan kotut enindi, paikakus kotun enipaali
 Gomioli neve tais mautosanokaslu, nokatuastu
 Gomioli neve tais nokatuaslu, nokastu
 Gomioli neve tais nokaslu, nokivenokastu

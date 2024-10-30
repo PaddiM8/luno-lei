@@ -103,7 +103,7 @@
             { "name": "give", "grammar": "ablative" },
             { "name": "receive", "grammar": "ablative" },
             { "name": "get rid of", "grammar": "ablative" },
-            { "name": "drop", "grammar": ["ablative", "anisve"] },
+            { "name": "drop", "grammar": ["ablative", "...anive"] },
             { "name": "throw", "grammar": ["ablative", "intensifier"] }
         ]
     },

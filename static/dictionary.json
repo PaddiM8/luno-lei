@@ -223,7 +223,8 @@
     {
         "word": "tuo",
         "noun": [
-            "tool"
+            "tool",
+            { "name": "shovel", "grammar": "mautovuolaste-" }
         ]
     },
     {
@@ -449,7 +450,8 @@
             "location",
             "place of stay",
             "house",
-            { "name": "home", "grammar": "more" }
+            { "name": "home", "grammar": "more" },
+            { "name": "room", "grammar": "-leitoe" }
         ]
     },
     {
@@ -589,8 +591,8 @@
             "water",
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" },
-            { "name": "lake", "grammar": ["-vuolavo"] },
-            { "name": "sea", "grammar": ["-vuolavo", "intensifier"] }
+            { "name": "lake", "grammar": ["-vuolave"] },
+            { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
         ],
         "verb": [
             { "name": "have thirst (thirsty)", "grammar": "tai..." }
@@ -995,7 +997,7 @@
         ]
     },
     {
-        "word": "paki",
+        "word": "poki",
         "noun": [
             "long hard thing",
             "stick",
@@ -1064,6 +1066,16 @@
             { "name": "table", "grammar": ["kinenoka-"] },
             { "name": "bed", "grammar": ["mave-"] },
             { "name": "cupboard", "grammar": ["lauku-"] }
+        ]
+    },
+    {
+        "word": "felti",
+        "descriptor": [
+            "hairy"
+        ],
+        "noun": [
+            "hair",
+            "fur"
         ]
     },
     {
@@ -1223,6 +1235,7 @@
         "descriptor": [
             { "name": "apart", "grammar": "less" },
             { "name": "different", "grammar": "less" },
+            { "name": "other", "grammar": "less" },
             { "name": "together", "grammar": "more" },
             { "name": "same", "grammar": "less" }
         ],
@@ -1233,7 +1246,24 @@
         ],
         "verb": [
             { "name": "split", "grammar": ["less", "lative"] },
-            { "name": "join", "grammar": ["more", "lative"] }
+            { "name": "join", "grammar": ["more", "lative"] },
+            { "name": "merge", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "aisi",
+        "descriptor": [
+            { "name": "backward", "grammar": ["less"] },
+            { "name": "previous", "grammar": ["less", "...gomio"] },
+            { "name": "return", "grammar": ["less"] },
+            "current",
+            { "name": "forward", "grammar": ["more"] },
+            { "name": "future", "grammar": ["more", "...gomio"] }
+        ],
+        "verb": [
+            { "name": "return", "grammar": ["less"] },
+            { "name": "undo", "grammar": ["less"] },
+            { "name": "proceed", "grammar": ["more"] }
         ]
     },
     {
@@ -1243,7 +1273,8 @@
             "ground",
             { "name": "sky", "grammar": "more" },
             { "name": "space", "grammar": ["more", "intensifier"] },
-            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] }
+            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] },
+            { "name": "rain", "grammar": ["more", "-vesi"] }
         ]
     },
     {
@@ -1264,6 +1295,11 @@
     },
     {
         "word": "laise",
+        "descriptor": [
+            { "name": "first", "grammar": "eya-" },
+            { "name": "second", "grammar": "eya-" },
+            { "name": "third", "grammar": "eya-" }
+        ],
         "noun": [
             { "name": "digit", "grammar": "less" },
             "number",

@@ -155,18 +155,18 @@ or end of a sentence.
 
 ### List of Cases
 
-| Case            | Suffix | Uses                      |
-| --------------- | ------ | ------------------------- |
-| Nominative      | -      | -                         |
-| Accusative      | -t     | direct object             |
-| Dative          | -da    | indirect object           |
-| Genitive        | -di    | possession                |
-| Lative          | -tu    | motion towards, for       |
-| Ablative        | -tol   | motion from               |
-| Prolative       | -tat   | via, through, along       |
-| Partitive       | -tia   | direct object, incomplete |
-| Locative/Essive | -li    | at (location, time)       |
-| Semblative      | -kus   | similarity                |
+| Case            | Suffix | Uses                             |
+| --------------- | ------ | -------------------------------- |
+| Nominative      | -      | -                                |
+| Accusative      | -t     | direct object                    |
+| Dative          | -da    | indirect object, together with   |
+| Genitive        | -di    | possession                       |
+| Lative          | -tu    | motion towards, for              |
+| Ablative        | -tol   | motion from                      |
+| Prolative       | -tat   | via, through, along, by means of |
+| Partitive       | -tia   | direct object, incomplete        |
+| Locative/Essive | -li    | at (location, time)              |
+| Semblative      | -kus   | similarity                       |
 
 ### Accusative 
 
@@ -338,12 +338,16 @@ nil word.
 
 ### Passive
 
-<span class="suffix">-(i)slu</span>
+| Kind            | Past | Present | Future |
+| --------------- | ---- | ------- | ------ |
+| Verb            | -sla | -slu    | -slei  |
+| Noun/Descriptor | -sto | -sti    | -stei  |
 
 The passive voice is used as an unspecified person. It can also be used
-to verbify a word without specifying a person (eg. leg -> to walk).
-Adding the passive suffix to a word can be compared to adding `-ing` to
-a word in English, even if it is slightly different.
+to verbify a word without specifying a person (eg. leg -> to walk), in which
+case it turns the word into a noun.
+Although slightly different, adding the passive suffix to a word can be compared to adding `-ing` to
+a word in English.
 
 #### Examples
 {{ sentence(
@@ -351,8 +355,16 @@ a word in English, even if it is slightly different.
     translation="One reads"
 ) }}
 {{ sentence(
-    parts=[["pita", "dislike/like"], ["n", "1", "verb"], [], ["noka", "foot"], ["slu", "passive"]]
+    parts=[["pita", "dislike/like"], ["n", "1", "verb"], [], ["noka", "foot"], ["slu", "passive"], ["t", "accusative"]]
     translation="I like to walk"
+) }}
+{{ sentence(
+    parts=[
+        ["usi", "old", "...", "new"],
+        ["sa", "more"],
+        ["sla", "passive", "past"]
+    ]
+    translation="Was built"
 ) }}
 
 ## Moods
@@ -364,7 +376,7 @@ Expresses a demand or wish.
 |                     | Suffix   |
 | ------------------- | -------- |
 | Verbs               | -(i)stu  |
-| Nouns & Descriptors | -(i)stoa |
+| Nouns & Descriptors | -(i)stoi |
 
 #### Examples
 {{ sentence(
@@ -372,7 +384,7 @@ Expresses a demand or wish.
     translation="Read a book"
 ) }}
 {{ sentence(
-    parts=[["mou", "sa"], ["stoa", "imperative"]]
+    parts=[["mou", "sa"], ["stoi", "imperative"]]
     translation="Be calm"
 ) }}
 {{ sentence(

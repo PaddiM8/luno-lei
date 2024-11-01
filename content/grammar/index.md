@@ -18,7 +18,7 @@ Relative person can be translated to `who`, `whom`,
 `whose`, `which`, `that`, etc. in English.
 
 It is possible to verbify nouns with cases applied
-to them. For example, `lavotin` (lative) means `I get`.
+to them. For example, `lavotun` (lative) means `I get`.
 
 ### Singular
 | Tense/Person | 1st     | 2nd     | 3rd     | Relative |
@@ -83,16 +83,16 @@ would instead refer to `to decrease`.
 
 #### Examples
 {{ sentence(
-    parts=[["ike", "moderately sized"], ["sa", "more"], ["n", "1", "verb"]],
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["naa", "1", "noun"]],
     translation="I am big"
 ) }}
 {{ sentence(
-    parts=[["ike", "moderately sized"], ["sa", "more"], ["s", "2", "verb"]],
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["saa", "2", "noun"]],
     translation="You are big"
 ) }}
 {{ sentence(
-    parts=[["ike", "moderately sized"], ["sa", "more"], ["nu", "1", "verb", "past"]],
-    translation="I were big"
+    parts=[["ike", "moderately sized"], ["sa", "more"], ["not", "1", "noun", "past"]],
+    translation="I was big"
 ) }}
 
 ### Plural
@@ -274,7 +274,7 @@ It is also used to mark a point in time.
     translation="I am at home"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["tiko", "time"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
+    parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["go", "abstract"], ["mio", "before", "now", "later"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
     translation="I will walk at 2 o'clock"
 ) }}
 
@@ -283,7 +283,7 @@ It is also used to mark a point in time.
 <span class="suffix">-kus</span>
 
 Semblative expressses some form of similarity between
-objects or concepts. 
+objects or concepts.
 
 #### Examples
 {{ sentence(

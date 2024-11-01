@@ -27,11 +27,9 @@ paikatuapot eta su usisanu mautosvatuakotut.
 Su paakonas onisluda tamada penasasti, tikoli
 su aninas samave mautosvatualeiyetu nokaslut.
 
-Mautosvatuakotu usisaslu, taukoveyet su lavotolinu 
+Mautosvatuakotu usisaslu, taukoveyet su lavotolinu
 petotue, su petonu snesatua kotutu, et su samasatunu
 taukovet kotuda.
-
----
 
 ### Aulalei
 

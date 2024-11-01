@@ -147,16 +147,16 @@ Colours are expressed using three words:
 * blu - blue
 
 These can be combined to express different
-colours. For example, combining blue and
+colours. For example, combining red and
 green results in yellow, meaning yellow is
-expressed as `bluvia`.
+expressed as `diovia`.
 
 Additionally, the words for "dark" and "light"
 can be used to specify brightness.
 
 #### Examples
 {{ sentence(
-    parts=[["via", "green"], ["dio", "red"]]
+    parts=[["blu", "blue"], ["valo", "dark/white"], ["ve", "less"], ["dio", "red"]]
     translation="Purple"
 ) }}
 {{ sentence(

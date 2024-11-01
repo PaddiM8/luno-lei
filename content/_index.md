@@ -21,7 +21,7 @@ than exact definitions.
 ### What it is
 * Optimised for getting by with a small vocabulary
 * The entire language could fit on a poster
-* Has a rich and flexible grammar 
+* Has a rich and flexible grammar
 * A way to practice communicating with minimal knowledge
   of languages
 
@@ -58,53 +58,80 @@ words to see the meaning/purpose.
     ],
     translation="It is big, not small"
 ) }}
-{{
-    sentence(
-        parts=[
-            ["dei", "angry", "..."],
-            ["ve", "less"],
-            [],
-            ["vesi", "solid", "liquid", "gas, air"],
-            ["sva", "more", "nd"],
-            [],
-            ["go", "abstract"],
-            ["noka", "leg"],
-            ["pu", "3", "verb", "past"],
-            [],
-            ["bio", "tree"],
-            ["tat", "prolative"],
-            ["wo", "inter"],
-            [],
-            ["bio", "tree"],
-            ["sa", "more"],
-            ["ti", "locative"],
-            [],
-            ["et", "and"],
-            [],
-            ["ma", "dead being", "...", "living being, animal"],
-            ["sva", "more", "nd"],
-            ["ye", "plural"],
-            [],
-            ["keta", "try"],
-            ["pu", "3", "verb", "past"],
-            [],
-            ["mue", "dangerous", "...", "safe"],
-            ["sa", "more"],
-            [],
-            ["kotu", "location, place of stay"],
-            ["t", "accusative"],
-            [],
-            ["aula", "eye, see"],
-            ["slu", "passive"]
-        ],
-        translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
-    )
-}}
+{{ sentence(
+    parts=[
+        ["ekli", "dirty", "...", "clean"],
+        ["sa", "more"],
+        ["tu", "lative"],
+        ["vesi", "...", "liquid"],
+        ["teo", "diminutive"],
+        [],
+        ["kuluste", "small lump"],
+        ["di", "genitive"],
+        [],
+        ["muni", "mouth"],
+        ["di", "genitive"],
+    ],
+    translation="Toothpaste (paste of the small mouth lumps)"
+) }}
+{{ sentence(
+    parts=[
+        ["ekli", "dirty", "...", "clean"],
+        ["sa", "more"],
+        ["tu", "lative"],
+        ["tuo", "tool"],
+        [],
+        ["muni", "mouth"],
+        ["di", "genitive"],
+    ],
+    translation="Toothbrush"
+) }}
+{{ sentence(
+    parts=[
+        ["dei", "angry", "..."],
+        ["ve", "less"],
+        [],
+        ["vesi", "solid", "liquid", "gas, air"],
+        ["sva", "more", "nd"],
+        [],
+        ["go", "abstract"],
+        ["noka", "leg"],
+        ["pu", "3", "verb", "past"],
+        [],
+        ["bio", "tree"],
+        ["tat", "prolative"],
+        ["wo", "inter"],
+        [],
+        ["bio", "tree"],
+        ["sa", "more"],
+        ["ti", "locative"],
+        [],
+        ["et", "and"],
+        [],
+        ["ma", "dead being", "...", "living being, animal"],
+        ["sva", "more", "nd"],
+        ["ye", "plural"],
+        [],
+        ["keta", "try"],
+        ["pu", "3", "verb", "past"],
+        [],
+        ["mue", "dangerous", "...", "safe"],
+        ["sa", "more"],
+        [],
+        ["kotu", "location, place of stay"],
+        ["t", "accusative"],
+        [],
+        ["aula", "eye, see"],
+        ["tu", "lative"],
+        ["slu", "passive"]
+    ],
+    translation="The strong winds breezed through the trees in the forest and the animals tried to find a safer location"
+) }}
 {{ sentence(
     parts=[
         ["mauto", "underground", "ground", "sky"],
         ["sva", "more", "noun"],
-        ["mona", "dead being", "...", "living being"],
+        ["ma", "dead being", "...", "living being"],
         ["sva", "more", "noun"],
         ["ye", "plural"],
         [],
@@ -129,6 +156,7 @@ words to see the meaning/purpose.
         ["ma", "dead thing", "...", "living thing"],
         ["sva", "more", "noun"],
         ["teo", "diminutive"],
+        ["da", "dative"],
         [],
         ["(ato", "eight"],
         ["noka", "foot"],
@@ -142,18 +170,21 @@ words to see the meaning/purpose.
 
 ### 1 (easy)
 ```
-Tama kiasa selavepaa
+Pitan tama kotut
+Tama kiasva selavepaa
+Lavon loket kotumasvayet
 ```
 
 ### 2 (medium)
 ```
-Tikoli neve utis mautosanokaslu, nokatuastu
-Tikoli neve utis nokatuaslu, nokastu
-Tikoli neve utis nokaslu, nokivenokastu
-Eya sudisa, alustu gonokaslu
+Pitasan kotut enindi, paikakus kotun enipaali
+Gomioli neve tais mautosanokaslu, nokatuastu
+Gomioli neve tais nokatuaslu, nokastu
+Gomioli neve tais nokaslu, nokivenokastu
+Eya nesa gomio, alustu gonokaslu
 ```
 
 ### 3 (hard)
 ```
-Deleisamasaye su alulavotupi nokimeblot linatat usivevesiditat
+Deleisamiye su alulavotupi nokimeblot vesiusivelolinatat
 ```

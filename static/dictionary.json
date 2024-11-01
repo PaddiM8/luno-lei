@@ -10,7 +10,8 @@
         "verb": [
             "do",
             "act",
-            { "name": "work", "grammar": "more" }
+            { "name": "work", "grammar": "intensifier" },
+            { "name": "play", "grammar": "pitasa-" }
         ]
     },
     {
@@ -20,6 +21,8 @@
             { "name": "few", "grammar": "less" },
             { "name": "smaller", "grammar": ["less", "comparative"] },
             { "name": "smallest", "grammar": ["less", "superlative"] },
+            { "name": "least", "grammar": ["less", "superlative"] },
+            { "name": "shrink", "grammar": ["less", "lative"] },
             "moderately sized",
             "several",
             "subset",
@@ -31,7 +34,9 @@
             { "name": "huge", "grammar": ["more", "intensifier"] },
             { "name": "a bit", "grammar": ["more", "diminutive"] },
             { "name": "bigger", "grammar": ["more", "comparative"] },
-            { "name": "biggest", "grammar": ["more", "superlative"] }
+            { "name": "biggest", "grammar": ["more", "superlative"] },
+            { "name": "most", "grammar": ["more", "superlative"] },
+            { "name": "grow", "grammar": ["more", "lative"] }
         ],
         "noun": [
             { "name": "size", "grammar": "abstract" },
@@ -98,6 +103,7 @@
             { "name": "give", "grammar": "ablative" },
             { "name": "receive", "grammar": "ablative" },
             { "name": "get rid of", "grammar": "ablative" },
+            { "name": "drop", "grammar": ["ablative", "...anive"] },
             { "name": "throw", "grammar": ["ablative", "intensifier"] }
         ]
     },
@@ -121,26 +127,28 @@
         "verb": [
             "talk",
             "say",
-            "eat",
-            "drink"
+            { "name": "eat", "grammar": "...loma" },
+            { "name": "drink", "grammar": "...vesi" }
         ]
     },
     {
         "word": "loma",
+        "adjective": [
+            { "name": "hungry (need food)", "grammar": "paako..." }
+        ],
         "noun": [
             "food",
             { "name": "vegetable", "grammar": "-vilea" },
             { "name": "fruit", "grammar": ["sutosa...", "-vilea"] }
         ],
         "verb": [
-            "eat",
-            { "name": "have hunger (hungry)", "grammar": "tai..." }
+            "eat"
         ]
     },
     {
         "word": "hei",
         "noun": [
-            { "name": "greeting", "grammar": "objectification" }
+            "greeting"
         ],
         "verb": [
             "greet"
@@ -177,6 +185,7 @@
     {
         "word": "ani",
         "noun": [
+            { "name": "mistake", "grammar": "less" },
             { "name": "intent", "grammar": "more" },
             { "name": "desire", "grammar": "more" }
         ],
@@ -217,12 +226,31 @@
             { "name": "easy", "grammar": "less" },
             { "name": "simple", "grammar": "less" },
             { "name": "difficult", "grammar": "more" },
-            { "name": "hard", "grammar": "more" }
+            { "name": "complex", "grammar": "more" },
+            { "name": "hard", "grammar": "more" },
+            { "name": "developed", "grammar": "more" },
+            { "name": "detailed", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "detail", "grammar": "more" }
         ]
     },
     {
         "word": "tuo",
         "noun": [
+            "tool",
+            { "name": "shovel", "grammar": "mautovuolaste-" }
+        ]
+    },
+    {
+        "word": "kulu",
+        "noun": [
+            { "name": "grain (eg. of sand)", "grammar": ["less", "intensifier"] },
+            { "name": "pebble", "grammar": ["less", "molasa"] },
+            { "name": "small lump", "grammar": "less" },
+            "lump",
+            { "name": "rock", "grammar": "molasa" },
+            { "name": "boulder", "grammar": ["more", "molasa"] },
             "tool",
             { "name": "shovel", "grammar": "mautovuolaste-" }
         ]
@@ -250,7 +278,7 @@
     {
         "word": "us",
         "noun": [
-            { "name": "separation", "grammar": "objectification" }
+            "separation"
         ],
         "other": [
             "or"
@@ -259,7 +287,7 @@
     {
         "word": "et",
         "noun": [
-            { "name": "combination", "grammar": "objectification" }
+            "combination"
         ],
         "other": [
             "and"
@@ -280,17 +308,43 @@
         "noun": [
             { "name": "corpse", "grammar": "less" },
             { "name": "death", "grammar": ["less", "abstract"] },
-            { "name": "zombie", "grammar": "objectification" },
+            "zombie",
             { "name": "living being", "grammar": "more" },
-            { "name": "person", "grammar": "more" },
             { "name": "animal", "grammar": "more" },
-            { "name": "human", "grammar": "more" },
-            { "name": "body part", "grammar": "diminutive" },
             { "name": "life", "grammar": ["more", "abstract"] }
         ],
         "verb": [
             { "name": "die", "grammar": "less" },
             { "name": "live", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "mi",
+        "noun": [
+            "human",
+            "person",
+            { "name": "child", "grammar": "diminutive" }
+        ]
+    },
+    {
+        "word": "lava",
+        "descriptor": [
+            { "name": "dependent", "grammar": "less" },
+            { "name": "sub", "grammar": "less" },
+            { "name": "main", "grammar": "more" },
+            { "name": "primary", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "subordinate (human)", "grammar": ["less", "-mi"] },
+            { "name": "subordinate (animal)", "grammar": ["less", "-ma"] },
+            { "name": "boss (human)", "grammar": ["more", "-mi"] },
+            { "name": "boss (animal)", "grammar": ["more", "-ma"] },
+            { "name": "leader (human)", "grammar": ["more", "-mi"] },
+            { "name": "leader (animal)", "grammar": ["more", "-ma"] }
+        ],
+        "verb": [
+            { "name": "follow", "grammar": "less" },
+            { "name": "lead", "grammar": "more" }
         ]
     },
     {
@@ -405,7 +459,7 @@
             "what",
             "which",
             { "name": "why", "grammar": "...paika" },
-            { "name": "when", "grammar": "...tiko" },
+            { "name": "when", "grammar": "...gomio" },
             { "name": "who", "grammar": "...masa" },
             { "name": "how", "grammar": "...pua" }
         ]
@@ -430,26 +484,13 @@
         ]
     },
     {
-        "word": "tiko",
-        "noun": [
-            "clock",
-            "time",
-            "moment",
-            { "name": "situation", "grammar": "abstract" },
-            { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] },
-            { "name": "again", "grammar": ["enisa...", "abstract"] }
-        ],
-        "other": [
-            { "name": "when", "grammar": "locative" },
-            { "name": "if", "grammar": "locative" }
-        ]
-    },
-    {
         "word": "kotu",
         "noun": [
             "location",
             "place of stay",
             "house",
+            { "name": "home", "grammar": "more" },
+            { "name": "room", "grammar": "-leitoe" },
             { "name": "home", "grammar": "more" },
             { "name": "room", "grammar": "-leitoe" }
         ]
@@ -466,8 +507,8 @@
             { "name": "state", "grammar": "abstract" }
         ],
         "verb": [
-            { "name": "sleep", "grammar": ["ma-", "less"] },
-            { "name": "rest", "grammar": ["ma-", "less"] },
+            { "name": "sleep", "grammar": ["mi-", "less"] },
+            { "name": "rest", "grammar": ["mi-", "less"] },
             { "name": "turn off", "grammar": ["less", "lative"] },
             { "name": "inactivate", "grammar": ["less", "lative"] },
             { "name": "turn on", "grammar": ["more", "lative"] },
@@ -479,10 +520,9 @@
         "descriptor": [
             { "name": "broken", "grammar": "less" },
             { "name": "split", "grammar": "less" },
-            { "name": "illness", "grammar": ["masa-", "less"] },
+            { "name": "sick", "grammar": ["masa-", "less"] },
             { "name": "intact", "grammar": "more" },
             { "name": "whole", "grammar": "more" },
-            { "name": "sick", "grammar": ["masa-", "less"] },
             { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "noun": [
@@ -490,6 +530,7 @@
             { "name": "piece", "grammar": "less" },
             { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
+            { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "health", "grammar": ["masa-", "more"] }
         ],
         "verb": [
@@ -504,10 +545,19 @@
             { "name": "before", "grammar": "less" },
             "now",
             { "name": "soon", "grammar": "diminutive" },
-            { "name": "later", "grammar": "more" },
-            { "name": "then", "grammar": "more" },
             { "name": "until", "grammar": ["miove..."] },
-            { "name": "yet", "grammar": ["-tiko", "locative"] }
+            { "name": "later", "grammar": "more" },
+            { "name": "then", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "time", "grammar": "abstract" },
+            { "name": "moment", "grammar": "abstract" },
+            { "name": "again", "grammar": ["enisa-", "abstract"] },
+            { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] }
+        ],
+        "other": [
+            { "name": "when", "grammar": ["locative", "abstract"] },
+            { "name": "if", "grammar": ["locative", "abstract"] }
         ]
     },
     {
@@ -523,8 +573,8 @@
             "decided"
         ],
         "noun": [
-            { "name": "decision", "grammar": "objectification" },
-            { "name": "rule", "grammar": "objectification" }
+            "decision",
+            "rule"
         ],
         "verb": [
             "decide"
@@ -544,7 +594,8 @@
             { "name": "understand", "grammar": ["lavo...", "locative", "in"] },
             { "name": "learn", "grammar": ["lative", "in"] },
             { "name": "study", "grammar": ["lative", "in"] },
-            { "name": "remember", "grammar": ["abstract", "-lavo"] }
+            { "name": "remember", "grammar": ["abstract", "-lavo"] },
+            { "name": "forget", "grammar": ["abstract", "ablative"] }
         ]
     },
     {
@@ -577,25 +628,33 @@
             "keep",
             { "name": "make", "grammar": "more" },
             { "name": "create", "grammar": "more" },
-            { "name": "add", "grammar": "more" }
+            { "name": "add", "grammar": "more" },
+            { "name": "update", "grammar": ["more", "lative"] },
+            { "name": "edit", "grammar": ["more", "lative"] },
+            { "name": "modify", "grammar": ["more", "lative"] }
         ]
     },
     {
         "word": "vesi",
         "descriptor": [
             { "name": "solid", "grammar": "less" },
-            "liquid"
+            { "name": "dry", "grammar": ["less", "abstract"] },
+            "liquid",
+            { "name": "wet", "grammar": "abstract" }
         ],
         "noun": [
+            { "name": "paste", "grammar": "diminutive" },
             "liquid",
             "water",
+            { "name": "wet", "grammar": "semblative" },
+            { "name": "state (of matter)", "grammar": "abstract" },
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" },
             { "name": "lake", "grammar": ["-vuolave"] },
             { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
         ],
         "verb": [
-            { "name": "have thirst (thirsty)", "grammar": "tai..." }
+            { "name": "thirsty (need liquid)", "grammar": "paako..." }
         ]
     },
     {
@@ -607,6 +666,16 @@
             "tree",
             "wood",
             { "name": "forest", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "elda",
+        "noun": [
+            { "name": "ember", "grammar": "less" },
+            "fire"
+        ],
+        "verb": [
+            "burn"
         ]
     },
     {
@@ -633,6 +702,7 @@
         "noun": [
             { "name": "beginning", "grammar": "less" },
             "middle",
+            { "name": "between", "grammar": "lative" },
             { "name": "end", "grammar": "more" }
         ],
         "verb": [
@@ -684,7 +754,8 @@
             "device",
             "machine",
             "caculator",
-            { "name": "camera", "grammar": "-aula" }
+            { "name": "camera", "grammar": "-aula" },
+            { "name": "phone", "grammar": "-muni" }
         ],
         "verb": [
             "compute",
@@ -692,10 +763,32 @@
         ]
     },
     {
+        "word": "sako",
+        "descriptor": [
+            "electric"
+        ],
+        "noun": [
+            "electricity",
+            "spark"
+        ]
+    },
+    {
+        "word": "sako",
+        "descriptor": [
+            { "name": "interconnected", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "web", "grammar": "more" },
+            { "name": "internet", "grammar": "more" },
+            { "name": "network", "grammar": "more" }
+        ]
+    },
+    {
         "word": "aula",
         "noun": [
             "eye",
-            { "name": "vision", "grammar": "abstract" }
+            { "name": "vision", "grammar": "abstract" },
+            { "name": "find", "grammar": "lative" }
         ],
         "verb": [
             "see",
@@ -712,7 +805,7 @@
             { "name": "north", "grammar": "more" }
         ],
         "noun": [
-            { "name": "center (vertical)", "grammar": "objectification" },
+            "center (vertical)",
             { "name": "direction (vertical)", "grammar": "abstract" }
         ]
     },
@@ -726,7 +819,7 @@
             { "name": "east", "grammar": "more" }
         ],
         "noun": [
-            { "name": "center (horizontal)", "grammar": "objectification" },
+            "center (horizontal)",
             { "name": "direction (horizontal)", "grammar": "abstract" }
         ]
     },
@@ -781,14 +874,14 @@
         ],
         "noun": [
             { "name": "silence", "grammar": "less" },
-            { "name": "audio", "grammar": "objectification" },
-            { "name": "volume (audio)", "grammar": "abstract" },
+            { "name": "volume", "grammar": "abstract" },
+            { "name": "audio", "grammar": "abstract" },
             { "name": "loudness", "grammar": "more" },
             { "name": "music", "grammar": "pitasa-" }
         ],
         "verb": [
             { "name": "silence", "grammar": ["less", "lative"] },
-            { "name": "hear", "grammar": ["objectification", "...lawatu"] },
+            { "name": "hear", "grammar": ["abstract", "...lawatu"] },
             { "name": "louden", "grammar": ["more", "lative"] }
         ]
     },
@@ -867,7 +960,6 @@
         "noun": [
             { "name": "hole", "grammar": "less" },
             { "name": "ditch", "grammar": "less" },
-            { "name": "door", "grammar": "less" },
             "flat",
             { "name": "hill", "grammar": "more" },
             { "name": "bump", "grammar": "more" },
@@ -895,12 +987,12 @@
             "rotated"
         ],
         "noun": [
-            { "name": "angle", "grammar": "objectification" },
-            { "name": "shape", "grammar": "objectification" },
-            { "name": "line", "grammar": ["eya", "objectification"] },
-            { "name": "triangle", "grammar": ["loke", "objectification"] },
-            { "name": "rectangle", "grammar": ["nela", "objectification"] },
-            { "name": "pentagon", "grammar": ["kuuso", "objectification"] }
+            "angle",
+            "shape",
+            "line",
+            { "name": "triangle", "grammar": "loke" },
+            { "name": "rectangle", "grammar": "nela" },
+            { "name": "pentagon", "grammar": "kuuso" }
         ],
         "verb": [
             "spin",
@@ -966,7 +1058,8 @@
             "suddenly start",
             "charge",
             { "name": "punch", "grammar": "lavo-" },
-            { "name": "kick", "grammar": "noka-" }
+            { "name": "kick", "grammar": "noka-" },
+            { "name": "jump", "grammar": "sunasa-" }
         ]
     },
     {
@@ -1044,10 +1137,10 @@
             "eternal"
         ],
         "noun": [
-            { "name": "round thing", "grammar": "objectification" },
-            { "name": "eternity", "grammar": "objectification" },
-            { "name": "wheel", "grammar": "objectification" },
-            { "name": "ball", "grammar": "objectification" }
+            "round thing",
+            "eternity",
+            "wheel",
+            "ball"
         ]
     },
     {
@@ -1100,6 +1193,17 @@
         ]
     },
     {
+        "word": "voi",
+        "descriptor": [
+            "fatty",
+            "oily"
+        ],
+        "noun": [
+            "fat",
+            "oil"
+        ]
+    },
+    {
         "word": "sita",
         "descriptor": [
             { "name": "inside", "grammar": "less" },
@@ -1109,7 +1213,7 @@
         "noun": [
             { "name": "inside", "grammar": "less" },
             { "name": "core", "grammar": "less" },
-            { "name": "neither inside nor outside (eg. in a tent)", "grammar": "objectification" },
+            "neither inside nor outside (eg. in a tent)",
             { "name": "outside", "grammar": "more" },
             { "name": "shell", "grammar": "more" }
         ]
@@ -1142,6 +1246,13 @@
         ]
     },
     {
+        "word": "yopa",
+        "descriptor": [
+            { "name": "odd", "grammar": "less" },
+            { "name": "even", "grammar": "more" }
+        ]
+    },
+    {
         "word": "suto",
         "descriptor": [
             { "name": "sour", "grammar": "less" },
@@ -1151,8 +1262,18 @@
             { "name": "positive", "grammar": "more" }
         ],
         "noun": [
-            { "name": "sugar", "grammar": ["more", "objectification"] },
-            { "name": "candy", "grammar": ["more", "objectification"] }
+            { "name": "sourness", "grammar": "less" },
+            { "name": "sweetness", "grammar": "more" },
+            { "name": "sugar", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "katke",
+        "descriptor": [
+            { "name": "bitter", "grammar": "less" }
+        ],
+        "noun": [
+            { "name": "bitterness", "grammar": "less" }
         ]
     },
     {
@@ -1177,17 +1298,26 @@
         ]
     },
     {
-        "word": "moola",
+        "word": "mola",
         "descriptor": [
             { "name": "insecure", "grammar": "less" },
             { "name": "weak", "grammar": "less" },
-            { "name": "instable", "grammar": "less" },
+            { "name": "unstable", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
             { "name": "strong", "grammar": "more" },
             { "name": "tough", "grammar": "more" },
             { "name": "stable", "grammar": "more" },
             { "name": "secure", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "weakness", "grammar": "less" },
+            { "name": "instability", "grammar": "less" },
+            { "name": "softness", "grammar": "less" },
+            { "name": "hardness", "grammar": "more" },
+            { "name": "strength", "grammar": "more" },
+            { "name": "stability", "grammar": "more" },
+            { "name": "security", "grammar": "more" }
         ]
     },
     {
@@ -1199,12 +1329,9 @@
             "creative"
         ],
         "noun": [
-            { "name": "flavour", "grammar": "objectification" },
-            { "name": "nuance", "grammar": "objectification" },
-            { "name": "colour", "grammar": "objectification" }
-        ],
-        "verb": [
-            "taste"
+            "flavour",
+            "nuance",
+            "colour"
         ]
     },
     {
@@ -1233,11 +1360,13 @@
     {
         "word": "sama",
         "descriptor": [
+            { "name": "alternatively", "grammar": "less" },
             { "name": "apart", "grammar": "less" },
             { "name": "different", "grammar": "less" },
             { "name": "other", "grammar": "less" },
+            { "name": "other", "grammar": "less" },
             { "name": "together", "grammar": "more" },
-            { "name": "same", "grammar": "less" }
+            { "name": "same", "grammar": "more" }
         ],
         "noun": [
             { "name": "group", "grammar": "more" },
@@ -1246,6 +1375,25 @@
         ],
         "verb": [
             { "name": "split", "grammar": ["less", "lative"] },
+            { "name": "join", "grammar": ["more", "lative"] },
+            { "name": "merge", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "avone",
+        "descriptor": [
+            { "name": "inaccessible", "grammar": "less" },
+            { "name": "locked", "grammar": "less" },
+            { "name": "accessible", "grammar": "more" },
+            { "name": "unlocked", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "permission", "grammar": "abstract" },
+            { "name": "access", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "lock", "grammar": ["less", "lative"] },
+            { "name": "unlock", "grammar": ["more", "lative"] },
             { "name": "join", "grammar": ["more", "lative"] },
             { "name": "merge", "grammar": ["more", "lative"] }
         ]
@@ -1273,6 +1421,21 @@
             "ground",
             { "name": "sky", "grammar": "more" },
             { "name": "space", "grammar": ["more", "intensifier"] },
+            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] },
+            { "name": "rain", "grammar": ["more", "-vesi"] }
+        ]
+    },
+    {
+        "word": "taiso",
+        "descriptor": [
+            { "name": "not started", "grammar": "less" },
+            "incomplete",
+            "unfinished",
+            { "name": "done", "grammar": "more" },
+            { "name": "complete", "grammar": "more" }
+        ],
+        "noun": [
+            "result",
             { "name": "planet", "grammar": ["more", "intensifier", "-luno"] },
             { "name": "rain", "grammar": ["more", "-vesi"] }
         ]
@@ -1422,3 +1585,4 @@
         ]
     }
 ]
+

@@ -1063,6 +1063,16 @@
         ]
     },
     {
+        "word": "fina",
+        "descriptor": [
+            { "name": "nonexistent", "grammar": "less" },
+            { "name": "existent", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "exist", "grammar": "more" }
+        ]
+    },
+    {
         "word": "outo",
         "descriptor": [
             { "name": "unexpected", "grammar": "less" },

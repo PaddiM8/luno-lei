@@ -24,7 +24,7 @@ masvaye su gonokipi kuusoli dek eyave vikosvatuali.
 Masvaye masa et moolasa vikosvayeli us
 vikosvatuayeli gonokislut, et ne masataukove,
 paikatuapot eta su usisanu mautosvatuakotut.
-Su pakonas onisluda tamada penasasti, tikoli
+Su pakosanas onisluda tamada penasasti, tikoli
 su aninas samave mautosvatualeiyetu nokaslut.
 
 Mautosvatuakotu usisaslu, taukoveyet su lavotolinu

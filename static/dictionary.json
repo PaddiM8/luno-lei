@@ -134,7 +134,7 @@
     {
         "word": "loma",
         "adjective": [
-            { "name": "hungry (need food)", "grammar": "pako..." }
+            { "name": "hungry (need food)", "grammar": "pakosa..." }
         ],
         "noun": [
             "food",
@@ -173,13 +173,17 @@
     },
     {
         "word": "pako",
+        "descriptor": [
+            { "name": "forbidden", "grammar": "less" }
+        ],
         "noun": [
-            "obligation"
+            { "name": "obligation", "grammar": "more" }
         ],
         "verb": [
-            "have to",
-            "must",
-            "need to"
+            { "name": "not allowed to", "grammar": "less" },
+            { "name": "have to", "grammar": "more" },
+            { "name": "must", "grammar": "more" },
+            { "name": "need to", "grammar": "more" }
         ]
     },
     {
@@ -654,7 +658,7 @@
             { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
         ],
         "verb": [
-            { "name": "thirsty (need liquid)", "grammar": "pako..." }
+            { "name": "thirsty (need liquid)", "grammar": "pakosa..." }
         ]
     },
     {

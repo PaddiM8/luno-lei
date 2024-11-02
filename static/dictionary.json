@@ -1453,7 +1453,7 @@
         ]
     },
     {
-        "word": "taiso",
+        "word": "daiso",
         "descriptor": [
             { "name": "not started", "grammar": "less" },
             "incomplete",
@@ -1462,9 +1462,7 @@
             { "name": "complete", "grammar": "more" }
         ],
         "noun": [
-            "result",
-            { "name": "planet", "grammar": ["more", "intensifier", "-luno"] },
-            { "name": "rain", "grammar": ["more", "-vesi"] }
+            "result"
         ]
     },
     {

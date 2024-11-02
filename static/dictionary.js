@@ -85,7 +85,7 @@ function createList(dictionary, names) {
             noun: values.noun,
             verb: values.verb,
             other: values.other,
-            search: searchWords
+            search: searchWords,
         });
     }
 }

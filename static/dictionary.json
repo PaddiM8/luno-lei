@@ -1057,8 +1057,8 @@
             "attack",
             "suddenly start",
             "charge",
-            { "name": "punch", "grammar": "lavo-" },
-            { "name": "kick", "grammar": "noka-" },
+            { "name": "punch", "grammar": ["lavo-", "intensifier"] },
+            { "name": "kick", "grammar": ["noka-", "intensifier"] },
             { "name": "jump", "grammar": "sunasa-" }
         ]
     },

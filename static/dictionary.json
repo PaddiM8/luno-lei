@@ -243,7 +243,7 @@
         "word": "tuo",
         "noun": [
             "tool",
-            { "name": "shovel", "grammar": "mautovuolaste-" }
+            { "name": "shovel", "grammar": "mautovolaste-" }
         ]
     },
     {
@@ -256,7 +256,7 @@
             { "name": "rock", "grammar": "molasa" },
             { "name": "boulder", "grammar": ["more", "molasa"] },
             "tool",
-            { "name": "shovel", "grammar": "mautovuolaste-" }
+            { "name": "shovel", "grammar": "mautovolaste-" }
         ]
     },
     {
@@ -654,8 +654,8 @@
             { "name": "state (of matter)", "grammar": "abstract" },
             { "name": "gas", "grammar": "more" },
             { "name": "air", "grammar": "more" },
-            { "name": "lake", "grammar": ["-vuolave"] },
-            { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
+            { "name": "lake", "grammar": ["-volave"] },
+            { "name": "sea", "grammar": ["-volave", "intensifier"] }
         ],
         "verb": [
             { "name": "thirsty (need liquid)", "grammar": "pakosa..." }
@@ -983,22 +983,33 @@
         ]
     },
     {
-        "word": "vuola",
+        "word": "vola",
         "descriptor": [
-            { "name": "open", "grammar": "less" },
-            { "name": "closed", "grammar": "more" }
+            "flat"
         ],
         "noun": [
             { "name": "hole", "grammar": "less" },
             { "name": "ditch", "grammar": "less" },
-            "flat",
+            "flat thing",
+            "panel",
+            "board",
+            "plank",
             { "name": "hill", "grammar": "more" },
             { "name": "bump", "grammar": "more" },
             { "name": "button", "grammar": ["more", "diminutive"] }
+        ]
+    },
+    {
+        "word": "kine",
+        "descriptor": [
+            { "name": "open", "grammar": "less" },
+            { "name": "closed", "grammar": "more" },
+            { "name": "locked", "grammar": ["more", "intensifier"] }
         ],
         "verb": [
             { "name": "open", "grammar": "less" },
-            { "name": "close", "grammar": "more" }
+            { "name": "close", "grammar": "more" },
+            { "name": "lock", "grammar": ["more", "intensifier"] }
         ]
     },
     {
@@ -1151,18 +1162,6 @@
         ]
     },
     {
-        "word": "kine",
-        "noun": [
-            "flat thing",
-            "panel",
-            "board",
-            "plank"
-        ],
-        "verb": [
-            "lie down"
-        ]
-    },
-    {
         "word": "loko",
         "noun": [
             "block",
@@ -1197,7 +1196,7 @@
         "noun": [
             "furniture",
             { "name": "chair", "grammar": ["noki-"] },
-            { "name": "table", "grammar": ["kinenoka-"] },
+            { "name": "table", "grammar": ["volanoka-"] },
             { "name": "bed", "grammar": ["mave-"] },
             { "name": "cupboard", "grammar": ["lauku-"] }
         ]

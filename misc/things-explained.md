@@ -10,7 +10,7 @@ enipaada samaslu.
 Paikakus kotu nokapi lunotat mautosvatuaditat,
 oniye enipaalie su mautosvanokapi eya ne mautotu
 nokaslut. Kotulie, outosa oniye vesikus su onipi
-outovetua, et taislu nokakasislutat kotukinetat
+outovetua, et taislu nokakasislutat kotuvolatat
 mautosvanokaslut. Nesa masvaye su munipi eta
 pitasatuapaa.
 
@@ -40,7 +40,7 @@ tamatu leitu.
 Tama kotuleiteo jepleisatolipi. Ikesavie kotuleiteopaa
 kotudi.
 
-### Vuolaste mautosatuapetodi
+### Volaste mautosatuapetodi
 
 Mautosatuapeto samatusapi tama leili.
 

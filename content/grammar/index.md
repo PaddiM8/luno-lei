@@ -242,7 +242,7 @@ direct object.
     translation="I walk from you"
 ) }}
 {{ sentence(
-    parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vuola", "hole/bump"], ["ste", "less", "noun"], ["tat", "prolative"]]
+    parts=[["noka", "foot"], ["s", "2", "verb"], [], ["vola", "hole/bump"], ["ste", "less", "noun"], ["tat", "prolative"]]
     translation="You walk through the hole"
 ) }}
 

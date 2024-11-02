@@ -136,7 +136,7 @@ words to see the meaning/purpose.
         ["ye", "plural"],
         [],
         ["vesi", "liquid"],
-        ["vuola", "hole", "...", "bump"],
+        ["vola", "hole", "...", "bump"],
         ["ste", "less", "noun"],
         ["di", "genitive"],
         [],

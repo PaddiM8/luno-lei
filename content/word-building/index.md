@@ -156,11 +156,11 @@ can be used to specify brightness.
 
 #### Examples
 {{ sentence(
-    parts=[["blu", "blue"], ["valo", "dark/white"], ["ve", "less"], ["dio", "red"]]
+    parts=[["blu", "blue"], ["velu", "dark/light"], ["ve", "less"], ["dio", "red"]]
     translation="Purple"
 ) }}
 {{ sentence(
-    parts=[["valo", "dark/white"], ["sa", "more"], ["via", "green"]]
+    parts=[["velu", "dark/light"], ["sa", "more"], ["via", "green"]]
     translation="Light green"
 ) }}
 

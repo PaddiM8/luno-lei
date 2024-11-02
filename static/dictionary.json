@@ -683,16 +683,23 @@
         ]
     },
     {
+        "word": "velu",
+        "descriptor": [
+            { "name": "black", "grammar": ["less", "intensifier"] },
+            { "name": "dark (colour)", "grammar": "less" },
+            "gray",
+            { "name": "light (colour)", "grammar": "more" },
+            { "name": "white", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
         "word": "valo",
         "descriptor": [
-            { "name": "dark", "grammar": "less" },
-            { "name": "black", "grammar": ["less", "intensifier"] },
-            { "name": "white", "grammar": ["more", "intensifier"] },
-            { "name": "light", "grammar": "more" },
-            { "name": "white", "grammar": "more" },
-            { "name": "bright", "grammar": "more" }
+            { "name": "dark (luminance)", "grammar": "less" },
+            { "name": "bright (luminance)", "grammar": "more" }
         ],
         "noun": [
+            { "name": "luminance", "grammar": "abstract" },
             { "name": "light", "grammar": "more" },
             { "name": "lamp", "grammar": "more"  }
         ]
@@ -872,7 +879,7 @@
     },
     {
         "word": "luume",
-        "adjective": [
+        "descriptor": [
             { "name": "quiet", "grammar": "less" },
             { "name": "loud", "grammar": "more" }
         ],
@@ -887,6 +894,17 @@
             { "name": "silence", "grammar": ["less", "lative"] },
             { "name": "hear", "grammar": ["abstract", "...lawatu"] },
             { "name": "louden", "grammar": ["more", "lative"] }
+        ]
+    },
+    {
+        "word": "kila",
+        "descriptor": [
+            { "name": "matte", "grammar": "less" },
+            { "name": "shiny", "grammar": "more" },
+            { "name": "reflective", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "reflection", "grammar": "more" }
         ]
     },
     {

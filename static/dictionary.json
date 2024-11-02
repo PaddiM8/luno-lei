@@ -1000,19 +1000,6 @@
         ]
     },
     {
-        "word": "kine",
-        "descriptor": [
-            { "name": "open", "grammar": "less" },
-            { "name": "closed", "grammar": "more" },
-            { "name": "locked", "grammar": ["more", "intensifier"] }
-        ],
-        "verb": [
-            { "name": "open", "grammar": "less" },
-            { "name": "close", "grammar": "more" },
-            { "name": "lock", "grammar": ["more", "intensifier"] }
-        ]
-    },
-    {
         "word": "osta",
         "verb": [
             { "name": "sell", "grammar": "less" },

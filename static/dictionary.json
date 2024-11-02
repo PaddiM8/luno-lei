@@ -795,6 +795,15 @@
         ]
     },
     {
+        "word": "yaku",
+        "descriptor": [
+            { "name": "temporary", "grammar": "less" },
+            { "name": "short-lived", "grammar": "less" },
+            { "name": "long-term", "grammar": "more" },
+            { "name": "permanent", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
         "word": "aula",
         "noun": [
             "eye",

@@ -138,8 +138,8 @@
         ],
         "noun": [
             "food",
-            { "name": "vegetable", "grammar": "-vilea" },
-            { "name": "fruit", "grammar": ["sutosa...", "-vilea"] }
+            { "name": "vegetable", "grammar": "-vile" },
+            { "name": "fruit", "grammar": ["sutosa...", "-vile"] }
         ],
         "verb": [
             "eat"
@@ -872,7 +872,7 @@
         ]
     },
     {
-        "word": "vilea",
+        "word": "vile",
         "noun": [
             "plant",
             { "name": "leaf", "grammar": "taukove-" }

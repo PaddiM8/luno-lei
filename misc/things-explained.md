@@ -16,7 +16,7 @@ pitasatuapaa.
 
 Masvaye kotulie su onipi onisvaslut, pitasaonislut,
 inamoyet lunodit mautosvatuadit usisaslut. Su onipi
-masvayetu mautolimes, mepua oniye vileayekus et
+masvayetu mautolimes, mepua oniye vileyekus et
 diigiyekus su onipi mautosvatuali lawatueslut.
 Nesateo tiko, seke masvaye su kotulipi, et nesa
 masvaye su gonokipi kuusoli dek eyave vikosvatuali.

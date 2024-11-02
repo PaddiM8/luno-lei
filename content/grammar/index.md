@@ -181,7 +181,7 @@ the direct object.
 
 #### Examples
 {{ sentence(
-    parts=[["lavo", "hand"], ["n", "1", "verb"], [], ["vilea", "plant"], ["t", "accusative"]]
+    parts=[["lavo", "hand"], ["n", "1", "verb"], [], ["vile", "plant"], ["t", "accusative"]]
     translation="I have a plant"
 ) }}
 

@@ -134,7 +134,7 @@
     {
         "word": "loma",
         "adjective": [
-            { "name": "hungry (need food)", "grammar": "paako..." }
+            { "name": "hungry (need food)", "grammar": "pako..." }
         ],
         "noun": [
             "food",
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "word": "paako",
+        "word": "pako",
         "noun": [
             "obligation"
         ],
@@ -654,7 +654,7 @@
             { "name": "sea", "grammar": ["-vuolave", "intensifier"] }
         ],
         "verb": [
-            { "name": "thirsty (need liquid)", "grammar": "paako..." }
+            { "name": "thirsty (need liquid)", "grammar": "pako..." }
         ]
     },
     {

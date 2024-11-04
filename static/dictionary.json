@@ -1141,6 +1141,33 @@
         ]
     },
     {
+        "word": "meti",
+        "noun": [
+            { "name": "millimetre", "grammar": ["less", "intensifier"] },
+            { "name": "centimetre", "grammar": "less" },
+            { "name": "decimetre", "grammar": ["less", "diminutive"] },
+            "metre",
+            { "name": "length", "grammar": "abstract" },
+            { "name": "decametre", "grammar": ["more", "diminutive"] },
+            { "name": "hectometre", "grammar": "more" },
+            { "name": "kilometre", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
+        "word": "liti",
+        "noun": [
+            { "name": "millilitre", "grammar": ["less", "intensifier"] },
+            { "name": "centilitre", "grammar": "less" },
+            { "name": "decilitre", "grammar": ["less", "diminutive"] },
+            "litre",
+            { "name": "volume", "grammar": "abstract" },
+            { "name": "decalitre", "grammar": ["more", "diminutive"] },
+            { "name": "hectolitre", "grammar": "more" },
+            { "name": "kilolitre", "grammar": ["more", "intensifier"] },
+            { "name": "cubic metre", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
         "word": "poki",
         "noun": [
             "long hard thing",

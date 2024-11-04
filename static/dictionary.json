@@ -1129,6 +1129,18 @@
         ]
     },
     {
+        "word": "uyo",
+        "descriptor": [
+            { "name": "insufficient", "grammar": "less" },
+            { "name": "lacking", "grammar": "less" },
+            "enough",
+            "sufficient",
+            { "name": "too (eg. much)", "grammar": "more" },
+            { "name": "overflowing", "grammar": "more" },
+            { "name": "excessive", "grammar": "more" }
+        ]
+    },
+    {
         "word": "poki",
         "noun": [
             "long hard thing",

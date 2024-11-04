@@ -1,9 +1,3 @@
-function createKind(kind, value) {
-    return value
-        ? `<span class="translation ${kind}"></span>`
-        : "";
-}
-
 function createItem(kind, value, names) {
     if (!value) {
         return "";
@@ -52,41 +46,19 @@ function createItem(kind, value, names) {
     `;
 }
 
-function createList(dictionary, names) {
-    const options = {
-        searchColumns: [
-            "word",
-            "search"
-        ],
-        item: values => {
-            return `
-                <div class="item">
-                    <h3 class="word">${values.word}</h3>
-                    ${createItem("descriptor", values.descriptor, names)}
-                    ${createItem("noun", values.noun, names)}
-                    ${createItem("verb", values.verb, names)}
-                    ${createItem("other", values.other, names)}
-                </div>
-            `;
-        },
-    };
+function createList(containerElement, dictionary, names) {
+    containerElement.innerHTML = "";
 
-    const list = new List("words", options);
-    for (const values of dictionary) {
-        const searchWords = Object.values(values).map(a =>
-            Object.values(a).map(b =>
-                typeof b == "object" ? b.name : b
-            ).join(" ")
-        ).join(" ");
-
-        list.add({
-            word: values.word,
-            descriptor: values.descriptor,
-            noun: values.noun,
-            verb: values.verb,
-            other: values.other,
-            search: searchWords,
-        });
+    for (const item of dictionary) {
+        containerElement.insertAdjacentHTML("beforeend", `
+            <div class="item">
+                <h3 class="word">${item.word}</h3>
+                ${createItem("descriptor", item.descriptor, names)}
+                ${createItem("noun", item.noun, names)}
+                ${createItem("verb", item.verb, names)}
+                ${createItem("other", item.other, names)}
+            </div>
+        `);
     }
 }
 
@@ -105,7 +77,35 @@ function updateWordCount(dictionary) {
     wordCountElement.textContent = `${dictionary.length} base words, ${derivedCount}+ derived words`;
 }
 
+function search(containerElement, dictionary, names, text) {
+    const fuse = new Fuse(dictionary, {
+        keys: [
+            {
+                name: "word",
+                weight: 5
+            },
+            "descriptor",
+            "descriptor.name",
+            "noun",
+            "noun.name",
+            "verb",
+            "verb.name",
+            "other",
+            "other.name",
+        ]
+    });
+
+    const result = text
+        ? fuse.search(text).map(x => x.item)
+        : dictionary;
+    createList(containerElement, result, names);
+}
+
+const containerElement = document.getElementById("word-list");
 const dictionary = await (await fetch("/dictionary.json")).json();
 const names = await (await fetch("/names.json")).json();
-createList(dictionary, names);
+createList(containerElement, dictionary, names);
 updateWordCount(dictionary);
+
+const searchElement = document.getElementById("search");
+searchElement.addEventListener("input", e => search(containerElement, dictionary, names, e.target.value));

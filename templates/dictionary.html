@@ -3,10 +3,10 @@
 {% block content %}
 <h2>Base Words <span id="word-count" class="note"></span></h2>
 <div id="words">
-    <input class="search" placeholder="Search..." />
-    <ul class="list word-list"></ul>
+    <input id="search" class="search" placeholder="Search..." />
+    <ul id="word-list" class="list word-list"></ul>
 </div>
 
-<script src="/list.min.js"></script>
+<script src="/fuse.js"></script>
 <script type="module" src="/dictionary.js"></script>
 {% endblock content %}

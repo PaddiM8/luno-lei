@@ -159,14 +159,14 @@ or end of a sentence.
 | --------------- | ------ | -------------------------------- |
 | Nominative      | -      | -                                |
 | Accusative      | -t     | direct object                    |
-| Dative          | -da    | indirect object, together with   |
+| Dative          | -da    | indirect object                  |
 | Genitive        | -di    | possession                       |
-| Lative          | -tu    | motion towards, for              |
-| Ablative        | -tol   | motion from                      |
+| Lative          | -tu    | towards, for                     |
+| Ablative        | -tol   | from                             |
 | Prolative       | -tat   | via, through, along, by means of |
 | Partitive       | -tia   | direct object, incomplete        |
 | Locative/Essive | -li    | at (location, time)              |
-| Semblative      | -kus   | similarity                       |
+| Semblative      | -dea   | with                             |
 
 ### Accusative 
 

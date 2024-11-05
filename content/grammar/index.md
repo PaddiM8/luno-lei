@@ -4,9 +4,16 @@ template = "base.html"
 +++
 ## Word Order
 
-The word order is generally free, but words may be placed
-earlier in a sentence for emphasis. Adjectives go either
-right before or after the noun they describe.
+The word order is mostly free, except for with descriptors
+and words with genitive.
+
+### Descriptors
+A descriptor is either an adjective or an adverb. Adjectives
+go before the word they are describing, while adverbs go before
+the word they are describing.
+
+### Genitive
+Words with genitive go after the noun they are in relation to.
 
 ## Verb Conjugation
 
@@ -168,7 +175,7 @@ or end of a sentence.
 | Locative/Essive | -li    | at (location, time)              |
 | Semblative      | -dea   | with                             |
 
-### Accusative 
+### Accusative
 
 <span class="suffix">-t</span>
 

@@ -22,7 +22,6 @@
             { "name": "smaller", "grammar": ["less", "comparative"] },
             { "name": "smallest", "grammar": ["less", "superlative"] },
             { "name": "least", "grammar": ["less", "superlative"] },
-            { "name": "shrink", "grammar": ["less", "lative"] },
             "moderately sized",
             "several",
             "subset",
@@ -35,8 +34,7 @@
             { "name": "a bit", "grammar": ["more", "diminutive"] },
             { "name": "bigger", "grammar": ["more", "comparative"] },
             { "name": "biggest", "grammar": ["more", "superlative"] },
-            { "name": "most", "grammar": ["more", "superlative"] },
-            { "name": "grow", "grammar": ["more", "lative"] }
+            { "name": "most", "grammar": ["more", "superlative"] }
         ],
         "noun": [
             { "name": "size", "grammar": "abstract" },
@@ -428,6 +426,8 @@
     {
         "word": "apu",
         "descriptor": [
+            { "name": "almost", "grammar": ["less", "abstract"] },
+            { "name": "near", "grammar": "less" },
             { "name": "close", "grammar": "less" },
             { "name": "far", "grammar": "more" }
         ]
@@ -530,9 +530,6 @@
             { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "noun": [
-            { "name": "section", "grammar": "less" },
-            { "name": "piece", "grammar": "less" },
-            { "name": "part", "grammar": "less" },
             { "name": "region", "grammar": "less" },
             { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "health", "grammar": ["masa-", "more"] }
@@ -1498,10 +1495,16 @@
             "incomplete",
             "unfinished",
             { "name": "done", "grammar": "more" },
-            { "name": "complete", "grammar": "more" }
+            { "name": "complete", "grammar": "more" },
+            { "name": "entire", "grammar": "more" },
+            { "name": "whole", "grammar": "more" }
         ],
         "noun": [
-            "result"
+            { "name": "section", "grammar": "less" },
+            { "name": "piece", "grammar": "less" },
+            { "name": "part", "grammar": "less" },
+            { "name": "result", "grammar": "more" },
+            { "name": "progress", "grammar": "abstract" }
         ]
     },
     {

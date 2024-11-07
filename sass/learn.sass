@@ -1,0 +1,92 @@
+.learn
+    display: flex
+    flex-direction: column
+
+.tabs
+    display: flex
+    margin-bottom: 0.6em
+    font-size: 1.2em
+    background-color: white
+    border: 1px solid #EEEEEE
+
+    .tab
+        padding: 0.4em 0.8em
+        text-decoration: none
+
+        &:hover
+            background-color: #EEEEEE
+
+        &[disabled]
+            color: #EEEEEE
+            cursor: default
+
+            &:hover
+                background-color: inherit
+
+        &.selected
+            background-color: #EEEEEE
+
+.counts
+    display: flex
+    justify-content: space-between
+    font-size: 0.9em
+    font-weight: 450
+    margin-bottom: 0.2em
+
+.not-known
+    color: #D81B60
+
+.undetermined
+    color: #424242
+
+.learned
+    color: #00897B
+
+.flashcard
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1em
+    height: 7rem
+    border: 1px solid #EEEEEE
+    background-color: white
+    box-sizing: border-box
+    transition: 100ms ease transform
+
+    .title
+        position: absolute
+        top: 0.4em
+        left: 0.4em
+        color: #757575
+
+    .content
+        text-align: center
+        font-size: 1.5em
+
+    &.rotate
+        transform: rotate3d(1, 0, 0, 89deg)
+
+    &.correct
+        border: 2px solid #00897B
+
+    &.incorrect
+        border: 2px solid #D81B60
+
+    &.font-size-1
+        font-size: 0.9em
+
+    &.font-size-2
+        font-size: 0.8em
+
+.metrics
+    width: 100%
+
+    th:nth-child(1)
+        width: 100%
+        text-overflow: ellipsis
+        white-space: nowrap
+        overflow: hidden
+
+    th:nth-child(2)
+        min-width: 7em

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Learn</h2>
+
+<section class="learn">
+    <div id="tabs" class="tabs"></div>
+
+    <div id="counts" class="counts">
+        <span class="not-known"><span class="count">0</span> not known</span>
+        <span class="undetermined"><span class="count">0</span> undetermined</span>
+        <span class="learned"><span class="count">0</span> learned</span>
+    </div>
+
+    <div id="flashcard" class="flashcard">
+        <span class="title"></span>
+        <span class="content"></span>
+    </div>
+    <input id="translation-input" type="text" placeholder="Answer..." />
+
+    <h3>Metrics</h3>
+    <table id="metrics" class="metrics">
+        <thead>
+            <tr>
+                <th>Question</th>
+                <th>Error Score</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</section>
+
+<script type="module" src="learn.js"></script>
+{% endblock content %}

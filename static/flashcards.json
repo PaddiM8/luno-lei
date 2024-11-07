@@ -1,0 +1,1751 @@
+[
+  {
+    "pack": 1,
+    "question": "i walk",
+    "answers": [
+      "nokan"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "oni",
+    "answers": [
+      "thing",
+      "do",
+      "object",
+      "act",
+      "loooooong"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "you walk",
+    "answers": [
+      "nokas"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "it walks",
+    "answers": [
+      "nokapi"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "i walked",
+    "answers": [
+      "nokanu"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "you walked",
+    "answers": [
+      "nokasu"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "it walked",
+    "answers": [
+      "nokapu"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i will walk",
+    "answers": [
+      "nokanas"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "you will walk",
+    "answers": [
+      "nokasas"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "it will walk",
+    "answers": [
+      "nokapas"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "they will walk",
+    "answers": [
+      "su nokapas"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "i am big",
+    "answers": [
+      "ikesanaa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "you are big",
+    "answers": [
+      "ikesasaa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "it is big",
+    "answers": [
+      "ikesapaa"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i was big",
+    "answers": [
+      "ikesanot"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "you are big",
+    "answers": [
+      "ikesasot"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "it is big",
+    "answers": [
+      "ikesapot"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i will be big",
+    "answers": [
+      "ikesanow"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "you will be big",
+    "answers": [
+      "ikesasow"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "it will be big",
+    "answers": [
+      "ikesapow"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "feet",
+    "answers": [
+      "nokaye"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "big",
+    "answers": [
+      "ikesa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "bigger",
+    "answers": [
+      "ikesavo"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "biggest",
+    "answers": [
+      "ikesavie"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i",
+    "answers": [
+      "eninaa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "you",
+    "answers": [
+      "enisaa"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "me (english)",
+    "answers": [
+      "eninaat",
+      "eninaadi"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "my",
+    "answers": [
+      "eninaadi"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "the person's thing",
+    "answers": [
+      "oni midi"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "to it",
+    "answers": [
+      "onitu"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "from it",
+    "answers": [
+      "onitol"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "through it",
+    "answers": [
+      "onitat"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "at it",
+    "answers": [
+      "onili"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "i like to walk",
+    "answers": [
+      "pitasan nokaslut",
+      "nokaslut pitasan"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "one walks",
+    "answers": [
+      "nokaslu"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "one walked",
+    "answers": [
+      "nokasla"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "one will walk",
+    "answers": [
+      "nokaslei"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "walk (demand)",
+    "answers": [
+      "nokastu"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "be happy (demand)",
+    "answers": [
+      "koisastoi"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i like that it is big",
+    "answers": [
+      "pitasan eta ikesapaa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "toe",
+    "answers": [
+      "nokaste"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "leg",
+    "answers": [
+      "nokasva"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "huge",
+    "answers": [
+      "ikesatua"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "tiny",
+    "answers": [
+      "ikevetua"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "big-ish",
+    "answers": [
+      "ikesateo"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "small-ish",
+    "answers": [
+      "ikeveteo"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "i like",
+    "answers": [
+      "pitasan"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "word",
+    "answers": [
+      "kia"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "sentence",
+    "answers": [
+      "kiasa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "hand",
+    "answers": [
+      "lavo"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "finger",
+    "answers": [
+      "lavoste"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "i have",
+    "answers": [
+      "lavon"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i get",
+    "answers": [
+      "lavotun"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "method, way, style, habit, manner",
+    "answers": [
+      "pua"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "language",
+    "answers": [
+      "gomuni"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i speak",
+    "answers": [
+      "munin"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "food",
+    "answers": [
+      "loma"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "loma",
+    "answers": [
+      "food"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "hi",
+    "answers": [
+      "hei"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "i greet",
+    "answers": [
+      "hein"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "i can",
+    "answers": [
+      "tain"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "tais",
+    "answers": [
+      "you can",
+      "you are able to"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "i must",
+    "answers": [
+      "pakosan"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i am not allowed to",
+    "answers": [
+      "pakoven"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i want to",
+    "answers": [
+      "anin"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "it was a mistake",
+    "answers": [
+      "anistepot"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "i believe/think",
+    "answers": [
+      "laugen"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "laugesan",
+    "answers": [
+      "i know"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "it is easy",
+    "answers": [
+      "selavepaa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "tool",
+    "answers": [
+      "tuo"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "tuo",
+    "answers": [
+      "tool"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "tool",
+    "answers": [
+      "tuo"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "kulu",
+    "answers": [
+      "lump",
+      "clump"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "not (english)",
+    "answers": [
+      "neve"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "nesa",
+    "answers": [
+      "all"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "amount",
+    "answers": [
+      "gone"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "and (english)",
+    "answers": [
+      "et"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "or",
+    "answers": [
+      "us"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "animal",
+    "answers": [
+      "masa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "mave",
+    "answers": [
+      "dead"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "person",
+    "answers": [
+      "mi"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "mi",
+    "answers": [
+      "person",
+      "human"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "boss, leader",
+    "answers": [
+      "lavasa"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "lavave",
+    "answers": [
+      "subordinate",
+      "dependent",
+      "sub",
+      "follower"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "kuluvetua",
+    "answers": [
+      "grain",
+      "powder"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "sosa",
+    "answers": [
+      "correct",
+      "yes"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "good",
+    "answers": [
+      "penasa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "penave",
+    "answers": [
+      "bad"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "sad",
+    "answers": [
+      "koive"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "angry",
+    "answers": [
+      "deive"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "stressed",
+    "answers": [
+      "moive"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "scared",
+    "answers": [
+      "mouve"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "anticipated",
+    "answers": [
+      "tiose"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "apusa",
+    "answers": [
+      "far"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "near",
+    "answers": [
+      "apuve"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "almost",
+    "answers": [
+      "goapuve"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "muesa",
+    "answers": [
+      "safe"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "this",
+    "answers": [
+      "tama"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "that, those",
+    "answers": [
+      "soi"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "what, which",
+    "answers": [
+      "me"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "mepaika",
+    "answers": [
+      "why",
+      "which reason"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "megomio",
+    "answers": [
+      "when",
+      "which time"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "memi",
+    "answers": [
+      "who",
+      "which person"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "mepua",
+    "answers": [
+      "how"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "reason",
+    "answers": [
+      "paika"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "place, area",
+    "answers": [
+      "lei"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "leisa",
+    "answers": [
+      "country",
+      "state",
+      "city"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "place of stay, house",
+    "answers": [
+      "kotu"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "kotusa",
+    "answers": [
+      "home"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "toyasa",
+    "answers": [
+      "on",
+      "active"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "state (on/off)",
+    "answers": [
+      "gotoya"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "intact, whole",
+    "answers": [
+      "taukosa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "taukove",
+    "answers": [
+      "broken",
+      "split",
+      "sick",
+      "split up"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "healthy",
+    "answers": [
+      "masataukosa"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "now",
+    "answers": [
+      "mio"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "miosa",
+    "answers": [
+      "later"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "time",
+    "answers": [
+      "gomio"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "gomioli",
+    "answers": [
+      "when",
+      "if"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "early",
+    "answers": [
+      "meave"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "decision",
+    "answers": [
+      "valtalo"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "mind",
+    "answers": [
+      "golawa"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "one (english)",
+    "answers": [
+      "eya"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "two (english)",
+    "answers": [
+      "tu"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "two (english)",
+    "answers": [
+      "tu"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "three",
+    "answers": [
+      "loke"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "four",
+    "answers": [
+      "nela"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "five (english)",
+    "answers": [
+      "kuuso"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "six",
+    "answers": [
+      "seke"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "seven (english)",
+    "answers": [
+      "seite"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "eight",
+    "answers": [
+      "ato"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "nine (english)",
+    "answers": [
+      "ile"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "new",
+    "answers": [
+      "usisa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "usisan",
+    "answers": [
+      "i create",
+      "i make",
+      "i add"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "liquid, water",
+    "answers": [
+      "vesi"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "vesive",
+    "answers": [
+      "solid"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "vesisa",
+    "answers": [
+      "gas",
+      "air"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "tree, wood",
+    "answers": [
+      "bio"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "fire",
+    "answers": [
+      "elda"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "dark (colour)",
+    "answers": [
+      "veluve"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "velusa",
+    "answers": [
+      "light",
+      "bright"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "bright (luminance)",
+    "answers": [
+      "valosa"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "aluve",
+    "answers": [
+      "first"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "end",
+    "answers": [
+      "alusalo"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i stand",
+    "answers": [
+      "nokisan"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "torso, main part of something",
+    "answers": [
+      "siemo"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "computer, device, machine",
+    "answers": [
+      "diigi"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "electric",
+    "answers": [
+      "sako"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "interconnected",
+    "answers": [
+      "neto"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "netolo",
+    "answers": [
+      "web",
+      "internet",
+      "network"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "temporary",
+    "answers": [
+      "yakuve"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "yakusatua",
+    "answers": [
+      "permanent"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "i see",
+    "answers": [
+      "aulan"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "vision",
+    "answers": [
+      "goaula"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "up (english)",
+    "answers": [
+      "sunasa"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "left",
+    "answers": [
+      "yotove"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "nature, environment",
+    "answers": [
+      "luono"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "disgusting",
+    "answers": [
+      "eklivetua"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "clean",
+    "answers": [
+      "eklisa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "flavour",
+    "answers": [
+      "goekli"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "plant",
+    "answers": [
+      "vile"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "material, texture, chemical element",
+    "answers": [
+      "stofi"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "coal",
+    "answers": [
+      "tsestofi"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "loud (english)",
+    "answers": [
+      "luumesa"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "goluume",
+    "answers": [
+      "volume",
+      "audio"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "shiny",
+    "answers": [
+      "kilasa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "i pause",
+    "answers": [
+      "kuneven"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "warm",
+    "answers": [
+      "varmasa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "raw",
+    "answers": [
+      "varmave"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "govarma",
+    "answers": [
+      "temperature"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "tired",
+    "answers": [
+      "tamiove"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "note, paper",
+    "answers": [
+      "lipo"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "vehicle",
+    "answers": [
+      "peto"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "fast (english)",
+    "answers": [
+      "sneve"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "flat",
+    "answers": [
+      "vola"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "volasa",
+    "answers": [
+      "hill",
+      "bump"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "i sell",
+    "answers": [
+      "ostaven"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "i exchange/translate",
+    "answers": [
+      "ostan"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "tilted, rotated, bent",
+    "answers": [
+      "tuloa"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "tuloalo",
+    "answers": [
+      "angle",
+      "shape",
+      "line"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "valuable",
+    "answers": [
+      "kestosa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "kestosalo",
+    "answers": [
+      "money",
+      "wealth"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "hour",
+    "answers": [
+      "hetisa"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "day",
+    "answers": [
+      "vikove"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "storage, container, box, bag",
+    "answers": [
+      "lauku"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "way, road, street, path",
+    "answers": [
+      "topai"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "launch, charge, suddenly start",
+    "answers": [
+      "kasi"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "finasa",
+    "answers": [
+      "existent", "existing"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "normal",
+    "answers": [
+      "outosa"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "parent, creator, owner",
+    "answers": [
+      "toveisa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "sibling, colleague, compatriot",
+    "answers": [
+      "tovei"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "insufficient",
+    "answers": [
+      "uyove"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "uyo",
+    "answers": [
+      "enough",
+      "sufficient"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "kilometre",
+    "answers": [
+      "metisatua"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "meti",
+    "answers": [
+      "metre"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "millilitre",
+    "answers": [
+      "metivetua"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "liti",
+    "answers": [
+      "litre"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "long hard thing, stick, pole, rod",
+    "answers": [
+      "poki"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "long flexible thing, thread, cable",
+    "answers": [
+      "lanka"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "block, cube, chunk",
+    "answers": [
+      "loko"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "round, spherical, eternal",
+    "answers": [
+      "luno"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "cloth, clothing, flag",
+    "answers": [
+      "lina"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "meblo",
+    "answers": [
+      "furniture"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "hairy, fur(y)",
+    "answers": [
+      "felti"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "carbohydrates, bread, pasta, grain, wheat, flour",
+    "answers": [
+      "pane"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "protein, meat, beans, lentils",
+    "answers": [
+      "maato"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "fatty, oily",
+    "answers": [
+      "voi"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "inside",
+    "answers": [
+      "sitave"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "outside, shell",
+    "answers": [
+      "sitasa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "image, video, media",
+    "answers": [
+      "inamo"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "long, tall",
+    "answers": [
+      "fausa"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "thick",
+    "answers": [
+      "duosa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "odd (not even)",
+    "answers": [
+      "yopave"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "sour, negative",
+    "answers": [
+      "sutove"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "sutosa",
+    "answers": [
+      "sweet",
+      "positive"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "bitter",
+    "answers": [
+      "katkeve"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "acidic",
+    "answers": [
+      "pahasa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "beautiful",
+    "answers": [
+      "kaunisatua"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "hard, strong, tough, stable, secure",
+    "answers": [
+      "molasa"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "flavourful, nuanced, colourful, creative",
+    "answers": [
+      "koulu"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "i try",
+    "answers": [
+      "ketan"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "competition",
+    "answers": [
+      "somave"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "locked",
+    "answers": [
+      "avoneve"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "permission",
+    "answers": [
+      "goavone"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "backward, previous, return",
+    "answers": [
+      "aisive"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "aisisa",
+    "answers": [
+      "forward",
+      "next",
+      "future"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "underground",
+    "answers": [
+      "mautove"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "done (english)",
+    "answers": [
+      "daisosa"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "sharp",
+    "answers": [
+      "moutosa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "third",
+    "answers": [
+      "lokelaise"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "number",
+    "answers": [
+      "laise"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "laisen",
+    "answers": [
+      "i count"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "clear, precise",
+    "answers": [
+      "sudisa"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "explanation, description, schematic",
+    "answers": [
+      "neta"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "netas",
+    "answers": [
+      "you explain"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "man (english)",
+    "answers": [
+      "imi"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "woman",
+    "answers": [
+      "aka"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "red",
+    "answers": [
+      "dio"
+    ]
+  },
+  {
+    "pack": 1,
+    "question": "green",
+    "answers": [
+      "via"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "blue",
+    "answers": [
+      "blu"
+    ]
+  },
+  {
+    "pack": 5,
+    "question": "wednesday",
+    "answers": [
+      "lokevikove"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "eyavikove",
+    "answers": [
+      "monday"
+    ]
+  },
+  {
+    "pack": 6,
+    "question": "january",
+    "answers": [
+      "eyavikosa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "sweden",
+    "answers": [
+      "seleisa"
+    ]
+  },
+  {
+    "pack": 2,
+    "question": "seleisami",
+    "answers": [
+      "swede",
+      "swedish",
+      "swedish person"
+    ]
+  }
+]

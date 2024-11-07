@@ -173,7 +173,7 @@ or end of a sentence.
 | Prolative       | -tat   | via, through, along, by means of |
 | Partitive       | -tia   | direct object, incomplete        |
 | Locative/Essive | -li    | at (location, time)              |
-| Semblative      | -dea   | with                             |
+| Semblative      | -dea   | similarity                       |
 
 ### Accusative
 
@@ -287,14 +287,14 @@ It is also used to mark a point in time.
 
 ### Semblative
 
-<span class="suffix">-kus</span>
+<span class="suffix">-dea</span>
 
 Semblative expressses some form of similarity between
 objects or concepts.
 
 #### Examples
 {{ sentence(
-    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["kus", "semblative"]]
+    parts=[["valo", "dark/bright"], ["ve", "less"], ["pi", "3", "verb"], [], ["mea", "early/late"], ["sa", "more"], ["viko", "week"], ["ste", "less", "noun"], ["dea", "semblative"]]
     translation="It is dark like at night"
 ) }}
 

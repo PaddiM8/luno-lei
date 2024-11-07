@@ -212,9 +212,10 @@
     {
         "word": "lauge",
         "noun": [
-            { "name": "belief", "grammar": "less" },
-            { "name": "opinion", "grammar": "less" },
-            { "name": "subjective", "grammar": "less" },
+            { "name": "myth", "grammar": "less" },
+            { "name": "misinformation", "grammar": "less" },
+            "belief",
+            "opinion",
             { "name": "fact", "grammar": "more" },
             { "name": "objective", "grammar": "more" }
         ],
@@ -252,9 +253,7 @@
             { "name": "small lump", "grammar": "less" },
             "lump",
             { "name": "rock", "grammar": "molasa" },
-            { "name": "boulder", "grammar": ["more", "molasa"] },
-            "tool",
-            { "name": "shovel", "grammar": "mautovolaste-" }
+            { "name": "boulder", "grammar": ["more", "molasa"] }
         ]
     },
     {
@@ -464,7 +463,7 @@
             "which",
             { "name": "why", "grammar": "...paika" },
             { "name": "when", "grammar": "...gomio" },
-            { "name": "who", "grammar": "...masa" },
+            { "name": "who", "grammar": "...mi" },
             { "name": "how", "grammar": "...pua" }
         ]
     },
@@ -493,8 +492,6 @@
             "location",
             "place of stay",
             "house",
-            { "name": "home", "grammar": "more" },
-            { "name": "room", "grammar": "-leitoe" },
             { "name": "home", "grammar": "more" },
             { "name": "room", "grammar": "-leitoe" }
         ]
@@ -530,7 +527,6 @@
             { "name": "healthy", "grammar": ["masa-", "more"] }
         ],
         "noun": [
-            { "name": "region", "grammar": "less" },
             { "name": "illness", "grammar": ["masa-", "less"] },
             { "name": "health", "grammar": ["masa-", "more"] }
         ],
@@ -639,9 +635,9 @@
         "word": "vesi",
         "descriptor": [
             { "name": "solid", "grammar": "less" },
-            { "name": "dry", "grammar": ["less", "abstract"] },
+            { "name": "dry", "grammar": ["less", "semblative"] },
             "liquid",
-            { "name": "wet", "grammar": "abstract" }
+            { "name": "wet", "grammar": "semblative" }
         ],
         "noun": [
             { "name": "paste", "grammar": "diminutive" },
@@ -1120,7 +1116,6 @@
             "colleague",
             "compatriot",
             { "name": "parent", "grammar": "more" },
-            { "name": "boss", "grammar": "more" },
             { "name": "creator", "grammar": "more" },
             { "name": "owner", "grammar": "more" }
         ]
@@ -1171,9 +1166,6 @@
             "stick",
             "pole",
             "rod"
-        ],
-        "verb": [
-            "stand up"
         ]
     },
     {
@@ -1527,8 +1519,8 @@
         "word": "laise",
         "descriptor": [
             { "name": "first", "grammar": "eya-" },
-            { "name": "second", "grammar": "eya-" },
-            { "name": "third", "grammar": "eya-" }
+            { "name": "second", "grammar": "tu-" },
+            { "name": "third", "grammar": "loke-" }
         ],
         "noun": [
             { "name": "digit", "grammar": "less" },

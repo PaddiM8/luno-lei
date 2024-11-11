@@ -9,15 +9,15 @@ enipaada samaslu.
 
 Paikatu kotu nokapi lunotat mautosvatuaditat,
 oniye enipaalie su mautosvanokapi eya ne mautotu
-nokaslut. Kotulie, outosa oniye vesikus su onipi
+nokaslut. Kotulie, outosa oniye vesidea su onipi
 outovetua, et taislu nokakasislutat kotuvolatat
 mautosvanokaslut. Nesa masvaye su munipi eta
 pitasatuapaa.
 
 Masvaye kotulie su onipi onisvaslut, pitasaonislut,
 inamoyet lunodit mautosvatuadit usisaslut. Su onipi
-masvayetu mautolimes, mepua oniye vileyekus et
-diigiyekus su onipi mautosvatuali lawatueslut.
+masvayetu mautolimes, mepua oniye vileyedea et
+diigiyedea su onipi mautosvatuali lawatueslut.
 Nesateo tiko, seke masvaye su kotulipi, et nesa
 masvaye su gonokipi kuusoli dek eyave vikosvatuali.
 

@@ -516,7 +516,8 @@
             "reason"
         ],
         "other": [
-            { "name": "because", "grammar": "semblative" }
+            { "name": "because", "grammar": "lative" },
+            { "name": "therefore", "grammar": ["tama...", "lative"] }
         ]
     },
     {

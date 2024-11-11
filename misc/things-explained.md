@@ -7,7 +7,7 @@ Miye samave leisvatol su usisapu enipaat et
 su mautosvanokapi sunasa mautosvatuapetoyetat
 enipaada samaslu.
 
-Paikakus kotu nokapi lunotat mautosvatuaditat,
+Paikatu kotu nokapi lunotat mautosvatuaditat,
 oniye enipaalie su mautosvanokapi eya ne mautotu
 nokaslut. Kotulie, outosa oniye vesikus su onipi
 outovetua, et taislu nokakasislutat kotuvolatat

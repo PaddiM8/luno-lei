@@ -421,6 +421,10 @@
         ],
         "noun": [
             { "name": "anticipation", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "anticipate", "grammar": "more" },
+            { "name": "look forward to", "grammar": "more" }
         ]
     },
     {

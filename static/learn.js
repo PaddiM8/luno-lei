@@ -249,13 +249,13 @@ function handleTranslationSubmitted(e) {
     }
 
     const correctAnswers = getCurrentFlashcard().answers;
-    const hiddenCorretAnswers = getCurrentFlashcard().hiddenAnswers;
+    const hiddenCorrectAnswers = getCurrentFlashcard().hiddenAnswers;
     const givenAnswer = e.target.value
         .trim()
         .toLowerCase()
         .replace(",", "")
         .replace(".", "");
-    if (correctAnswers.includes(givenAnswer) || hiddenCorretAnswers.includes(givenAnswer)) {
+    if (correctAnswers.includes(givenAnswer) || hiddenCorrectAnswers?.includes(givenAnswer)) {
         correctAnswer();
     } else {
         incorrectAnswer();

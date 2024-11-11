@@ -186,5 +186,5 @@ Eya nesa gomio, alustu gonokaslu
 
 ### 3 (hard)
 ```
-Deleisamiye su alulavotupi nokimeblot vesiusivelolinatat
+Deleisamiye su aluslupi lavotuslut nokimeblot vesiusivelolinatat
 ```

@@ -417,13 +417,18 @@
     {
         "word": "tiose",
         "descriptor": [
-            { "name": "anticipated", "grammar": "more" }
+            { "name": "anticipated (negative)", "grammar": "less" },
+            "anticipated (neutral)",
+            { "name": "anticipated (positive)", "grammar": "more" }
         ],
         "noun": [
-            { "name": "anticipation", "grammar": "more" }
+            { "name": "anticipation (negative)", "grammar": "less" },
+            "anticipation (neutral)",
+            { "name": "anticipation (positive)", "grammar": "more" }
         ],
         "verb": [
-            { "name": "anticipate", "grammar": "more" },
+            { "name": "anticipate (negative)", "grammar": "less" },
+            "anticipate (neutral)",
             { "name": "look forward to", "grammar": "more" }
         ]
     },

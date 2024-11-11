@@ -391,12 +391,25 @@ Expresses a demand or wish.
     translation="Read a book"
 ) }}
 {{ sentence(
-    parts=[["mou", "sa"], ["stoi", "imperative"]]
+    parts=[["mou", "stressed/.../calm"], ["sa", "more"], ["stoi", "imperative"]]
     translation="Be calm"
 ) }}
+
+### Conditional
+
+Expresses a proposal dependent on some condition.
+
+| Suffix  |
+| ------- |
+| -(i)ksi |
+
 {{ sentence(
-    parts=[["lipo", "note"], ["sva", "more", "noun"], ["stu", "imperative"], ["s", "2", "verb"]]
-    translation="You should read a book"
+    parts=[["noka", "foot"], ["ksi", "conditional"], ["n", "1", "noun"], ["...", "..."]]
+    translation="I would walk..."
+) }}
+{{ sentence(
+    parts=[["mou", "stressed/.../calm"], ["sa", "more"], ["ksi", "conditional"], ["naa", "1", "noun"], ["...", "..."]]
+    translation="I would be calm if..."
 ) }}
 
 ## Subordinate Clause

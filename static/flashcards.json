@@ -175,14 +175,16 @@
     "pack": 6,
     "question": "i",
     "answers": [
-      "eninaa"
+      "eninaa",
+      "enin"
     ]
   },
   {
     "pack": 2,
     "question": "you",
     "answers": [
-      "enisaa"
+      "enisaa",
+      "enis"
     ]
   },
   {
@@ -190,14 +192,17 @@
     "question": "me (english)",
     "answers": [
       "eninaat",
-      "eninaadi"
+      "eninaada",
+      "eninit",
+      "eninida"
     ]
   },
   {
     "pack": 3,
     "question": "my",
     "answers": [
-      "eninaadi"
+      "eninaadi",
+      "eninidi"
     ]
   },
   {
@@ -1746,6 +1751,100 @@
       "swede",
       "swedish",
       "swedish person"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "bigger than you",
+    "answers": [
+      "ikesavo kuive enisaa",
+      "ikesavo kuive enis"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "comparison",
+    "answers": [
+      "kuilo",
+      "kuivelo",
+      "kuisalo"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "i wonder",
+    "answers": [
+      "utelan"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "utelanaa",
+    "answers": [
+      "i am curious"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "i am greatful",
+    "answers": [
+      "matavisanaa",
+      "matavisan"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "i would do (it) if i could do (it)",
+    "answers": [
+      "oniksin gomioli taiksin onislut"
+    ],
+    "hiddenAnswers": [
+      "oniksin, gomioli taiksin onislut",
+      "oniksin gomioli onislut taiksin",
+      "oniksin, gomioli onislut taiksin",
+      "oniksin onit gomioli taiksin onislut onit",
+      "oniksin onit gomioli onislut onit taiksin",
+      "oniksin onit gomioli onit onislut taiksin",
+      "oniksin onit, gomioli taiksin onislut onit",
+      "oniksin onit, gomioli taiksin onislut onit",
+      "oniksin onit, gomioli onit onislut taiksin",
+      "oniksin onit, gomioli onislut onit taiksin"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "you should do (it)",
+    "answers": [
+      "pakosateos onislut"
+    ],
+    "hiddenAnswers": [
+      "pakosateos onislut onit",
+      "pakosateos onit onislut",
+      "onit pakosateos onislut",
+      "onit onislut pakosateos",
+      "onislut onit pakosateos",
+      "onislut pakosateos onit"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "heavy",
+    "answers": [
+      "kovasa"
+    ]
+  },
+  {
+    "pack": 4,
+    "question": "gokova",
+    "answers": [
+      "weight"
+    ]
+  },
+  {
+    "pack": 3,
+    "question": "kilogram",
+    "answers": [
+      "gamisatua"
     ]
   }
 ]

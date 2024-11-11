@@ -179,6 +179,7 @@
         ],
         "verb": [
             { "name": "not allowed to", "grammar": "less" },
+            { "name": "should", "grammar": ["more", "diminutive"] },
             { "name": "have to", "grammar": "more" },
             { "name": "must", "grammar": "more" },
             { "name": "need to", "grammar": "more" }
@@ -420,6 +421,48 @@
         ],
         "noun": [
             { "name": "anticipation", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "matavi",
+        "descriptor": [
+            { "name": "ungreatful", "grammar": "less" },
+            { "name": "greatful", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "ungreatfulness", "grammar": "less" },
+            { "name": "greatfulness", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "utela",
+        "descriptor": [
+            { "name": "curious", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "curiousity", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "wonder", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "kui",
+        "descriptor": [
+            { "name": "in contrast to (differences)", "grammar": "less" },
+            { "name": "than", "grammar": "less" },
+            "compared to (differences and similarities)",
+            { "name": "compared to (similarities)", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "constrast to (differences)", "grammar": "less" },
+            "comparison (differences and similarities)",
+            { "name": "comparison (similarities)", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "contrast (differences)", "grammar": "less" },
+            "compare (differences and similarities)",
+            { "name": "compare (similarities)", "grammar": "more" }
         ]
     },
     {
@@ -1139,10 +1182,23 @@
             { "name": "centimetre", "grammar": "less" },
             { "name": "decimetre", "grammar": ["less", "diminutive"] },
             "metre",
-            { "name": "length", "grammar": "abstract" },
+            { "name": "length in metres", "grammar": "abstract" },
             { "name": "decametre", "grammar": ["more", "diminutive"] },
             { "name": "hectometre", "grammar": "more" },
             { "name": "kilometre", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
+        "word": "gami",
+        "noun": [
+            { "name": "milligram", "grammar": ["less", "intensifier"] },
+            { "name": "centigram", "grammar": "less" },
+            { "name": "deigram", "grammar": ["less", "diminutive"] },
+            "gram",
+            { "name": "weight in grams", "grammar": "abstract" },
+            { "name": "decagram", "grammar": ["more", "diminutive"] },
+            { "name": "hectogram", "grammar": "more" },
+            { "name": "kilogram", "grammar": ["more", "intensifier"] }
         ]
     },
     {
@@ -1152,11 +1208,21 @@
             { "name": "centilitre", "grammar": "less" },
             { "name": "decilitre", "grammar": ["less", "diminutive"] },
             "litre",
-            { "name": "volume", "grammar": "abstract" },
+            { "name": "volume in litres", "grammar": "abstract" },
             { "name": "decalitre", "grammar": ["more", "diminutive"] },
             { "name": "hectolitre", "grammar": "more" },
             { "name": "kilolitre", "grammar": ["more", "intensifier"] },
             { "name": "cubic metre", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
+        "word": "kova",
+        "descriptor": [
+            { "name": "lightweight", "grammar": "less" },
+            { "name": "heavy", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "weight", "grammar": "abstract" }
         ]
     },
     {

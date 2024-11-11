@@ -249,8 +249,13 @@ function handleTranslationSubmitted(e) {
     }
 
     const correctAnswers = getCurrentFlashcard().answers;
-    const givenAnswer = e.target.value.trim().toLowerCase();
-    if (correctAnswers.includes(givenAnswer)) {
+    const hiddenCorretAnswers = getCurrentFlashcard().hiddenAnswers;
+    const givenAnswer = e.target.value
+        .trim()
+        .toLowerCase()
+        .replace(",", "")
+        .replace(".", "");
+    if (correctAnswers.includes(givenAnswer) || hiddenCorretAnswers.includes(givenAnswer)) {
         correctAnswer();
     } else {
         incorrectAnswer();

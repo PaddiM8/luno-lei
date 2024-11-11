@@ -145,6 +145,10 @@
         "full": "imperative/optative",
         "class": "mood"
     },
+    "conditional": {
+        "full": "conditional",
+        "class": "mood"
+    },
     "filler": {
         "full": "filler",
         "class": "filler"

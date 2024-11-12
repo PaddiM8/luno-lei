@@ -18,8 +18,8 @@ prepareMetrics();
 flashcardElement.style.maxWidth = flashcardElement.parentElement.getBoundingClientRect().width + "px";
 inputElement.addEventListener("keydown", handleTranslationSubmitted);
 
-nextCard();
 loadTabs();
+nextCard();
 updateMetrics();
 
 function preparePacks() {
@@ -39,7 +39,7 @@ function prepareMetrics() {
 }
 
 function loadTabs() {
-    let isFirst = true;
+    let previousId = null;
     for (const packId in packs) {
         const tabElement = document.createElement("a");
         tabElement.href = "#";
@@ -49,7 +49,7 @@ function loadTabs() {
             selectedTab = tabElement;
         }
 
-        const isEnabled = isFirst || Object.values(metrics[packId])
+        const isEnabled = previousId == null || Object.values(metrics[previousId])
             .every(weight => weight <= learnedThreshold);
         if (!isEnabled) {
             tabElement.setAttribute("disabled", "");
@@ -72,7 +72,7 @@ function loadTabs() {
         });
 
         tabsElement.appendChild(tabElement);
-        isFirst = false;
+        previousId = packId;
     }
 }
 
@@ -218,11 +218,10 @@ function updateNextTab() {
     const anyNotKnown = countsElement.querySelector(".not-known .count").textContent != "0";
     const anyUndetermined = countsElement.querySelector(".undetermined .count").textContent != "0";
 
-    const nextTabElement = tabsElement.querySelector(".selected").nextSibling;
     if (anyNotKnown || anyUndetermined) {
-        nextTabElement.setAttribute("disabled", "");
+        selectedTab?.nextSibling.setAttribute("disabled", "");
     } else {
-        nextTabElement.removeAttribute("disabled");
+        selectedTab?.nextSibling.removeAttribute("disabled");
     }
 }
 

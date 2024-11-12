@@ -115,7 +115,7 @@ function correctAnswer() {
     packMetrics[currentFlashcardId] ??= 0.5;
     packMetrics[currentFlashcardId] = Math.max(
         0.15,
-        packMetrics[currentFlashcardId - 0.08]
+        packMetrics[currentFlashcardId] - 0.08
     );
 
     revealCard(showAnswer);
@@ -129,7 +129,7 @@ function incorrectAnswer() {
     packMetrics[currentFlashcardId] ??= 0.5;
     packMetrics[currentFlashcardId] = Math.min(
         2,
-        packMetrics[currentFlashcardId + 0.15]
+        packMetrics[currentFlashcardId] + 0.15
     );
 
     revealCard(showAnswer);

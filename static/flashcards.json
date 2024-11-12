@@ -1598,7 +1598,8 @@
         "pack": 2,
         "question": "meti",
         "answers": [
-            "metre"
+            "metre",
+            "meter"
         ]
     },
     {
@@ -1614,7 +1615,8 @@
         "pack": 4,
         "question": "liti",
         "answers": [
-            "litre"
+            "litre",
+            "liter"
         ]
     },
     {

@@ -19,8 +19,8 @@ flashcardElement.style.maxWidth = flashcardElement.parentElement.getBoundingClie
 inputElement.addEventListener("keydown", handleTranslationSubmitted);
 
 nextCard();
-updateMetrics();
 loadTabs();
+updateMetrics();
 
 function preparePacks() {
     for (const flashcard of flashcards) {
@@ -214,9 +214,22 @@ function updateCounts() {
     countsElement.querySelector(".learned .count").textContent = learned;
 }
 
+function updateNextTab() {
+    const anyNotKnown = countsElement.querySelector(".not-known .count").textContent != "0";
+    const anyUndetermined = countsElement.querySelector(".undetermined .count").textContent != "0";
+
+    const nextTabElement = tabsElement.querySelector(".selected").nextSibling;
+    if (anyNotKnown || anyUndetermined) {
+        nextTabElement.setAttribute("disabled", "");
+    } else {
+        nextTabElement.removeAttribute("disabled");
+    }
+}
+
 function updateMetrics() {
     saveMetrics();
     updateCounts();
+    updateNextTab();
 
     metricsElement.innerHTML = "";
 

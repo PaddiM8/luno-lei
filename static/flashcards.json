@@ -1,2113 +1,2146 @@
 [
-  {
-    "id": "91csh47ey4",
-    "pack": 1,
-    "question": "i walk",
-    "answers": [
-      "nokan"
-    ]
-  },
-  {
-    "id": "ugsat3kknp",
-    "pack": 5,
-    "question": "oni",
-    "answers": [
-      "thing",
-      "do",
-      "object",
-      "act",
-      "loooooong"
-    ]
-  },
-  {
-    "id": "927n89tq2k",
-    "pack": 4,
-    "question": "you walk",
-    "answers": [
-      "nokas"
-    ]
-  },
-  {
-    "id": "kh7wki27f6",
-    "pack": 6,
-    "question": "it walks",
-    "answers": [
-      "nokapi"
-    ]
-  },
-  {
-    "id": "bld4vpw1sc",
-    "pack": 2,
-    "question": "i walked",
-    "answers": [
-      "nokanu"
-    ]
-  },
-  {
-    "id": "3nkp2tjvqv",
-    "pack": 4,
-    "question": "you walked",
-    "answers": [
-      "nokasu"
-    ]
-  },
-  {
-    "id": "uuzjpqhvpj",
-    "pack": 1,
-    "question": "it walked",
-    "answers": [
-      "nokapu"
-    ]
-  },
-  {
-    "id": "sm18fsjc23",
-    "pack": 6,
-    "question": "i will walk",
-    "answers": [
-      "nokanas"
-    ]
-  },
-  {
-    "id": "q0yho5ezkr",
-    "pack": 3,
-    "question": "you will walk",
-    "answers": [
-      "nokasas"
-    ]
-  },
-  {
-    "id": "pa0hq4aqps",
-    "pack": 6,
-    "question": "it will walk",
-    "answers": [
-      "nokapas"
-    ]
-  },
-  {
-    "id": "vw0r7n11gm",
-    "pack": 1,
-    "question": "they will walk",
-    "answers": [
-      "su nokapas"
-    ]
-  },
-  {
-    "id": "11l7gwccyc",
-    "pack": 1,
-    "question": "i am big",
-    "answers": [
-      "ikesanaa"
-    ]
-  },
-  {
-    "id": "wwrcs9zwqv",
-    "pack": 2,
-    "question": "you are big",
-    "answers": [
-      "ikesasaa"
-    ]
-  },
-  {
-    "id": "nbcqf1bdcp",
-    "pack": 5,
-    "question": "it is big",
-    "answers": [
-      "ikesapaa"
-    ]
-  },
-  {
-    "id": "pgagujzjsa",
-    "pack": 6,
-    "question": "i was big",
-    "answers": [
-      "ikesanot"
-    ]
-  },
-  {
-    "id": "gazns3ut7u",
-    "pack": 2,
-    "question": "you are big",
-    "answers": [
-      "ikesasot"
-    ]
-  },
-  {
-    "id": "t8gyzd6i09",
-    "pack": 6,
-    "question": "it is big",
-    "answers": [
-      "ikesapot"
-    ]
-  },
-  {
-    "id": "s578itobuu",
-    "pack": 5,
-    "question": "i will be big",
-    "answers": [
-      "ikesanow"
-    ]
-  },
-  {
-    "id": "6pimdu5xa9",
-    "pack": 3,
-    "question": "you will be big",
-    "answers": [
-      "ikesasow"
-    ]
-  },
-  {
-    "id": "5z4tqfy736",
-    "pack": 6,
-    "question": "it will be big",
-    "answers": [
-      "ikesapow"
-    ]
-  },
-  {
-    "id": "0dvt0n5qdw",
-    "pack": 5,
-    "question": "feet",
-    "answers": [
-      "nokaye"
-    ]
-  },
-  {
-    "id": "iuyfqc1yzx",
-    "pack": 2,
-    "question": "big",
-    "answers": [
-      "ikesa"
-    ]
-  },
-  {
-    "id": "vd7kbjcqtk",
-    "pack": 5,
-    "question": "bigger",
-    "answers": [
-      "ikesavo"
-    ]
-  },
-  {
-    "id": "j85nmg06g8",
-    "pack": 3,
-    "question": "biggest",
-    "answers": [
-      "ikesavie"
-    ]
-  },
-  {
-    "id": "yegiu3n7ew",
-    "pack": 6,
-    "question": "i",
-    "answers": [
-      "eninaa",
-      "enin"
-    ]
-  },
-  {
-    "id": "dxg7k5glv4",
-    "pack": 2,
-    "question": "you",
-    "answers": [
-      "enisaa",
-      "enis"
-    ]
-  },
-  {
-    "id": "4mt4w92nf0",
-    "pack": 3,
-    "question": "me (english)",
-    "answers": [
-      "eninaat",
-      "eninaada",
-      "eninit",
-      "eninida"
-    ]
-  },
-  {
-    "id": "d49liqwq53",
-    "pack": 3,
-    "question": "my",
-    "answers": [
-      "eninaadi",
-      "eninidi"
-    ]
-  },
-  {
-    "id": "bkfw3etqq8",
-    "pack": 2,
-    "question": "the person's thing",
-    "answers": [
-      "oni midi"
-    ]
-  },
-  {
-    "id": "r6nwmhvk3n",
-    "pack": 2,
-    "question": "to it",
-    "answers": [
-      "onitu"
-    ]
-  },
-  {
-    "id": "qxqztxn5rw",
-    "pack": 3,
-    "question": "from it",
-    "answers": [
-      "onitol"
-    ]
-  },
-  {
-    "id": "y6jmdqfrgg",
-    "pack": 3,
-    "question": "through it",
-    "answers": [
-      "onitat"
-    ]
-  },
-  {
-    "id": "g1xxi3xhhe",
-    "pack": 4,
-    "question": "at it",
-    "answers": [
-      "onili"
-    ]
-  },
-  {
-    "id": "ft737n36md",
-    "pack": 3,
-    "question": "i like to walk",
-    "answers": [
-      "pitasan nokaslut",
-      "nokaslut pitasan"
-    ]
-  },
-  {
-    "id": "qu9s1ywfca",
-    "pack": 6,
-    "question": "one walks",
-    "answers": [
-      "nokaslu"
-    ]
-  },
-  {
-    "id": "kuchrt4jua",
-    "pack": 1,
-    "question": "one walked",
-    "answers": [
-      "nokasla"
-    ]
-  },
-  {
-    "id": "vzwgjj2u03",
-    "pack": 1,
-    "question": "one will walk",
-    "answers": [
-      "nokaslei"
-    ]
-  },
-  {
-    "id": "243bfj45w6",
-    "pack": 4,
-    "question": "walk (demand)",
-    "answers": [
-      "nokastu"
-    ]
-  },
-  {
-    "id": "fganez5z4x",
-    "pack": 6,
-    "question": "be happy (demand)",
-    "answers": [
-      "koisastoi"
-    ]
-  },
-  {
-    "id": "ahdk1tj16p",
-    "pack": 6,
-    "question": "i like that it is big",
-    "answers": [
-      "pitasan eta ikesapaa"
-    ]
-  },
-  {
-    "id": "30uso8q3gu",
-    "pack": 4,
-    "question": "toe",
-    "answers": [
-      "nokaste"
-    ]
-  },
-  {
-    "id": "y5tu1u09vk",
-    "pack": 4,
-    "question": "leg",
-    "answers": [
-      "nokasva"
-    ]
-  },
-  {
-    "id": "eoebpqbk4g",
-    "pack": 6,
-    "question": "huge",
-    "answers": [
-      "ikesatua"
-    ]
-  },
-  {
-    "id": "o9luv3y4h1",
-    "pack": 3,
-    "question": "tiny",
-    "answers": [
-      "ikevetua"
-    ]
-  },
-  {
-    "id": "n1lruyjie6",
-    "pack": 4,
-    "question": "big-ish",
-    "answers": [
-      "ikesateo"
-    ]
-  },
-  {
-    "id": "bqhn7rp222",
-    "pack": 2,
-    "question": "small-ish",
-    "answers": [
-      "ikeveteo"
-    ]
-  },
-  {
-    "id": "8e50xjakhm",
-    "pack": 4,
-    "question": "i like",
-    "answers": [
-      "pitasan"
-    ]
-  },
-  {
-    "id": "n2o3x9w1ll",
-    "pack": 6,
-    "question": "word",
-    "answers": [
-      "kia"
-    ]
-  },
-  {
-    "id": "z2ij7kpf0r",
-    "pack": 1,
-    "question": "sentence",
-    "answers": [
-      "kiasa"
-    ]
-  },
-  {
-    "id": "fkss2mbc5o",
-    "pack": 2,
-    "question": "hand",
-    "answers": [
-      "lavo"
-    ]
-  },
-  {
-    "id": "9lt5h30mza",
-    "pack": 2,
-    "question": "finger",
-    "answers": [
-      "lavoste"
-    ]
-  },
-  {
-    "id": "nwv2jo0cgd",
-    "pack": 1,
-    "question": "i have",
-    "answers": [
-      "lavon"
-    ]
-  },
-  {
-    "id": "dv1qk3ld43",
-    "pack": 6,
-    "question": "i get",
-    "answers": [
-      "lavotun"
-    ]
-  },
-  {
-    "id": "hdssfm0dcs",
-    "pack": 4,
-    "question": "method, way, style, habit, manner",
-    "answers": [
-      "pua"
-    ]
-  },
-  {
-    "id": "4iy9un0bf8",
-    "pack": 6,
-    "question": "language",
-    "answers": [
-      "gomuni"
-    ]
-  },
-  {
-    "id": "pn29ktsfen",
-    "pack": 5,
-    "question": "i speak",
-    "answers": [
-      "munin"
-    ]
-  },
-  {
-    "id": "r8n9s4dgst",
-    "pack": 1,
-    "question": "food",
-    "answers": [
-      "loma"
-    ]
-  },
-  {
-    "id": "eze4lbw99e",
-    "pack": 2,
-    "question": "loma",
-    "answers": [
-      "food"
-    ]
-  },
-  {
-    "id": "6igm2fvqrm",
-    "pack": 4,
-    "question": "hi",
-    "answers": [
-      "hei"
-    ]
-  },
-  {
-    "id": "viotuyo4pm",
-    "pack": 2,
-    "question": "i greet",
-    "answers": [
-      "hein"
-    ]
-  },
-  {
-    "id": "4k7jjan8un",
-    "pack": 2,
-    "question": "i can",
-    "answers": [
-      "tain"
-    ]
-  },
-  {
-    "id": "wtvymp8n7k",
-    "pack": 2,
-    "question": "tais",
-    "answers": [
-      "you can",
-      "you are able to"
-    ]
-  },
-  {
-    "id": "20smqeqxdd",
-    "pack": 6,
-    "question": "i must",
-    "answers": [
-      "pakosan"
-    ]
-  },
-  {
-    "id": "2gfltd8886",
-    "pack": 5,
-    "question": "i am not allowed to",
-    "answers": [
-      "pakoven"
-    ]
-  },
-  {
-    "id": "wg8v1k2uww",
-    "pack": 5,
-    "question": "i want to",
-    "answers": [
-      "anin"
-    ]
-  },
-  {
-    "id": "r4d0vfrf6d",
-    "pack": 3,
-    "question": "it was a mistake",
-    "answers": [
-      "anistepot"
-    ]
-  },
-  {
-    "id": "dkj7lt9r7p",
-    "pack": 2,
-    "question": "i believe/think",
-    "answers": [
-      "laugen"
-    ]
-  },
-  {
-    "id": "g9zor7h12h",
-    "pack": 2,
-    "question": "laugesan",
-    "answers": [
-      "i know"
-    ]
-  },
-  {
-    "id": "01vrd9hlsy",
-    "pack": 5,
-    "question": "it is easy",
-    "answers": [
-      "selavepaa"
-    ]
-  },
-  {
-    "id": "73q405ca8k",
-    "pack": 5,
-    "question": "tool",
-    "answers": [
-      "tuo"
-    ]
-  },
-  {
-    "id": "41k44g2tz3",
-    "pack": 2,
-    "question": "tuo",
-    "answers": [
-      "tool"
-    ]
-  },
-  {
-    "id": "r9jutypm5f",
-    "pack": 2,
-    "question": "tool",
-    "answers": [
-      "tuo"
-    ]
-  },
-  {
-    "id": "khhww4pa0z",
-    "pack": 1,
-    "question": "kulu",
-    "answers": [
-      "lump",
-      "clump"
-    ]
-  },
-  {
-    "id": "eouifdcxqk",
-    "pack": 6,
-    "question": "not (english)",
-    "answers": [
-      "neve"
-    ]
-  },
-  {
-    "id": "lgz8v9gkgk",
-    "pack": 5,
-    "question": "nesa",
-    "answers": [
-      "all"
-    ]
-  },
-  {
-    "id": "gxsdci7zhw",
-    "pack": 1,
-    "question": "amount",
-    "answers": [
-      "gone"
-    ]
-  },
-  {
-    "id": "2qp2anam31",
-    "pack": 5,
-    "question": "and (english)",
-    "answers": [
-      "et"
-    ]
-  },
-  {
-    "id": "87kegvnrha",
-    "pack": 6,
-    "question": "or",
-    "answers": [
-      "us"
-    ]
-  },
-  {
-    "id": "i4y46re6x1",
-    "pack": 2,
-    "question": "animal",
-    "answers": [
-      "masa"
-    ]
-  },
-  {
-    "id": "c7thzbmg23",
-    "pack": 2,
-    "question": "mave",
-    "answers": [
-      "dead"
-    ]
-  },
-  {
-    "id": "w148rltk4n",
-    "pack": 4,
-    "question": "person",
-    "answers": [
-      "mi"
-    ]
-  },
-  {
-    "id": "x4jm293qsl",
-    "pack": 2,
-    "question": "mi",
-    "answers": [
-      "person",
-      "human"
-    ]
-  },
-  {
-    "id": "gj6qc0jq1z",
-    "pack": 4,
-    "question": "boss, leader",
-    "answers": [
-      "lavasa"
-    ]
-  },
-  {
-    "id": "d24n7hxz00",
-    "pack": 6,
-    "question": "lavave",
-    "answers": [
-      "subordinate",
-      "dependent",
-      "sub",
-      "follower"
-    ]
-  },
-  {
-    "id": "dawn0yl5dj",
-    "pack": 4,
-    "question": "kuluvetua",
-    "answers": [
-      "grain",
-      "powder"
-    ]
-  },
-  {
-    "id": "8jfoip8mw8",
-    "pack": 1,
-    "question": "sosa",
-    "answers": [
-      "correct",
-      "yes"
-    ]
-  },
-  {
-    "id": "7ykrffzpin",
-    "pack": 5,
-    "question": "good",
-    "answers": [
-      "penasa"
-    ]
-  },
-  {
-    "id": "8f2725zjl0",
-    "pack": 4,
-    "question": "penave",
-    "answers": [
-      "bad"
-    ]
-  },
-  {
-    "id": "128v210q7g",
-    "pack": 1,
-    "question": "sad",
-    "answers": [
-      "koive"
-    ]
-  },
-  {
-    "id": "ntakj1ggpu",
-    "pack": 5,
-    "question": "angry",
-    "answers": [
-      "deive"
-    ]
-  },
-  {
-    "id": "yaqgma1jzv",
-    "pack": 2,
-    "question": "stressed",
-    "answers": [
-      "moive"
-    ]
-  },
-  {
-    "id": "bmdsnwcci8",
-    "pack": 1,
-    "question": "scared",
-    "answers": [
-      "mouve"
-    ]
-  },
-  {
-    "id": "6q6x2bac6f",
-    "pack": 6,
-    "question": "anticipated",
-    "answers": [
-      "tiose"
-    ]
-  },
-  {
-    "id": "8oboetht0o",
-    "pack": 2,
-    "question": "apusa",
-    "answers": [
-      "far"
-    ]
-  },
-  {
-    "id": "ekjab5jb8m",
-    "pack": 4,
-    "question": "near",
-    "answers": [
-      "apuve"
-    ]
-  },
-  {
-    "id": "rcjmt5ku5l",
-    "pack": 3,
-    "question": "almost",
-    "answers": [
-      "goapuve"
-    ]
-  },
-  {
-    "id": "rcf2mxhx8h",
-    "pack": 3,
-    "question": "muesa",
-    "answers": [
-      "safe"
-    ]
-  },
-  {
-    "id": "jnljatmsmh",
-    "pack": 5,
-    "question": "this",
-    "answers": [
-      "tama"
-    ]
-  },
-  {
-    "id": "bg90ng46jv",
-    "pack": 3,
-    "question": "that, those",
-    "answers": [
-      "soi"
-    ]
-  },
-  {
-    "id": "qjvtixujp3",
-    "pack": 3,
-    "question": "what, which",
-    "answers": [
-      "me"
-    ]
-  },
-  {
-    "id": "v1gackt6vg",
-    "pack": 3,
-    "question": "mepaika",
-    "answers": [
-      "why",
-      "which reason"
-    ]
-  },
-  {
-    "id": "ryn9129dl1",
-    "pack": 3,
-    "question": "megomio",
-    "answers": [
-      "when",
-      "which time"
-    ]
-  },
-  {
-    "id": "ux7tot9o4k",
-    "pack": 6,
-    "question": "memi",
-    "answers": [
-      "who",
-      "which person"
-    ]
-  },
-  {
-    "id": "1bhukx0osr",
-    "pack": 1,
-    "question": "mepua",
-    "answers": [
-      "how"
-    ]
-  },
-  {
-    "id": "90md04pvd4",
-    "pack": 5,
-    "question": "reason",
-    "answers": [
-      "paika"
-    ]
-  },
-  {
-    "id": "yzks7y0ckk",
-    "pack": 6,
-    "question": "place, area",
-    "answers": [
-      "lei"
-    ]
-  },
-  {
-    "id": "op6aagh9wm",
-    "pack": 5,
-    "question": "leisa",
-    "answers": [
-      "country",
-      "state",
-      "city"
-    ]
-  },
-  {
-    "id": "75cdopkaq9",
-    "pack": 2,
-    "question": "place of stay, house",
-    "answers": [
-      "kotu"
-    ]
-  },
-  {
-    "id": "3qjij41j7s",
-    "pack": 6,
-    "question": "kotusa",
-    "answers": [
-      "home"
-    ]
-  },
-  {
-    "id": "yb2hiz9th1",
-    "pack": 3,
-    "question": "toyasa",
-    "answers": [
-      "on",
-      "active"
-    ]
-  },
-  {
-    "id": "o5jyq23zu3",
-    "pack": 6,
-    "question": "state (on/off)",
-    "answers": [
-      "gotoya"
-    ]
-  },
-  {
-    "id": "fopd1nxlzt",
-    "pack": 4,
-    "question": "intact, whole",
-    "answers": [
-      "taukosa"
-    ]
-  },
-  {
-    "id": "r8nq0v2a5q",
-    "pack": 5,
-    "question": "taukove",
-    "answers": [
-      "broken",
-      "split",
-      "sick",
-      "split up"
-    ]
-  },
-  {
-    "id": "dg0fec8jht",
-    "pack": 5,
-    "question": "healthy",
-    "answers": [
-      "masataukosa"
-    ]
-  },
-  {
-    "id": "f0r4zh9vh4",
-    "pack": 1,
-    "question": "now",
-    "answers": [
-      "mio"
-    ]
-  },
-  {
-    "id": "hh1u0k2ttk",
-    "pack": 1,
-    "question": "miosa",
-    "answers": [
-      "later"
-    ]
-  },
-  {
-    "id": "n7ft1y9q42",
-    "pack": 5,
-    "question": "time",
-    "answers": [
-      "gomio"
-    ]
-  },
-  {
-    "id": "awv3ka1lbg",
-    "pack": 4,
-    "question": "gomioli",
-    "answers": [
-      "when",
-      "if"
-    ]
-  },
-  {
-    "id": "c29etkrxeu",
-    "pack": 1,
-    "question": "early",
-    "answers": [
-      "meave"
-    ]
-  },
-  {
-    "id": "bun7qlrtcf",
-    "pack": 2,
-    "question": "decision",
-    "answers": [
-      "valtalo"
-    ]
-  },
-  {
-    "id": "zfnncfom6s",
-    "pack": 4,
-    "question": "mind",
-    "answers": [
-      "golawa"
-    ]
-  },
-  {
-    "id": "5uj0u9ou4x",
-    "pack": 6,
-    "question": "one (english)",
-    "answers": [
-      "eya"
-    ]
-  },
-  {
-    "id": "4txiiulucr",
-    "pack": 2,
-    "question": "two (english)",
-    "answers": [
-      "tu"
-    ]
-  },
-  {
-    "id": "spk0067g4l",
-    "pack": 1,
-    "question": "two (english)",
-    "answers": [
-      "tu"
-    ]
-  },
-  {
-    "id": "oosarpvchk",
-    "pack": 5,
-    "question": "three",
-    "answers": [
-      "loke"
-    ]
-  },
-  {
-    "id": "d0ql464j9k",
-    "pack": 6,
-    "question": "four",
-    "answers": [
-      "nela"
-    ]
-  },
-  {
-    "id": "hbo72gvzq4",
-    "pack": 4,
-    "question": "five (english)",
-    "answers": [
-      "kuuso"
-    ]
-  },
-  {
-    "id": "lae3rd5bzg",
-    "pack": 1,
-    "question": "six",
-    "answers": [
-      "seke"
-    ]
-  },
-  {
-    "id": "sfk9jrsoj9",
-    "pack": 2,
-    "question": "seven (english)",
-    "answers": [
-      "seite"
-    ]
-  },
-  {
-    "id": "vy4xzmd7fe",
-    "pack": 3,
-    "question": "eight",
-    "answers": [
-      "ato"
-    ]
-  },
-  {
-    "id": "yc6n0lgxqw",
-    "pack": 5,
-    "question": "nine (english)",
-    "answers": [
-      "ile"
-    ]
-  },
-  {
-    "id": "zbd23h5zrv",
-    "pack": 2,
-    "question": "new",
-    "answers": [
-      "usisa"
-    ]
-  },
-  {
-    "id": "2jxfgx2dm3",
-    "pack": 2,
-    "question": "usisan",
-    "answers": [
-      "i create",
-      "i make",
-      "i add"
-    ]
-  },
-  {
-    "id": "w7um5othtp",
-    "pack": 3,
-    "question": "liquid, water",
-    "answers": [
-      "vesi"
-    ]
-  },
-  {
-    "id": "zl36brh7j6",
-    "pack": 6,
-    "question": "vesive",
-    "answers": [
-      "solid"
-    ]
-  },
-  {
-    "id": "xorry534f6",
-    "pack": 1,
-    "question": "vesisa",
-    "answers": [
-      "gas",
-      "air"
-    ]
-  },
-  {
-    "id": "56oj3l6c1h",
-    "pack": 2,
-    "question": "tree, wood",
-    "answers": [
-      "bio"
-    ]
-  },
-  {
-    "id": "tueac743h1",
-    "pack": 1,
-    "question": "fire",
-    "answers": [
-      "elda"
-    ]
-  },
-  {
-    "id": "nbs5fum9dr",
-    "pack": 6,
-    "question": "dark (colour)",
-    "answers": [
-      "veluve"
-    ]
-  },
-  {
-    "id": "ks9fhvf9a1",
-    "pack": 3,
-    "question": "velusa",
-    "answers": [
-      "light",
-      "bright"
-    ]
-  },
-  {
-    "id": "qvv25agwrv",
-    "pack": 4,
-    "question": "bright (luminance)",
-    "answers": [
-      "valosa"
-    ]
-  },
-  {
-    "id": "s3yvy4zmgk",
-    "pack": 1,
-    "question": "aluve",
-    "answers": [
-      "first"
-    ]
-  },
-  {
-    "id": "osovoyh740",
-    "pack": 6,
-    "question": "end",
-    "answers": [
-      "alusalo"
-    ]
-  },
-  {
-    "id": "en7jmawbvm",
-    "pack": 5,
-    "question": "i stand",
-    "answers": [
-      "nokisan"
-    ]
-  },
-  {
-    "id": "j9pr2f1kel",
-    "pack": 6,
-    "question": "torso, main part of something",
-    "answers": [
-      "siemo"
-    ]
-  },
-  {
-    "id": "1zri1i61d0",
-    "pack": 3,
-    "question": "computer, device, machine",
-    "answers": [
-      "diigi"
-    ]
-  },
-  {
-    "id": "38w7lyb4up",
-    "pack": 5,
-    "question": "electric",
-    "answers": [
-      "sako"
-    ]
-  },
-  {
-    "id": "pliecmtou5",
-    "pack": 6,
-    "question": "interconnected",
-    "answers": [
-      "neto"
-    ]
-  },
-  {
-    "id": "v9i9f5d0n2",
-    "pack": 2,
-    "question": "netolo",
-    "answers": [
-      "web",
-      "internet",
-      "network"
-    ]
-  },
-  {
-    "id": "jmvcjrhkw2",
-    "pack": 5,
-    "question": "temporary",
-    "answers": [
-      "yakuve"
-    ]
-  },
-  {
-    "id": "0ysuvmzapa",
-    "pack": 6,
-    "question": "yakusatua",
-    "answers": [
-      "permanent"
-    ]
-  },
-  {
-    "id": "5odgvxuxoy",
-    "pack": 1,
-    "question": "i see",
-    "answers": [
-      "aulan"
-    ]
-  },
-  {
-    "id": "rbm3sohdsy",
-    "pack": 5,
-    "question": "vision",
-    "answers": [
-      "goaula"
-    ]
-  },
-  {
-    "id": "wy8e3votg0",
-    "pack": 1,
-    "question": "up (english)",
-    "answers": [
-      "sunasa"
-    ]
-  },
-  {
-    "id": "xxj5ypogem",
-    "pack": 6,
-    "question": "left",
-    "answers": [
-      "yotove"
-    ]
-  },
-  {
-    "id": "9lrbsgmt82",
-    "pack": 4,
-    "question": "nature, environment",
-    "answers": [
-      "luono"
-    ]
-  },
-  {
-    "id": "mu5zsdbwak",
-    "pack": 6,
-    "question": "disgusting",
-    "answers": [
-      "eklivetua"
-    ]
-  },
-  {
-    "id": "18qybfn3z0",
-    "pack": 4,
-    "question": "clean",
-    "answers": [
-      "eklisa"
-    ]
-  },
-  {
-    "id": "l0k55em7zh",
-    "pack": 2,
-    "question": "flavour",
-    "answers": [
-      "goekli"
-    ]
-  },
-  {
-    "id": "yvfndpzk3b",
-    "pack": 5,
-    "question": "plant",
-    "answers": [
-      "vile"
-    ]
-  },
-  {
-    "id": "x8ukygzc24",
-    "pack": 3,
-    "question": "material, texture, chemical element",
-    "answers": [
-      "stofi"
-    ]
-  },
-  {
-    "id": "xvq2v9myqo",
-    "pack": 2,
-    "question": "coal",
-    "answers": [
-      "tsestofi"
-    ]
-  },
-  {
-    "id": "eff2u8yki2",
-    "pack": 5,
-    "question": "loud (english)",
-    "answers": [
-      "luumesa"
-    ]
-  },
-  {
-    "id": "4ngj42j26f",
-    "pack": 3,
-    "question": "goluume",
-    "answers": [
-      "volume",
-      "audio"
-    ]
-  },
-  {
-    "id": "hqbm1ef8a5",
-    "pack": 4,
-    "question": "shiny",
-    "answers": [
-      "kilasa"
-    ]
-  },
-  {
-    "id": "7yhx3hiu3a",
-    "pack": 2,
-    "question": "i pause",
-    "answers": [
-      "kuneven"
-    ]
-  },
-  {
-    "id": "wbjir0s49k",
-    "pack": 5,
-    "question": "warm",
-    "answers": [
-      "varmasa"
-    ]
-  },
-  {
-    "id": "w9u7u8r3ez",
-    "pack": 5,
-    "question": "raw",
-    "answers": [
-      "varmave"
-    ]
-  },
-  {
-    "id": "9ext7vspty",
-    "pack": 6,
-    "question": "govarma",
-    "answers": [
-      "temperature"
-    ]
-  },
-  {
-    "id": "zys95ym6uo",
-    "pack": 3,
-    "question": "tired",
-    "answers": [
-      "tamiove"
-    ]
-  },
-  {
-    "id": "bx531bej36",
-    "pack": 6,
-    "question": "note, paper",
-    "answers": [
-      "lipo"
-    ]
-  },
-  {
-    "id": "byq3e1sens",
-    "pack": 3,
-    "question": "vehicle",
-    "answers": [
-      "peto"
-    ]
-  },
-  {
-    "id": "nhz85232ox",
-    "pack": 3,
-    "question": "fast (english)",
-    "answers": [
-      "sneve"
-    ]
-  },
-  {
-    "id": "lutyxfb47w",
-    "pack": 2,
-    "question": "flat",
-    "answers": [
-      "vola"
-    ]
-  },
-  {
-    "id": "vzzf8y1tdp",
-    "pack": 6,
-    "question": "volasa",
-    "answers": [
-      "hill",
-      "bump"
-    ]
-  },
-  {
-    "id": "l83jfzi9oz",
-    "pack": 1,
-    "question": "i sell",
-    "answers": [
-      "ostaven"
-    ]
-  },
-  {
-    "id": "tb81ml8gad",
-    "pack": 3,
-    "question": "i exchange/translate",
-    "answers": [
-      "ostan"
-    ]
-  },
-  {
-    "id": "gow463h1io",
-    "pack": 4,
-    "question": "tilted, rotated, bent",
-    "answers": [
-      "tuloa"
-    ]
-  },
-  {
-    "id": "jsyms7ay3a",
-    "pack": 3,
-    "question": "tuloalo",
-    "answers": [
-      "angle",
-      "shape",
-      "line"
-    ]
-  },
-  {
-    "id": "s35jtqcwzm",
-    "pack": 3,
-    "question": "valuable",
-    "answers": [
-      "kestosa"
-    ]
-  },
-  {
-    "id": "mu76e07d69",
-    "pack": 5,
-    "question": "kestosalo",
-    "answers": [
-      "money",
-      "wealth"
-    ]
-  },
-  {
-    "id": "bczfndofks",
-    "pack": 1,
-    "question": "hour",
-    "answers": [
-      "hetisa"
-    ]
-  },
-  {
-    "id": "igenxfo21y",
-    "pack": 6,
-    "question": "day",
-    "answers": [
-      "vikove"
-    ]
-  },
-  {
-    "id": "ox120id2e8",
-    "pack": 6,
-    "question": "storage, container, box, bag",
-    "answers": [
-      "lauku"
-    ]
-  },
-  {
-    "id": "fsejirw3tz",
-    "pack": 2,
-    "question": "way, road, street, path",
-    "answers": [
-      "topai"
-    ]
-  },
-  {
-    "id": "lmeeicwpbk",
-    "pack": 1,
-    "question": "launch, charge, suddenly start",
-    "answers": [
-      "kasi"
-    ]
-  },
-  {
-    "id": "juet8stqft",
-    "pack": 1,
-    "question": "finasa",
-    "answers": [
-      "existent",
-      "existing"
-    ]
-  },
-  {
-    "id": "ayuzdlnlyw",
-    "pack": 3,
-    "question": "normal",
-    "answers": [
-      "outosa"
-    ]
-  },
-  {
-    "id": "r8hrccbp20",
-    "pack": 3,
-    "question": "parent, creator, owner",
-    "answers": [
-      "toveisa"
-    ]
-  },
-  {
-    "id": "pkainbs3pp",
-    "pack": 4,
-    "question": "sibling, colleague, compatriot",
-    "answers": [
-      "tovei"
-    ]
-  },
-  {
-    "id": "qba90q2yca",
-    "pack": 6,
-    "question": "insufficient",
-    "answers": [
-      "uyove"
-    ]
-  },
-  {
-    "id": "ckezxsntzm",
-    "pack": 2,
-    "question": "uyo",
-    "answers": [
-      "enough",
-      "sufficient"
-    ]
-  },
-  {
-    "id": "a52vn2oddf",
-    "pack": 1,
-    "question": "kilometre",
-    "answers": [
-      "metisatua"
-    ]
-  },
-  {
-    "id": "zxyokrotgn",
-    "pack": 2,
-    "question": "meti",
-    "answers": [
-      "metre"
-    ]
-  },
-  {
-    "id": "5lh7e9gog6",
-    "pack": 6,
-    "question": "millilitre",
-    "answers": [
-      "metivetua"
-    ]
-  },
-  {
-    "id": "srbs3v2fh2",
-    "pack": 4,
-    "question": "liti",
-    "answers": [
-      "litre"
-    ]
-  },
-  {
-    "id": "ccznxcfa01",
-    "pack": 5,
-    "question": "long hard thing, stick, pole, rod",
-    "answers": [
-      "poki"
-    ]
-  },
-  {
-    "id": "69tfuy8wm3",
-    "pack": 5,
-    "question": "long flexible thing, thread, cable",
-    "answers": [
-      "lanka"
-    ]
-  },
-  {
-    "id": "vfsuw2ipr9",
-    "pack": 5,
-    "question": "block, cube, chunk",
-    "answers": [
-      "loko"
-    ]
-  },
-  {
-    "id": "hlgn2a2mka",
-    "pack": 3,
-    "question": "round, spherical, eternal",
-    "answers": [
-      "luno"
-    ]
-  },
-  {
-    "id": "9j8pwukmx6",
-    "pack": 4,
-    "question": "cloth, clothing, flag",
-    "answers": [
-      "lina"
-    ]
-  },
-  {
-    "id": "q22fifu37g",
-    "pack": 4,
-    "question": "meblo",
-    "answers": [
-      "furniture"
-    ]
-  },
-  {
-    "id": "1ckg8ht7k3",
-    "pack": 4,
-    "question": "hairy, fur(y)",
-    "answers": [
-      "felti"
-    ]
-  },
-  {
-    "id": "g4avkpufux",
-    "pack": 3,
-    "question": "carbohydrates, bread, pasta, grain, wheat, flour",
-    "answers": [
-      "pane"
-    ]
-  },
-  {
-    "id": "z6f0eunmj7",
-    "pack": 5,
-    "question": "protein, meat, beans, lentils",
-    "answers": [
-      "maato"
-    ]
-  },
-  {
-    "id": "8iex2wn0aa",
-    "pack": 1,
-    "question": "fatty, oily",
-    "answers": [
-      "voi"
-    ]
-  },
-  {
-    "id": "s9kgvpeyod",
-    "pack": 1,
-    "question": "inside",
-    "answers": [
-      "sitave"
-    ]
-  },
-  {
-    "id": "dbl9bdon6p",
-    "pack": 2,
-    "question": "outside, shell",
-    "answers": [
-      "sitasa"
-    ]
-  },
-  {
-    "id": "9uwv9bs0mp",
-    "pack": 5,
-    "question": "image, video, media",
-    "answers": [
-      "inamo"
-    ]
-  },
-  {
-    "id": "2k5j8s9bdn",
-    "pack": 4,
-    "question": "long, tall",
-    "answers": [
-      "fausa"
-    ]
-  },
-  {
-    "id": "vjjii5soa1",
-    "pack": 1,
-    "question": "thick",
-    "answers": [
-      "duosa"
-    ]
-  },
-  {
-    "id": "0nvcrnbm1v",
-    "pack": 4,
-    "question": "odd (not even)",
-    "answers": [
-      "yopave"
-    ]
-  },
-  {
-    "id": "m541q2dqob",
-    "pack": 5,
-    "question": "sour, negative",
-    "answers": [
-      "sutove"
-    ]
-  },
-  {
-    "id": "4apknhou5g",
-    "pack": 6,
-    "question": "sutosa",
-    "answers": [
-      "sweet",
-      "positive"
-    ]
-  },
-  {
-    "id": "0awflkqrdi",
-    "pack": 6,
-    "question": "bitter",
-    "answers": [
-      "katkeve"
-    ]
-  },
-  {
-    "id": "kefnhule9o",
-    "pack": 1,
-    "question": "acidic",
-    "answers": [
-      "pahave"
-    ]
-  },
-  {
-    "id": "vhh1a8v4fl",
-    "pack": 2,
-    "question": "beautiful",
-    "answers": [
-      "kaunisatua"
-    ]
-  },
-  {
-    "id": "iwk9jm83sb",
-    "pack": 3,
-    "question": "hard, strong, tough, stable, secure",
-    "answers": [
-      "molasa"
-    ]
-  },
-  {
-    "id": "2qaoctjpmm",
-    "pack": 1,
-    "question": "flavourful, nuanced, colourful, creative",
-    "answers": [
-      "koulu"
-    ]
-  },
-  {
-    "id": "kjeoza4n35",
-    "pack": 5,
-    "question": "i try",
-    "answers": [
-      "ketan"
-    ]
-  },
-  {
-    "id": "sqkry8bdy1",
-    "pack": 4,
-    "question": "competition",
-    "answers": [
-      "somave"
-    ]
-  },
-  {
-    "id": "dygwtdee3x",
-    "pack": 6,
-    "question": "locked",
-    "answers": [
-      "avoneve"
-    ]
-  },
-  {
-    "id": "47fl05mj54",
-    "pack": 4,
-    "question": "permission",
-    "answers": [
-      "goavone"
-    ]
-  },
-  {
-    "id": "wxcutfwlvu",
-    "pack": 2,
-    "question": "backward, previous, return",
-    "answers": [
-      "aisive"
-    ]
-  },
-  {
-    "id": "ef6wsoaj8w",
-    "pack": 3,
-    "question": "aisisa",
-    "answers": [
-      "forward",
-      "next",
-      "future"
-    ]
-  },
-  {
-    "id": "q2hy3g9ebv",
-    "pack": 3,
-    "question": "underground",
-    "answers": [
-      "mautove"
-    ]
-  },
-  {
-    "id": "953dezp1bb",
-    "pack": 2,
-    "question": "done (english)",
-    "answers": [
-      "daisosa"
-    ]
-  },
-  {
-    "id": "xzz17zakh9",
-    "pack": 5,
-    "question": "sharp",
-    "answers": [
-      "moutosa"
-    ]
-  },
-  {
-    "id": "yaashlsumu",
-    "pack": 4,
-    "question": "third",
-    "answers": [
-      "lokelaise"
-    ]
-  },
-  {
-    "id": "xfnvpf9ndn",
-    "pack": 6,
-    "question": "number",
-    "answers": [
-      "laise"
-    ]
-  },
-  {
-    "id": "ib5im51okc",
-    "pack": 1,
-    "question": "laisen",
-    "answers": [
-      "i count"
-    ]
-  },
-  {
-    "id": "57ore3tpf7",
-    "pack": 3,
-    "question": "clear, precise",
-    "answers": [
-      "sudisa"
-    ]
-  },
-  {
-    "id": "5c7amtcfvf",
-    "pack": 3,
-    "question": "explanation, description, schematic",
-    "answers": [
-      "neta"
-    ]
-  },
-  {
-    "id": "r5piyhfcy1",
-    "pack": 5,
-    "question": "netas",
-    "answers": [
-      "you explain"
-    ]
-  },
-  {
-    "id": "jb6g7vnfqj",
-    "pack": 4,
-    "question": "man (english)",
-    "answers": [
-      "imi"
-    ]
-  },
-  {
-    "id": "3egznuz9rx",
-    "pack": 5,
-    "question": "woman",
-    "answers": [
-      "aka"
-    ]
-  },
-  {
-    "id": "tbylw0egiw",
-    "pack": 3,
-    "question": "red",
-    "answers": [
-      "dio"
-    ]
-  },
-  {
-    "id": "9ecuz5mc6t",
-    "pack": 1,
-    "question": "green",
-    "answers": [
-      "via"
-    ]
-  },
-  {
-    "id": "ie7mb73wfp",
-    "pack": 2,
-    "question": "blue",
-    "answers": [
-      "blu"
-    ]
-  },
-  {
-    "id": "srrst4s44t",
-    "pack": 5,
-    "question": "wednesday",
-    "answers": [
-      "lokevikove"
-    ]
-  },
-  {
-    "id": "etpffjltul",
-    "pack": 4,
-    "question": "eyavikove",
-    "answers": [
-      "monday"
-    ]
-  },
-  {
-    "id": "zmi6qij6o4",
-    "pack": 6,
-    "question": "january",
-    "answers": [
-      "eyavikosa"
-    ]
-  },
-  {
-    "id": "lrwhqdzx9x",
-    "pack": 2,
-    "question": "sweden",
-    "answers": [
-      "seleisa"
-    ]
-  },
-  {
-    "id": "k3by4eduiv",
-    "pack": 2,
-    "question": "seleisami",
-    "answers": [
-      "swede",
-      "swedish",
-      "swedish person"
-    ]
-  },
-  {
-    "id": "h1pmlrd6oh",
-    "pack": 4,
-    "question": "bigger than you",
-    "answers": [
-      "ikesavo kuive enisaa",
-      "ikesavo kuive enis"
-    ]
-  },
-  {
-    "id": "cropa8f2rp",
-    "pack": 4,
-    "question": "comparison",
-    "answers": [
-      "kuilo",
-      "kuivelo",
-      "kuisalo"
-    ]
-  },
-  {
-    "id": "8i9xtgr4pn",
-    "pack": 4,
-    "question": "i wonder",
-    "answers": [
-      "utelan"
-    ]
-  },
-  {
-    "id": "3o5owzj90w",
-    "pack": 4,
-    "question": "utelanaa",
-    "answers": [
-      "i am curious"
-    ]
-  },
-  {
-    "id": "145kc3emsg",
-    "pack": 4,
-    "question": "i am greatful",
-    "answers": [
-      "matavisanaa",
-      "matavisan"
-    ]
-  },
-  {
-    "id": "9ia2ddw43z",
-    "pack": 4,
-    "question": "i would do (it) if i could do (it)",
-    "answers": [
-      "oniksin gomioli taiksin onislut"
-    ],
-    "hiddenAnswers": [
-      "oniksin, gomioli taiksin onislut",
-      "oniksin gomioli onislut taiksin",
-      "oniksin, gomioli onislut taiksin",
-      "oniksin onit gomioli taiksin onislut onit",
-      "oniksin onit gomioli onislut onit taiksin",
-      "oniksin onit gomioli onit onislut taiksin",
-      "oniksin onit, gomioli taiksin onislut onit",
-      "oniksin onit, gomioli taiksin onislut onit",
-      "oniksin onit, gomioli onit onislut taiksin",
-      "oniksin onit, gomioli onislut onit taiksin"
-    ]
-  },
-  {
-    "id": "5w7griad19",
-    "pack": 4,
-    "question": "you should do (it)",
-    "answers": [
-      "pakosateos onislut"
-    ],
-    "hiddenAnswers": [
-      "pakosateos onislut onit",
-      "pakosateos onit onislut",
-      "onit pakosateos onislut",
-      "onit onislut pakosateos",
-      "onislut onit pakosateos",
-      "onislut pakosateos onit"
-    ]
-  },
-  {
-    "id": "otbsf457tk",
-    "pack": 4,
-    "question": "heavy",
-    "answers": [
-      "kovasa"
-    ]
-  },
-  {
-    "id": "10905dhqqr",
-    "pack": 4,
-    "question": "gokova",
-    "answers": [
-      "weight"
-    ]
-  },
-  {
-    "id": "1a6tb4y1ex",
-    "pack": 3,
-    "question": "kilogram",
-    "answers": [
-      "gamisatua"
-    ]
-  },
-  {
-    "id": "sjyodq6v0z",
-    "pack": 3,
-    "question": "because",
-    "answers": [
-      "paikatu"
-    ]
-  }
+    {
+        "id": "91csh47ey4",
+        "pack": 1,
+        "question": "i walk",
+        "answers": [
+            "nokan"
+        ]
+    },
+    {
+        "id": "ugsat3kknp",
+        "pack": 5,
+        "question": "oni",
+        "answers": [
+            "thing",
+            "do",
+            "object",
+            "act",
+            "loooooong"
+        ]
+    },
+    {
+        "id": "927n89tq2k",
+        "pack": 4,
+        "question": "you walk",
+        "answers": [
+            "nokas"
+        ]
+    },
+    {
+        "id": "kh7wki27f6",
+        "pack": 6,
+        "question": "it walks",
+        "answers": [
+            "nokapi"
+        ]
+    },
+    {
+        "id": "bld4vpw1sc",
+        "pack": 2,
+        "question": "i walked",
+        "answers": [
+            "nokanu"
+        ]
+    },
+    {
+        "id": "3nkp2tjvqv",
+        "pack": 4,
+        "question": "you walked",
+        "answers": [
+            "nokasu"
+        ]
+    },
+    {
+        "id": "uuzjpqhvpj",
+        "pack": 1,
+        "question": "it walked",
+        "answers": [
+            "nokapu"
+        ]
+    },
+    {
+        "id": "sm18fsjc23",
+        "pack": 6,
+        "question": "i will walk",
+        "answers": [
+            "nokanas"
+        ]
+    },
+    {
+        "id": "q0yho5ezkr",
+        "pack": 3,
+        "question": "you will walk",
+        "answers": [
+            "nokasas"
+        ]
+    },
+    {
+        "id": "pa0hq4aqps",
+        "pack": 6,
+        "question": "it will walk",
+        "answers": [
+            "nokapas"
+        ]
+    },
+    {
+        "id": "vw0r7n11gm",
+        "pack": 1,
+        "question": "they will walk",
+        "answers": [
+            "su nokapas"
+        ]
+    },
+    {
+        "id": "11l7gwccyc",
+        "pack": 1,
+        "question": "i am big",
+        "answers": [
+            "ikesanaa"
+        ]
+    },
+    {
+        "id": "wwrcs9zwqv",
+        "pack": 2,
+        "question": "you are big",
+        "answers": [
+            "ikesasaa"
+        ]
+    },
+    {
+        "id": "nbcqf1bdcp",
+        "pack": 5,
+        "question": "it is big",
+        "answers": [
+            "ikesapaa"
+        ]
+    },
+    {
+        "id": "pgagujzjsa",
+        "pack": 6,
+        "question": "i was big",
+        "answers": [
+            "ikesanot"
+        ]
+    },
+    {
+        "id": "gazns3ut7u",
+        "pack": 2,
+        "question": "you are big",
+        "answers": [
+            "ikesasot"
+        ]
+    },
+    {
+        "id": "t8gyzd6i09",
+        "pack": 6,
+        "question": "it is big",
+        "answers": [
+            "ikesapot"
+        ]
+    },
+    {
+        "id": "s578itobuu",
+        "pack": 5,
+        "question": "i will be big",
+        "answers": [
+            "ikesanow"
+        ]
+    },
+    {
+        "id": "6pimdu5xa9",
+        "pack": 3,
+        "question": "you will be big",
+        "answers": [
+            "ikesasow"
+        ]
+    },
+    {
+        "id": "5z4tqfy736",
+        "pack": 6,
+        "question": "it will be big",
+        "answers": [
+            "ikesapow"
+        ]
+    },
+    {
+        "id": "0dvt0n5qdw",
+        "pack": 5,
+        "question": "feet",
+        "answers": [
+            "nokaye"
+        ]
+    },
+    {
+        "id": "iuyfqc1yzx",
+        "pack": 2,
+        "question": "big",
+        "answers": [
+            "ikesa"
+        ]
+    },
+    {
+        "id": "vd7kbjcqtk",
+        "pack": 5,
+        "question": "bigger",
+        "answers": [
+            "ikesavo"
+        ]
+    },
+    {
+        "id": "j85nmg06g8",
+        "pack": 3,
+        "question": "biggest",
+        "answers": [
+            "ikesavie"
+        ]
+    },
+    {
+        "id": "yegiu3n7ew",
+        "pack": 6,
+        "question": "i",
+        "answers": [
+            "eninaa",
+            "enin"
+        ]
+    },
+    {
+        "id": "dxg7k5glv4",
+        "pack": 2,
+        "question": "you",
+        "answers": [
+            "enisaa",
+            "enis"
+        ]
+    },
+    {
+        "id": "4mt4w92nf0",
+        "pack": 3,
+        "question": "me (english)",
+        "answers": [
+            "eninaat",
+            "eninaada",
+            "eninit",
+            "eninida"
+        ]
+    },
+    {
+        "id": "d49liqwq53",
+        "pack": 3,
+        "question": "my",
+        "answers": [
+            "eninaadi",
+            "eninidi"
+        ]
+    },
+    {
+        "id": "bkfw3etqq8",
+        "pack": 2,
+        "question": "the person's thing",
+        "answers": [
+            "oni midi"
+        ]
+    },
+    {
+        "id": "r6nwmhvk3n",
+        "pack": 2,
+        "question": "to it",
+        "answers": [
+            "onitu"
+        ]
+    },
+    {
+        "id": "qxqztxn5rw",
+        "pack": 3,
+        "question": "from it",
+        "answers": [
+            "onitol"
+        ]
+    },
+    {
+        "id": "y6jmdqfrgg",
+        "pack": 3,
+        "question": "through it",
+        "answers": [
+            "onitat"
+        ]
+    },
+    {
+        "id": "g1xxi3xhhe",
+        "pack": 4,
+        "question": "at it",
+        "answers": [
+            "onili"
+        ]
+    },
+    {
+        "id": "ft737n36md",
+        "pack": 3,
+        "question": "i like to walk",
+        "answers": [
+            "pitasan nokaslut",
+            "nokaslut pitasan"
+        ]
+    },
+    {
+        "id": "qu9s1ywfca",
+        "pack": 6,
+        "question": "one walks",
+        "answers": [
+            "nokaslu"
+        ]
+    },
+    {
+        "id": "kuchrt4jua",
+        "pack": 1,
+        "question": "one walked",
+        "answers": [
+            "nokasla"
+        ]
+    },
+    {
+        "id": "vzwgjj2u03",
+        "pack": 1,
+        "question": "one will walk",
+        "answers": [
+            "nokaslei"
+        ]
+    },
+    {
+        "id": "243bfj45w6",
+        "pack": 4,
+        "question": "walk (demand)",
+        "answers": [
+            "nokastu"
+        ]
+    },
+    {
+        "id": "fganez5z4x",
+        "pack": 6,
+        "question": "be happy (demand)",
+        "answers": [
+            "koisastoi"
+        ]
+    },
+    {
+        "id": "ahdk1tj16p",
+        "pack": 6,
+        "question": "i like that it is big",
+        "answers": [
+            "pitasan eta ikesapaa"
+        ]
+    },
+    {
+        "id": "30uso8q3gu",
+        "pack": 4,
+        "question": "toe",
+        "answers": [
+            "nokaste"
+        ]
+    },
+    {
+        "id": "y5tu1u09vk",
+        "pack": 4,
+        "question": "leg",
+        "answers": [
+            "nokasva"
+        ]
+    },
+    {
+        "id": "eoebpqbk4g",
+        "pack": 6,
+        "question": "huge",
+        "answers": [
+            "ikesatua"
+        ]
+    },
+    {
+        "id": "o9luv3y4h1",
+        "pack": 3,
+        "question": "tiny",
+        "answers": [
+            "ikevetua"
+        ]
+    },
+    {
+        "id": "n1lruyjie6",
+        "pack": 4,
+        "question": "big-ish",
+        "answers": [
+            "ikesateo"
+        ]
+    },
+    {
+        "id": "bqhn7rp222",
+        "pack": 2,
+        "question": "small-ish",
+        "answers": [
+            "ikeveteo"
+        ]
+    },
+    {
+        "id": "8e50xjakhm",
+        "pack": 4,
+        "question": "i like",
+        "answers": [
+            "pitasan"
+        ]
+    },
+    {
+        "id": "n2o3x9w1ll",
+        "pack": 6,
+        "question": "word",
+        "answers": [
+            "kia"
+        ]
+    },
+    {
+        "id": "z2ij7kpf0r",
+        "pack": 1,
+        "question": "sentence",
+        "answers": [
+            "kiasa"
+        ]
+    },
+    {
+        "id": "fkss2mbc5o",
+        "pack": 2,
+        "question": "hand",
+        "answers": [
+            "lavo"
+        ]
+    },
+    {
+        "id": "9lt5h30mza",
+        "pack": 2,
+        "question": "finger",
+        "answers": [
+            "lavoste"
+        ]
+    },
+    {
+        "id": "nwv2jo0cgd",
+        "pack": 1,
+        "question": "i have",
+        "answers": [
+            "lavon"
+        ]
+    },
+    {
+        "id": "dv1qk3ld43",
+        "pack": 6,
+        "question": "i get",
+        "answers": [
+            "lavotun"
+        ]
+    },
+    {
+        "id": "hdssfm0dcs",
+        "pack": 4,
+        "question": "method, way, style, habit, manner",
+        "answers": [
+            "pua"
+        ]
+    },
+    {
+        "id": "4iy9un0bf8",
+        "pack": 6,
+        "question": "language",
+        "answers": [
+            "gomuni"
+        ]
+    },
+    {
+        "id": "pn29ktsfen",
+        "pack": 5,
+        "question": "i speak",
+        "answers": [
+            "munin"
+        ]
+    },
+    {
+        "id": "r8n9s4dgst",
+        "pack": 1,
+        "question": "food",
+        "answers": [
+            "loma"
+        ]
+    },
+    {
+        "id": "eze4lbw99e",
+        "pack": 2,
+        "question": "loma",
+        "answers": [
+            "food"
+        ]
+    },
+    {
+        "id": "6igm2fvqrm",
+        "pack": 4,
+        "question": "hi",
+        "answers": [
+            "hei"
+        ]
+    },
+    {
+        "id": "viotuyo4pm",
+        "pack": 2,
+        "question": "i greet",
+        "answers": [
+            "hein"
+        ]
+    },
+    {
+        "id": "4k7jjan8un",
+        "pack": 2,
+        "question": "i can",
+        "answers": [
+            "tain"
+        ]
+    },
+    {
+        "id": "wtvymp8n7k",
+        "pack": 2,
+        "question": "tais",
+        "answers": [
+            "you can",
+            "you are able to"
+        ]
+    },
+    {
+        "id": "20smqeqxdd",
+        "pack": 6,
+        "question": "i must",
+        "answers": [
+            "pakosan"
+        ]
+    },
+    {
+        "id": "2gfltd8886",
+        "pack": 5,
+        "question": "i am not allowed to",
+        "answers": [
+            "pakoven"
+        ]
+    },
+    {
+        "id": "wg8v1k2uww",
+        "pack": 5,
+        "question": "i want to",
+        "answers": [
+            "anin"
+        ]
+    },
+    {
+        "id": "r4d0vfrf6d",
+        "pack": 3,
+        "question": "it was a mistake",
+        "answers": [
+            "anistepot"
+        ]
+    },
+    {
+        "id": "dkj7lt9r7p",
+        "pack": 2,
+        "question": "i believe/think",
+        "answers": [
+            "laugen"
+        ]
+    },
+    {
+        "id": "g9zor7h12h",
+        "pack": 2,
+        "question": "laugesan",
+        "answers": [
+            "i know"
+        ]
+    },
+    {
+        "id": "01vrd9hlsy",
+        "pack": 5,
+        "question": "it is easy",
+        "answers": [
+            "selavepaa"
+        ]
+    },
+    {
+        "id": "73q405ca8k",
+        "pack": 5,
+        "question": "tool",
+        "answers": [
+            "tuo"
+        ]
+    },
+    {
+        "id": "41k44g2tz3",
+        "pack": 2,
+        "question": "tuo",
+        "answers": [
+            "tool"
+        ]
+    },
+    {
+        "id": "r9jutypm5f",
+        "pack": 2,
+        "question": "tool",
+        "answers": [
+            "tuo"
+        ]
+    },
+    {
+        "id": "khhww4pa0z",
+        "pack": 1,
+        "question": "kulu",
+        "answers": [
+            "lump",
+            "clump"
+        ]
+    },
+    {
+        "id": "eouifdcxqk",
+        "pack": 6,
+        "question": "not (english)",
+        "answers": [
+            "neve"
+        ]
+    },
+    {
+        "id": "lgz8v9gkgk",
+        "pack": 5,
+        "question": "nesa",
+        "answers": [
+            "all"
+        ]
+    },
+    {
+        "id": "gxsdci7zhw",
+        "pack": 1,
+        "question": "amount",
+        "answers": [
+            "gone"
+        ]
+    },
+    {
+        "id": "2qp2anam31",
+        "pack": 5,
+        "question": "and (english)",
+        "answers": [
+            "et"
+        ]
+    },
+    {
+        "id": "87kegvnrha",
+        "pack": 6,
+        "question": "or",
+        "answers": [
+            "us"
+        ]
+    },
+    {
+        "id": "i4y46re6x1",
+        "pack": 2,
+        "question": "animal",
+        "answers": [
+            "masa"
+        ]
+    },
+    {
+        "id": "c7thzbmg23",
+        "pack": 2,
+        "question": "mave",
+        "answers": [
+            "dead"
+        ]
+    },
+    {
+        "id": "w148rltk4n",
+        "pack": 4,
+        "question": "person",
+        "answers": [
+            "mi"
+        ]
+    },
+    {
+        "id": "x4jm293qsl",
+        "pack": 2,
+        "question": "mi",
+        "answers": [
+            "person",
+            "human"
+        ]
+    },
+    {
+        "id": "gj6qc0jq1z",
+        "pack": 4,
+        "question": "boss, leader",
+        "answers": [
+            "lavasa"
+        ]
+    },
+    {
+        "id": "d24n7hxz00",
+        "pack": 6,
+        "question": "lavave",
+        "answers": [
+            "subordinate",
+            "dependent",
+            "sub",
+            "follower"
+        ]
+    },
+    {
+        "id": "dawn0yl5dj",
+        "pack": 4,
+        "question": "kuluvetua",
+        "answers": [
+            "grain",
+            "powder"
+        ]
+    },
+    {
+        "id": "8jfoip8mw8",
+        "pack": 1,
+        "question": "sosa",
+        "answers": [
+            "correct",
+            "yes"
+        ]
+    },
+    {
+        "id": "7ykrffzpin",
+        "pack": 5,
+        "question": "good",
+        "answers": [
+            "penasa"
+        ]
+    },
+    {
+        "id": "8f2725zjl0",
+        "pack": 4,
+        "question": "penave",
+        "answers": [
+            "bad"
+        ]
+    },
+    {
+        "id": "128v210q7g",
+        "pack": 1,
+        "question": "sad",
+        "answers": [
+            "koive"
+        ]
+    },
+    {
+        "id": "ntakj1ggpu",
+        "pack": 5,
+        "question": "angry",
+        "answers": [
+            "deive"
+        ]
+    },
+    {
+        "id": "yaqgma1jzv",
+        "pack": 2,
+        "question": "stressed",
+        "answers": [
+            "moive"
+        ]
+    },
+    {
+        "id": "bmdsnwcci8",
+        "pack": 1,
+        "question": "scared",
+        "answers": [
+            "mouve"
+        ]
+    },
+    {
+        "id": "6q6x2bac6f",
+        "pack": 6,
+        "question": "anticipated",
+        "answers": [
+            "tiose"
+        ]
+    },
+    {
+        "id": "8oboetht0o",
+        "pack": 2,
+        "question": "apusa",
+        "answers": [
+            "far"
+        ]
+    },
+    {
+        "id": "ekjab5jb8m",
+        "pack": 4,
+        "question": "near",
+        "answers": [
+            "apuve"
+        ]
+    },
+    {
+        "id": "rcjmt5ku5l",
+        "pack": 3,
+        "question": "almost",
+        "answers": [
+            "goapuve"
+        ]
+    },
+    {
+        "id": "rcf2mxhx8h",
+        "pack": 3,
+        "question": "muesa",
+        "answers": [
+            "safe"
+        ]
+    },
+    {
+        "id": "jnljatmsmh",
+        "pack": 5,
+        "question": "this",
+        "answers": [
+            "tama"
+        ]
+    },
+    {
+        "id": "bg90ng46jv",
+        "pack": 3,
+        "question": "that, those",
+        "answers": [
+            "soi"
+        ]
+    },
+    {
+        "id": "qjvtixujp3",
+        "pack": 3,
+        "question": "what, which",
+        "answers": [
+            "me"
+        ]
+    },
+    {
+        "id": "v1gackt6vg",
+        "pack": 3,
+        "question": "mepaika",
+        "answers": [
+            "why",
+            "which reason"
+        ]
+    },
+    {
+        "id": "ryn9129dl1",
+        "pack": 3,
+        "question": "megomio",
+        "answers": [
+            "when",
+            "which time"
+        ]
+    },
+    {
+        "id": "ux7tot9o4k",
+        "pack": 6,
+        "question": "memi",
+        "answers": [
+            "who",
+            "which person"
+        ]
+    },
+    {
+        "id": "1bhukx0osr",
+        "pack": 1,
+        "question": "mepua",
+        "answers": [
+            "how"
+        ]
+    },
+    {
+        "id": "90md04pvd4",
+        "pack": 5,
+        "question": "reason",
+        "answers": [
+            "paika"
+        ]
+    },
+    {
+        "id": "yzks7y0ckk",
+        "pack": 6,
+        "question": "place, area",
+        "answers": [
+            "lei"
+        ]
+    },
+    {
+        "id": "op6aagh9wm",
+        "pack": 5,
+        "question": "leisa",
+        "answers": [
+            "country",
+            "state",
+            "city"
+        ]
+    },
+    {
+        "id": "75cdopkaq9",
+        "pack": 2,
+        "question": "place of stay, house",
+        "answers": [
+            "kotu"
+        ]
+    },
+    {
+        "id": "3qjij41j7s",
+        "pack": 6,
+        "question": "kotusa",
+        "answers": [
+            "home"
+        ]
+    },
+    {
+        "id": "yb2hiz9th1",
+        "pack": 3,
+        "question": "toyasa",
+        "answers": [
+            "on",
+            "active"
+        ]
+    },
+    {
+        "id": "o5jyq23zu3",
+        "pack": 6,
+        "question": "state (on/off)",
+        "answers": [
+            "gotoya"
+        ]
+    },
+    {
+        "id": "fopd1nxlzt",
+        "pack": 4,
+        "question": "intact, whole",
+        "answers": [
+            "taukosa"
+        ]
+    },
+    {
+        "id": "r8nq0v2a5q",
+        "pack": 5,
+        "question": "taukove",
+        "answers": [
+            "broken",
+            "split",
+            "sick",
+            "split up"
+        ]
+    },
+    {
+        "id": "dg0fec8jht",
+        "pack": 5,
+        "question": "healthy",
+        "answers": [
+            "masataukosa"
+        ]
+    },
+    {
+        "id": "f0r4zh9vh4",
+        "pack": 1,
+        "question": "now",
+        "answers": [
+            "mio"
+        ]
+    },
+    {
+        "id": "hh1u0k2ttk",
+        "pack": 1,
+        "question": "miosa",
+        "answers": [
+            "later"
+        ]
+    },
+    {
+        "id": "n7ft1y9q42",
+        "pack": 5,
+        "question": "time",
+        "answers": [
+            "gomio"
+        ]
+    },
+    {
+        "id": "awv3ka1lbg",
+        "pack": 4,
+        "question": "gomioli",
+        "answers": [
+            "when",
+            "if"
+        ]
+    },
+    {
+        "id": "c29etkrxeu",
+        "pack": 1,
+        "question": "early",
+        "answers": [
+            "meave"
+        ]
+    },
+    {
+        "id": "bun7qlrtcf",
+        "pack": 2,
+        "question": "decision",
+        "answers": [
+            "valtalo"
+        ]
+    },
+    {
+        "id": "zfnncfom6s",
+        "pack": 4,
+        "question": "mind",
+        "answers": [
+            "golawa"
+        ]
+    },
+    {
+        "id": "5uj0u9ou4x",
+        "pack": 6,
+        "question": "one (english)",
+        "answers": [
+            "eya"
+        ]
+    },
+    {
+        "id": "4txiiulucr",
+        "pack": 2,
+        "question": "two (english)",
+        "answers": [
+            "tu"
+        ]
+    },
+    {
+        "id": "spk0067g4l",
+        "pack": 1,
+        "question": "two (english)",
+        "answers": [
+            "tu"
+        ]
+    },
+    {
+        "id": "oosarpvchk",
+        "pack": 5,
+        "question": "three",
+        "answers": [
+            "loke"
+        ]
+    },
+    {
+        "id": "d0ql464j9k",
+        "pack": 6,
+        "question": "four",
+        "answers": [
+            "nela"
+        ]
+    },
+    {
+        "id": "hbo72gvzq4",
+        "pack": 4,
+        "question": "five (english)",
+        "answers": [
+            "kuuso"
+        ]
+    },
+    {
+        "id": "lae3rd5bzg",
+        "pack": 1,
+        "question": "six",
+        "answers": [
+            "seke"
+        ]
+    },
+    {
+        "id": "sfk9jrsoj9",
+        "pack": 2,
+        "question": "seven (english)",
+        "answers": [
+            "seite"
+        ]
+    },
+    {
+        "id": "vy4xzmd7fe",
+        "pack": 3,
+        "question": "eight",
+        "answers": [
+            "ato"
+        ]
+    },
+    {
+        "id": "yc6n0lgxqw",
+        "pack": 5,
+        "question": "nine (english)",
+        "answers": [
+            "ile"
+        ]
+    },
+    {
+        "id": "zbd23h5zrv",
+        "pack": 2,
+        "question": "new",
+        "answers": [
+            "usisa"
+        ]
+    },
+    {
+        "id": "2jxfgx2dm3",
+        "pack": 2,
+        "question": "usisan",
+        "answers": [
+            "i create",
+            "i make",
+            "i add"
+        ]
+    },
+    {
+        "id": "w7um5othtp",
+        "pack": 3,
+        "question": "liquid, water",
+        "answers": [
+            "vesi"
+        ]
+    },
+    {
+        "id": "zl36brh7j6",
+        "pack": 6,
+        "question": "vesive",
+        "answers": [
+            "solid"
+        ]
+    },
+    {
+        "id": "xorry534f6",
+        "pack": 1,
+        "question": "vesisa",
+        "answers": [
+            "gas",
+            "air"
+        ]
+    },
+    {
+        "id": "56oj3l6c1h",
+        "pack": 2,
+        "question": "tree, wood",
+        "answers": [
+            "bio"
+        ]
+    },
+    {
+        "id": "tueac743h1",
+        "pack": 1,
+        "question": "fire",
+        "answers": [
+            "elda"
+        ]
+    },
+    {
+        "id": "nbs5fum9dr",
+        "pack": 6,
+        "question": "dark (colour)",
+        "answers": [
+            "veluve"
+        ]
+    },
+    {
+        "id": "ks9fhvf9a1",
+        "pack": 3,
+        "question": "velusa",
+        "answers": [
+            "light",
+            "bright"
+        ]
+    },
+    {
+        "id": "qvv25agwrv",
+        "pack": 4,
+        "question": "bright (luminance)",
+        "answers": [
+            "valosa"
+        ]
+    },
+    {
+        "id": "s3yvy4zmgk",
+        "pack": 1,
+        "question": "aluve",
+        "answers": [
+            "first"
+        ]
+    },
+    {
+        "id": "osovoyh740",
+        "pack": 6,
+        "question": "end",
+        "answers": [
+            "alusalo"
+        ]
+    },
+    {
+        "id": "en7jmawbvm",
+        "pack": 5,
+        "question": "i stand",
+        "answers": [
+            "nokisan"
+        ]
+    },
+    {
+        "id": "j9pr2f1kel",
+        "pack": 6,
+        "question": "torso, main part of something",
+        "answers": [
+            "siemo"
+        ]
+    },
+    {
+        "id": "1zri1i61d0",
+        "pack": 3,
+        "question": "computer, device, machine",
+        "answers": [
+            "diigi"
+        ]
+    },
+    {
+        "id": "38w7lyb4up",
+        "pack": 5,
+        "question": "electric",
+        "answers": [
+            "sako"
+        ]
+    },
+    {
+        "id": "pliecmtou5",
+        "pack": 6,
+        "question": "interconnected",
+        "answers": [
+            "neto"
+        ]
+    },
+    {
+        "id": "v9i9f5d0n2",
+        "pack": 2,
+        "question": "netolo",
+        "answers": [
+            "web",
+            "internet",
+            "network"
+        ]
+    },
+    {
+        "id": "jmvcjrhkw2",
+        "pack": 5,
+        "question": "temporary",
+        "answers": [
+            "yakuve"
+        ]
+    },
+    {
+        "id": "0ysuvmzapa",
+        "pack": 6,
+        "question": "yakusatua",
+        "answers": [
+            "permanent"
+        ]
+    },
+    {
+        "id": "5odgvxuxoy",
+        "pack": 1,
+        "question": "i see",
+        "answers": [
+            "aulan"
+        ]
+    },
+    {
+        "id": "rbm3sohdsy",
+        "pack": 5,
+        "question": "vision",
+        "answers": [
+            "goaula"
+        ]
+    },
+    {
+        "id": "wy8e3votg0",
+        "pack": 1,
+        "question": "up (english)",
+        "answers": [
+            "sunasa"
+        ]
+    },
+    {
+        "id": "xxj5ypogem",
+        "pack": 6,
+        "question": "left",
+        "answers": [
+            "yotove"
+        ]
+    },
+    {
+        "id": "9lrbsgmt82",
+        "pack": 4,
+        "question": "nature, environment",
+        "answers": [
+            "luono"
+        ]
+    },
+    {
+        "id": "mu5zsdbwak",
+        "pack": 6,
+        "question": "disgusting",
+        "answers": [
+            "eklivetua"
+        ]
+    },
+    {
+        "id": "18qybfn3z0",
+        "pack": 4,
+        "question": "clean",
+        "answers": [
+            "eklisa"
+        ]
+    },
+    {
+        "id": "l0k55em7zh",
+        "pack": 2,
+        "question": "flavour",
+        "answers": [
+            "goekli"
+        ]
+    },
+    {
+        "id": "yvfndpzk3b",
+        "pack": 5,
+        "question": "plant",
+        "answers": [
+            "vile"
+        ]
+    },
+    {
+        "id": "x8ukygzc24",
+        "pack": 3,
+        "question": "material, texture, chemical element",
+        "answers": [
+            "stofi"
+        ]
+    },
+    {
+        "id": "xvq2v9myqo",
+        "pack": 2,
+        "question": "coal",
+        "answers": [
+            "tsestofi"
+        ]
+    },
+    {
+        "id": "eff2u8yki2",
+        "pack": 5,
+        "question": "loud (english)",
+        "answers": [
+            "luumesa"
+        ]
+    },
+    {
+        "id": "4ngj42j26f",
+        "pack": 3,
+        "question": "goluume",
+        "answers": [
+            "volume",
+            "audio"
+        ]
+    },
+    {
+        "id": "hqbm1ef8a5",
+        "pack": 4,
+        "question": "shiny",
+        "answers": [
+            "kilasa"
+        ]
+    },
+    {
+        "id": "7yhx3hiu3a",
+        "pack": 2,
+        "question": "i pause",
+        "answers": [
+            "kunen"
+        ]
+    },
+    {
+        "id": "7yha33iu3a",
+        "pack": 2,
+        "question": "i work",
+        "answers": [
+            "kunesan"
+        ]
+    },
+    {
+        "id": "wbjir0s49k",
+        "pack": 5,
+        "question": "warm",
+        "answers": [
+            "varmasa"
+        ]
+    },
+    {
+        "id": "w9u7u8r3ez",
+        "pack": 5,
+        "question": "raw",
+        "answers": [
+            "varmave"
+        ]
+    },
+    {
+        "id": "9ext7vspty",
+        "pack": 6,
+        "question": "govarma",
+        "answers": [
+            "temperature"
+        ]
+    },
+    {
+        "id": "zys95ym6uo",
+        "pack": 3,
+        "question": "tired",
+        "answers": [
+            "tamiove"
+        ]
+    },
+    {
+        "id": "bx531bej36",
+        "pack": 6,
+        "question": "note, paper",
+        "answers": [
+            "lipo"
+        ]
+    },
+    {
+        "id": "byq3e1sens",
+        "pack": 3,
+        "question": "vehicle",
+        "answers": [
+            "peto"
+        ]
+    },
+    {
+        "id": "nhz85232ox",
+        "pack": 3,
+        "question": "fast (english)",
+        "answers": [
+            "sneve"
+        ]
+    },
+    {
+        "id": "lutyxfb47w",
+        "pack": 2,
+        "question": "flat",
+        "answers": [
+            "vola"
+        ]
+    },
+    {
+        "id": "vzzf8y1tdp",
+        "pack": 6,
+        "question": "volasa",
+        "answers": [
+            "hill",
+            "bump"
+        ]
+    },
+    {
+        "id": "l83jfzi9oz",
+        "pack": 1,
+        "question": "i sell",
+        "answers": [
+            "ostaven"
+        ]
+    },
+    {
+        "id": "tb81ml8gad",
+        "pack": 3,
+        "question": "i exchange/translate",
+        "answers": [
+            "ostan"
+        ]
+    },
+    {
+        "id": "gow463h1io",
+        "pack": 4,
+        "question": "tilted, rotated, bent",
+        "answers": [
+            "tuloa"
+        ]
+    },
+    {
+        "id": "jsyms7ay3a",
+        "pack": 3,
+        "question": "tuloalo",
+        "answers": [
+            "angle",
+            "shape",
+            "line"
+        ]
+    },
+    {
+        "id": "s35jtqcwzm",
+        "pack": 3,
+        "question": "valuable",
+        "answers": [
+            "kestosa"
+        ]
+    },
+    {
+        "id": "mu76e07d69",
+        "pack": 5,
+        "question": "kestosalo",
+        "answers": [
+            "money",
+            "wealth"
+        ]
+    },
+    {
+        "id": "bczfndofks",
+        "pack": 1,
+        "question": "hour",
+        "answers": [
+            "hetisa"
+        ]
+    },
+    {
+        "id": "igenxfo21y",
+        "pack": 6,
+        "question": "day",
+        "answers": [
+            "vikoste"
+        ]
+    },
+    {
+        "id": "ox120id2e8",
+        "pack": 6,
+        "question": "storage, container, box, bag",
+        "answers": [
+            "lauku"
+        ]
+    },
+    {
+        "id": "fsejirw3tz",
+        "pack": 2,
+        "question": "way, road, street, path",
+        "answers": [
+            "topai"
+        ]
+    },
+    {
+        "id": "lmeeicwpbk",
+        "pack": 1,
+        "question": "launch, charge, suddenly start",
+        "answers": [
+            "kasi"
+        ]
+    },
+    {
+        "id": "juet8stqft",
+        "pack": 1,
+        "question": "finasa",
+        "answers": [
+            "existent",
+            "existing"
+        ]
+    },
+    {
+        "id": "ayuzdlnlyw",
+        "pack": 3,
+        "question": "normal",
+        "answers": [
+            "outosa"
+        ]
+    },
+    {
+        "id": "r8hrccbp20",
+        "pack": 3,
+        "question": "parent, creator, owner",
+        "answers": [
+            "toveisa"
+        ]
+    },
+    {
+        "id": "pkainbs3pp",
+        "pack": 4,
+        "question": "sibling, colleague, compatriot",
+        "answers": [
+            "tovei"
+        ]
+    },
+    {
+        "id": "qba90q2yca",
+        "pack": 6,
+        "question": "insufficient",
+        "answers": [
+            "uyove"
+        ]
+    },
+    {
+        "id": "ckezxsntzm",
+        "pack": 2,
+        "question": "uyo",
+        "answers": [
+            "enough",
+            "sufficient"
+        ]
+    },
+    {
+        "id": "a52vn2oddf",
+        "pack": 1,
+        "question": "kilometre",
+        "answers": [
+            "metisatua"
+        ]
+    },
+    {
+        "id": "zxyokrotgn",
+        "pack": 2,
+        "question": "meti",
+        "answers": [
+            "metre"
+        ]
+    },
+    {
+        "id": "5lh7e9gog6",
+        "pack": 6,
+        "question": "millilitre",
+        "answers": [
+            "metivetua"
+        ]
+    },
+    {
+        "id": "srbs3v2fh2",
+        "pack": 4,
+        "question": "liti",
+        "answers": [
+            "litre"
+        ]
+    },
+    {
+        "id": "ccznxcfa01",
+        "pack": 5,
+        "question": "long hard thing, stick, pole, rod",
+        "answers": [
+            "poki"
+        ]
+    },
+    {
+        "id": "69tfuy8wm3",
+        "pack": 5,
+        "question": "long flexible thing, thread, cable",
+        "answers": [
+            "lanka"
+        ]
+    },
+    {
+        "id": "vfsuw2ipr9",
+        "pack": 5,
+        "question": "block, cube, chunk",
+        "answers": [
+            "loko"
+        ]
+    },
+    {
+        "id": "hlgn2a2mka",
+        "pack": 3,
+        "question": "round, spherical, eternal",
+        "answers": [
+            "luno"
+        ]
+    },
+    {
+        "id": "9j8pwukmx6",
+        "pack": 4,
+        "question": "cloth, clothing, flag",
+        "answers": [
+            "lina"
+        ]
+    },
+    {
+        "id": "q22fifu37g",
+        "pack": 4,
+        "question": "meblo",
+        "answers": [
+            "furniture"
+        ]
+    },
+    {
+        "id": "1ckg8ht7k3",
+        "pack": 4,
+        "question": "hairy, fur(y)",
+        "answers": [
+            "felti"
+        ]
+    },
+    {
+        "id": "g4avkpufux",
+        "pack": 3,
+        "question": "carbohydrates, bread, pasta, grain, wheat, flour",
+        "answers": [
+            "pane"
+        ]
+    },
+    {
+        "id": "z6f0eunmj7",
+        "pack": 5,
+        "question": "protein, meat, beans, lentils",
+        "answers": [
+            "maato"
+        ]
+    },
+    {
+        "id": "8iex2wn0aa",
+        "pack": 1,
+        "question": "fatty, oily",
+        "answers": [
+            "voi"
+        ]
+    },
+    {
+        "id": "s9kgvpeyod",
+        "pack": 1,
+        "question": "inside",
+        "answers": [
+            "sitave"
+        ]
+    },
+    {
+        "id": "dbl9bdon6p",
+        "pack": 2,
+        "question": "outside, shell",
+        "answers": [
+            "sitasa"
+        ]
+    },
+    {
+        "id": "9uwv9bs0mp",
+        "pack": 5,
+        "question": "image, video, media",
+        "answers": [
+            "inamo"
+        ]
+    },
+    {
+        "id": "2k5j8s9bdn",
+        "pack": 4,
+        "question": "long, tall",
+        "answers": [
+            "fausa"
+        ]
+    },
+    {
+        "id": "vjjii5soa1",
+        "pack": 1,
+        "question": "thick",
+        "answers": [
+            "duosa"
+        ]
+    },
+    {
+        "id": "0nvcrnbm1v",
+        "pack": 4,
+        "question": "odd (not even)",
+        "answers": [
+            "yopave"
+        ]
+    },
+    {
+        "id": "m541q2dqob",
+        "pack": 5,
+        "question": "sour, negative",
+        "answers": [
+            "sutove"
+        ]
+    },
+    {
+        "id": "4apknhou5g",
+        "pack": 6,
+        "question": "sutosa",
+        "answers": [
+            "sweet",
+            "positive"
+        ]
+    },
+    {
+        "id": "0awflkqrdi",
+        "pack": 6,
+        "question": "bitter",
+        "answers": [
+            "katkeve"
+        ]
+    },
+    {
+        "id": "kefnhule9o",
+        "pack": 1,
+        "question": "acidic",
+        "answers": [
+            "pahave"
+        ]
+    },
+    {
+        "id": "vhh1a8v4fl",
+        "pack": 2,
+        "question": "beautiful",
+        "answers": [
+            "kaunisatua"
+        ]
+    },
+    {
+        "id": "iwk9jm83sb",
+        "pack": 3,
+        "question": "hard, strong, tough, stable, secure",
+        "answers": [
+            "molasa"
+        ]
+    },
+    {
+        "id": "2qaoctjpmm",
+        "pack": 1,
+        "question": "flavourful, nuanced, colourful, creative",
+        "answers": [
+            "koulu"
+        ]
+    },
+    {
+        "id": "kjeoza4n35",
+        "pack": 5,
+        "question": "i try",
+        "answers": [
+            "ketan"
+        ]
+    },
+    {
+        "id": "sqkry8bdy1",
+        "pack": 4,
+        "question": "competition",
+        "answers": [
+            "somave"
+        ]
+    },
+    {
+        "id": "dygwtdee3x",
+        "pack": 6,
+        "question": "locked",
+        "answers": [
+            "avoneve"
+        ]
+    },
+    {
+        "id": "47fl05mj54",
+        "pack": 4,
+        "question": "permission",
+        "answers": [
+            "goavone"
+        ]
+    },
+    {
+        "id": "wxcutfwlvu",
+        "pack": 2,
+        "question": "backward, previous, return",
+        "answers": [
+            "aisive"
+        ]
+    },
+    {
+        "id": "ef6wsoaj8w",
+        "pack": 3,
+        "question": "aisisa",
+        "answers": [
+            "forward",
+            "next",
+            "future"
+        ]
+    },
+    {
+        "id": "q2hy3g9ebv",
+        "pack": 3,
+        "question": "underground",
+        "answers": [
+            "mautove"
+        ]
+    },
+    {
+        "id": "953dezp1bb",
+        "pack": 2,
+        "question": "done (english)",
+        "answers": [
+            "daisosa"
+        ]
+    },
+    {
+        "id": "xzz17zakh9",
+        "pack": 5,
+        "question": "sharp",
+        "answers": [
+            "moutosa"
+        ]
+    },
+    {
+        "id": "yaashlsumu",
+        "pack": 4,
+        "question": "third",
+        "answers": [
+            "lokelaise"
+        ]
+    },
+    {
+        "id": "xfnvpf9ndn",
+        "pack": 6,
+        "question": "number",
+        "answers": [
+            "laise"
+        ]
+    },
+    {
+        "id": "ib5im51okc",
+        "pack": 1,
+        "question": "laisen",
+        "answers": [
+            "i count"
+        ]
+    },
+    {
+        "id": "57ore3tpf7",
+        "pack": 3,
+        "question": "clear, precise",
+        "answers": [
+            "sudisa"
+        ]
+    },
+    {
+        "id": "5c7amtcfvf",
+        "pack": 3,
+        "question": "explanation, description, schematic",
+        "answers": [
+            "neta"
+        ]
+    },
+    {
+        "id": "r5piyhfcy1",
+        "pack": 5,
+        "question": "netas",
+        "answers": [
+            "you explain"
+        ]
+    },
+    {
+        "id": "jb6g7vnfqj",
+        "pack": 4,
+        "question": "man (english)",
+        "answers": [
+            "imi"
+        ]
+    },
+    {
+        "id": "3egznuz9rx",
+        "pack": 5,
+        "question": "woman",
+        "answers": [
+            "aka"
+        ]
+    },
+    {
+        "id": "tbylw0egiw",
+        "pack": 3,
+        "question": "red",
+        "answers": [
+            "dio"
+        ]
+    },
+    {
+        "id": "9ecuz5mc6t",
+        "pack": 1,
+        "question": "green",
+        "answers": [
+            "via"
+        ]
+    },
+    {
+        "id": "ie7mb73wfp",
+        "pack": 2,
+        "question": "blue",
+        "answers": [
+            "blu"
+        ]
+    },
+    {
+        "id": "srrst4s44t",
+        "pack": 5,
+        "question": "wednesday",
+        "answers": [
+            "lokevikoste"
+        ]
+    },
+    {
+        "id": "etpffjltul",
+        "pack": 4,
+        "question": "eyavikoste",
+        "answers": [
+            "monday"
+        ]
+    },
+    {
+        "id": "zmi6qij6o4",
+        "pack": 6,
+        "question": "january",
+        "answers": [
+            "eyavikosva"
+        ]
+    },
+    {
+        "id": "lrwhqdzx9x",
+        "pack": 2,
+        "question": "sweden",
+        "answers": [
+            "seleisa"
+        ]
+    },
+    {
+        "id": "k3by4eduiv",
+        "pack": 2,
+        "question": "seleisami",
+        "answers": [
+            "swede",
+            "swedish",
+            "swedish person"
+        ]
+    },
+    {
+        "id": "h1pmlrd6oh",
+        "pack": 4,
+        "question": "bigger than you",
+        "answers": [
+            "ikesavo kuive enisaa",
+            "ikesavo kuive enis"
+        ]
+    },
+    {
+        "id": "cropa8f2rp",
+        "pack": 4,
+        "question": "comparison",
+        "answers": [
+            "kuilo",
+            "kuivelo",
+            "kuisalo"
+        ]
+    },
+    {
+        "id": "8i9xtgr4pn",
+        "pack": 4,
+        "question": "i wonder",
+        "answers": [
+            "utelan"
+        ]
+    },
+    {
+        "id": "3o5owzj90w",
+        "pack": 4,
+        "question": "utelanaa",
+        "answers": [
+            "i am curious"
+        ]
+    },
+    {
+        "id": "145kc3emsg",
+        "pack": 4,
+        "question": "i am greatful",
+        "answers": [
+            "matavisanaa",
+            "matavisan"
+        ]
+    },
+    {
+        "id": "9ia2ddw43z",
+        "pack": 4,
+        "question": "i would do (it) if i could do (it)",
+        "answers": [
+            "oniksin gomioli taiksin onislut"
+        ],
+        "hiddenAnswers": [
+            "oniksin, gomioli taiksin onislut",
+            "oniksin gomioli onislut taiksin",
+            "oniksin, gomioli onislut taiksin",
+            "oniksin onit gomioli taiksin onislut onit",
+            "oniksin onit gomioli onislut onit taiksin",
+            "oniksin onit gomioli onit onislut taiksin",
+            "oniksin onit, gomioli taiksin onislut onit",
+            "oniksin onit, gomioli taiksin onislut onit",
+            "oniksin onit, gomioli onit onislut taiksin",
+            "oniksin onit, gomioli onislut onit taiksin"
+        ]
+    },
+    {
+        "id": "5w7griad19",
+        "pack": 4,
+        "question": "you should do (it)",
+        "answers": [
+            "pakosateos onislut"
+        ],
+        "hiddenAnswers": [
+            "pakosateos onislut onit",
+            "pakosateos onit onislut",
+            "onit pakosateos onislut",
+            "onit onislut pakosateos",
+            "onislut onit pakosateos",
+            "onislut pakosateos onit"
+        ]
+    },
+    {
+        "id": "otbsf457tk",
+        "pack": 4,
+        "question": "heavy",
+        "answers": [
+            "kovasa"
+        ]
+    },
+    {
+        "id": "10905dhqqr",
+        "pack": 4,
+        "question": "gokova",
+        "answers": [
+            "weight"
+        ]
+    },
+    {
+        "id": "1a6tb4y1ex",
+        "pack": 3,
+        "question": "kilogram",
+        "answers": [
+            "gamisatua"
+        ]
+    },
+    {
+        "id": "sjyodq6v0z",
+        "pack": 3,
+        "question": "because",
+        "answers": [
+            "paikatu"
+        ]
+    },
+    {
+        "id": "xtn361hl10",
+        "pack": 3,
+        "question": "i suggest",
+        "answers": [
+            "vaitin"
+        ]
+    },
+    {
+        "id": "su2ij7zme1",
+        "pack": 5,
+        "question": "vaitisan",
+        "answers": [
+            "i warn",
+            "i alert"
+        ]
+    },
+    {
+        "id": "34j1jfte5b",
+        "pack": 1,
+        "question": "i help",
+        "answers": [
+            "lutasan"
+        ]
+    }
 ]

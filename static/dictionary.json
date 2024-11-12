@@ -97,9 +97,9 @@
             "have",
             "hold",
             { "name": "get", "grammar": "lative" },
-            { "name": "send", "grammar": "lative" },
+            { "name": "receive", "grammar": "lative" },
+            { "name": "send", "grammar": "ablative" },
             { "name": "give", "grammar": "ablative" },
-            { "name": "receive", "grammar": "ablative" },
             { "name": "get rid of", "grammar": "ablative" },
             { "name": "drop", "grammar": ["ablative", "...anive"] },
             { "name": "throw", "grammar": ["ablative", "intensifier"] }
@@ -172,7 +172,9 @@
     {
         "word": "pako",
         "descriptor": [
-            { "name": "forbidden", "grammar": "less" }
+            { "name": "forbidden", "grammar": "less" },
+            "unecessary",
+            { "name": "necessary", "grammar": "more" }
         ],
         "noun": [
             { "name": "obligation", "grammar": "more" }
@@ -183,6 +185,37 @@
             { "name": "have to", "grammar": "more" },
             { "name": "must", "grammar": "more" },
             { "name": "need to", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "luta",
+        "descriptor": [
+            { "name": "unhelpful", "grammar": "less" },
+            { "name": "helpful", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "aid", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "sabotage", "grammar": "less" },
+            { "name": "help", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "vaiti",
+        "noun": [
+            { "name": "affirmation", "grammar": "less" },
+            "suggestion",
+            "hint",
+            { "name": "alert", "grammar": "more" },
+            { "name": "warning", "grammar": "more" }
+        ],
+        "verb": [
+            { "name": "affirm", "grammar": "less" },
+            "suggest",
+            "hint",
+            { "name": "alert", "grammar": "more" },
+            { "name": "warn", "grammar": "more" }
         ]
     },
     {
@@ -561,8 +594,6 @@
             { "name": "state", "grammar": "abstract" }
         ],
         "verb": [
-            { "name": "sleep", "grammar": ["mi-", "less"] },
-            { "name": "rest", "grammar": ["mi-", "less"] },
             { "name": "turn off", "grammar": ["less", "lative"] },
             { "name": "inactivate", "grammar": ["less", "lative"] },
             { "name": "turn on", "grammar": ["more", "lative"] },
@@ -602,7 +633,7 @@
         "noun": [
             { "name": "time", "grammar": "abstract" },
             { "name": "moment", "grammar": "abstract" },
-            { "name": "again", "grammar": ["enisa-", "abstract"] },
+            { "name": "again", "grammar": ["usisa-", "abstract"] },
             { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] }
         ],
         "other": [
@@ -636,7 +667,7 @@
             "head",
             { "name": "mind", "grammar": "abstract" },
             { "name": "thought", "grammar": ["abstract", "diminutive"] },
-            { "name": "memory", "grammar": ["abstract", "lavo-"] }
+            { "name": "memory", "grammar": ["abstract", "lavo-", "passive"] }
         ],
         "verb": [
             "think",
@@ -668,9 +699,7 @@
         ],
         "noun": [
             { "name": "removal", "grammar": "less" },
-            { "name": "addition", "grammar": "more" },
-            { "name": "trash", "grammar": ["less", "-oni"] },
-            { "name": "garbage", "grammar": ["less", "-oni"] }
+            { "name": "addition", "grammar": "more" }
         ],
         "verb": [
             { "name": "revert", "grammar": "less" },
@@ -966,8 +995,8 @@
         "word": "kune",
         "verb": [
             { "name": "sleep", "grammar": ["less", "intensifier"] },
-            { "name": "rest", "grammar": ["less", "intensifier"] },
-            { "name": "pause", "grammar": "less" },
+            { "name": "rest", "grammar": "less" },
+            "pause",
             { "name": "work", "grammar": "more" }
         ]
     },

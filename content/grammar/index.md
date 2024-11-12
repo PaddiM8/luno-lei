@@ -168,7 +168,7 @@ or end of a sentence.
 | Accusative      | -t     | direct object                    |
 | Dative          | -da    | indirect object                  |
 | Genitive        | -di    | possession                       |
-| Lative          | -tu    | towards, for                     |
+| Lative          | -tu    | towards, into, for               |
 | Ablative        | -tol   | from                             |
 | Prolative       | -tat   | via, through, along, by means of |
 | Partitive       | -tia   | direct object, incomplete        |

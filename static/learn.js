@@ -23,12 +23,9 @@ updateMetrics();
 loadTabs();
 
 function preparePacks() {
-    let flashcardId = 0;
     for (const flashcard of flashcards) {
         packs[flashcard.pack] ??= {};
-        packs[flashcard.pack][flashcardId] = flashcard;
-
-        flashcardId++;
+        packs[flashcard.pack][flashcard.id] = flashcard;
     }
 }
 
@@ -116,10 +113,10 @@ function correctAnswer() {
 
     const packMetrics = getCurrentPackMetrics();
     packMetrics[currentFlashcardId] ??= 0.5;
-
-    if (packMetrics[currentFlashcardId] > 0.15) {
-        packMetrics[currentFlashcardId] -= 0.08;
-    }
+    packMetrics[currentFlashcardId] = Math.max(
+        0.15,
+        packMetrics[currentFlashcardId - 0.08]
+    );
 
     revealCard(showAnswer);
     updateMetrics();
@@ -130,10 +127,10 @@ function incorrectAnswer() {
 
     const packMetrics = getCurrentPackMetrics();
     packMetrics[currentFlashcardId] ??= 0.5;
-
-    if (packMetrics[currentFlashcardId] < 1.9) {
-        packMetrics[currentFlashcardId] += 0.15;
-    }
+    packMetrics[currentFlashcardId] = Math.min(
+        2,
+        packMetrics[currentFlashcardId + 0.15]
+    );
 
     revealCard(showAnswer);
     updateMetrics();
@@ -141,9 +138,12 @@ function incorrectAnswer() {
 
 function getWeightedRandomItem(dict) {
     const entries = Object.entries(dict);
+    entries.sort((a, b) => b[1] - a[1]);
+
     const cumulativeWeights = [];
     for (let i = 0; i < entries.length; i += 1) {
-        const weight = entries[i][1] || 0.5;
+        let weight = entries[i][1] || 0.5;
+        weight = 1.2 * weight - 0.1;
         cumulativeWeights[i] = weight + (cumulativeWeights[i - 1] || 0);
     }
 
@@ -154,6 +154,8 @@ function getWeightedRandomItem(dict) {
             return entries[index][0];
         }
     }
+
+    return entries[0][0];
 }
 
 function nextCard() {

@@ -148,7 +148,7 @@ function getWeightedRandomItem(dict) {
     }
 
     const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
-    const randomNumber = maxCumulativeWeight * Math.random();
+    const randomNumber = getRandomIntInclusive(maxCumulativeWeight);
     for (let index = 0; index < entries.length; index += 1) {
         if (cumulativeWeights[index] >= randomNumber) {
             return entries[index][0];
@@ -156,6 +156,17 @@ function getWeightedRandomItem(dict) {
     }
 
     return entries[0][0];
+}
+
+function getRandomIntInclusive(max) {
+    // Math.random wasn't very random...
+    const randomBuffer = new Uint32Array(1);
+    window.crypto.getRandomValues(randomBuffer);
+
+    const randomNumber = randomBuffer[0] / (0xffffffff + 1);
+    max = Math.floor(max);
+
+    return Math.floor(randomNumber * (max + 1));
 }
 
 function nextCard() {

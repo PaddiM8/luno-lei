@@ -634,7 +634,8 @@
             { "name": "time", "grammar": "abstract" },
             { "name": "moment", "grammar": "abstract" },
             { "name": "again", "grammar": ["usisa-", "abstract"] },
-            { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] }
+            { "name": "times (eg. 5 times)", "grammar": ["abstract", "plural"] },
+            { "name": "multiplication", "grammar": ["abstract", "plural"] }
         ],
         "other": [
             { "name": "when", "grammar": ["locative", "abstract"] },
@@ -699,6 +700,7 @@
         ],
         "noun": [
             { "name": "removal", "grammar": "less" },
+            { "name": "subtraction", "grammar": "less" },
             { "name": "addition", "grammar": "more" }
         ],
         "verb": [
@@ -1406,10 +1408,18 @@
         ]
     },
     {
-        "word": "yopa",
-        "descriptor": [
-            { "name": "odd", "grammar": "less" },
-            { "name": "even", "grammar": "more" }
+        "word": "yaki",
+        "adjective": [
+            { "name": "useless", "grammar": "less" },
+            { "name": "useful", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "trash", "grammar": "less" },
+            { "name": "garbage", "grammar": "less" },
+            { "name": "waste", "grammar": "less" }
+        ],
+        "verb": [
+            { "name": "destroy", "grammar": ["less", "lative"] }
         ]
     },
     {
@@ -1531,10 +1541,12 @@
         "noun": [
             { "name": "group", "grammar": "more" },
             { "name": "community", "grammar": "more" },
-            { "name": "flock", "grammar": "more" }
+            { "name": "flock", "grammar": "more" },
+            { "name": "division", "grammar": ["less", "lative"] }
         ],
         "verb": [
             { "name": "split", "grammar": ["less", "lative"] },
+            { "name": "divide", "grammar": ["less", "lative"] },
             { "name": "join", "grammar": ["more", "lative"] },
             { "name": "merge", "grammar": ["more", "lative"] }
         ]

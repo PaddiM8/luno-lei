@@ -200,7 +200,15 @@ function saveMetrics() {
 function loadMetrics() {
     const byPackId = {};
     for (const packId in packs) {
-        byPackId[packId] = JSON.parse(window.localStorage.getItem(`metrics-${packId}`) ?? "{}");
+        const pack = JSON.parse(window.localStorage.getItem(`metrics-${packId}`) ?? "{}");;
+        byPackId[packId] = pack;
+
+        // Remove metrics for deleted flashcards
+        for (const key of Object.keys(pack)) {
+            if (!flashcards.some(x => x.id == key)) {
+                delete pack[key];
+            }
+        }
     }
 
     return byPackId;

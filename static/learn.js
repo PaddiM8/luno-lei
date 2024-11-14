@@ -1,4 +1,6 @@
 const tabsElement = document.getElementById("tabs");
+const introductionArea = document.getElementById("introduction-area");
+const flashcardArea = document.getElementById("flashcard-area");
 const countsElement = document.getElementById("counts");
 const flashcardElement = document.getElementById("flashcard");
 const inputElement = document.getElementById("translation-input");
@@ -15,8 +17,12 @@ preparePacks();
 const metrics = loadMetrics();
 prepareMetrics();
 
-flashcardElement.style.maxWidth = flashcardElement.parentElement.getBoundingClientRect().width + "px";
+flashcardElement.style.maxWidth = flashcardElement.parentElement.parentElement.getBoundingClientRect().width + "px";
 inputElement.addEventListener("keydown", handleTranslationSubmitted);
+introductionArea.querySelector(".continue").addEventListener("click", () => {
+    introductionArea.classList.add("hidden");
+    flashcardArea.classList.remove("hidden");
+});
 
 loadTabs();
 nextCard();
@@ -244,6 +250,18 @@ function updateNextTab() {
     }
 }
 
+function showPackIntroduction() {
+    introductionArea.classList.remove("hidden");
+    flashcardArea.classList.add("hidden");
+
+    for (const flashcard of Object.values(packs[currentPackId])) {
+        introductionArea.querySelector("tbody").insertAdjacentHTML("beforeend", `
+            <td>${flashcard.question}</td>
+            <td>${flashcard.answers.join(", ")}</td>
+        `);
+    }
+}
+
 function updateMetrics() {
     saveMetrics();
     updateCounts();
@@ -254,6 +272,16 @@ function updateMetrics() {
     const sortedMetrics = Object.entries(getCurrentPackMetrics())
         .filter(x => x[1] !== undefined)
         .sort((a, b) => b[1] - a[1]);
+    if (sortedMetrics.length == 0)
+    {
+        showPackIntroduction();
+    }
+    else
+    {
+        introductionArea.classList.add("hidden");
+        flashcardArea.classList.remove("hidden");
+    }
+
     for (const [flashcardId, weight] of sortedMetrics) {
         let cssClass = "undetermined";
         if (weight <= learnedThreshold) {

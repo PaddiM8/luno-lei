@@ -683,6 +683,15 @@
         ]
     },
     {
+        "word": "kova",
+        "noun": [
+            "ear"
+        ],
+        "verb": [
+            "hear"
+        ]
+    },
+    {
         "word": "eya",
         "descriptor": [
             "one",
@@ -1009,6 +1018,7 @@
     {
         "word": "tamio",
         "descriptor": [
+            { "name": "still", "grammar": ["less", "intensifier"] },
             { "name": "tired", "grammar": "less" },
             { "name": "energetic", "grammar": "more" },
             { "name": "alert", "grammar": "more" }
@@ -1065,6 +1075,14 @@
             { "name": "hill", "grammar": "more" },
             { "name": "bump", "grammar": "more" },
             { "name": "button", "grammar": ["more", "diminutive"] }
+        ]
+    },
+    {
+        "word": "kitka",
+        "descriptor": [
+            { "name": "smooth", "grammar": "less" },
+            { "name": "uniform", "grammar": "less" },
+            { "name": "rough", "grammar": "more" }
         ]
     },
     {
@@ -1176,13 +1194,15 @@
             { "name": "strange", "grammar": "less" },
             { "name": "weird", "grammar": "less" },
             { "name": "unusual", "grammar": "less" },
-            { "name": "expected", "grammar": "more" },
-            { "name": "ordinary", "grammar": "more" },
-            { "name": "normal", "grammar": "more" },
-            { "name": "regular", "grammar": "more" }
+            "expected",
+            "ordinary",
+            "normal",
+            "regular",
+            { "name": "above expectations", "grammar": "more" }
         ],
         "noun": [
-            { "name": "surprise", "grammar": "less" }
+            { "name": "surprise (negative)", "grammar": "less" },
+            { "name": "surprise (positive)", "grammar": "more" }
         ]
     },
     {
@@ -1523,14 +1543,22 @@
         "word": "sama",
         "descriptor": [
             { "name": "alternatively", "grammar": "less" },
-            { "name": "apart", "grammar": "less" },
             { "name": "different", "grammar": "less" },
             { "name": "other", "grammar": "less" },
-            { "name": "other", "grammar": "less" },
+            { "name": "same", "grammar": "more" },
+            { "name": "still", "grammar": ["more", "-lei"] }
+        ],
+        "noun": [
+            { "name": "division", "grammar": ["less", "lative"] }
+        ]
+    },
+    {
+        "word": "neta",
+        "descriptor": [
+            { "name": "apart", "grammar": "less" },
             "grouped",
             "together",
-            { "name": "interconnected", "grammar": "more" },
-            { "name": "same", "grammar": ["more", "intensifier"] }
+            { "name": "connected", "grammar": "more" }
         ],
         "noun": [
             { "name": "division", "grammar": ["less", "lative"] },

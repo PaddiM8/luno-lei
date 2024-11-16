@@ -1203,18 +1203,19 @@
     {
         "id": "pliecmtou5",
         "pack": 6,
-        "question": "interconnected",
+        "question": "connected",
         "answers": [
-            "samasatua"
+            "netasa"
         ]
     },
     {
         "id": "v9i9f5d0n2",
         "pack": 2,
-        "question": "samasatua",
+        "question": "netasa",
         "answers": [
-            "interconnected",
-            "combined"
+            "connected",
+            "combined",
+            "interconnected"
         ]
     },
     {
@@ -1541,7 +1542,7 @@
         "pack": 3,
         "question": "normal",
         "answers": [
-            "outosa"
+            "outo"
         ]
     },
     {
@@ -2135,6 +2136,22 @@
         "question": "i help",
         "answers": [
             "lutasan"
+        ]
+    },
+    {
+        "id": "k63bd8njeb",
+        "pack": 2,
+        "question": "ear",
+        "answers": [
+            "kova"
+        ]
+    },
+    {
+        "id": "zzyt807l89",
+        "pack": 3,
+        "question": "same (english)",
+        "answers": [
+            "samasa"
         ]
     }
 ]

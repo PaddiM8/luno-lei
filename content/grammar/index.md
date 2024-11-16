@@ -166,7 +166,7 @@ or end of a sentence.
 | --------------- | ------ | -------------------------------- |
 | Nominative      | -      | -                                |
 | Accusative      | -t     | direct object                    |
-| Dative          | -da    | indirect object                  |
+| Dative          | -da    | indirect object, together wit    |
 | Genitive        | -di    | possession                       |
 | Lative          | -tu    | towards, into, for               |
 | Ablative        | -tol   | from                             |

@@ -250,6 +250,8 @@
             { "name": "misinformation", "grammar": "less" },
             "belief",
             "opinion",
+            "feel",
+            { "name": "feeling", "grammar": "abstract" },
             { "name": "fact", "grammar": "more" },
             { "name": "objective", "grammar": "more" }
         ],
@@ -861,17 +863,6 @@
         ]
     },
     {
-        "word": "neto",
-        "descriptor": [
-            { "name": "interconnected", "grammar": "more" }
-        ],
-        "noun": [
-            { "name": "web", "grammar": "more" },
-            { "name": "internet", "grammar": "more" },
-            { "name": "network", "grammar": "more" }
-        ]
-    },
-    {
         "word": "yaku",
         "descriptor": [
             { "name": "temporary", "grammar": "less" },
@@ -1189,6 +1180,9 @@
             { "name": "ordinary", "grammar": "more" },
             { "name": "normal", "grammar": "more" },
             { "name": "regular", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "surprise", "grammar": "less" }
         ]
     },
     {
@@ -1507,11 +1501,9 @@
     {
         "word": "keta",
         "noun": [
-            "attempt",
-            { "name": "feeling", "grammar": "abstract" }
+            "attempt"
         ],
         "verb": [
-            "feel",
             "try"
         ]
     },
@@ -1535,19 +1527,23 @@
             { "name": "different", "grammar": "less" },
             { "name": "other", "grammar": "less" },
             { "name": "other", "grammar": "less" },
-            { "name": "together", "grammar": "more" },
-            { "name": "same", "grammar": "more" }
+            "grouped",
+            "together",
+            { "name": "interconnected", "grammar": "more" },
+            { "name": "same", "grammar": ["more", "intensifier"] }
         ],
         "noun": [
-            { "name": "group", "grammar": "more" },
-            { "name": "community", "grammar": "more" },
-            { "name": "flock", "grammar": "more" },
-            { "name": "division", "grammar": ["less", "lative"] }
+            { "name": "division", "grammar": ["less", "lative"] },
+            "group",
+            "community",
+            "flock",
+            { "name": "web", "grammar": "more" },
+            { "name": "network", "grammar": "more" },
+            { "name": "internet", "grammar": ["more", "abstract", "diigi..."] }
         ],
         "verb": [
             { "name": "split", "grammar": ["less", "lative"] },
             { "name": "divide", "grammar": ["less", "lative"] },
-            { "name": "join", "grammar": ["more", "lative"] },
             { "name": "merge", "grammar": ["more", "lative"] }
         ]
     },
@@ -1565,9 +1561,7 @@
         ],
         "verb": [
             { "name": "lock", "grammar": ["less", "lative"] },
-            { "name": "unlock", "grammar": ["more", "lative"] },
-            { "name": "join", "grammar": ["more", "lative"] },
-            { "name": "merge", "grammar": ["more", "lative"] }
+            { "name": "unlock", "grammar": ["more", "lative"] }
         ]
     },
     {

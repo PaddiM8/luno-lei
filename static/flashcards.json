@@ -1205,17 +1205,16 @@
         "pack": 6,
         "question": "interconnected",
         "answers": [
-            "neto"
+            "samasatua"
         ]
     },
     {
         "id": "v9i9f5d0n2",
         "pack": 2,
-        "question": "netolo",
+        "question": "samasatua",
         "answers": [
-            "web",
-            "internet",
-            "network"
+            "interconnected",
+            "combined"
         ]
     },
     {

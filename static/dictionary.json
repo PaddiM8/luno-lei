@@ -825,6 +825,7 @@
             "walk",
             { "name": "run", "grammar": "intensifier" },
             { "name": "go", "grammar": "abstract" },
+            { "name": "move", "grammar": "abstract" },
             { "name": "swim", "grammar": "vesi-" },
             { "name": "fly", "grammar": "mautosa-" }
         ]

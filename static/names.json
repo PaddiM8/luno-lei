@@ -105,6 +105,10 @@
         "full": "locative",
         "class": "case"
     },
+    "abessive": {
+        "full": "abessive",
+        "class": "case"
+    },
     "semblative": {
         "full": "semblative",
         "class": "case"

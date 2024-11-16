@@ -166,13 +166,14 @@ or end of a sentence.
 | --------------- | ------ | -------------------------------- |
 | Nominative      | -      | -                                |
 | Accusative      | -t     | direct object                    |
-| Dative          | -da    | indirect object, together wit    |
+| Dative          | -da    | indirect object, together with   |
 | Genitive        | -di    | possession                       |
 | Lative          | -tu    | towards, into, for               |
 | Ablative        | -tol   | from                             |
 | Prolative       | -tat   | via, through, along, by means of |
 | Partitive       | -tia   | direct object, incomplete        |
 | Locative/Essive | -li    | at (location, time)              |
+| Abessive        | -doy   | without                          |
 | Semblative      | -dea   | similarity                       |
 
 ### Accusative
@@ -283,6 +284,18 @@ It is also used to mark a point in time.
 {{ sentence(
     parts=[["noka", "foot"], ["nas", "1", "verb", "future"], [], ["go", "abstract"], ["mio", "before", "now", "later"], ["li", "locative"], [], ["tu", "two"], ["li", "locative"]]
     translation="I will walk at 2 o'clock"
+) }}
+
+### Abessive
+
+Abessive expresses an absence of something.
+
+<span class="suffix">-doy</span>
+
+#### Examples
+{{ sentence(
+    parts=[["noka", "foot"], ["n", "1", "verb"], [], ["eni", "-"], ["saa", "2", "noun"], ["doy", "abessive"]]
+    translation="I walk without you"
 ) }}
 
 ### Semblative

@@ -1199,7 +1199,8 @@
             "ordinary",
             "normal",
             "regular",
-            { "name": "above expectations", "grammar": "more" }
+            { "name": "above expectations", "grammar": "more" },
+            { "name": "impressive", "grammar": ["more"] }
         ],
         "noun": [
             { "name": "surprise (negative)", "grammar": "less" },
@@ -1637,6 +1638,9 @@
             { "name": "part", "grammar": "less" },
             { "name": "result", "grammar": "more" },
             { "name": "progress", "grammar": "abstract" }
+        ],
+        "verb": [
+            { "name": "wait", "grammar": ["more", "lative", "-kune"] }
         ]
     },
     {

@@ -1617,7 +1617,15 @@
         "pack": 5,
         "question": "long hard thing, stick, pole, rod",
         "answers": [
-            "poki"
+            "pokilo"
+        ]
+    },
+    {
+        "id": "ccznycfa01",
+        "pack": 5,
+        "question": "poki",
+        "answers": [
+            "straight"
         ]
     },
     {
@@ -1908,13 +1916,13 @@
         "pack": 3,
         "question": "explanation, description, schematic",
         "answers": [
-            "neta"
+            "neita"
         ]
     },
     {
         "id": "r5piyhfcy1",
         "pack": 5,
-        "question": "netas",
+        "question": "neitas",
         "answers": [
             "you explain"
         ]

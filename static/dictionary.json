@@ -1284,6 +1284,9 @@
     },
     {
         "word": "poki",
+        "descriptor": [
+            "straight"
+        ],
         "noun": [
             "long hard thing",
             "stick",
@@ -1699,7 +1702,7 @@
         ]
     },
     {
-        "word": "neta",
+        "word": "neita",
         "noun": [
             "explanation",
             "description",

@@ -168,13 +168,14 @@ or end of a sentence.
 | Accusative      | -t     | direct object                    |
 | Dative          | -da    | indirect object, together with   |
 | Genitive        | -di    | possession                       |
-| Lative          | -tu    | towards, into, for, until        |
+| Lative          | -tu    | towards, turn into, for, until   |
 | Ablative        | -tol   | from                             |
 | Prolative       | -tat   | via, through, along, by means of |
 | Partitive       | -tia   | direct object, incomplete        |
 | Locative/Essive | -li    | at (location, time)              |
 | Abessive        | -doy   | without                          |
 | Semblative      | -dea   | similarity                       |
+| Topical         | -ba    | about                            |
 
 ### Accusative
 

@@ -423,7 +423,7 @@ Expresses a proposal dependent on some condition.
 ) }}
 {{ sentence(
     parts=[["mou", "stressed/.../calm"], ["sa", "more"], ["ksi", "conditional"], ["naa", "1", "noun"], ["...", "..."]]
-    translation="I would be calm if..."
+    translation="I would be calm..."
 ) }}
 
 ## Subordinate Clause

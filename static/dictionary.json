@@ -374,6 +374,8 @@
         "noun": [
             { "name": "subordinate (human)", "grammar": ["less", "-mi"] },
             { "name": "subordinate (animal)", "grammar": ["less", "-ma"] },
+            "colleague",
+            "compatriot",
             { "name": "boss (human)", "grammar": ["more", "-mi"] },
             { "name": "boss (animal)", "grammar": ["more", "-ma"] },
             { "name": "leader (human)", "grammar": ["more", "-mi"] },
@@ -1213,8 +1215,6 @@
             { "name": "child", "grammar": "less" },
             { "name": "possession", "grammar": "less" },
             "sibling",
-            "colleague",
-            "compatriot",
             { "name": "parent", "grammar": "more" },
             { "name": "creator", "grammar": "more" },
             { "name": "owner", "grammar": "more" }

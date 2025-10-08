@@ -351,7 +351,7 @@ nil word.
     translation="Me"
 ) }}
 {{ sentence(
-    parts=[["eni", "-"], ["paa", "3", "nd"], [], ["eni", "-"], ["saa", "2", "nd"], ["dea", "semblative"]]
+    parts=[["eni", "-"], ["paa", "3", "nd"], [], ["eni", "-"], ["saa", "2", "nd"], ["dea", "semblative"], ["paa", "3", "nd"]]
     translation="It is similar to you"
 ) }}
 

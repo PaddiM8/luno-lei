@@ -532,6 +532,32 @@
         ]
     },
     {
+        "word": "sotku",
+        "descriptor": [
+            { "name": "messy", "grammar": "less" },
+            { "name": "unstructured", "grammar": "less" },
+            { "name": "organised", "grammar": "more" },
+            { "name": "structured", "grammar": "more" }
+        ],
+        "noun": [
+            { "name": "mess", "grammar": "less" },
+            { "name": "plan", "grammar": "more" }
+        ]
+    },
+    {
+        "word": "tosi",
+        "descriptor": [
+            { "name": "false", "grammar": "less" },
+            { "name": "dishonest", "grammar": "less" },
+            { "name": "fake", "grammar": "less" },
+            { "name": "illegitimate", "grammar": "less" },
+            { "name": "true", "grammar": "more" },
+            { "name": "honest", "grammar": "more" },
+            { "name": "real", "grammar": "more" },
+            { "name": "legitimate", "grammar": "more" }
+        ]
+    },
+    {
         "word": "tama",
         "descriptor": [
             "this",
@@ -723,9 +749,9 @@
             { "name": "make", "grammar": "more" },
             { "name": "create", "grammar": "more" },
             { "name": "add", "grammar": "more" },
-            { "name": "update", "grammar": ["more", "lative"] },
-            { "name": "edit", "grammar": ["more", "lative"] },
-            { "name": "modify", "grammar": ["more", "lative"] }
+            { "name": "update", "grammar": ["more", "diminutive", "lative"] },
+            { "name": "edit", "grammar": ["more", "diminutive", "lative"] },
+            { "name": "modify", "grammar": ["more", "diminutive", "lative"] }
         ]
     },
     {
@@ -1221,6 +1247,30 @@
         ]
     },
     {
+        "word": "kisti",
+        "noun": [
+            "crystal",
+            "star"
+        ]
+    },
+    {
+        "word": "tuyi",
+        "descriptor": [
+            { "name": "empty", "grammar": ["less", "intensifier"] },
+            { "name": "hollow", "grammar": ["less", "intensifier"] },
+            { "name": "full", "grammar": ["more", "intensifier"] }
+        ]
+    },
+    {
+        "word": "kuono",
+        "noun": [
+            "nose"
+        ],
+        "verb": [
+            "smell"
+        ]
+    },
+    {
         "word": "uyo",
         "descriptor": [
             { "name": "insufficient", "grammar": "less" },
@@ -1493,11 +1543,13 @@
             { "name": "weak", "grammar": "less" },
             { "name": "unstable", "grammar": "less" },
             { "name": "soft", "grammar": "less" },
+            { "name": "loose", "grammar": "less" },
             { "name": "hard", "grammar": "more" },
             { "name": "strong", "grammar": "more" },
             { "name": "tough", "grammar": "more" },
             { "name": "stable", "grammar": "more" },
-            { "name": "secure", "grammar": "more" }
+            { "name": "secure", "grammar": "more" },
+            { "name": "tight", "grammar": "more" }
         ],
         "noun": [
             { "name": "weakness", "grammar": "less" },

@@ -47,7 +47,8 @@ words to see the meaning/purpose.
 ) }}
 {{ sentence(
     parts=[
-        ["ike", "sa"],
+        ["ike", "small", "moderately sized", "big"],
+        ["sa", "more"],
         ["pes,", "3", "nd"],
         [],
         ["ne", "not", "some", "every"],

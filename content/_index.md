@@ -10,7 +10,7 @@ meanings.
 For example, the words for `small`, `huge`, `size`,
 `measure`, `reduce`, `smaller`, `biggest` etc. can be
 derived from the same root word using simple
-grammatical rules. When derivatives of base words
+grammatical rules. When derivations of base words
 are not enough, words are combined in descriptive
 and creative ways to express different concepts.
 

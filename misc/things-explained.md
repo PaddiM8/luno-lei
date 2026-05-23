@@ -8,7 +8,7 @@ su mautosvanokapi sunasa mautosvatuapetoyetat
 enipaada samaslu.
 
 Paikatu kotu nokapi lunotat mautosvatuaditat,
-oniye enipaalie su mautosvanokapi eya ne mautotu
+oniye enipaalie su mautosvanokapi eya neve mautotu
 nokaslut. Kotulie, outosa oniye vesidea su onipi
 outovetua, et taislu nokakasislutat kotuvolatat
 mautosvanokaslut. Nesa masvaye su munipi eta

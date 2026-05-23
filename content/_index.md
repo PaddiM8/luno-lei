@@ -26,10 +26,10 @@ than exact definitions.
   of languages
 
 ### What it is not
-* Not as simple as Toki Pona - being as easy as possible to learn is not a goal, although simplicity is striven for
+* Not as simple as Toki Pona. Being as easy as possible to learn is not a goal, although simplicity is striven for
 * Often does not result in compact sentences
 * Not built for precision, but minimalistic communication
-* Not strict with word usage - if a sentence follows the
+* Not strict with word usage. Ff a sentence follows the
   grammatical rules and is comprehended, it is completely valid
 
 ## Examples
